@@ -52,6 +52,7 @@ fbq('track','ViewContent',{content_name:'Bundle Teras',value:99,currency:'MYR'})
 }
 
 *{box-sizing:border-box}
+[hidden]{display:none!important}
 html{scroll-behavior:smooth}
 @media (prefers-reduced-motion: reduce){html{scroll-behavior:auto}*{transition:none!important;animation:none!important}}
 body{margin:0;background:var(--paper);color:var(--ink);font:400 17px/1.7 var(--body);-webkit-font-smoothing:antialiased;padding-bottom:calc(84px + env(safe-area-inset-bottom,0px))}
@@ -192,6 +193,57 @@ p{margin:0}
 .dots i.full{background:rgb(255 255 255 / .28)}
 .btn-line{display:inline-flex;align-self:flex-start;align-items:center;gap:8px;padding:13px 18px;border-radius:12px;background:var(--brand);color:var(--brand-ink);font:800 15px/1 var(--body);text-decoration:none}
 
+
+/* why */
+.quote{border-left:4px solid var(--cta);padding:6px 0 6px 18px;font:600 clamp(1.15rem,3.2vw,1.4rem)/1.45 var(--body)}
+.quote cite{display:block;margin-top:10px;font:500 13.5px/1.4 var(--body);color:var(--muted);font-style:normal}
+.insights{display:grid;gap:12px}
+.insight{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:18px;display:grid;grid-template-columns:auto 1fr;gap:6px 14px;align-items:baseline}
+.insight b{font:800 clamp(1.6rem,5vw,2rem)/1 var(--display);color:var(--cta);grid-row:span 2;min-width:3.2ch}
+.insight h3{font:700 17px/1.35 var(--body)}
+.insight p{color:var(--muted);font-size:15px}
+.creds{display:flex;flex-wrap:wrap;gap:8px}
+.creds span{border:1px solid var(--brand);color:var(--brand);border-radius:999px;padding:7px 12px;font:600 13px/1.2 var(--body)}
+/* intip */
+.ptabs{display:flex;gap:8px;overflow-x:auto;padding-bottom:4px}
+.ptab{flex:0 0 auto;border:1px solid var(--line);background:var(--card);color:var(--ink);padding:11px 16px;border-radius:999px;font:700 14px/1 var(--body);cursor:pointer}
+.ptab[aria-selected="true"]{background:var(--cta);color:var(--cta-ink);border-color:var(--cta)}
+.panel{display:flex;flex-direction:column;gap:18px}
+.panel h3{font-size:1.3rem}
+.lbl{font:700 12px/1.3 var(--body);letter-spacing:.12em;text-transform:uppercase;color:var(--brand)}
+.flow{list-style:none;margin:0;padding:0;display:flex;flex-wrap:wrap;gap:8px;counter-reset:f}
+.flow li{counter-increment:f;background:var(--card);border:1px solid var(--line);border-radius:10px;padding:8px 12px;font-size:14px;font-weight:600}
+.flow li::before{content:counter(f) ". ";color:var(--brand);font-weight:800}
+.compare{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px}
+@media (max-width:620px){.compare{grid-template-columns:1fr}}
+.say{border-radius:14px;padding:16px;display:flex;flex-direction:column;gap:10px;min-width:0}
+.say.bad{background:color-mix(in srgb,var(--no) 10%,var(--card));border:1px solid color-mix(in srgb,var(--no) 45%,transparent)}
+.say.good{background:color-mix(in srgb,var(--brand) 10%,var(--card));border:1px solid var(--brand)}
+.say .tagl{font:800 12px/1 var(--body);letter-spacing:.1em;text-transform:uppercase}
+.say.bad .tagl{color:var(--no)}
+.say.good .tagl{color:var(--brand)}
+.say .msg{background:var(--bubble-out);color:var(--chat-ink);border-radius:10px;border-top-right-radius:2px;padding:10px 12px;font-size:15px;line-height:1.5}
+.say.bad .msg{background:var(--bubble-in)}
+.say .res{font-size:14px;color:var(--muted)}
+.tip{background:var(--card);border:1px dashed var(--cta);border-radius:12px;padding:14px 16px;font-size:15px}
+.tip b{color:var(--cta)}
+.steps3{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:10px;counter-reset:st}
+@media (max-width:620px){.steps3{grid-template-columns:1fr}}
+.steps3 div{counter-increment:st;background:var(--card);border:1px solid var(--line);border-radius:12px;padding:14px;font-size:14.5px}
+.steps3 div::before{content:"Langkah " counter(st);display:block;font:800 12px/1 var(--body);letter-spacing:.1em;text-transform:uppercase;color:var(--brand);margin-bottom:8px}
+.steps3 b{display:block;font-size:16px;margin-bottom:4px}
+.brains{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:8px}
+@media (max-width:620px){.brains{grid-template-columns:repeat(2,minmax(0,1fr))}}
+.brain{border-radius:12px;padding:12px;background:var(--card);border-top:4px solid var(--c);font-size:13.5px;color:var(--muted)}
+.brain b{display:block;color:var(--ink);font-size:15px;margin-bottom:4px}
+.timeline{list-style:none;margin:0;padding:0;display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:8px}
+@media (max-width:520px){.timeline{grid-template-columns:repeat(2,minmax(0,1fr))}}
+.timeline li{background:var(--card);border:1px solid var(--line);border-radius:10px;padding:10px 12px;font-size:14px;font-weight:600}
+.timeline li span{display:block;font:800 12px/1 var(--body);color:var(--cta);letter-spacing:.06em;margin-bottom:5px}
+/* brands */
+.brands{display:flex;flex-wrap:wrap;justify-content:center;gap:10px}
+.brands span{background:var(--card);border:1px solid var(--line);border-radius:10px;padding:12px 16px;font:800 15px/1 var(--display);letter-spacing:.02em}
+
 /* faq */
 details{border-bottom:1px solid var(--line);padding-block:16px}
 summary{cursor:pointer;font-weight:700;list-style:none;display:flex;justify-content:space-between;gap:16px}
@@ -226,18 +278,18 @@ footer{border-top:1px solid var(--line);padding-block:28px;font-size:13.5px;colo
     <h1>Tapi kenapa team sales <span class="mark">masih tak closing</span> dalam WhatsApp?</h1>
     <p class="sub">Guna <strong>skrip &amp; framework closing yang sama</strong> Sir Dharma ajar kepada team sales syarikat travel umrah dan pembinaan. Siap untuk team anda <strong>copy, adjust &amp; paste</strong> hari ini juga.</p>
 
-    <figure class="phone" aria-label="Contoh perbualan closing di WhatsApp">
+    <figure class="phone" aria-label="Contoh skrip handle rejection di WhatsApp">
       <div class="phone-head">
-        <div class="avatar" aria-hidden="true">PN</div>
-        <div><b>Puan Nadia · Prospek pakej umrah</b><small>dalam talian</small></div>
+        <div class="avatar" aria-hidden="true">P</div>
+        <div><b>Prospek · WhatsApp</b><small>dalam talian</small></div>
       </div>
       <div class="chat">
-        <div class="b in">Harga dia mahal sikit la. Nanti saya bincang dengan suami dulu ya.<time>9:41 PG</time></div>
-        <div class="b out">Baik puan, memang patut bincang sama-sama. Boleh saya tahu, bahagian mana yang suami puan paling nak tahu? Saya sediakan ringkasan supaya puan senang terangkan.<time>9:43 PG</time></div>
-        <div class="b in">Dia nak tahu hotel dekat ke tak dengan masjid.<time>9:50 PG</time></div>
-        <span class="left">Prospek tak hilang. Perbualan bergerak ke depan.</span>
+        <div class="b in">Okay, nanti saya tanya suami dulu ya.<time>9:41 PG</time></div>
+        <div class="b out">Saya faham puan nak tanya suami dulu. Memang penting dapatkan pendapat suami.<time>9:42 PG</time></div>
+        <div class="b out">Kalau perlukan detail tambahan untuk yakinkan dia, saya sedia bantu.<time>9:42 PG</time></div>
+        <span class="left">Bukan "okay puan, saya tunggu". Pintu masih terbuka.</span>
       </div>
-      <figcaption>Contoh situasi: prospek nak "fikir dulu", salesperson gali sebab sebenar.</figcaption>
+      <figcaption>Skrip sebenar dari ebook 10 Framework Handle Rejection Like Pro.</figcaption>
     </figure>
 
     <div class="buy-wrap">
@@ -266,43 +318,102 @@ footer{border-top:1px solid var(--line);padding-block:28px;font-size:13.5px;colo
   </div>
 </section>
 
-<!-- ABOUT -->
+<!-- WHY -->
 <section class="band">
-  <div class="col">
-    <div class="about">
+  <div class="col stack">
+    <p class="kicker">Kenapa ini berlaku</p>
+    <h2 class="h2">Leads banyak, tapi closing rate tak lepas 10%.</h2>
+    <blockquote class="quote">"Lead banyak, tetapi team tidak mampu close lebih 10% closing rate. Boleh jadi mereka tidak faham flow closing dan terlalu terikat dengan skrip closing."<cite>Template Skrip Closing SirDharma 3.0</cite></blockquote>
+    <p style="color:var(--muted)">Tiga perkara yang Sir Dharma jumpa berulang kali bila baca chat team sales:</p>
+    <div class="insights">
+      <div class="insight"><b>2</b><h3>Rejection cuma ada dua sebab sebenar</h3><p>Prospek belum percaya, atau belum cukup duit. Selain itu, kebanyakannya alasan. Team yang tak nampak beza ni akan terima setiap alasan bulat-bulat.</p></div>
+      <div class="insight"><b>5–12</b><h3>Kali interaksi sebelum kebanyakan jualan berlaku</h3><p>Ebook Follow Up memetik realiti ni: 80% jualan berlaku selepas 5 hingga 12 interaksi. Team yang berhenti selepas dua kali follow up sedang tinggalkan jualan.</p></div>
+      <div class="insight"><b>?</b><h3>"Puan nak pakej yang mana?"</h3><p>Soalan paling biasa, dan paling cepat kena bluetick. Prospek perlukan cadangan, bukan menu.</p></div>
+    </div>
+
+    <div class="about" style="margin-top:24px">
       <img class="portrait" src="assets/galeri/sir-dharma-potret.jpg" alt="Sir Dharma" width="240" height="240">
       <div class="prose">
-        <p class="kicker" style="text-align:left">Siapa Sir Dharma</p>
-        <h2 style="font-size:clamp(1.5rem,4vw,2rem);margin:8px 0 14px">Saya tak ajar teori. Saya duduk dengan team sales dan baca chat mereka.</h2>
-        <p>Saya Sir Dharma, specialist closing melalui WhatsApp. Setiap bulan saya masuk ke HQ klien, semak KPI team, buat roleplay, dan baiki skrip WhatsApp yang salesperson guna dengan prospek sebenar.</p>
-        <p>Skrip dan framework dalam ebook ni ialah <strong>bahan yang sama</strong> saya guna dalam sesi tu. Bezanya, team anda boleh mula guna tanpa perlu tunggu saya datang.</p>
+        <p class="kicker" style="text-align:left">Kenapa Sir Dharma tulis ebook ni</p>
+        <h2 style="font-size:clamp(1.5rem,4vw,2rem);margin:8px 0 14px">Saya pernah jatuh dalam bisnes. Closing yang bawa saya bangkit.</h2>
+        <p>Saya mula berniaga sekitar tahun 2015, dalam bidang suplemen kesihatan dan kecantikan. Bisnes tu jatuh, dan saya terdiam hampir tiga bulan. Yang buat saya bangkit semula ialah keluarga, dan anak saya Nadhir yang ketika itu berusia dua tahun.</p>
+        <p>Sejak 2019, saya serius menurunkan ilmu closing yang praktikal kepada lebih 10,000 usahawan. Hari ini saya masuk ke HQ klien setiap bulan untuk semak KPI, buat roleplay, dan baiki skrip WhatsApp team mereka.</p>
+        <p>Ebook ni himpunan pengalaman tu. <strong>Flow, skrip dan framework yang sama</strong> saya guna dalam sesi coaching, supaya team anda boleh mula tanpa tunggu saya datang.</p>
       </div>
     </div>
-    <div class="facts">
-      <div class="fact"><b>3</b><span>syarikat sedang dalam program coaching bulanan</span></div>
-      <div class="fact"><b>3–4</b><span>sesi fizikal sebulan di HQ setiap klien</span></div>
-      <div class="fact"><b>8</b><span>framework closing khas ikut industri</span></div>
+    <div class="creds">
+      <span>10,000+ usahawan dilatih sejak 2019</span>
+      <span>Certified Professional Learning Facilitator (Mastery)</span>
+      <span>Certified Practitioner Colored Brain</span>
+      <span>3 syarikat dalam coaching bulanan</span>
     </div>
   </div>
 </section>
 
-<!-- GALERI -->
-<section class="band" style="padding-top:0">
+<!-- INTIP -->
+<section class="band tint" id="intip">
   <div class="col stack">
-    <p class="kicker">Di lapangan</p>
-    <h2 class="h2">Bukan teori dari jauh. Sir masuk bilik mesyuarat team anda.</h2>
-    <div class="gallery">
-      <figure class="wide"><img src="assets/galeri/coaching-hq.jpg" alt="Sir Dharma coaching team sales di bilik mesyuarat HQ klien" loading="lazy" width="1000" height="695"><figcaption>Sesi coaching bersama team sales di HQ klien</figcaption></figure>
-      <figure><img src="assets/galeri/sir-dharma-latihan.jpg" alt="Sir Dharma menerangkan skrip closing di whiteboard" loading="lazy" width="712" height="712"><figcaption>Bengkel skrip closing dan handle rejection</figcaption></figure>
-      <figure><img src="assets/galeri/team-farmasi.jpg" alt="Gambar berkumpulan selepas latihan bersama team farmasi" loading="lazy" width="1000" height="567"><figcaption>Latihan team sales dan pharmacist</figcaption></figure>
-      <figure><img src="assets/galeri/sesi-zoom.jpg" alt="Sesi pembelajaran online Sir Dharma melalui Zoom" loading="lazy" width="1000" height="422"><figcaption>Learning session online untuk team agen</figcaption></figure>
-      <figure><img src="assets/galeri/podcast.jpg" alt="Sir Dharma dalam podcast Recharge Usahawan" loading="lazy" width="1000" height="566"><figcaption>Podcast Recharge Usahawan</figcaption></figure>
+    <p class="kicker">Intip isi ebook</p>
+    <h2 class="h2">Praktikal. Ini antara skrip yang team anda boleh terus guna.</h2>
+    <div class="ptabs" role="tablist" aria-label="Pilih ebook">
+      <button class="ptab" type="button" role="tab" id="pt-skrip" aria-controls="pn-skrip" aria-selected="true">Skrip Closing 3.0</button>
+      <button class="ptab" type="button" role="tab" id="pt-reject" aria-controls="pn-reject" aria-selected="false">Handle Rejection</button>
+      <button class="ptab" type="button" role="tab" id="pt-fu" aria-controls="pn-fu" aria-selected="false">Follow Up</button>
+    </div>
+
+    <div class="panel" role="tabpanel" id="pn-skrip" aria-labelledby="pt-skrip">
+      <h3>Flow closing 10 langkah, dari salam sampai terima kasih</h3>
+      <ol class="flow">
+        <li>Introduction</li><li>Fact Finding</li><li>Emotional Touch</li><li>Suggestion</li><li>Product Detail</li><li>Senarai Pakej</li><li>Rekemen Pakej</li><li>Payment</li><li>Detail</li><li>Gratitude</li>
+      </ol>
+      <p class="lbl">Contoh: langkah Rekemen Pakej</p>
+      <div class="compare">
+        <div class="say bad"><span class="tagl">Cara biasa</span><div class="msg">Puan nak pakej yang mana?</div><p class="res">Prospek kena fikir sendiri. Selalunya terus bluetick.</p></div>
+        <div class="say good"><span class="tagl">Skrip SirDharma</span><div class="msg">Diatas adalah 3 pakej terbaik kami, saya cadangkan puan pilih sahaja pakej Hot Selling kami. Kerana berdasarkan feedback kami, semua yang amalkan atas 3 bulan mengaku masalah mereka mula selesai.</div><p class="res">Beri cadangan, sebab dan bukti dalam satu mesej.</p></div>
+      </div>
+      <p class="tip"><b>Petua Fact Finding:</b> tanya 2 soalan sahaja dalam 1 chat, fokus kepada masalah prospek. Ebook ni juga ada flow khas bila prospek bluetick, minta harga terus, atau beri rejection.</p>
+    </div>
+
+    <div class="panel" role="tabpanel" id="pn-reject" aria-labelledby="pt-reject" hidden>
+      <h3>Struktur 3 langkah handle rejection</h3>
+      <div class="steps3">
+        <div><b>Empati</b>Mula dengan "Saya faham" dan ulang semula alasan prospek.</div>
+        <div><b>Bangkitkan rasa rugi</b>Tunjuk apa yang prospek akan terlepas, dengan nada lembut.</div>
+        <div><b>Soalan kepastian</b>Tanya sama ada pakej sesuai, atau bajet yang prospek selesa.</div>
+      </div>
+      <p class="lbl">Contoh: prospek nak tunggu gaji</p>
+      <div class="compare">
+        <div class="say bad"><span class="tagl">Cara biasa</span><div class="msg">Okay takpe puan, nanti gaji masuk roger saya ya.</div><p class="res">Lead hilang. Bila gaji masuk, duit dah ke tempat lain.</p></div>
+        <div class="say good"><span class="tagl">Skrip SirDharma</span><div class="msg">Saya faham anda nak tunggu gaji. Saya pun faham kadang-kadang ini masa yang agak ketat. Cuma tawaran ini ada tarikh tamat, apa kata kita lock dulu dan lengkapkan bila gaji dah masuk?</div><p class="res">Dari skrip ahli T5 High Performer Circle dalam ebook.</p></div>
+      </div>
+      <p class="lbl">Pendekatan Colored Brain: lain prospek, lain cara</p>
+      <div class="brains">
+        <div class="brain" style="--c:#4cc38a"><b>Hijau</b>Kreatif dan spontan. Beri fleksibiliti, jangan tekan.</div>
+        <div class="brain" style="--c:#ff6b5e"><b>Merah</b>Logik dan teratur. Beri fakta, langkah demi langkah.</div>
+        <div class="brain" style="--c:#b58cff"><b>Ungu</b>Perfectionist. Beri panduan terperinci dan senarai semak.</div>
+        <div class="brain" style="--c:#5aa9ff"><b>Biru</b>Emosi dan hubungan. Guna empati dan cerita peribadi.</div>
+      </div>
+    </div>
+
+    <div class="panel" role="tabpanel" id="pn-fu" aria-labelledby="pt-fu" hidden>
+      <h3>Jadual 9 kali follow up, dari Hari 1 sampai Hari 35</h3>
+      <ol class="timeline">
+        <li><span>HARI 1</span>Appreciation</li><li><span>HARI 4</span>Reminder</li><li><span>HARI 7</span>Educate</li>
+        <li><span>HARI 10</span>Care</li><li><span>HARI 14</span>Hardsell (lembut)</li><li><span>HARI 18</span>Educate</li>
+        <li><span>HARI 22</span>Reminder</li><li><span>HARI 28</span>Care</li><li><span>HARI 35</span>Take it or leave it</li>
+      </ol>
+      <p class="lbl">Contoh: follow up Care, Hari 10</p>
+      <div class="compare">
+        <div class="say bad"><span class="tagl">Cara biasa</span><div class="msg">Masih berminat ke cik?</div><p class="res">Mudah dijawab "tak", atau terus diabaikan.</p></div>
+        <div class="say good"><span class="tagl">Skrip SirDharma</span><div class="msg">Assalamualaikum puan, saya harap semuanya berjalan lancar. Haritu puan ada cerita tentang [masalah], dan saya ingin tahu, dah selesai ke masalah itu?</div><p class="res">Prospek rasa diambil berat, bukan dikejar.</p></div>
+      </div>
+      <p class="tip"><b>Waktu terbaik:</b> 8 hingga 11 pagi untuk kebanyakan prospek. Jangan follow up selepas 9 malam kecuali prospek dah beri izin. Bonus dalam ebook: 5 mesej untuk hidupkan semula database lama.</p>
     </div>
   </div>
 </section>
 
 <!-- OFFER -->
-<section class="band tint" id="bundle">
+<section class="band" id="bundle">
   <div class="col stack">
     <p class="kicker">Apa yang anda dapat</p>
     <h2 class="h2">Bundle Teras: 3 ebook untuk 3 titik bocor terbesar.</h2>
@@ -313,9 +424,9 @@ footer{border-top:1px solid var(--line);padding-block:28px;font-size:13.5px;colo
           <h3>Template Skrip Closing SirDharma 3.0</h3>
           <p class="val">Nilai <s>RM49</s></p>
           <ul>
-            <li>Skrip WhatsApp dari salam pertama sampai minta bayaran</li>
-            <li>Siap guna, cuma tukar nama produk dan harga</li>
-            <li>Jadi SOP yang sama untuk semua salesperson</li>
+            <li>Flow closing 10 langkah, dari Introduction sampai Gratitude</li>
+            <li>Contoh skrip lengkap untuk niche produk dan fesyen</li>
+            <li>Flow khas bila prospek bluetick, minta harga terus, atau beri rejection</li>
           </ul>
         </div>
       </article>
@@ -325,9 +436,9 @@ footer{border-top:1px solid var(--line);padding-block:28px;font-size:13.5px;colo
           <h3>10 Framework Handle Rejection Like Pro</h3>
           <p class="val">Nilai <s>RM39</s></p>
           <ul>
-            <li>Cara jawab "mahal", "nak fikir dulu", "nak tanya suami"</li>
-            <li>Gali sebab sebenar prospek tanpa rasa memaksa</li>
-            <li>Bawa perbualan ke langkah seterusnya, bukan berhenti</li>
+            <li>Struktur 3 langkah: empati, rasa rugi, soalan kepastian</li>
+            <li>Pendekatan Colored Brain untuk 4 jenis prospek</li>
+            <li>Skrip sebenar untuk "tunggu gaji", "tanya suami", "survey dulu" dan banyak lagi</li>
           </ul>
         </div>
       </article>
@@ -337,9 +448,9 @@ footer{border-top:1px solid var(--line);padding-block:28px;font-size:13.5px;colo
           <h3>Framework Follow Up, Idea &amp; Template Ayat</h3>
           <p class="val">Nilai <s>RM39</s></p>
           <ul>
-            <li>Atasi takut kena reject dan takut ganggu prospek</li>
-            <li>Idea follow up selain "masih berminat?"</li>
-            <li>Template ayat yang boleh terus dihantar</li>
+            <li>Jadual 9 kali follow up dari Hari 1 hingga Hari 35</li>
+            <li>5 jenis follow up: Appreciation, Reminder, Educate, Care, Hardsell</li>
+            <li>Bonus: strategi blasting database lama</li>
           </ul>
         </div>
       </article>
@@ -347,23 +458,37 @@ footer{border-top:1px solid var(--line);padding-block:28px;font-size:13.5px;colo
   </div>
 </section>
 
-<!-- TESTIMONI -->
-<section class="band" id="testimoni">
+<!-- PROVEN -->
+<section class="band tint" id="testimoni">
   <div class="col stack">
-    <p class="kicker">Testimoni</p>
-    <h2 class="h2">Apa kata pembeli dan klien Sir Dharma.</h2>
+    <p class="kicker">Proven</p>
+    <h2 class="h2">Hasil dari team yang guna cara ni.</h2>
     <div class="proof">
       <div class="chip"><b>3 kes ditempah, RM800,000</b><span>Team Starfighter, selepas sesi call bersama Sir Dharma</span></div>
       <div class="chip"><b>RM26,949 dalam 1 jam 15 minit</b><span>Jualan peserta semasa bengkel closing, ditulis di whiteboard</span></div>
-      <div class="chip"><b>"Ayat ni la yg di cari Sir"</b><span>Salesperson pakej umrah, bila prospek nak bincang dengan isteri dulu</span></div>
+      <div class="chip"><b>"Ayat ni la yg di cari Sir"</b><span>Salesperson yang prospeknya nak bincang dengan isteri dulu</span></div>
       <div class="chip"><b>200+ brands</b><span>dibantu melalui program WEMAP, kata Puan Siti Umirah dari WEMAP</span></div>
     </div>
     <div class="wall" id="wall"></div>
+
+    <p class="lbl" style="text-align:center;margin-top:20px">Brand yang pernah bekerjasama</p>
+    <div class="brands">
+      <span>WEMAP</span><span>Origina</span><span>Kekasih The Melvins</span><span>Nilofa</span><span>FruDolly</span><span>BeauSiti</span><span>Zafesha Simply</span><span>The Captain</span><span>Starfighter</span>
+    </div>
+
+    <p class="lbl" style="text-align:center;margin-top:20px">Di lapangan</p>
+    <div class="gallery">
+      <figure class="wide"><img src="assets/galeri/coaching-hq.jpg" alt="Sir Dharma coaching team sales di bilik mesyuarat HQ klien" loading="lazy" width="1000" height="695"><figcaption>Sesi coaching bersama team sales di HQ klien</figcaption></figure>
+      <figure><img src="assets/galeri/sir-dharma-latihan.jpg" alt="Sir Dharma menerangkan skrip closing di whiteboard" loading="lazy" width="712" height="712"><figcaption>Bengkel skrip closing dan handle rejection</figcaption></figure>
+      <figure><img src="assets/galeri/team-farmasi.jpg" alt="Gambar berkumpulan selepas latihan bersama team farmasi" loading="lazy" width="1000" height="567"><figcaption>Latihan team sales dan pharmacist</figcaption></figure>
+      <figure><img src="assets/galeri/sesi-zoom.jpg" alt="Sesi pembelajaran online Sir Dharma melalui Zoom" loading="lazy" width="1000" height="422"><figcaption>Learning session online untuk team agen</figcaption></figure>
+      <figure><img src="assets/galeri/podcast.jpg" alt="Sir Dharma dalam podcast Recharge Usahawan" loading="lazy" width="1000" height="566"><figcaption>Podcast Recharge Usahawan</figcaption></figure>
+    </div>
   </div>
 </section>
 
 <!-- PRICE -->
-<section class="band tint" id="harga">
+<section class="band" id="harga">
   <div class="col">
     <div class="pricebox">
       <span class="tag">Harga bundle</span>
@@ -390,7 +515,7 @@ footer{border-top:1px solid var(--line);padding-block:28px;font-size:13.5px;colo
 </section>
 
 <!-- ADD-ONS -->
-<section class="band">
+<section class="band tint">
   <div class="col stack">
     <p class="kicker">Tambah ikut industri anda</p>
     <h2 class="h2">Framework closing khas industri. <span class="mark">RM10 sahaja.</span></h2>
@@ -418,7 +543,7 @@ footer{border-top:1px solid var(--line);padding-block:28px;font-size:13.5px;colo
 </section>
 
 <!-- FOUNDER -->
-<section class="band tint">
+<section class="band">
   <div class="col">
     <div class="founder">
       <span class="slots"><span class="dots" aria-hidden="true"><i class="full"></i><i class="full"></i><i class="full"></i><i></i><i></i></span>Slot coaching terbuka: 2 daripada 5</span>
@@ -430,7 +555,7 @@ footer{border-top:1px solid var(--line);padding-block:28px;font-size:13.5px;colo
 </section>
 
 <!-- FAQ -->
-<section class="band" id="soalan">
+<section class="band tint" id="soalan">
   <div class="col stack">
     <p class="kicker">Soalan lazim</p>
     <h2 class="h2">Sebelum anda beli.</h2>
@@ -460,7 +585,7 @@ footer{border-top:1px solid var(--line);padding-block:28px;font-size:13.5px;colo
 </section>
 
 <!-- FINAL CTA -->
-<section class="band tint">
+<section class="band">
   <div class="col stack" style="text-align:center">
     <h2 class="h2">Setiap hari team tak closing, <span class="mark">leads yang anda bayar terbuang.</span></h2>
     <p style="color:var(--muted)">Mula dengan skrip yang sama untuk seluruh team. RM99, sekali bayar.</p>
@@ -501,6 +626,17 @@ footer{border-top:1px solid var(--line);padding-block:28px;font-size:13.5px;colo
     };
     fig.appendChild(img);
     wall.appendChild(fig);
+  });
+
+  var ptabs = document.querySelectorAll('.ptab');
+  ptabs.forEach(function(t){
+    t.addEventListener('click', function(){
+      ptabs.forEach(function(x){
+        var on = x === t;
+        x.setAttribute('aria-selected', on ? 'true' : 'false');
+        document.getElementById(x.getAttribute('aria-controls')).hidden = !on;
+      });
+    });
   });
 
   document.querySelectorAll('.buy').forEach(function(a){
