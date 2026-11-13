@@ -118,7 +118,20 @@ p{margin:0}
 
 /* about */
 .about{display:grid;grid-template-columns:120px 1fr;gap:22px;align-items:start}
-.portrait{width:120px;aspect-ratio:1;border-radius:50%;background:var(--brand);color:var(--brand-ink);display:grid;place-items:center;font:800 40px/1 var(--display)}
+.portrait{width:120px;height:120px;aspect-ratio:1;border-radius:50%;object-fit:cover;border:3px solid var(--brand)}
+.brand-logo{display:block;width:170px;height:auto;margin:0 auto 26px}
+.proof{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px}
+.chip{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:16px;display:flex;flex-direction:column;gap:6px;min-width:0}
+.chip b{font:800 clamp(1.25rem,4vw,1.6rem)/1.15 var(--display);color:var(--cta)}
+.chip span{font-size:14px;color:var(--muted);line-height:1.45}
+@media (max-width:520px){.proof{grid-template-columns:1fr}}
+.gallery{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:12px}
+.gallery figure{margin:0;display:flex;flex-direction:column;gap:8px;min-width:0}
+.gallery img{width:100%;height:auto;aspect-ratio:4/3;object-fit:cover;border-radius:12px;border:1px solid var(--line)}
+.gallery figcaption{font-size:13.5px;color:var(--muted);line-height:1.4}
+.gallery .wide{grid-column:span 2}
+.gallery .wide img{aspect-ratio:16/9}
+@media (max-width:640px){.gallery{grid-template-columns:repeat(2,minmax(0,1fr))}.gallery .wide{grid-column:1/-1}}
 @media (max-width:560px){.about{grid-template-columns:1fr}.portrait{width:96px;margin-inline:auto}}
 .facts{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:12px;margin-top:22px}
 .fact{border-top:3px solid var(--brand);padding-top:10px}
@@ -208,6 +221,7 @@ footer{border-top:1px solid var(--line);padding-block:28px;font-size:13.5px;colo
 <!-- HERO -->
 <section class="hero">
   <div class="col">
+    <img class="brand-logo" src="assets/logo-sirdharma.png" alt="SirDharma, Sales Closing Specialist" width="301" height="74">
     <p class="pre">Tuan dah bayar iklan. Leads pun dah masuk setiap hari.</p>
     <h1>Tapi kenapa team sales <span class="mark">masih tak closing</span> dalam WhatsApp?</h1>
     <p class="sub">Guna <strong>skrip &amp; framework closing yang sama</strong> Sir Dharma ajar kepada team sales syarikat travel umrah dan pembinaan. Siap untuk team anda <strong>copy, adjust &amp; paste</strong> hari ini juga.</p>
@@ -256,7 +270,7 @@ footer{border-top:1px solid var(--line);padding-block:28px;font-size:13.5px;colo
 <section class="band">
   <div class="col">
     <div class="about">
-      <div class="portrait" aria-hidden="true">SD</div>
+      <img class="portrait" src="assets/galeri/sir-dharma-potret.jpg" alt="Sir Dharma" width="240" height="240">
       <div class="prose">
         <p class="kicker" style="text-align:left">Siapa Sir Dharma</p>
         <h2 style="font-size:clamp(1.5rem,4vw,2rem);margin:8px 0 14px">Saya tak ajar teori. Saya duduk dengan team sales dan baca chat mereka.</h2>
@@ -268,6 +282,21 @@ footer{border-top:1px solid var(--line);padding-block:28px;font-size:13.5px;colo
       <div class="fact"><b>3</b><span>syarikat sedang dalam program coaching bulanan</span></div>
       <div class="fact"><b>3–4</b><span>sesi fizikal sebulan di HQ setiap klien</span></div>
       <div class="fact"><b>8</b><span>framework closing khas ikut industri</span></div>
+    </div>
+  </div>
+</section>
+
+<!-- GALERI -->
+<section class="band" style="padding-top:0">
+  <div class="col stack">
+    <p class="kicker">Di lapangan</p>
+    <h2 class="h2">Bukan teori dari jauh. Sir masuk bilik mesyuarat team anda.</h2>
+    <div class="gallery">
+      <figure class="wide"><img src="assets/galeri/coaching-hq.jpg" alt="Sir Dharma coaching team sales di bilik mesyuarat HQ klien" loading="lazy" width="1000" height="695"><figcaption>Sesi coaching bersama team sales di HQ klien</figcaption></figure>
+      <figure><img src="assets/galeri/sir-dharma-latihan.jpg" alt="Sir Dharma menerangkan skrip closing di whiteboard" loading="lazy" width="712" height="712"><figcaption>Bengkel skrip closing dan handle rejection</figcaption></figure>
+      <figure><img src="assets/galeri/team-farmasi.jpg" alt="Gambar berkumpulan selepas latihan bersama team farmasi" loading="lazy" width="1000" height="567"><figcaption>Latihan team sales dan pharmacist</figcaption></figure>
+      <figure><img src="assets/galeri/sesi-zoom.jpg" alt="Sesi pembelajaran online Sir Dharma melalui Zoom" loading="lazy" width="1000" height="422"><figcaption>Learning session online untuk team agen</figcaption></figure>
+      <figure><img src="assets/galeri/podcast.jpg" alt="Sir Dharma dalam podcast Recharge Usahawan" loading="lazy" width="1000" height="566"><figcaption>Podcast Recharge Usahawan</figcaption></figure>
     </div>
   </div>
 </section>
@@ -323,6 +352,12 @@ footer{border-top:1px solid var(--line);padding-block:28px;font-size:13.5px;colo
   <div class="col stack">
     <p class="kicker">Testimoni</p>
     <h2 class="h2">Apa kata pembeli dan klien Sir Dharma.</h2>
+    <div class="proof">
+      <div class="chip"><b>3 kes ditempah, RM800,000</b><span>Team Starfighter, selepas sesi call bersama Sir Dharma</span></div>
+      <div class="chip"><b>RM26,949 dalam 1 jam 15 minit</b><span>Jualan peserta semasa bengkel closing, ditulis di whiteboard</span></div>
+      <div class="chip"><b>"Ayat ni la yg di cari Sir"</b><span>Salesperson pakej umrah, bila prospek nak bincang dengan isteri dulu</span></div>
+      <div class="chip"><b>200+ brands</b><span>dibantu melalui program WEMAP, kata Puan Siti Umirah dari WEMAP</span></div>
+    </div>
     <div class="wall" id="wall"></div>
   </div>
 </section>
@@ -452,13 +487,12 @@ footer{border-top:1px solid var(--line);padding-block:28px;font-size:13.5px;colo
 <script>
 (function(){
   /* Testimoni: letak gambar dalam assets/testimoni/ sebagai 01.jpg, 02.jpg ... dan tambah nombornya di sini. */
-  var TESTIMONI = ['01','02','03','04','05','06'];
+  var TESTIMONI = ['01','02','03','04','05'];
   var wall = document.getElementById('wall');
   TESTIMONI.forEach(function(n){
     var fig = document.createElement('figure');
     fig.className = 'shot';
     var img = new Image();
-    img.loading = 'lazy';
     img.alt = 'Testimoni pembeli ' + n;
     img.src = 'assets/testimoni/' + n + '.jpg';
     img.onerror = function(){
