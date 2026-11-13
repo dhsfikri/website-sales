@@ -122,7 +122,7 @@ body::before{content:"";position:fixed;inset:0 0 auto;height:env(safe-area-inset
 .hero .sub{font-size:1.0625rem;color:var(--muted)}
 .hero .sub strong{color:var(--ink)}
 .hero-photo{position:relative;margin-top:14px;border-radius:var(--r-lg) 22px 0 0;overflow:hidden;aspect-ratio:4/3;max-width:100%}
-.hero-photo img{width:100%;height:100%;object-fit:cover;object-position:50% 40%}
+.hero-photo img{width:100%;height:100%;object-fit:cover;object-position:35% 30%}
 .hero-photo::after{content:"";position:absolute;inset:0;background:linear-gradient(transparent 55%,var(--deep))}
 .hero-photo figcaption{position:absolute;left:16px;right:16px;bottom:14px;z-index:1;font:600 var(--fs-sm)/1.4 var(--body);color:var(--brand)}
 .facts{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));border:1px solid var(--line);border-radius:var(--r-lg);background:var(--card);margin-top:-6px;position:relative;z-index:1}
@@ -297,6 +297,9 @@ body::before{content:"";position:fixed;inset:0 0 auto;height:env(safe-area-inset
 .dots i.full{background:rgb(255 255 255 / .28)}
 .btn-line{display:flex;justify-content:center;text-align:center;align-items:center;gap:8px;padding:13px 18px;border-radius:var(--r-md);background:var(--brand);color:var(--brand-ink);font:800 var(--fs-sm)/1 var(--body);text-decoration:none}
 
+.cta-photo{width:200px;aspect-ratio:4/5;height:auto;object-fit:cover;border-radius:var(--r-lg);border:3px solid var(--cta);margin-inline:auto}
+.cover-row{display:grid;grid-template-columns:72px 1fr;gap:14px;align-items:center}
+.cover-row img{width:72px;height:auto;border-radius:6px;box-shadow:0 10px 24px -12px rgb(0 0 0 / .6)}
 /* faq */
 details{border-bottom:1px solid var(--line);padding-block:16px}
 summary{cursor:pointer;font-weight:700;list-style:none;display:flex;justify-content:space-between;gap:16px}
@@ -355,7 +358,7 @@ footer.site img{width:120px;height:auto}
     <p class="fine">*Ebook ini bahan latihan kemahiran sales. Hasil berbeza ikut usaha, produk dan offer. Bukan jaminan pendapatan.</p>
 
     <figure class="hero-photo" style="margin:0">
-      <img src="assets/galeri/sir-dharma-latihan.jpg" alt="Sir Dharma mengajar teknik closing di depan kelas" width="712" height="712">
+      <img src="assets/galeri/hero-whiteboard.jpg" alt="Sir Dharma mengajar teknik closing di depan whiteboard" width="1200" height="900">
       <figcaption>Sir Dharma, Sales Closing Specialist</figcaption>
     </figure>
     <div class="facts">
@@ -408,7 +411,7 @@ footer.site img{width:120px;height:auto}
     <p class="lead">Bukan teori. Ini yang Sir lalui sendiri, dan yang Sir guna setiap bulan bila masuk ke HQ klien untuk coaching team sales.</p>
 
     <div class="author">
-      <img src="assets/galeri/sir-dharma-potret.jpg" alt="Sir Dharma" width="240" height="240">
+      <img src="assets/galeri/potret-studio.jpg" alt="Sir Dharma" width="480" height="480">
       <div>
         <h3>Dharma Syamim Fikri</h3>
         <p class="role">SALES CLOSING SPECIALIST</p>
@@ -495,10 +498,10 @@ footer.site img{width:120px;height:auto}
     <p class="lead">Dari bengkel fizikal, sesi online, sampai coaching bulanan di HQ klien. Sekarang Sir sedang coaching team sales tiga syarikat dalam bidang travel umrah dan pembinaan.</p>
     <div class="gallery">
       <img class="wide" src="assets/galeri/coaching-hq.jpg" alt="Sir Dharma coaching team sales di bilik mesyuarat HQ klien" loading="lazy" width="1000" height="695">
-      <img src="assets/galeri/sir-dharma-latihan.jpg" alt="Sir Dharma menerangkan skrip closing di whiteboard" loading="lazy" width="712" height="712">
+      <img src="assets/galeri/pentas-influence.jpg" alt="Sir Dharma di pentas program Influence Closing Learning" loading="lazy" width="1400" height="933">
+      <img src="assets/galeri/konsultasi.jpg" alt="Sir Dharma dalam sesi konsultasi bersama pemilik bisnes" loading="lazy" width="1400" height="788">
+      <img src="assets/galeri/podcast-sir.jpg" alt="Sir Dharma berkongsi dalam rakaman podcast" loading="lazy" width="900" height="1200">
       <img src="assets/galeri/team-farmasi.jpg" alt="Gambar berkumpulan selepas latihan bersama team farmasi" loading="lazy" width="1000" height="567">
-      <img src="assets/galeri/sesi-zoom.jpg" alt="Sesi pembelajaran online Sir Dharma melalui Zoom" loading="lazy" width="1000" height="422">
-      <img src="assets/galeri/podcast.jpg" alt="Sir Dharma dalam podcast Recharge Usahawan" loading="lazy" width="1000" height="566">
     </div>
   </div>
 </section>
@@ -589,7 +592,7 @@ footer.site img{width:120px;height:auto}
     </div>
 
     <div class="panel" role="tabpanel" id="pn-skrip" aria-labelledby="pt-skrip">
-      <h3>Flow closing 10 langkah, dari salam sampai terima kasih</h3>
+      <div class="cover-row"><img src="assets/galeri/cover-skrip-3.jpg" alt="Cover ebook Template Skrip Closing Sir Dharma" width="512" height="800" loading="lazy"><h3>Flow closing 10 langkah, dari salam sampai terima kasih</h3></div>
       <ol class="flow"><li>Introduction</li><li>Fact Finding</li><li>Emotional Touch</li><li>Suggestion</li><li>Product Detail</li><li>Senarai Pakej</li><li>Rekemen Pakej</li><li>Payment</li><li>Detail</li><li>Gratitude</li></ol>
       <p class="lbl">Contoh: langkah Rekemen Pakej</p>
       <div class="compare">
@@ -644,7 +647,7 @@ footer.site img{width:120px;height:auto}
           <li>Contoh skrip ikut niche: takaful, spa, kereta recond, catering dan lain-lain</li>
           <li>Boleh dibaca di telefon, tablet atau komputer</li>
         </ul>
-        <div class="by"><img src="assets/galeri/sir-dharma-potret.jpg" alt="" width="240" height="240"><div>Ditulis oleh<b>Sir Dharma Syamim Fikri</b></div></div>
+        <div class="by"><img src="assets/galeri/potret-studio.jpg" alt="" width="480" height="480"><div>Ditulis oleh<b>Sir Dharma Syamim Fikri</b></div></div>
       </div>
       <div class="pcard-bot">
         <p class="k">Pilihan ebook</p>
@@ -691,6 +694,7 @@ footer.site img{width:120px;height:auto}
 <!-- 14. FINAL CTA -->
 <section class="band deep">
   <div class="col stack center">
+    <img class="cta-photo" src="assets/galeri/studio-tunjuk.jpg" alt="Sir Dharma menunjuk ke arah pembaca" width="800" height="1000" loading="lazy">
     <h2 class="h2">Sedia untuk team yang <span class="mark">mengira</span>, bukan berharap?</h2>
     <p class="lead">Setiap hari team tak closing, leads yang anda bayar terbuang. Mula dengan Ebook 2026, RM37 sekali bayar.</p>
     <a class="btn-buy btn-wide buy" data-item="Ebook 2026" data-value="37" href="https://sweetcactusenterprise.bcl.my/form/ebook-sirdharma" target="_blank" rel="noopener"><span>Dapatkan Ebook 2026</span><span class="arr"><svg><use href="#i-arrow"/></svg></span></a>
