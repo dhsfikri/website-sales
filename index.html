@@ -3,10 +3,10 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-<title>Toolkit Closing Sir Dharma</title>
+<title>Ebook 2026 Sir Dharma</title>
 <meta name="claude:viewport-fit-sides" content="cover">
-<meta name="description" content="Skrip dan framework closing WhatsApp untuk team sales. Bundle Teras 3 ebook RM99. Bayar FPX, ebook PDF terus dalam resit.">
-<meta property="og:title" content="Team sales dapat leads, tapi closing tetap sikit?">
+<meta name="description" content="2026: Wassap Masih Relevan? Ebook 105 muka surat untuk founder dan team sales yang closing di WhatsApp. RM37.">
+<meta property="og:title" content="Leads masuk, tapi team sales tetap tak closing?">
 <meta property="og:description" content="Ebook terbaru Sir Dharma: 2026 Wassap Masih Relevan? 105 muka surat untuk founder dan team sales. RM37.">
 <meta property="og:type" content="website">
 <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -26,27 +26,28 @@ fbq('track','ViewContent',{content_name:'Ebook 2026',value:37,currency:'MYR'});
 </script>
 
 <style>
-/* Layout: long-form sales letter in one narrow reading column; full-width colour bands mark each stage (pain, offer, proof, price), with a sticky buy bar on phones. */
+/* Layout: sales-page flow (hero > problem > process > solution > proof > fit > testimonials > brands > pricing > FAQ > final CTA) in one reading column; deep-green bands alternate with a lighter green, the pricing card sits on the darkest green. */
 /* Brand kit: green ground everywhere, bright yellow + mint for contrast, near-white text. One fixed look (not theme-switched). */
 :root{
   color-scheme:dark;
-  --paper:#0b3b2c;      /* main ground: deep closing green */
-  --tint:#0f4836;       /* alternate band, a step lighter */
-  --card:#14533f;       /* cards sitting on the green */
-  --ink:#f5fbf7;        /* body text, near-white */
-  --muted:#c2dccf;      /* secondary text, pale green */
+  --deep:#07291f;       /* darkest band: hero, solution, pricing */
+  --paper:#0b3b2c;      /* main ground */
+  --tint:#0f4836;       /* alternate band */
+  --card:#14533f;       /* cards on green */
+  --ink:#f5fbf7;
+  --muted:#c2dccf;
   --line:#2f6b56;
-  --brand:#6ff0b0;      /* bright mint: ticks, numbers, accents */
-  --brand-ink:#06261b;  /* dark text on mint */
-  --cta:#ffd21f;        /* bright yellow buy button */
+  --brand:#6ff0b0;      /* mint accent */
+  --brand-ink:#06261b;
+  --cta:#ffd21f;        /* yellow buy button */
   --cta-ink:#1d1400;
   --cta-edge:#b89200;
-  --hl:#ffe14d;         /* highlighted words */
-  --no:#ff8a7a;         /* pain cross, struck prices */
+  --hl:#ffe14d;
+  --no:#ff8a7a;
   --chat-bg:#e6ddd3; --chat-ink:#111b16; --chat-muted:#5b6b63; --bubble-in:#ffffff; --bubble-out:#d6f5c6; --tick:#2f9be0;
   --display:"Bricolage Grotesque","Arial Narrow",system-ui,sans-serif;
   --body:"Plus Jakarta Sans",system-ui,-apple-system,"Segoe UI",sans-serif;
-  --col:720px;
+  --col:760px;
   --gutter-l:max(16px, env(safe-area-inset-left, 0px));
   --gutter-r:max(16px, env(safe-area-inset-right, 0px));
 }
@@ -55,165 +56,122 @@ fbq('track','ViewContent',{content_name:'Ebook 2026',value:37,currency:'MYR'});
 [hidden]{display:none!important}
 html{scroll-behavior:smooth}
 @media (prefers-reduced-motion: reduce){html{scroll-behavior:auto}*{transition:none!important;animation:none!important}}
-body{margin:0;background:var(--paper);color:var(--ink);font:400 17px/1.7 var(--body);-webkit-font-smoothing:antialiased;padding-bottom:calc(84px + env(safe-area-inset-bottom,0px))}
+body{margin:0;background:var(--paper);color:var(--ink);font:400 17px/1.65 var(--body);-webkit-font-smoothing:antialiased;padding-bottom:calc(84px + env(safe-area-inset-bottom,0px))}
 @media (min-width:821px){body{padding-bottom:0}}
 img{max-width:100%;display:block}
 a{color:inherit}
-h1,h2,h3{font-family:var(--display);line-height:1.1;text-wrap:balance;margin:0}
+h1,h2,h3,h4{font-family:var(--display);line-height:1.1;text-wrap:balance;margin:0}
 p{margin:0}
 :focus-visible{outline:3px solid var(--cta);outline-offset:3px;border-radius:6px}
 
 .col{max-width:var(--col);margin-inline:auto;padding-left:var(--gutter-l);padding-right:var(--gutter-r)}
-.band{padding-block:64px}
-.tint{background:var(--tint)}
+.band{padding-block:68px}
+.band.tint{background:var(--tint)}
+.band.deep{background:var(--deep)}
 .stack{display:flex;flex-direction:column;gap:20px}
+.center{text-align:center}
 .mark{color:var(--hl)}
-.kicker{font:700 13px/1.3 var(--body);letter-spacing:.12em;text-transform:uppercase;color:var(--brand);text-align:center}
-.h2{font-size:clamp(1.75rem,4.6vw,2.6rem);font-weight:800;text-align:center}
-.prose p+p{margin-top:16px}
-.prose strong{font-weight:700}
+.pill{align-self:center;display:inline-flex;align-items:center;gap:8px;border:1px solid var(--line);background:rgb(255 255 255 / .05);border-radius:999px;padding:7px 14px;font:700 12px/1.2 var(--body);letter-spacing:.1em;text-transform:uppercase;color:var(--brand)}
+.pill svg{width:15px;height:15px}
+.h2{font-size:clamp(1.85rem,5vw,2.75rem);font-weight:800;text-align:center}
+.lead{text-align:center;color:var(--muted);font-size:1.05rem;max-width:58ch;margin-inline:auto}
+.lead strong{color:var(--ink)}
+.ico{width:46px;height:46px;flex:0 0 46px;border-radius:50%;display:grid;place-items:center;background:var(--brand);color:var(--brand-ink)}
+.ico svg{width:22px;height:22px}
+.ico.soft{background:rgb(111 240 176 / .14);color:var(--brand)}
 
-/* buy button */
-.buy-wrap{display:flex;flex-direction:column;align-items:center;gap:10px;text-align:center}
-.btn-buy{display:flex;flex-direction:column;align-items:center;gap:4px;width:100%;max-width:520px;padding:18px 22px 16px;border-radius:14px;background:var(--cta);color:var(--cta-ink);text-decoration:none;box-shadow:0 5px 0 var(--cta-edge);transition:transform .12s ease, box-shadow .12s ease}
-.btn-buy b{font:800 clamp(17px,4.4vw,21px)/1.15 var(--body);text-transform:uppercase;letter-spacing:.02em}
-.btn-buy small{font:600 13px/1.3 var(--body);opacity:.85}
-.btn-buy:hover{transform:translateY(2px);box-shadow:0 3px 0 var(--cta-edge)}
-.btn-buy:active{transform:translateY(5px);box-shadow:0 0 0 var(--cta-edge)}
-.trust{display:flex;flex-wrap:wrap;justify-content:center;gap:6px 16px;font-size:13.5px;color:var(--muted)}
-.trust span::before{content:"✓ ";color:var(--brand);font-weight:800}
+/* buttons */
+.btn-buy{display:inline-flex;align-items:center;justify-content:space-between;gap:14px;padding:8px 8px 8px 24px;border-radius:999px;background:var(--cta);color:var(--cta-ink);text-decoration:none;font:800 17px/1.2 var(--body);box-shadow:0 10px 28px -12px rgb(255 210 31 / .7);transition:transform .12s ease}
+.btn-buy:hover{transform:translateY(-2px)}
+.btn-buy .arr{width:42px;height:42px;border-radius:50%;background:var(--cta-ink);color:var(--cta);display:grid;place-items:center}
+.btn-buy .arr svg{width:18px;height:18px}
+.btn-wide{display:flex;width:100%;max-width:520px;margin-inline:auto}
+.ticks{display:flex;flex-wrap:wrap;gap:6px 18px;font-size:14.5px;color:var(--muted)}
+.ticks span{display:inline-flex;align-items:center;gap:6px}
+.ticks span::before{content:"✓";color:var(--brand);font-weight:800}
+.fine{font-size:12px;color:var(--muted);opacity:.85}
 
-/* top strip */
-.strip{background:var(--cta);color:var(--cta-ink);text-align:center;font:600 14px/1.4 var(--body)}
-.strip .col{padding-block:10px}
+/* top bar */
+.top{position:sticky;top:env(safe-area-inset-top,0px);z-index:9;background:rgb(7 41 31 / .92);backdrop-filter:blur(10px);border-bottom:1px solid var(--line)}
+body::before{content:"";position:fixed;inset:0 0 auto;height:env(safe-area-inset-top,0px);z-index:10;background:var(--deep)}
+.top .col{display:flex;align-items:center;justify-content:space-between;gap:12px;padding-block:10px;max-width:1000px}
+.top img{width:132px;height:auto}
+.top a.mini{background:var(--cta);color:var(--cta-ink);text-decoration:none;font:800 14px/1 var(--body);padding:11px 16px;border-radius:999px}
 
 /* hero */
-.hero{padding-block:44px 56px}
-.hero .pre{font:600 italic 17px/1.5 var(--body);color:var(--muted);text-align:center}
-.hero h1{font-size:clamp(2.1rem,6.6vw,3.6rem);font-weight:800;text-align:center;margin-top:12px;letter-spacing:-.015em}
-.hero .sub{font-size:clamp(1.05rem,2.6vw,1.2rem);text-align:center;color:var(--muted);margin-top:18px}
+.hero{background:radial-gradient(120% 70% at 80% 0%,#145a43 0%,var(--deep) 60%);padding-block:40px 0;overflow:hidden}
+.hero .col{display:flex;flex-direction:column;gap:20px}
+.hero .pill{align-self:flex-start}
+.hero h1{font-size:clamp(2.3rem,7.4vw,3.9rem);font-weight:800;letter-spacing:-.015em}
+.hero .sub{font-size:clamp(1.05rem,2.7vw,1.2rem);color:var(--muted)}
 .hero .sub strong{color:var(--ink)}
+.hero-photo{position:relative;margin-top:14px;border-radius:22px 22px 0 0;overflow:hidden;aspect-ratio:4/3;max-width:100%}
+.hero-photo img{width:100%;height:100%;object-fit:cover;object-position:50% 40%}
+.hero-photo::after{content:"";position:absolute;inset:0;background:linear-gradient(transparent 55%,var(--deep))}
+.hero-photo figcaption{position:absolute;left:16px;right:16px;bottom:14px;z-index:1;font:600 14px/1.4 var(--body);color:var(--brand)}
+.facts{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));border:1px solid var(--line);border-radius:16px;background:var(--card);margin-top:-6px;position:relative;z-index:1}
+.facts div{padding:14px 8px;text-align:center;display:flex;flex-direction:column;gap:2px}
+.facts div+div{border-left:1px solid var(--line)}
+.facts b{font:800 clamp(1.25rem,5vw,1.6rem)/1 var(--display);color:var(--cta)}
+.facts span{font-size:12.5px;color:var(--muted);line-height:1.3}
+.ticker{margin-top:40px;background:var(--cta);color:var(--cta-ink);overflow:hidden;white-space:nowrap;font:800 13px/1 var(--body);letter-spacing:.06em;text-transform:uppercase}
+.ticker div{display:inline-block;padding:13px 0;animation:tick 28s linear infinite}
+.ticker span{margin:0 18px}
+@keyframes tick{to{transform:translateX(-50%)}}
 
-/* chat */
-.phone{background:var(--chat-bg);border-radius:20px;border:1px solid var(--line);overflow:hidden;max-width:420px;width:100%;margin:32px auto 36px;box-shadow:0 24px 50px -30px rgb(0 0 0 / .5)}
-.phone-head{display:flex;align-items:center;gap:10px;padding:11px 14px;background:#075e54;color:#ffffff}
-.avatar{width:32px;height:32px;border-radius:50%;background:rgb(255 255 255 / .2);display:grid;place-items:center;font:700 13px/1 var(--body)}
-.phone-head b{display:block;font-size:14px;line-height:1.2}
-.phone-head small{font-size:11px;opacity:.85}
-.chat{display:flex;flex-direction:column;gap:8px;padding:14px 12px 16px}
-.b{max-width:85%;padding:7px 10px 5px;border-radius:10px;font-size:14.5px;line-height:1.45;color:var(--chat-ink);box-shadow:0 1px 0 rgb(0 0 0 / .06)}
-.b time{display:block;text-align:right;font-size:10.5px;color:var(--chat-muted)}
-.in{background:var(--bubble-in);align-self:flex-start;border-top-left-radius:2px}
-.out{background:var(--bubble-out);align-self:flex-end;border-top-right-radius:2px}
-.out time::after{content:" ✓✓";color:var(--tick);letter-spacing:-.15em}
-.left{align-self:center;font-size:12px;color:var(--chat-muted);background:var(--bubble-in);padding:3px 10px;border-radius:8px}
-.phone figcaption{font-size:12.5px;color:var(--chat-muted);text-align:center;padding:0 14px 14px}
+/* problem cards */
+.pains{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px}
+@media (max-width:620px){.pains{grid-template-columns:1fr}}
+.pain{display:flex;gap:14px;align-items:flex-start;background:var(--card);border:1px solid var(--line);border-radius:16px;padding:18px}
+.pain .ico{background:rgb(255 138 122 / .15);color:var(--no)}
+.pain h3{font:800 17px/1.3 var(--body);margin-bottom:4px}
+.pain p{font-size:15px;color:var(--muted)}
 
-/* pain list */
-.pains{list-style:none;margin:8px 0 0;padding:0;display:flex;flex-direction:column;gap:12px}
-.pains li{display:grid;grid-template-columns:28px 1fr;gap:10px;align-items:start;background:var(--card);border:1px solid var(--line);border-radius:12px;padding:14px 16px;font-size:16px}
-.pains li::before{content:"✕";display:grid;place-items:center;width:26px;height:26px;border-radius:50%;background:color-mix(in srgb,var(--no) 14%,transparent);color:var(--no);font-weight:800;font-size:13px}
-.pains q{font-weight:700;quotes:"“" "”"}
+/* process timeline */
+.steps{list-style:none;margin:0;padding:0;display:flex;flex-direction:column}
+.step{display:grid;grid-template-columns:46px 1fr;gap:16px;position:relative;padding-bottom:26px}
+.step:not(:last-child)::before{content:"";position:absolute;left:22px;top:50px;bottom:4px;width:2px;background:var(--line)}
+.step small{font:800 12px/1 var(--body);letter-spacing:.1em;color:var(--brand)}
+.step h3{font:800 18px/1.3 var(--body);margin:6px 0 4px}
+.step p{font-size:15.5px;color:var(--muted)}
 
-.pull{font:700 clamp(1.3rem,3.6vw,1.75rem)/1.3 var(--display);text-align:center;padding-block:8px}
-
-/* about */
-.about{display:grid;grid-template-columns:120px 1fr;gap:22px;align-items:start}
-.portrait{width:120px;height:120px;aspect-ratio:1;border-radius:50%;object-fit:cover;border:3px solid var(--brand)}
-.brand-logo{display:block;width:170px;height:auto;margin:0 auto 26px}
-.proof{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px}
-.chip{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:16px;display:flex;flex-direction:column;gap:6px;min-width:0}
-.chip b{font:800 clamp(1.25rem,4vw,1.6rem)/1.15 var(--display);color:var(--cta)}
-.chip span{font-size:14px;color:var(--muted);line-height:1.45}
-@media (max-width:520px){.proof{grid-template-columns:1fr}}
-.gallery{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:12px}
-.gallery figure{margin:0;display:flex;flex-direction:column;gap:8px;min-width:0}
-.gallery img{width:100%;height:auto;aspect-ratio:4/3;object-fit:cover;border-radius:12px;border:1px solid var(--line)}
-.gallery figcaption{font-size:13.5px;color:var(--muted);line-height:1.4}
-.gallery .wide{grid-column:span 2}
-.gallery .wide img{aspect-ratio:16/9}
-@media (max-width:640px){.gallery{grid-template-columns:repeat(2,minmax(0,1fr))}.gallery .wide{grid-column:1/-1}}
-@media (max-width:560px){.about{grid-template-columns:1fr}.portrait{width:96px;margin-inline:auto}}
-.facts{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:12px;margin-top:22px}
-.fact{border-top:3px solid var(--brand);padding-top:10px}
-.fact b{display:block;font:800 26px/1 var(--display);font-variant-numeric:tabular-nums}
-.fact span{font-size:13.5px;color:var(--muted);line-height:1.4;display:block;margin-top:6px}
-@media (max-width:560px){.facts{grid-template-columns:1fr}}
-
-/* offer stack */
-.offer{display:flex;flex-direction:column;gap:14px}
-.ebook{display:grid;grid-template-columns:64px 1fr;gap:16px;background:var(--card);border:1px solid var(--line);border-radius:14px;padding:18px}
-.cover{width:64px;aspect-ratio:3/4;border-radius:4px 8px 8px 4px;background:var(--brand);color:var(--brand-ink);display:flex;align-items:flex-end;padding:6px;font:800 11px/1.1 var(--display);box-shadow:inset 5px 0 0 rgb(0 0 0 / .18)}
-.ebook h3{font-size:1.15rem;font-family:var(--body);font-weight:800}
-.ebook .val{font-size:14px;color:var(--muted);margin-top:2px}
-.ebook .val s{color:var(--no)}
-.ebook ul{margin:10px 0 0;padding:0;list-style:none;display:flex;flex-direction:column;gap:6px;font-size:15.5px}
-.ebook li{display:grid;grid-template-columns:20px 1fr;gap:6px}
-.ebook li::before{content:"✓";color:var(--brand);font-weight:800}
-@media (max-width:460px){.ebook{grid-template-columns:1fr}.cover{width:56px}}
-
-/* testimonials */
-.wall{columns:3 220px;column-gap:14px}
-.shot{break-inside:avoid;margin:0 0 14px;border-radius:12px;overflow:hidden;border:1px solid var(--line);background:var(--card)}
-.shot img{width:100%;height:auto}
-.shot.empty{display:grid;place-items:center;aspect-ratio:9/14;border-style:dashed;color:var(--muted);font-size:13px;text-align:center;padding:16px}
-.shot.empty b{display:block;font:800 22px/1 var(--display);color:var(--line);margin-bottom:6px}
-
-/* price box */
-.pricebox{border:3px solid var(--cta);border-radius:20px;padding:30px 22px;background:var(--card);text-align:center;display:flex;flex-direction:column;gap:16px;align-items:center}
-.pricebox .tag{background:var(--cta);color:var(--cta-ink);font:800 12px/1 var(--body);letter-spacing:.12em;text-transform:uppercase;padding:7px 12px;border-radius:6px}
-.pricebox h3{font-size:1.5rem}
-.receipt{width:100%;max-width:420px;font-size:15px;border-collapse:collapse}
-.receipt td{padding:7px 0;border-bottom:1px dashed var(--line)}
-.receipt td:last-child{text-align:right;font-variant-numeric:tabular-nums;white-space:nowrap}
-.receipt tr.total td{border-bottom:0;font-weight:800}
-.receipt tr.total td:last-child s{color:var(--no)}
-.big{font:800 clamp(3.2rem,12vw,4.6rem)/1 var(--display);color:var(--cta);font-variant-numeric:tabular-nums}
-.big small{font-size:.35em;vertical-align:.95em;margin-right:4px}
-.save{font-weight:700;color:var(--no)}
-
-/* add-ons */
-.addons{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:10px}
-.addon{display:flex;justify-content:space-between;align-items:center;gap:12px;border:1px solid var(--line);border-radius:12px;padding:12px 14px;background:var(--card);text-decoration:none;font-size:15px;font-weight:600;min-width:0}
-.addon:hover{border-color:var(--cta)}
-.addon span{font:800 17px/1 var(--display);color:var(--brand);white-space:nowrap}
-@media (max-width:520px){.addons{grid-template-columns:1fr}}
-.alacarte{width:100%;border-collapse:collapse;font-size:15px}
-.alacarte td{padding:11px 0;border-bottom:1px solid var(--line)}
-.alacarte td:last-child{text-align:right;font-weight:800;font-variant-numeric:tabular-nums;white-space:nowrap;padding-left:12px}
-.alacarte small{display:block;color:var(--muted);font-size:13px}
-
-/* founder box */
-.founder{background:var(--card);color:var(--ink);border:2px solid var(--brand);border-radius:20px;padding:28px 22px;display:flex;flex-direction:column;gap:14px}
-.founder h3{font-size:1.5rem}
-.founder p{color:var(--muted);font-size:16px}
-.slots{display:inline-flex;align-items:center;gap:10px;align-self:flex-start;padding:7px 12px;border-radius:999px;background:rgb(255 255 255 / .08);font-weight:700;font-size:14px}
-.dots{display:inline-flex;gap:4px}
-.dots i{width:10px;height:10px;border-radius:50%;background:var(--cta)}
-.dots i.full{background:rgb(255 255 255 / .28)}
-.btn-line{display:inline-flex;align-self:flex-start;align-items:center;gap:8px;padding:13px 18px;border-radius:12px;background:var(--brand);color:var(--brand-ink);font:800 15px/1 var(--body);text-decoration:none}
-
-
-/* why */
-.quote{border-left:4px solid var(--cta);padding:6px 0 6px 18px;font:600 clamp(1.15rem,3.2vw,1.4rem)/1.45 var(--body)}
-.quote cite{display:block;margin-top:10px;font:500 13.5px/1.4 var(--body);color:var(--muted);font-style:normal}
-.insights{display:grid;gap:12px}
-.insight{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:18px;display:grid;grid-template-columns:auto 1fr;gap:6px 14px;align-items:baseline}
-.insight b{font:800 clamp(1.6rem,5vw,2rem)/1 var(--display);color:var(--cta);grid-row:span 2;min-width:3.2ch}
-.insight h3{font:700 17px/1.35 var(--body)}
-.insight p{color:var(--muted);font-size:15px}
-.creds{display:flex;flex-wrap:wrap;gap:8px}
+/* solution / author */
+.author{display:grid;grid-template-columns:150px 1fr;gap:20px;align-items:center;background:var(--card);border:1px solid var(--line);border-radius:20px;padding:18px}
+.author img{width:150px;height:150px;border-radius:16px;object-fit:cover}
+.author h3{font-size:1.5rem}
+.author .role{font:800 12px/1.2 var(--body);letter-spacing:.12em;color:var(--cta);margin:4px 0 8px}
+.author p{font-size:15px;color:var(--muted)}
+@media (max-width:560px){.author{grid-template-columns:1fr;text-align:center}.author img{margin-inline:auto}}
+.syllabus{display:flex;flex-direction:column;gap:10px}
+.syllabus h3{font-size:1.35rem}
+.syllabus ol{list-style:none;margin:0;padding:0;display:flex;flex-direction:column;gap:8px;counter-reset:sy}
+.syllabus li{counter-increment:sy;display:grid;grid-template-columns:38px 1fr;gap:10px;align-items:start;background:rgb(255 255 255 / .04);border:1px solid var(--line);border-radius:12px;padding:12px 14px;font-size:15.5px}
+.syllabus li::before{content:counter(sy, decimal-leading-zero);font:800 16px/1.4 var(--display);color:var(--cta)}
+.creds{display:flex;flex-wrap:wrap;justify-content:center;gap:8px}
 .creds span{border:1px solid var(--brand);color:var(--brand);border-radius:999px;padding:7px 12px;font:600 13px/1.2 var(--body)}
-/* intip */
+
+/* page preview carousel */
+.pages{display:flex;gap:14px;overflow-x:auto;scroll-snap-type:x mandatory;padding:4px 2px 14px}
+.page{flex:0 0 min(78%,300px);scroll-snap-align:start;aspect-ratio:1/1.414;background:#fbfaf6;color:#1b211e;border-radius:6px 12px 12px 6px;box-shadow:inset 6px 0 0 rgb(0 0 0 / .08),0 18px 40px -22px rgb(0 0 0 / .6);padding:20px 18px;display:flex;flex-direction:column;gap:10px;font-size:13px;line-height:1.5;overflow:hidden}
+.page .pn{font:700 10.5px/1 var(--body);letter-spacing:.12em;text-transform:uppercase;color:#0b3b2c}
+.page h4{font:800 17px/1.2 var(--display);color:#0b3b2c}
+.page .calc{display:flex;flex-direction:column;gap:6px;margin:0;padding:0;list-style:none}
+.page .calc li{display:flex;justify-content:space-between;gap:8px;border-bottom:1px dashed #cfd8d2;padding-bottom:5px;font-variant-numeric:tabular-nums}
+.page .calc b{color:#0b3b2c}
+.page .hl{background:#ffe14d;color:#1b211e;padding:8px 10px;border-radius:6px;font-weight:700}
+.page .two{display:grid;grid-template-columns:1fr 1fr;gap:8px}
+.page .two div{background:#eef3ef;border-radius:6px;padding:8px}
+.page .bub{background:#d6f5c6;border-radius:8px;border-top-right-radius:2px;padding:9px 10px;font-size:12.5px;align-self:flex-end;max-width:94%}
+.page .foot{margin-top:auto;font-size:10.5px;color:#6b776f;text-align:right}
+.note{font-size:13px;color:var(--muted);text-align:center}
+
+/* intip tabs */
 .ptabs{display:flex;gap:8px;overflow-x:auto;padding-bottom:4px}
 .ptab{flex:0 0 auto;border:1px solid var(--line);background:var(--card);color:var(--ink);padding:11px 16px;border-radius:999px;font:700 14px/1 var(--body);cursor:pointer}
 .ptab[aria-selected="true"]{background:var(--cta);color:var(--cta-ink);border-color:var(--cta)}
-.panel{display:flex;flex-direction:column;gap:18px}
-.panel h3{font-size:1.3rem}
+.panel{display:flex;flex-direction:column;gap:16px}
+.panel h3{font-size:1.25rem}
 .lbl{font:700 12px/1.3 var(--body);letter-spacing:.12em;text-transform:uppercase;color:var(--brand)}
-.flow{list-style:none;margin:0;padding:0;display:flex;flex-wrap:wrap;gap:8px;counter-reset:f}
-.flow li{counter-increment:f;background:var(--card);border:1px solid var(--line);border-radius:10px;padding:8px 12px;font-size:14px;font-weight:600}
-.flow li::before{content:counter(f) ". ";color:var(--brand);font-weight:800}
 .compare{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px}
 @media (max-width:620px){.compare{grid-template-columns:1fr}}
 .say{border-radius:14px;padding:16px;display:flex;flex-direction:column;gap:10px;min-width:0}
@@ -225,46 +183,102 @@ p{margin:0}
 .say .msg{background:var(--bubble-out);color:var(--chat-ink);border-radius:10px;border-top-right-radius:2px;padding:10px 12px;font-size:15px;line-height:1.5}
 .say.bad .msg{background:var(--bubble-in)}
 .say .res{font-size:14px;color:var(--muted)}
-.tip{background:var(--card);border:1px dashed var(--cta);border-radius:12px;padding:14px 16px;font-size:15px}
-.tip b{color:var(--cta)}
-.steps3{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:10px;counter-reset:st}
-@media (max-width:620px){.steps3{grid-template-columns:1fr}}
-.steps3 div{counter-increment:st;background:var(--card);border:1px solid var(--line);border-radius:12px;padding:14px;font-size:14.5px}
-.steps3 div::before{content:"Langkah " counter(st);display:block;font:800 12px/1 var(--body);letter-spacing:.1em;text-transform:uppercase;color:var(--brand);margin-bottom:8px}
-.steps3 b{display:block;font-size:16px;margin-bottom:4px}
-.brains{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:8px}
-@media (max-width:620px){.brains{grid-template-columns:repeat(2,minmax(0,1fr))}}
-.brain{border-radius:12px;padding:12px;background:var(--card);border-top:4px solid var(--c);font-size:13.5px;color:var(--muted)}
-.brain b{display:block;color:var(--ink);font-size:15px;margin-bottom:4px}
+.flow{list-style:none;margin:0;padding:0;display:flex;flex-wrap:wrap;gap:8px;counter-reset:f}
+.flow li{counter-increment:f;background:var(--card);border:1px solid var(--line);border-radius:10px;padding:8px 12px;font-size:14px;font-weight:600}
+.flow li::before{content:counter(f) ". ";color:var(--brand);font-weight:800}
 .timeline{list-style:none;margin:0;padding:0;display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:8px}
 @media (max-width:520px){.timeline{grid-template-columns:repeat(2,minmax(0,1fr))}}
 .timeline li{background:var(--card);border:1px solid var(--line);border-radius:10px;padding:10px 12px;font-size:14px;font-weight:600}
 .timeline li span{display:block;font:800 12px/1 var(--body);color:var(--cta);letter-spacing:.06em;margin-bottom:5px}
-/* brands */
-.brands{display:flex;flex-wrap:wrap;justify-content:center;gap:10px}
-.brands span{background:var(--card);border:1px solid var(--line);border-radius:10px;padding:12px 16px;font:800 15px/1 var(--display);letter-spacing:.02em}
+.brains{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:8px}
+@media (max-width:620px){.brains{grid-template-columns:repeat(2,minmax(0,1fr))}}
+.brain{border-radius:12px;padding:12px;background:var(--card);border-top:4px solid var(--c);font-size:13.5px;color:var(--muted)}
+.brain b{display:block;color:var(--ink);font-size:15px;margin-bottom:4px}
 
-/* ebook 2026 preview */
-.newtag{align-self:center;background:var(--cta);color:var(--cta-ink);font:800 12px/1 var(--body);letter-spacing:.12em;text-transform:uppercase;padding:7px 12px;border-radius:6px}
-.chapters{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:10px}
-@media (max-width:560px){.chapters{grid-template-columns:1fr}}
-.chap{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:16px;display:flex;flex-direction:column;gap:6px}
-.chap span{font:800 26px/1 var(--display);color:var(--cta)}
-.chap h3{font:800 17px/1.3 var(--body)}
-.chap p{font-size:14.5px;color:var(--muted)}
-.pages{display:flex;gap:14px;overflow-x:auto;scroll-snap-type:x mandatory;padding:4px 2px 14px;margin-inline:-2px}
-.page{flex:0 0 min(78%,300px);scroll-snap-align:start;aspect-ratio:1/1.414;background:#fbfaf6;color:#1b211e;border-radius:6px 12px 12px 6px;box-shadow:inset 6px 0 0 rgb(0 0 0 / .08),0 18px 40px -22px rgb(0 0 0 / .6);padding:20px 18px;display:flex;flex-direction:column;gap:10px;font-size:13px;line-height:1.5;overflow:hidden}
-.page .pn{font:700 10.5px/1 var(--body);letter-spacing:.12em;text-transform:uppercase;color:#0b3b2c}
-.page h4{margin:0;font:800 17px/1.2 var(--display);color:#0b3b2c}
-.page .calc{display:flex;flex-direction:column;gap:6px;margin:0;padding:0;list-style:none}
-.page .calc li{display:flex;justify-content:space-between;gap:8px;border-bottom:1px dashed #cfd8d2;padding-bottom:5px;font-variant-numeric:tabular-nums}
-.page .calc b{color:#0b3b2c}
-.page .hl{background:#ffe14d;color:#1b211e;padding:8px 10px;border-radius:6px;font-weight:700}
-.page .two{display:grid;grid-template-columns:1fr 1fr;gap:8px}
-.page .two div{background:#eef3ef;border-radius:6px;padding:8px}
-.page .bub{background:#d6f5c6;border-radius:8px;border-top-right-radius:2px;padding:9px 10px;font-size:12.5px;align-self:flex-end;max-width:94%}
-.page .foot{margin-top:auto;font-size:10.5px;color:#6b776f;text-align:right}
-.pages-note{font-size:13px;color:var(--muted);text-align:center}
+/* proof */
+.bigstat{font:800 clamp(2.6rem,10vw,4rem)/1 var(--display);color:var(--cta);text-align:center}
+.gallery{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:10px}
+.gallery img{width:100%;height:auto;aspect-ratio:4/3;object-fit:cover;border-radius:12px;border:1px solid var(--line)}
+.gallery .wide{grid-column:span 2}
+.gallery .wide img{aspect-ratio:16/9}
+@media (max-width:640px){.gallery{grid-template-columns:repeat(2,minmax(0,1fr))}.gallery .wide{grid-column:1/-1}}
+
+/* fit checklist */
+.fit{list-style:none;margin:0;padding:0;display:flex;flex-direction:column;gap:10px}
+.fit li{display:grid;grid-template-columns:30px 1fr;gap:10px;align-items:start;background:var(--card);border:1px solid var(--line);border-radius:14px;padding:14px 16px;font-size:16px}
+.fit li::before{content:"✓";display:grid;place-items:center;width:28px;height:28px;border-radius:50%;background:var(--brand);color:var(--brand-ink);font-weight:800}
+
+/* chats (real messages) */
+.chats{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:14px}
+@media (max-width:640px){.chats{grid-template-columns:1fr}}
+.chat{background:var(--chat-bg);border-radius:18px;overflow:hidden;display:flex;flex-direction:column}
+.chat-head{background:#075e54;color:#fff;padding:10px 14px;font:700 14px/1.2 var(--body)}
+.chat-head small{display:block;font-weight:500;font-size:11.5px;opacity:.85}
+.chat-body{display:flex;flex-direction:column;gap:7px;padding:14px 12px}
+.b{max-width:86%;padding:7px 10px 5px;border-radius:10px;font-size:14.5px;line-height:1.45;color:var(--chat-ink);box-shadow:0 1px 0 rgb(0 0 0 / .06)}
+.b time{display:block;text-align:right;font-size:10.5px;color:var(--chat-muted)}
+.in{background:var(--bubble-in);align-self:flex-start;border-top-left-radius:2px}
+.out{background:var(--bubble-out);align-self:flex-end;border-top-right-radius:2px}
+.out time::after{content:" ✓✓";color:var(--tick);letter-spacing:-.15em}
+.chat-note{font-size:12.5px;color:var(--chat-muted);text-align:center;padding:0 12px 12px}
+
+/* quotes */
+.quotes{display:grid;gap:12px}
+.q{background:var(--card);border:1px solid var(--line);border-radius:16px;padding:18px;display:flex;flex-direction:column;gap:12px}
+.q p{font-size:15.5px}
+.q p::before{content:"“";font:800 30px/0 var(--display);color:var(--cta);vertical-align:-.3em;margin-right:4px}
+.q footer{display:flex;align-items:center;gap:10px;font-size:14px}
+.q footer b{display:block}
+.q footer span{color:var(--muted);font-size:13px}
+.av{width:38px;height:38px;border-radius:50%;background:var(--brand);color:var(--brand-ink);display:grid;place-items:center;font:800 14px/1 var(--body);flex:0 0 38px}
+.wall{columns:3 200px;column-gap:12px}
+.shot{break-inside:avoid;margin:0 0 12px;border-radius:12px;overflow:hidden;border:1px solid var(--line);background:var(--card)}
+.shot img{width:100%;height:auto}
+.shot.empty{display:none}
+
+/* brands + industries */
+.brands{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:8px}
+@media (max-width:520px){.brands{grid-template-columns:repeat(2,minmax(0,1fr))}}
+.brands span{background:#f5fbf7;color:#0b3b2c;border-radius:10px;padding:14px 8px;text-align:center;font:800 14px/1.2 var(--display)}
+.chips{display:flex;flex-wrap:wrap;justify-content:center;gap:8px}
+.chips span{background:var(--card);border:1px solid var(--line);border-radius:999px;padding:9px 14px;font-weight:600;font-size:14.5px}
+
+/* pricing */
+.pcard{background:linear-gradient(180deg,#0e4434,var(--deep));border:1px solid var(--line);border-radius:26px;overflow:hidden}
+.pcard-top{padding:26px 22px;display:flex;flex-direction:column;gap:12px;border-bottom:1px solid var(--line)}
+.pcard-top .k{font:700 12px/1.2 var(--body);letter-spacing:.14em;text-transform:uppercase;color:var(--brand)}
+.pcard-top h3{font-size:1.7rem}
+.pcard-top .val{color:var(--muted);font-size:15px}
+.pcard-top .val b{color:var(--ink)}
+.incl{list-style:none;margin:0;padding:0;display:flex;flex-direction:column;gap:9px;font-size:15.5px}
+.incl li{display:grid;grid-template-columns:24px 1fr;gap:10px}
+.incl li::before{content:"✓";display:grid;place-items:center;width:22px;height:22px;border-radius:50%;border:1.5px solid var(--brand);color:var(--brand);font-size:12px;font-weight:800}
+.by{display:flex;align-items:center;gap:12px;background:rgb(255 255 255 / .05);border:1px solid var(--line);border-radius:14px;padding:10px 12px;font-size:13px;color:var(--muted)}
+.by img{width:44px;height:44px;border-radius:50%;object-fit:cover}
+.by b{display:block;color:var(--ink);font-size:14.5px}
+.pcard-bot{padding:22px;display:flex;flex-direction:column;gap:10px}
+.pcard-bot .k{font-weight:700;font-size:15px}
+.opt{display:flex;justify-content:space-between;align-items:center;gap:12px;border:1px solid var(--line);border-radius:14px;padding:14px 16px;background:rgb(255 255 255 / .03);position:relative}
+.opt b{display:block;font-size:16px}
+.opt span{font-size:13px;color:var(--muted)}
+.opt .pr{text-align:right;white-space:nowrap;font:800 22px/1 var(--display);font-variant-numeric:tabular-nums}
+.opt .pr small{font:600 12px/1 var(--body);margin-right:2px}
+.opt .pr s{display:block;font:500 12.5px/1.4 var(--body);color:var(--no);text-align:right}
+.opt.hot{background:var(--cta);color:var(--cta-ink);border-color:var(--cta);margin-top:12px}
+.opt.hot span,.opt.hot .pr s{color:#5a4600}
+.opt .flag{position:absolute;top:-11px;left:14px;background:var(--deep);color:var(--cta);border:1px solid var(--cta);font:800 11px/1 var(--body);letter-spacing:.08em;text-transform:uppercase;padding:5px 9px;border-radius:999px}
+.secure{display:flex;flex-direction:column;align-items:center;gap:4px;font-size:13px;color:var(--muted);border-top:1px solid var(--line);padding-top:14px;margin-top:6px}
+
+/* founder box */
+.founder{background:var(--card);border:2px solid var(--brand);border-radius:20px;padding:26px 22px;display:flex;flex-direction:column;gap:14px}
+.founder h3{font-size:1.5rem}
+.founder p{color:var(--muted);font-size:16px}
+.slots{display:inline-flex;align-items:center;gap:10px;align-self:flex-start;padding:7px 12px;border-radius:999px;background:rgb(255 255 255 / .08);font-weight:700;font-size:14px}
+.dots{display:inline-flex;gap:4px}
+.dots i{width:10px;height:10px;border-radius:50%;background:var(--cta)}
+.dots i.full{background:rgb(255 255 255 / .28)}
+.btn-line{display:inline-flex;align-self:flex-start;align-items:center;gap:8px;padding:13px 18px;border-radius:12px;background:var(--brand);color:var(--brand-ink);font:800 15px/1 var(--body);text-decoration:none}
+
 /* faq */
 details{border-bottom:1px solid var(--line);padding-block:16px}
 summary{cursor:pointer;font-weight:700;list-style:none;display:flex;justify-content:space-between;gap:16px}
@@ -273,118 +287,132 @@ summary::after{content:"+";font:700 22px/1 var(--display);color:var(--brand)}
 details[open] summary::after{content:"–"}
 details p{color:var(--muted);margin-top:8px;font-size:16px}
 
-footer{border-top:1px solid var(--line);padding-block:28px;font-size:13.5px;color:var(--muted);text-align:center}
+footer.site{background:var(--deep);border-top:1px solid var(--line);padding-block:30px;font-size:13px;color:var(--muted);text-align:center}
+footer.site .col{display:flex;flex-direction:column;gap:8px;align-items:center}
+footer.site img{width:120px;height:auto}
 
 /* sticky buy bar (phones) */
-.sticky{position:fixed;left:0;right:0;bottom:0;z-index:9;background:var(--card);border-top:1px solid var(--line);box-shadow:0 -10px 30px -18px rgb(0 0 0 / .35);padding:10px max(16px,env(safe-area-inset-right,0px)) calc(10px + env(safe-area-inset-bottom,0px)) max(16px,env(safe-area-inset-left,0px));display:flex;align-items:center;justify-content:space-between;gap:12px}
+.sticky{position:fixed;left:0;right:0;bottom:0;z-index:9;background:rgb(7 41 31 / .96);backdrop-filter:blur(10px);border-top:1px solid var(--line);padding:10px max(16px,env(safe-area-inset-right,0px)) calc(10px + env(safe-area-inset-bottom,0px)) max(16px,env(safe-area-inset-left,0px));display:flex;align-items:center;justify-content:space-between;gap:12px}
 .sticky .p{line-height:1.2}
+.sticky .p small{display:block;font-size:12px;color:var(--muted)}
 .sticky .p b{font:800 20px/1 var(--display);color:var(--cta)}
 .sticky .p s{font-size:13px;color:var(--no);margin-left:4px}
-.sticky .p small{display:block;font-size:12px;color:var(--muted)}
-.sticky a{background:var(--cta);color:var(--cta-ink);text-decoration:none;font:800 15px/1 var(--body);text-transform:uppercase;padding:14px 18px;border-radius:12px;box-shadow:0 4px 0 var(--cta-edge);white-space:nowrap}
+.sticky a{background:var(--cta);color:var(--cta-ink);text-decoration:none;font:800 15px/1 var(--body);padding:14px 18px;border-radius:999px;white-space:nowrap}
 @media (min-width:821px){.sticky{display:none}}
 </style>
 </head>
 <body>
 
-<div class="strip"><div class="col">Untuk founder, team leader &amp; marketer yang ada team sales di WhatsApp</div></div>
+<svg width="0" height="0" style="position:absolute" aria-hidden="true">
+  <symbol id="i-arrow" viewBox="0 0 24 24"><path d="M5 12h14M13 6l6 6-6 6" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/></symbol>
+  <symbol id="i-book" viewBox="0 0 24 24"><path d="M4 5a2 2 0 0 1 2-2h13v16H6a2 2 0 0 0-2 2V5Zm0 14a2 2 0 0 1 2-2h13" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/></symbol>
+  <symbol id="i-money" viewBox="0 0 24 24"><rect x="3" y="6" width="18" height="12" rx="2" fill="none" stroke="currentColor" stroke-width="2"/><circle cx="12" cy="12" r="2.5" fill="none" stroke="currentColor" stroke-width="2"/></symbol>
+  <symbol id="i-eye" viewBox="0 0 24 24"><path d="M2 12s3.5-7 10-7 10 7 10 7-3.5 7-10 7S2 12 2 12Z" fill="none" stroke="currentColor" stroke-width="2"/><path d="M4 4l16 16" stroke="currentColor" stroke-width="2"/></symbol>
+  <symbol id="i-chat" viewBox="0 0 24 24"><path d="M4 5h16v11H9l-5 4V5Z" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/></symbol>
+  <symbol id="i-users" viewBox="0 0 24 24"><circle cx="9" cy="8" r="3.2" fill="none" stroke="currentColor" stroke-width="2"/><path d="M3 20c0-3.3 2.7-6 6-6s6 2.7 6 6M16 4.5a3 3 0 0 1 0 6M21 20c0-2.7-1.7-5-4-5.7" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></symbol>
+  <symbol id="i-calc" viewBox="0 0 24 24"><rect x="5" y="3" width="14" height="18" rx="2" fill="none" stroke="currentColor" stroke-width="2"/><path d="M8 7h8M8 12h2M14 12h2M8 16h2M14 16h2" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></symbol>
+  <symbol id="i-steps" viewBox="0 0 24 24"><path d="M4 18h5v-5h5V8h6" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></symbol>
+  <symbol id="i-brain" viewBox="0 0 24 24"><circle cx="8" cy="9" r="3" fill="none" stroke="currentColor" stroke-width="2"/><circle cx="16" cy="9" r="3" fill="none" stroke="currentColor" stroke-width="2"/><circle cx="8" cy="16" r="3" fill="none" stroke="currentColor" stroke-width="2"/><circle cx="16" cy="16" r="3" fill="none" stroke="currentColor" stroke-width="2"/></symbol>
+  <symbol id="i-check" viewBox="0 0 24 24"><path d="M5 12.5l4.5 4.5L19 7.5" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/></symbol>
+  <symbol id="i-spark" viewBox="0 0 24 24"><path d="M12 3v5M12 16v5M3 12h5M16 12h5M6 6l3 3M15 15l3 3M18 6l-3 3M9 15l-3 3" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></symbol>
+</svg>
+
+<header class="top">
+  <div class="col">
+    <img src="assets/logo-sirdharma.png" alt="SirDharma, Sales Closing Specialist" width="301" height="74">
+    <a class="mini buy" data-item="Ebook 2026" data-value="37" href="#harga">Dapatkan ebook</a>
+  </div>
+</header>
 
 <main>
 
-<!-- HERO -->
+<!-- 1. HERO -->
 <section class="hero">
   <div class="col">
-    <img class="brand-logo" src="assets/logo-sirdharma.png" alt="SirDharma, Sales Closing Specialist" width="301" height="74">
-    <p class="pre">Tuan dah bayar iklan. Leads pun dah masuk setiap hari.</p>
-    <h1>Tapi kenapa team sales <span class="mark">masih tak closing</span> dalam WhatsApp?</h1>
-    <p class="sub">Ebook terbaru Sir Dharma, <strong>2026: Wassap Masih Relevan?</strong> 105 muka surat untuk founder dan team sales: cara kira target, cara pilih team, <strong>skrip WhatsApp 2026</strong>, dan apa nak buat bila dah buat semua tapi prospek tak beli juga.</p>
+    <span class="pill"><svg><use href="#i-book"/></svg>Ebook terbaru 2026 · 105 muka surat</span>
+    <h1>Leads dah masuk. Kenapa team sales <span class="mark">masih tak closing</span> dalam WhatsApp?</h1>
+    <p class="sub">Dalam <strong>2026: Wassap Masih Relevan?</strong>, Sir Dharma tunjuk cara kira target jadi jumlah leads, cara pilih team yang betul, dan <strong>skrip WhatsApp 2026</strong> yang buat prospek balas, walaupun team anda kecil.</p>
+    <a class="btn-buy" href="#harga"><span>Dapatkan Ebook 2026</span><span class="arr"><svg><use href="#i-arrow"/></svg></span></a>
+    <div class="ticks"><span>Terus boleh baca hari ini</span><span>Skrip siap copy &amp; adjust</span><span>Untuk founder &amp; team sales</span></div>
+    <p class="fine">*Ebook ini bahan latihan kemahiran sales. Hasil berbeza ikut usaha, produk dan offer. Bukan jaminan pendapatan.</p>
 
-    <figure class="phone" aria-label="Contoh skrip handle rejection di WhatsApp">
-      <div class="phone-head">
-        <div class="avatar" aria-hidden="true">P</div>
-        <div><b>Prospek · WhatsApp</b><small>dalam talian</small></div>
-      </div>
-      <div class="chat">
-        <div class="b in">Okay, nanti saya tanya suami dulu ya.<time>9:41 PG</time></div>
-        <div class="b out">Saya faham puan nak tanya suami dulu. Memang penting dapatkan pendapat suami.<time>9:42 PG</time></div>
-        <div class="b out">Kalau perlukan detail tambahan untuk yakinkan dia, saya sedia bantu.<time>9:42 PG</time></div>
-        <span class="left">Bukan "okay puan, saya tunggu". Pintu masih terbuka.</span>
-      </div>
-      <figcaption>Skrip sebenar dari ebook 10 Framework Handle Rejection Like Pro.</figcaption>
+    <figure class="hero-photo" style="margin:0">
+      <img src="assets/galeri/sir-dharma-latihan.jpg" alt="Sir Dharma mengajar teknik closing di depan kelas" width="712" height="712">
+      <figcaption>Sir Dharma, Sales Closing Specialist</figcaption>
     </figure>
-
-    <div class="buy-wrap">
-      <a class="btn-buy buy" data-item="Ebook 2026" data-value="37" href="https://sweetcactusenterprise.bcl.my/form/ebook-sirdharma" target="_blank" rel="noopener">
-        <b>Ya, saya nak Ebook 2026</b>
-        <small>105 muka surat · RM37 sahaja (harga asal RM67)</small>
-      </a>
-      <div class="trust"><span>Bayar FPX</span><span>Ebook PDF terus dalam resit</span><span>Boleh baca di telefon</span></div>
+    <div class="facts">
+      <div><b>105</b><span>muka surat</span></div>
+      <div><b>4</b><span>bab praktikal</span></div>
+      <div><b>RM37</b><span>harga 2026</span></div>
     </div>
   </div>
+  <div class="ticker" aria-hidden="true"><div>
+    <span>Formula 1-4-6-10</span><span>★</span><span>4 tahap prospek</span><span>★</span><span>Colored Brain untuk team</span><span>★</span><span>Skrip Wassap 2026</span><span>★</span><span>Checklist KMP</span><span>★</span>
+    <span>Formula 1-4-6-10</span><span>★</span><span>4 tahap prospek</span><span>★</span><span>Colored Brain untuk team</span><span>★</span><span>Skrip Wassap 2026</span><span>★</span><span>Checklist KMP</span><span>★</span>
+  </div></div>
 </section>
 
-<!-- PAIN -->
-<section class="band tint">
-  <div class="col stack">
-    <p class="kicker">Cuba semak team anda</p>
-    <h2 class="h2">Kalau salah satu ni berlaku, duit iklan anda sedang bocor.</h2>
-    <ul class="pains">
-      <li><span>Prospek tanya harga, salesperson balas senarai harga, kemudian <strong>prospek terus senyap</strong>.</span></li>
-      <li><span>Follow up cuma satu ayat: <q>Masih berminat ke cik?</q> Lepas dua kali tiada balasan, lead dilupakan.</span></li>
-      <li><span>Prospek kata <q>nanti saya fikir dulu</q> dan salesperson terus setuju, tanpa tahu sebab sebenar.</span></li>
-      <li><span>Setiap salesperson closing ikut gaya sendiri. <strong>Tiada skrip yang sama</strong> untuk satu team.</span></li>
-      <li><span>Bila top sales cuti atau berhenti, <strong>jualan pun ikut jatuh</strong>.</span></li>
-    </ul>
-    <p class="pull">Masalahnya bukan leads.<br><span class="mark">Masalahnya apa yang team taip dalam WhatsApp.</span></p>
-  </div>
-</section>
-
-<!-- WHY -->
+<!-- 2. PROBLEM -->
 <section class="band">
   <div class="col stack">
-    <p class="kicker">Kenapa ini berlaku</p>
-    <h2 class="h2">Leads banyak, tapi closing rate tak lepas 10%.</h2>
-    <blockquote class="quote">"Lead banyak, tetapi team tidak mampu close lebih 10% closing rate. Boleh jadi mereka tidak faham flow closing dan terlalu terikat dengan skrip closing."<cite>Template Skrip Closing SirDharma 3.0</cite></blockquote>
-    <p style="color:var(--muted)">Tiga perkara yang Sir Dharma jumpa berulang kali bila baca chat team sales:</p>
-    <div class="insights">
-      <div class="insight"><b>2</b><h3>Rejection cuma ada dua sebab sebenar</h3><p>Prospek belum percaya, atau belum cukup duit. Selain itu, kebanyakannya alasan. Team yang tak nampak beza ni akan terima setiap alasan bulat-bulat.</p></div>
-      <div class="insight"><b>5–12</b><h3>Kali interaksi sebelum kebanyakan jualan berlaku</h3><p>Ebook Follow Up memetik realiti ni: 80% jualan berlaku selepas 5 hingga 12 interaksi. Team yang berhenti selepas dua kali follow up sedang tinggalkan jualan.</p></div>
-      <div class="insight"><b>?</b><h3>"Puan nak pakej yang mana?"</h3><p>Soalan paling biasa, dan paling cepat kena bluetick. Prospek perlukan cadangan, bukan menu.</p></div>
-    </div>
-
-    <div class="about" style="margin-top:24px">
-      <img class="portrait" src="assets/galeri/sir-dharma-potret.jpg" alt="Sir Dharma" width="240" height="240">
-      <div class="prose">
-        <p class="kicker" style="text-align:left">Kenapa Sir Dharma tulis ebook ni</p>
-        <h2 style="font-size:clamp(1.5rem,4vw,2rem);margin:8px 0 14px">Saya pernah jatuh dalam bisnes. Closing yang bawa saya bangkit.</h2>
-        <p>Saya mula berniaga sekitar tahun 2015, dalam bidang suplemen kesihatan dan kecantikan. Bisnes tu jatuh, dan saya terdiam hampir tiga bulan. Yang buat saya bangkit semula ialah keluarga, dan anak saya Nadhir yang ketika itu berusia dua tahun.</p>
-        <p>Sejak 2019, saya serius menurunkan ilmu closing yang praktikal kepada lebih 10,000 usahawan. Hari ini saya masuk ke HQ klien setiap bulan untuk semak KPI, buat roleplay, dan baiki skrip WhatsApp team mereka.</p>
-        <p>Ebook ni himpunan pengalaman tu. <strong>Flow, skrip dan framework yang sama</strong> saya guna dalam sesi coaching, supaya team anda boleh mula tanpa tunggu saya datang.</p>
-      </div>
-    </div>
-    <div class="creds">
-      <span>10,000+ usahawan dilatih sejak 2019</span>
-      <span>Certified Professional Learning Facilitator (Mastery)</span>
-      <span>Certified Practitioner Colored Brain</span>
-      <span>3 syarikat dalam coaching bulanan</span>
+    <span class="pill"><svg><use href="#i-eye"/></svg>Realiti kebanyakan bisnes</span>
+    <h2 class="h2">Penat bayar iklan, tapi <span class="mark">sales tetap tak naik?</span></h2>
+    <p class="lead">Selalunya bukan salah produk anda. Cuma cara team layan lead di WhatsApp belum kena. Ni 4 sebab yang paling biasa Sir jumpa.</p>
+    <div class="pains">
+      <div class="pain"><div class="ico"><svg><use href="#i-money"/></svg></div><div><h3>Terus bagi harga</h3><p>Lead baru bagi salam, team terus hantar senarai harga. Prospek senyap, dan duit iklan terbakar.</p></div></div>
+      <div class="pain"><div class="ico"><svg><use href="#i-chat"/></svg></div><div><h3>Follow up satu ayat</h3><p>"Masih berminat ke cik?" Lepas dua kali bluetick, lead terus dilupakan.</p></div></div>
+      <div class="pain"><div class="ico"><svg><use href="#i-users"/></svg></div><div><h3>Pilih-pilih prospek</h3><p>Team cuma layan 10 orang yang "nampak nak beli". 90 lagi database terbiar sejuk.</p></div></div>
+      <div class="pain"><div class="ico"><svg><use href="#i-steps"/></svg></div><div><h3>Tiada nombor, tiada SOP</h3><p>Target RM100,000 diumum, tapi team tak tahu berapa leads perlu dilayan setiap hari.</p></div></div>
     </div>
   </div>
 </section>
 
-<!-- PREVIEW 2026 -->
-<section class="band tint" id="ebook-2026">
+<!-- 3. PROCESS -->
+<section class="band tint">
   <div class="col stack">
-    <span class="newtag">Baru 2026</span>
-    <h2 class="h2">2026: Wassap Masih Relevan?</h2>
-    <p style="text-align:center;color:var(--muted)">Memang susah. Rejection, bluetick dan survey. Tapi boleh je buat, kalau team fokus kepada <span class="mark">aktiviti sales</span>, bukan sekadar tunggu payment.</p>
-    <div class="chapters">
-      <div class="chap"><span>01</span><h3>Nak target berapa?</h3><p>Berhenti berharap, mula mengira. Tukar target RM jadi jumlah leads yang team wajib layan hari ini.</p></div>
-      <div class="chap"><span>02</span><h3>Perlu team yang macam mana?</h3><p>Tak semua orang boleh buat sales. Scan warna otak team anda dengan Colored Brain.</p></div>
-      <div class="chap"><span>03</span><h3>Skrip Wassap 2026</h3><p>Greeting 6 saat, fact finding, 3 level product presentation, seni letak harga dan Fast Action Bonus.</p></div>
-      <div class="chap"><span>04</span><h3>Dah buat semua, tak beli jugak?</h3><p>Semak KMP: Kenal, Mahu, Mampu. Sebelum mengadu takde rezeki.</p></div>
+    <h2 class="h2">Jadi, apa yang team anda perlukan?</h2>
+    <p class="lead">Bukan bajet iklan lebih besar. Anda perlukan <strong>proses yang betul</strong>, dari kira target sampai prospek bayar. Ni proses dalam Ebook 2026:</p>
+    <ol class="steps">
+      <li class="step"><div class="ico"><svg><use href="#i-calc"/></svg></div><div><small>LANGKAH 1</small><h3>Tukar target RM jadi aktiviti harian</h3><p>Formula 1-4-6-10: untuk RM1,000 sehari, team perlu layan 110 leads. Berhenti berharap, mula mengira.</p></div></li>
+      <li class="step"><div class="ico"><svg><use href="#i-steps"/></svg></div><div><small>LANGKAH 2</small><h3>Kenal 4 tahap prospek</h3><p>Lead, Prospek, Potential, Customer. Setiap tahap perlu cara layan dan trigger yang berbeza.</p></div></li>
+      <li class="step"><div class="ico"><svg><use href="#i-brain"/></svg></div><div><small>LANGKAH 3</small><h3>Letak orang yang betul di posisi yang betul</h3><p>Scan warna otak team dengan Colored Brain. Tak semua orang boleh buat sales, dan tak semua perlu jadi striker.</p></div></li>
+      <li class="step"><div class="ico"><svg><use href="#i-chat"/></svg></div><div><small>LANGKAH 4</small><h3>Guna skrip Wassap 2026</h3><p>Greeting 6 saat, fact finding, 3 level product presentation, seni letak harga dan Fast Action Bonus.</p></div></li>
+      <li class="step"><div class="ico"><svg><use href="#i-check"/></svg></div><div><small>LANGKAH 5</small><h3>Semak KMP bila prospek tak beli</h3><p>Kenal, Mahu, Mampu. Semak tiga perkara ni dulu sebelum mengadu takde rezeki.</p></div></li>
+    </ol>
+  </div>
+</section>
+
+<!-- 4. SOLUTION -->
+<section class="band deep" id="ebook-2026">
+  <div class="col stack">
+    <span class="pill"><svg><use href="#i-spark"/></svg>Solusinya</span>
+    <h2 class="h2">Sebab itu Sir Dharma susun semuanya dalam <span class="mark">Ebook 2026</span>.</h2>
+    <p class="lead">Bukan teori. Ini yang Sir lalui sendiri, dan yang Sir guna setiap bulan bila masuk ke HQ klien untuk coaching team sales.</p>
+
+    <div class="author">
+      <img src="assets/galeri/sir-dharma-potret.jpg" alt="Sir Dharma" width="240" height="240">
+      <div>
+        <h3>Dharma Syamim Fikri</h3>
+        <p class="role">SALES CLOSING SPECIALIST</p>
+        <p>Lebih 8 tahun di lapangan jualan, dan sejak 2019 dah turunkan ilmu closing kepada lebih 10,000 usahawan. Pernah bantu jenama seperti Zafesha Simply, MamaDil dan Young Living mengukuhkan team sales mereka.</p>
+      </div>
     </div>
 
-    <p class="lbl" style="text-align:center">Intip muka surat · leret ke tepi</p>
+    <div class="syllabus">
+      <h3>Apa yang anda belajar dalam 105 muka surat</h3>
+      <ol>
+        <li>Formula "Mudahnya Menjual" 1-4-6-10: kira berapa leads perlu masuk hari ini</li>
+        <li>Beza Lead, Prospek, Potential dan Customer, dan cara trigger setiap satu</li>
+        <li>Mentaliti team "Berharap" vs team "Mengira", dan aktiviti harian sang juara</li>
+        <li>Colored Brain: scan warna otak team dan susun team sales yang lengkap</li>
+        <li>WA vs E-Comm: kenapa closing di WhatsApp boleh capai ROAS 5 ke 6</li>
+        <li>Chatbot vs staf, dan cara main selamat supaya akaun tak kena banned</li>
+        <li>Skrip 2026: greeting, fact finding, product presentation dan price presentation</li>
+        <li>Close the deal, Fast Action Bonus, dan checklist KMP bila prospek tak beli</li>
+      </ol>
+    </div>
+
+    <p class="lbl center">Intip muka surat · leret ke tepi</p>
     <div class="pages" tabindex="0" aria-label="Preview muka surat Ebook 2026">
       <article class="page">
         <span class="pn">Muka surat 8</span>
@@ -436,21 +464,105 @@ footer{border-top:1px solid var(--line);padding-block:28px;font-size:13.5px;colo
         <span class="foot">2026 Wassap Masih Relevan · SD</span>
       </article>
     </div>
-    <p class="pages-note">Petikan teks sebenar dari ebook. Versi penuh 105 muka surat dalam PDF.</p>
-    <div class="buy-wrap">
-      <a class="btn-buy buy" data-item="Ebook 2026" data-value="37" href="https://sweetcactusenterprise.bcl.my/form/ebook-sirdharma" target="_blank" rel="noopener">
-        <b>Dapatkan Ebook 2026</b>
-        <small>RM37 sahaja · harga asal RM67</small>
-      </a>
+    <p class="note">Petikan teks sebenar dari ebook. Versi penuh 105 muka surat dalam PDF.</p>
+    <a class="btn-buy btn-wide" href="#harga"><span>Dapatkan Ebook 2026</span><span class="arr"><svg><use href="#i-arrow"/></svg></span></a>
+  </div>
+</section>
+
+<!-- 5. PROOF: STAT + GALLERY -->
+<section class="band">
+  <div class="col stack">
+    <p class="bigstat">10,000+</p>
+    <h2 class="h2">Usahawan dah belajar closing dengan Sir Dharma</h2>
+    <p class="lead">Dari bengkel fizikal, sesi online, sampai coaching bulanan di HQ klien. Sekarang Sir sedang coaching team sales tiga syarikat dalam bidang travel umrah dan pembinaan.</p>
+    <div class="gallery">
+      <img class="wide" src="assets/galeri/coaching-hq.jpg" alt="Sir Dharma coaching team sales di bilik mesyuarat HQ klien" loading="lazy" width="1000" height="695">
+      <img src="assets/galeri/sir-dharma-latihan.jpg" alt="Sir Dharma menerangkan skrip closing di whiteboard" loading="lazy" width="712" height="712">
+      <img src="assets/galeri/team-farmasi.jpg" alt="Gambar berkumpulan selepas latihan bersama team farmasi" loading="lazy" width="1000" height="567">
+      <img src="assets/galeri/sesi-zoom.jpg" alt="Sesi pembelajaran online Sir Dharma melalui Zoom" loading="lazy" width="1000" height="422">
+      <img src="assets/galeri/podcast.jpg" alt="Sir Dharma dalam podcast Recharge Usahawan" loading="lazy" width="1000" height="566">
     </div>
   </div>
 </section>
 
-<!-- INTIP -->
-<section class="band" id="intip">
+<!-- 6. FIT -->
+<section class="band tint">
   <div class="col stack">
-    <p class="kicker">Intip isi ebook</p>
-    <h2 class="h2">Praktikal. Ini antara skrip yang team anda boleh terus guna.</h2>
+    <h2 class="h2">Ebook ni sangat sesuai untuk anda kalau:</h2>
+    <ul class="fit">
+      <li>Anda founder atau team leader, dan leads dah masuk tapi closing rate rendah</li>
+      <li>Team sales anda tak tahu berapa prospek perlu dilayan untuk capai target harian</li>
+      <li>Salesperson cepat "koyak" bila kena bluetick atau reject</li>
+      <li>Anda nak bina team sales, tapi tak pasti siapa sesuai untuk posisi apa</li>
+      <li>Anda jual servis atau produk tiket tinggi yang perlukan kepercayaan, bukan "add to cart"</li>
+    </ul>
+    <a class="btn-buy btn-wide" href="#harga"><span>Ya, ni untuk saya</span><span class="arr"><svg><use href="#i-arrow"/></svg></span></a>
+  </div>
+</section>
+
+<!-- 7. REAL MESSAGES -->
+<section class="band">
+  <div class="col stack">
+    <h2 class="h2">Mesej sebenar yang Sir terima</h2>
+    <p class="lead">Dari salesperson dan team yang guna cara closing Sir Dharma.</p>
+    <div class="chats">
+      <div class="chat">
+        <div class="chat-head">Team Starfighter<small>WhatsApp</small></div>
+        <div class="chat-body">
+          <div class="b in">Salam Sir. Alhamdulillah. Good news today for us in Starfighter!!! We have closed today. 3 cases booked, worth RM800,000 🙏🙏🙏<time>17:13</time></div>
+          <div class="b out">Alhamdulillah. Ada dari sesi call kemaren tak?<time>17:14</time></div>
+          <div class="b in">2 dari call kelmarin<time>17:16</time></div>
+          <div class="b out">Alhamdulillah, sebab semua buat sekali. Nanti kita jumpa semua pulak dalam zoom ya</div>
+        </div>
+      </div>
+      <div class="chat">
+        <div class="chat-head">Salesperson<small>WhatsApp</small></div>
+        <div class="chat-body">
+          <div class="b in">Ayat ni la yg di cari Sir.. sir mana tau prospek saya tgh fikir 😅</div>
+          <div class="b out">hahahaha.. nnti ada banyak ayat saya buatkan ya.<time>4:29 PM</time></div>
+          <div class="b in">Sir ayat ni boleh pakai juga ye dia nak bincang dgn wife lepas tu bila follow up dia cakap nak pakej bawah 7k<time>4:31 PM</time></div>
+          <div class="b out">boleh 😁😁<time>4:32 PM</time></div>
+          <div class="b in">Jap try<time>4:32 PM</time></div>
+        </div>
+      </div>
+    </div>
+    <p class="note">Dipetik dari screenshot asal. Nombor telefon disembunyikan.</p>
+  </div>
+</section>
+
+<!-- 8. TESTIMONIALS -->
+<section class="band tint" id="testimoni">
+  <div class="col stack">
+    <h2 class="h2">Mereka dah mula. <span class="mark">Sekarang giliran team anda.</span></h2>
+    <div class="quotes">
+      <article class="q"><p>Sangat detail dan hampir lengkap. Sesuai untuk syarikat yang ada team sale. Mereka ada guideline untuk dirujuk. HOD boleh double cek jika ada soalan dari team sales, SirDharma sediakan sekali flow dan SOP, apa nak kena buat seperti jika kena reject dan bluetick.</p><footer><span class="av">SA</span><div><b>Puan Siti Aisah</b><span>Zafesha Simply</span></div></footer></article>
+      <article class="q"><p>Memang template ini ngam untuk yang serious nak buat sales, sebab ada kaedah paling penting dalam sales iaitu "Personal Touch". 7 tahun closing, memang terbukti method ini berkesan. Overall 10/10, Sir. Konteks ebook = praktikal + simple.</p><footer><span class="av">HH</span><div><b>Tuan Haqimi Hassan</b><span>The Captain</span></div></footer></article>
+      <article class="q"><p>Hampir setahun Sir Dharma bersama WEMAP, beliau telah membantu lebih 200 brands. Gaya closing beliau telah dipraktikkan oleh team WEMAP sendiri dan menjadi penyumbang 6 angka pertama kami di WEMAP.</p><footer><span class="av">SU</span><div><b>Puan Siti Umirah</b><span>WEMAP</span></div></footer></article>
+    </div>
+    <div class="wall" id="wall"></div>
+  </div>
+</section>
+
+<!-- 9. BRANDS + INDUSTRIES -->
+<section class="band">
+  <div class="col stack">
+    <p class="lbl center">Antara brand yang pernah bekerjasama</p>
+    <div class="brands">
+      <span>WEMAP</span><span>Zafesha Simply</span><span>MamaDil</span><span>Young Living</span><span>Origina</span><span>Kekasih The Melvins</span><span>Nilofa</span><span>FruDolly</span><span>BeauSiti</span><span>The Captain</span><span>Starfighter</span>
+    </div>
+    <h2 class="h2" style="margin-top:28px">Khas untuk bisnes yang jual guna WhatsApp</h2>
+    <p class="lead">Contoh skrip dan framework dalam ebook Sir Dharma meliputi bidang-bidang ni:</p>
+    <div class="chips">
+      <span>Travel &amp; umrah</span><span>Hartanah</span><span>Takaful</span><span>Produk kesihatan</span><span>Skincare</span><span>Klinik &amp; spa</span><span>Recruitment</span><span>Kereta recond</span><span>Sewa kereta</span><span>Catering</span><span>Coway</span><span>Gadget</span>
+    </div>
+  </div>
+</section>
+
+<!-- 10. INTIP BUNDLE TERAS -->
+<section class="band tint" id="intip">
+  <div class="col stack">
+    <span class="pill"><svg><use href="#i-book"/></svg>Nak skrip lebih lengkap?</span>
+    <h2 class="h2">Intip Bundle Teras: 3 ebook skrip closing</h2>
     <div class="ptabs" role="tablist" aria-label="Pilih ebook">
       <button class="ptab" type="button" role="tab" id="pt-skrip" aria-controls="pn-skrip" aria-selected="true">Skrip Closing 3.0</button>
       <button class="ptab" type="button" role="tab" id="pt-reject" aria-controls="pn-reject" aria-selected="false">Handle Rejection</button>
@@ -459,35 +571,26 @@ footer{border-top:1px solid var(--line);padding-block:28px;font-size:13.5px;colo
 
     <div class="panel" role="tabpanel" id="pn-skrip" aria-labelledby="pt-skrip">
       <h3>Flow closing 10 langkah, dari salam sampai terima kasih</h3>
-      <ol class="flow">
-        <li>Introduction</li><li>Fact Finding</li><li>Emotional Touch</li><li>Suggestion</li><li>Product Detail</li><li>Senarai Pakej</li><li>Rekemen Pakej</li><li>Payment</li><li>Detail</li><li>Gratitude</li>
-      </ol>
+      <ol class="flow"><li>Introduction</li><li>Fact Finding</li><li>Emotional Touch</li><li>Suggestion</li><li>Product Detail</li><li>Senarai Pakej</li><li>Rekemen Pakej</li><li>Payment</li><li>Detail</li><li>Gratitude</li></ol>
       <p class="lbl">Contoh: langkah Rekemen Pakej</p>
       <div class="compare">
         <div class="say bad"><span class="tagl">Cara biasa</span><div class="msg">Puan nak pakej yang mana?</div><p class="res">Prospek kena fikir sendiri. Selalunya terus bluetick.</p></div>
         <div class="say good"><span class="tagl">Skrip SirDharma</span><div class="msg">Diatas adalah 3 pakej terbaik kami, saya cadangkan puan pilih sahaja pakej Hot Selling kami. Kerana berdasarkan feedback kami, semua yang amalkan atas 3 bulan mengaku masalah mereka mula selesai.</div><p class="res">Beri cadangan, sebab dan bukti dalam satu mesej.</p></div>
       </div>
-      <p class="tip"><b>Petua Fact Finding:</b> tanya 2 soalan sahaja dalam 1 chat, fokus kepada masalah prospek. Ebook ni juga ada flow khas bila prospek bluetick, minta harga terus, atau beri rejection.</p>
     </div>
 
     <div class="panel" role="tabpanel" id="pn-reject" aria-labelledby="pt-reject" hidden>
-      <h3>Struktur 3 langkah handle rejection</h3>
-      <div class="steps3">
-        <div><b>Empati</b>Mula dengan "Saya faham" dan ulang semula alasan prospek.</div>
-        <div><b>Bangkitkan rasa rugi</b>Tunjuk apa yang prospek akan terlepas, dengan nada lembut.</div>
-        <div><b>Soalan kepastian</b>Tanya sama ada pakej sesuai, atau bajet yang prospek selesa.</div>
-      </div>
+      <h3>Struktur 3 langkah: empati, rasa rugi, soalan kepastian</h3>
       <p class="lbl">Contoh: prospek nak tunggu gaji</p>
       <div class="compare">
         <div class="say bad"><span class="tagl">Cara biasa</span><div class="msg">Okay takpe puan, nanti gaji masuk roger saya ya.</div><p class="res">Lead hilang. Bila gaji masuk, duit dah ke tempat lain.</p></div>
         <div class="say good"><span class="tagl">Skrip SirDharma</span><div class="msg">Saya faham anda nak tunggu gaji. Saya pun faham kadang-kadang ini masa yang agak ketat. Cuma tawaran ini ada tarikh tamat, apa kata kita lock dulu dan lengkapkan bila gaji dah masuk?</div><p class="res">Dari skrip ahli T5 High Performer Circle dalam ebook.</p></div>
       </div>
-      <p class="lbl">Pendekatan Colored Brain: lain prospek, lain cara</p>
       <div class="brains">
-        <div class="brain" style="--c:#4cc38a"><b>Hijau</b>Kreatif dan spontan. Beri fleksibiliti, jangan tekan.</div>
-        <div class="brain" style="--c:#ff6b5e"><b>Merah</b>Logik dan teratur. Beri fakta, langkah demi langkah.</div>
-        <div class="brain" style="--c:#b58cff"><b>Ungu</b>Perfectionist. Beri panduan terperinci dan senarai semak.</div>
-        <div class="brain" style="--c:#5aa9ff"><b>Biru</b>Emosi dan hubungan. Guna empati dan cerita peribadi.</div>
+        <div class="brain" style="--c:#4cc38a"><b>Hijau</b>Kreatif dan spontan. Beri fleksibiliti.</div>
+        <div class="brain" style="--c:#ff6b5e"><b>Merah</b>Logik dan teratur. Beri fakta langkah demi langkah.</div>
+        <div class="brain" style="--c:#b58cff"><b>Ungu</b>Perfectionist. Beri panduan terperinci.</div>
+        <div class="brain" style="--c:#5aa9ff"><b>Biru</b>Emosi dan hubungan. Guna empati.</div>
       </div>
     </div>
 
@@ -498,248 +601,95 @@ footer{border-top:1px solid var(--line);padding-block:28px;font-size:13.5px;colo
         <li><span>HARI 10</span>Care</li><li><span>HARI 14</span>Hardsell (lembut)</li><li><span>HARI 18</span>Educate</li>
         <li><span>HARI 22</span>Reminder</li><li><span>HARI 28</span>Care</li><li><span>HARI 35</span>Take it or leave it</li>
       </ol>
-      <p class="lbl">Contoh: follow up Care, Hari 10</p>
       <div class="compare">
         <div class="say bad"><span class="tagl">Cara biasa</span><div class="msg">Masih berminat ke cik?</div><p class="res">Mudah dijawab "tak", atau terus diabaikan.</p></div>
-        <div class="say good"><span class="tagl">Skrip SirDharma</span><div class="msg">Assalamualaikum puan, saya harap semuanya berjalan lancar. Haritu puan ada cerita tentang [masalah], dan saya ingin tahu, dah selesai ke masalah itu?</div><p class="res">Prospek rasa diambil berat, bukan dikejar.</p></div>
+        <div class="say good"><span class="tagl">Skrip SirDharma</span><div class="msg">Assalamualaikum puan, saya harap semuanya berjalan lancar. Haritu puan ada cerita tentang [masalah], dan saya ingin tahu, dah selesai ke masalah itu?</div><p class="res">Follow up Care, Hari 10.</p></div>
       </div>
-      <p class="tip"><b>Waktu terbaik:</b> 8 hingga 11 pagi untuk kebanyakan prospek. Jangan follow up selepas 9 malam kecuali prospek dah beri izin. Bonus dalam ebook: 5 mesej untuk hidupkan semula database lama.</p>
     </div>
   </div>
 </section>
 
-<!-- OFFER -->
-<section class="band tint" id="bundle">
+<!-- 11. PRICING -->
+<section class="band deep" id="harga">
   <div class="col stack">
-    <p class="kicker">Apa yang anda dapat</p>
-    <h2 class="h2">Mula dengan Ebook 2026. Lengkapkan dengan Bundle Teras.</h2>
-    <div class="offer">
-      <article class="ebook" style="border:2px solid var(--cta)">
-        <div class="cover" aria-hidden="true" style="background:var(--cta);color:var(--cta-ink)">2026</div>
-        <div>
-          <h3>2026: Wassap Masih Relevan?</h3>
-          <p class="val">Terbaru · 105 muka surat · Nilai <s>RM67</s> <b style="color:var(--cta)">RM37</b></p>
-          <ul>
-            <li>Formula 1-4-6-10: tukar target RM jadi jumlah leads harian</li>
-            <li>Colored Brain untuk pilih, scan dan urus team sales</li>
-            <li>Skrip Wassap 2026: greeting, fact finding, price presentation, Fast Action Bonus</li>
-            <li>Checklist KMP bila dah buat semua tapi prospek tak beli</li>
-          </ul>
-        </div>
-      </article>
-      <p class="lbl" style="margin-top:10px">Bundle Teras · 3 ebook · RM99</p>
-      <article class="ebook">
-        <div class="cover" aria-hidden="true">Skrip 3.0</div>
-        <div>
-          <h3>Template Skrip Closing SirDharma 3.0</h3>
-          <p class="val">Nilai <s>RM49</s></p>
-          <ul>
-            <li>Flow closing 10 langkah, dari Introduction sampai Gratitude</li>
-            <li>Contoh skrip lengkap untuk niche produk dan fesyen</li>
-            <li>Flow khas bila prospek bluetick, minta harga terus, atau beri rejection</li>
-          </ul>
-        </div>
-      </article>
-      <article class="ebook">
-        <div class="cover" aria-hidden="true">10 Framework</div>
-        <div>
-          <h3>10 Framework Handle Rejection Like Pro</h3>
-          <p class="val">Nilai <s>RM39</s></p>
-          <ul>
-            <li>Struktur 3 langkah: empati, rasa rugi, soalan kepastian</li>
-            <li>Pendekatan Colored Brain untuk 4 jenis prospek</li>
-            <li>Skrip sebenar untuk "tunggu gaji", "tanya suami", "survey dulu" dan banyak lagi</li>
-          </ul>
-        </div>
-      </article>
-      <article class="ebook">
-        <div class="cover" aria-hidden="true">Follow Up</div>
-        <div>
-          <h3>Framework Follow Up, Idea &amp; Template Ayat</h3>
-          <p class="val">Nilai <s>RM39</s></p>
-          <ul>
-            <li>Jadual 9 kali follow up dari Hari 1 hingga Hari 35</li>
-            <li>5 jenis follow up: Appreciation, Reminder, Educate, Care, Hardsell</li>
-            <li>Bonus: strategi blasting database lama</li>
-          </ul>
-        </div>
-      </article>
-    </div>
-  </div>
-</section>
-
-<!-- PROVEN -->
-<section class="band" id="testimoni">
-  <div class="col stack">
-    <p class="kicker">Proven</p>
-    <h2 class="h2">Hasil dari team yang guna cara ni.</h2>
-    <div class="proof">
-      <div class="chip"><b>3 kes ditempah, RM800,000</b><span>Team Starfighter, selepas sesi call bersama Sir Dharma</span></div>
-      <div class="chip"><b>RM26,949 dalam 1 jam 15 minit</b><span>Jualan peserta semasa bengkel closing, ditulis di whiteboard</span></div>
-      <div class="chip"><b>"Ayat ni la yg di cari Sir"</b><span>Salesperson yang prospeknya nak bincang dengan isteri dulu</span></div>
-      <div class="chip"><b>200+ brands</b><span>dibantu melalui program WEMAP, kata Puan Siti Umirah dari WEMAP</span></div>
-    </div>
-    <div class="wall" id="wall"></div>
-
-    <p class="lbl" style="text-align:center;margin-top:20px">Brand yang pernah bekerjasama</p>
-    <div class="brands">
-      <span>WEMAP</span><span>Origina</span><span>Kekasih The Melvins</span><span>Nilofa</span><span>FruDolly</span><span>BeauSiti</span><span>Zafesha Simply</span><span>The Captain</span><span>Starfighter</span><span>MamaDil</span><span>Young Living</span>
-    </div>
-
-    <p class="lbl" style="text-align:center;margin-top:20px">Di lapangan</p>
-    <div class="gallery">
-      <figure class="wide"><img src="assets/galeri/coaching-hq.jpg" alt="Sir Dharma coaching team sales di bilik mesyuarat HQ klien" loading="lazy" width="1000" height="695"><figcaption>Sesi coaching bersama team sales di HQ klien</figcaption></figure>
-      <figure><img src="assets/galeri/sir-dharma-latihan.jpg" alt="Sir Dharma menerangkan skrip closing di whiteboard" loading="lazy" width="712" height="712"><figcaption>Bengkel skrip closing dan handle rejection</figcaption></figure>
-      <figure><img src="assets/galeri/team-farmasi.jpg" alt="Gambar berkumpulan selepas latihan bersama team farmasi" loading="lazy" width="1000" height="567"><figcaption>Latihan team sales dan pharmacist</figcaption></figure>
-      <figure><img src="assets/galeri/sesi-zoom.jpg" alt="Sesi pembelajaran online Sir Dharma melalui Zoom" loading="lazy" width="1000" height="422"><figcaption>Learning session online untuk team agen</figcaption></figure>
-      <figure><img src="assets/galeri/podcast.jpg" alt="Sir Dharma dalam podcast Recharge Usahawan" loading="lazy" width="1000" height="566"><figcaption>Podcast Recharge Usahawan</figcaption></figure>
-    </div>
-  </div>
-</section>
-
-<!-- PRICE -->
-<section class="band tint" id="harga">
-  <div class="col">
-    <div class="pricebox" style="margin-bottom:22px">
-      <span class="tag">Terbaru 2026</span>
-      <h3>2026: Wassap Masih Relevan?</h3>
-      <table class="receipt">
-        <tr><td>Ebook PDF, 105 muka surat</td><td>RM67</td></tr>
-        <tr class="total"><td>Harga sekarang</td><td><s>RM67</s></td></tr>
-      </table>
-      <div>
-        <div class="big"><small>RM</small>37</div>
-        <p class="save">Jimat RM30</p>
+    <h2 class="h2">Mula dengan <span class="mark">Ebook 2026</span> hari ini</h2>
+    <p class="lead">Pilih ebook anda di halaman bayaran. Link ebook terus keluar dalam resit selepas bayaran berjaya.</p>
+    <div class="pcard">
+      <div class="pcard-top">
+        <span class="k">Ebook terbaru 2026</span>
+        <h3>2026: Wassap Masih Relevan?</h3>
+        <p class="val">Bernilai <b>RM67</b> · PDF 105 muka surat</p>
+        <ul class="incl">
+          <li>4 bab: target, team, skrip Wassap 2026, dan checklist KMP</li>
+          <li>Formula 1-4-6-10 dan jadual aktiviti harian team</li>
+          <li>Contoh skrip ikut niche: takaful, spa, kereta recond, catering dan lain-lain</li>
+          <li>Boleh dibaca di telefon, tablet atau komputer</li>
+        </ul>
+        <div class="by"><img src="assets/galeri/sir-dharma-potret.jpg" alt="" width="240" height="240"><div>Ditulis oleh<b>Sir Dharma Syamim Fikri</b></div></div>
       </div>
-      <div class="buy-wrap" style="width:100%">
-        <a class="btn-buy buy" data-item="Ebook 2026" data-value="37" href="https://sweetcactusenterprise.bcl.my/form/ebook-sirdharma" target="_blank" rel="noopener">
-          <b>Beli Ebook 2026 sekarang</b>
-          <small>Tanda "Ebook 2026" di halaman bayaran</small>
-        </a>
-        <div class="trust"><span>Bayar FPX</span><span>Link ebook dalam resit &amp; emel</span></div>
-      </div>
-    </div>
-    <div class="pricebox">
-      <span class="tag">Nak skrip lengkap?</span>
-      <h3>Bundle Teras Sir Dharma</h3>
-      <table class="receipt">
-        <tr><td>Template Skrip Closing SirDharma 3.0</td><td>RM49</td></tr>
-        <tr><td>10 Framework Handle Rejection Like Pro</td><td>RM39</td></tr>
-        <tr><td>Framework Follow Up, Idea &amp; Template Ayat</td><td>RM39</td></tr>
-        <tr class="total"><td>Jumlah kalau beli satu-satu</td><td><s>RM127</s></td></tr>
-      </table>
-      <div>
-        <div class="big"><small>RM</small>99</div>
-        <p class="save">Jimat RM28</p>
-      </div>
-      <div class="buy-wrap" style="width:100%">
-        <a class="btn-buy buy" data-item="Bundle Teras" data-value="99" href="https://sweetcactusenterprise.bcl.my/form/ebook-sirdharma" target="_blank" rel="noopener">
-          <b>Beli Bundle Teras sekarang</b>
-          <small>Tanda "Bundle Teras" di halaman bayaran</small>
-        </a>
-        <div class="trust"><span>Bayar FPX</span><span>Link ebook dalam resit &amp; emel</span></div>
+      <div class="pcard-bot">
+        <p class="k">Pilihan ebook</p>
+        <div class="opt hot"><span class="flag">Terbaru</span><div><b>Ebook 2026</b><span>Wassap Masih Relevan?</span></div><div class="pr"><small>RM</small>37<s>RM67</s></div></div>
+        <div class="opt"><div><b>Bundle Teras</b><span>Skrip 3.0 + Handle Rejection + Follow Up</span></div><div class="pr"><small>RM</small>99<s>RM127</s></div></div>
+        <div class="opt"><div><b>Bundle Learning Lab</b><span>Vol 1, 2 dan 3</span></div><div class="pr"><small>RM</small>69<s>RM87</s></div></div>
+        <div class="opt"><div><b>Framework ikut industri</b><span>8 pilihan industri, setiap satu</span></div><div class="pr"><small>RM</small>10</div></div>
+        <a class="btn-buy btn-wide buy" data-item="Ebook 2026" data-value="37" href="https://sweetcactusenterprise.bcl.my/form/ebook-sirdharma" target="_blank" rel="noopener" style="margin-top:8px"><span>Dapatkan sekarang</span><span class="arr"><svg><use href="#i-arrow"/></svg></span></a>
+        <p class="note">Tanda ebook pilihan anda di halaman bayaran. Boleh pilih lebih dari satu.</p>
+        <div class="secure"><span>🔒 Bayaran selamat melalui Bayarcash (FPX)</span><span>Link ebook dalam resit &amp; emel</span></div>
       </div>
     </div>
   </div>
 </section>
 
-<!-- ADD-ONS -->
+<!-- 12. FOUNDER -->
 <section class="band">
-  <div class="col stack">
-    <p class="kicker">Tambah ikut industri anda</p>
-    <h2 class="h2">Framework closing khas industri. <span class="mark">RM10 sahaja.</span></h2>
-    <p style="text-align:center;color:var(--muted)">Tanda sekali di halaman bayaran yang sama. Cuma adjust, copy &amp; paste.</p>
-    <div class="addons">
-      <a class="addon buy" data-item="Industri Travel" data-value="10" href="https://sweetcactusenterprise.bcl.my/form/ebook-sirdharma" target="_blank" rel="noopener">Travel &amp; Tours <span>RM10</span></a>
-      <a class="addon buy" data-item="Industri Hartanah" data-value="10" href="https://sweetcactusenterprise.bcl.my/form/ebook-sirdharma" target="_blank" rel="noopener">Hartanah <span>RM10</span></a>
-      <a class="addon buy" data-item="Industri Takaful" data-value="10" href="https://sweetcactusenterprise.bcl.my/form/ebook-sirdharma" target="_blank" rel="noopener">Pelan Takaful <span>RM10</span></a>
-      <a class="addon buy" data-item="Industri Recruitment" data-value="10" href="https://sweetcactusenterprise.bcl.my/form/ebook-sirdharma" target="_blank" rel="noopener">Recruitment <span>RM10</span></a>
-      <a class="addon buy" data-item="Industri Kesihatan" data-value="10" href="https://sweetcactusenterprise.bcl.my/form/ebook-sirdharma" target="_blank" rel="noopener">Produk Kesihatan <span>RM10</span></a>
-      <a class="addon buy" data-item="Industri Turun Berat Badan" data-value="10" href="https://sweetcactusenterprise.bcl.my/form/ebook-sirdharma" target="_blank" rel="noopener">Program Turun Berat Badan <span>RM10</span></a>
-      <a class="addon buy" data-item="Industri Coway" data-value="10" href="https://sweetcactusenterprise.bcl.my/form/ebook-sirdharma" target="_blank" rel="noopener">Coway <span>RM10</span></a>
-      <a class="addon buy" data-item="Industri Gadget" data-value="10" href="https://sweetcactusenterprise.bcl.my/form/ebook-sirdharma" target="_blank" rel="noopener">Gadget Elektronik <span>RM10</span></a>
-    </div>
-
-    <h3 style="font-size:1.3rem;margin-top:28px">Atau beli satu-satu</h3>
-    <table class="alacarte">
-      <tr><td>Bundle Learning Lab (Vol 1–3)<small>SOP Closing + Rahsia Topsales + Handle Rejection &amp; Follow Up (edisi Learning Lab)</small></td><td>RM69</td></tr>
-      <tr><td>Template Skrip Closing SirDharma 3.0</td><td>RM49</td></tr>
-      <tr><td>10 Framework Handle Rejection Like Pro</td><td>RM39</td></tr>
-      <tr><td>Framework Follow Up, Idea &amp; Template Ayat</td><td>RM39</td></tr>
-      <tr><td>Learning Lab Vol 1, 2 atau 3<small>Setiap satu</small></td><td>RM29</td></tr>
-    </table>
-  </div>
-</section>
-
-<!-- FOUNDER -->
-<section class="band tint">
   <div class="col">
     <div class="founder">
       <span class="slots"><span class="dots" aria-hidden="true"><i class="full"></i><i class="full"></i><i class="full"></i><i></i><i></i></span>Slot coaching terbuka: 2 daripada 5</span>
       <h3>Nak Sir Dharma sendiri yang jaga team sales anda?</h3>
-      <p>Mula dengan sesi Deep Dive percuma di Zoom, bersama founder dan wakil team sales anda. Sir semak proses jualan dan chat WhatsApp team, kemudian cadangkan langkah seterusnya: Setup Team Sales, coaching bulanan, atau cukup dengan toolkit ni.</p>
+      <p>Mula dengan sesi Deep Dive percuma di Zoom, bersama founder dan wakil team sales anda. Sir semak proses jualan dan chat WhatsApp team, kemudian cadangkan langkah seterusnya: Setup Team Sales, coaching bulanan, atau cukup dengan ebook.</p>
       <p style="font-size:15px">Bekerja dalam team? Kenalkan Sir Dharma kepada founder atau HR syarikat anda. Bila Sir mula berbincang tentang training atau consulting dengan mereka, anda dapat Ebook 2026 <b style="color:var(--cta)">percuma</b>.</p>
       <a class="btn-line" id="deep-dive" href="https://wa.me/60167677759?text=Salam%20Sir%20Dharma%2C%20saya%20nak%20tempah%20slot%20Deep%20Dive%20untuk%20team%20sales%20saya." target="_blank" rel="noopener">Tempah slot Deep Dive di WhatsApp</a>
     </div>
   </div>
 </section>
 
-<!-- FAQ -->
-<section class="band" id="soalan">
+<!-- 13. FAQ -->
+<section class="band tint" id="soalan">
   <div class="col stack">
-    <p class="kicker">Soalan lazim</p>
-    <h2 class="h2">Sebelum anda beli.</h2>
+    <h2 class="h2" style="text-align:left">Soalan lazim.</h2>
     <div>
-      <details>
-        <summary>Ebook ni dalam format apa?</summary>
-        <p>PDF. Boleh dibuka di telefon, tablet atau komputer.</p>
-      </details>
-      <details>
-        <summary>Bila saya dapat ebook?</summary>
-        <p>Sejurus selepas bayaran berjaya. Link ebook dipaparkan dalam resit dan dihantar ke emel yang anda isi semasa bayar.</p>
-      </details>
-      <details>
-        <summary>Sesuai untuk industri saya ke?</summary>
-        <p>Bundle Teras ditulis untuk sesiapa yang closing melalui WhatsApp. Kalau industri anda ada dalam senarai framework RM10, tambah sekali untuk contoh ayat yang lebih tepat.</p>
-      </details>
-      <details>
-        <summary>Boleh beli beberapa ebook sekali gus?</summary>
-        <p>Boleh. Semua ebook ada dalam satu halaman bayaran. Tanda yang anda mahu dan bayar sekali.</p>
-      </details>
-      <details>
-        <summary>Ebook 2026 sesuai untuk siapa?</summary>
-        <p>Founder, team leader dan salesperson yang closing melalui WhatsApp. Bab 01 dan 02 ditulis untuk orang yang urus team: cara kira target dan cara pilih team. Bab 03 dan 04 untuk salesperson yang berdepan prospek setiap hari.</p>
-      </details>
-      <details>
-        <summary>Link ebook tak keluar selepas bayar.</summary>
-        <p>Semak folder spam di emel anda dahulu. Kalau masih tiada, WhatsApp 016-767 7759 bersama nombor resit.</p>
-      </details>
+      <details><summary>Ebook 2026 sesuai untuk siapa?</summary><p>Founder, team leader dan salesperson yang closing melalui WhatsApp. Bab 01 dan 02 untuk orang yang urus team: cara kira target dan cara pilih team. Bab 03 dan 04 untuk salesperson yang berdepan prospek setiap hari.</p></details>
+      <details><summary>Ebook ni dalam format apa?</summary><p>PDF. Boleh dibuka di telefon, tablet atau komputer. Fail Ebook 2026 agak besar, jadi elok buka guna WiFi.</p></details>
+      <details><summary>Bila saya dapat ebook?</summary><p>Sejurus selepas bayaran berjaya. Link ebook dipaparkan dalam resit dan dihantar ke emel yang anda isi semasa bayar.</p></details>
+      <details><summary>Boleh beli lebih dari satu ebook?</summary><p>Boleh. Semua ebook ada dalam satu halaman bayaran. Tanda yang anda mahu dan bayar sekali.</p></details>
+      <details><summary>Ebook ni beri jaminan jualan naik?</summary><p>Tidak. Ebook ni bahan latihan kemahiran sales. Hasil bergantung pada usaha team, produk, offer dan kualiti leads anda.</p></details>
+      <details><summary>Link ebook tak keluar selepas bayar.</summary><p>Semak folder spam di emel anda dahulu. Kalau masih tiada, WhatsApp 016-767 7759 bersama nombor resit.</p></details>
     </div>
   </div>
 </section>
 
-<!-- FINAL CTA -->
-<section class="band tint">
-  <div class="col stack" style="text-align:center">
-    <h2 class="h2">Setiap hari team tak closing, <span class="mark">leads yang anda bayar terbuang.</span></h2>
-    <p style="color:var(--muted)">Mula dengan Ebook 2026. RM37, sekali bayar, terus boleh baca hari ini.</p>
-    <div class="buy-wrap">
-      <a class="btn-buy buy" data-item="Ebook 2026" data-value="37" href="https://sweetcactusenterprise.bcl.my/form/ebook-sirdharma" target="_blank" rel="noopener">
-        <b>Dapatkan Ebook 2026</b>
-        <small>RM37 · ebook terus dalam resit</small>
-      </a>
-    </div>
+<!-- 14. FINAL CTA -->
+<section class="band deep">
+  <div class="col stack center">
+    <h2 class="h2">Sedia untuk team yang <span class="mark">mengira</span>, bukan berharap?</h2>
+    <p class="lead">Setiap hari team tak closing, leads yang anda bayar terbuang. Mula dengan Ebook 2026, RM37 sekali bayar.</p>
+    <a class="btn-buy btn-wide buy" data-item="Ebook 2026" data-value="37" href="https://sweetcactusenterprise.bcl.my/form/ebook-sirdharma" target="_blank" rel="noopener"><span>Dapatkan Ebook 2026</span><span class="arr"><svg><use href="#i-arrow"/></svg></span></a>
   </div>
 </section>
 
 </main>
 
-<footer>
-  <div class="col">Sir Dharma Sales System · Sweet Cactus Enterprise (002760123-T) · WhatsApp 016-767 7759</div>
+<footer class="site">
+  <div class="col">
+    <img src="assets/logo-sirdharma.png" alt="SirDharma" width="301" height="74">
+    <span>*Ebook ini bahan latihan kemahiran sales. Hasil individu berbeza ikut usaha, produk dan offer. Bukan jaminan pendapatan.</span>
+    <span>Sir Dharma Sales System · Sweet Cactus Enterprise (002760123-T) · WhatsApp 016-767 7759</span>
+  </div>
 </footer>
 
 <div class="sticky" role="region" aria-label="Beli Ebook 2026">
-  <div class="p"><b>RM37</b><s>RM67</s><small>Ebook 2026 · 105 muka surat</small></div>
+  <div class="p"><small>Ebook 2026 · 105 muka surat</small><b>RM37</b><s>RM67</s></div>
   <a class="buy" data-item="Ebook 2026" data-value="37" href="https://sweetcactusenterprise.bcl.my/form/ebook-sirdharma" target="_blank" rel="noopener">Beli sekarang</a>
 </div>
 
@@ -752,12 +702,9 @@ footer{border-top:1px solid var(--line);padding-block:28px;font-size:13.5px;colo
     var fig = document.createElement('figure');
     fig.className = 'shot';
     var img = new Image();
-    img.alt = 'Testimoni pembeli ' + n;
+    img.alt = 'Screenshot testimoni ' + n;
     img.src = 'assets/testimoni/' + n + '.jpg';
-    img.onerror = function(){
-      fig.className = 'shot empty';
-      fig.innerHTML = '<div><b>' + n + '</b>Ruang gambar testimoni</div>';
-    };
+    img.onerror = function(){ fig.className = 'shot empty'; };
     fig.appendChild(img);
     wall.appendChild(fig);
   });
@@ -775,7 +722,7 @@ footer{border-top:1px solid var(--line);padding-block:28px;font-size:13.5px;colo
 
   document.querySelectorAll('.buy').forEach(function(a){
     a.addEventListener('click', function(){
-      if (typeof fbq !== 'function') return;
+      if (typeof fbq !== 'function' || a.getAttribute('href').charAt(0) === '#') return;
       fbq('track','InitiateCheckout',{content_name:a.getAttribute('data-item')||'Kedai Ebook',value:parseFloat(a.getAttribute('data-value')||'0'),currency:'MYR'});
     });
   });
