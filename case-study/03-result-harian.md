@@ -35,3 +35,4 @@ Sumber: Meta Ads (akaun 1235454997962640) dan transaksi BCL (form ebook-sirdharm
 | Tarikh | Apa yang berlaku | Tindakan |
 |---|---|---|
 | 14 Nov | Kempen ON. C dan D masuk review. A dan B masih PAUSED. | Tunggu review lulus. |
+| 14 Nov (petang) | Sir ON iklan A dan B. Semua 4 iklan ACTIVE. Snapshot pertama: 152 impression, RM3.53 belanja, 7 klik link, 6 LP view, 0 purchase. CTR 6–9% (sampel terlalu kecil untuk dinilai). | Jangan ubah apa-apa dalam 3 hari pertama. |
