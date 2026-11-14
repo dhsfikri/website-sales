@@ -8,7 +8,7 @@ Iklan Meta (FB, IG tidak dipautkan lagi)
   → Borang bayaran BCL (FPX sahaja, DuitNow belum aktif)
   → Emel akses Protected Content (link Google Drive ebook)
   → Halaman terima kasih: dhsfikri.github.io/website-sales/terima-kasih.html
-      (butang Group WhatsApp Pembeli + Meta Pixel Purchase RM37)
+      (butang Group WhatsApp Pembeli + Meta Pixel PageView)
 ```
 
 ## Produk dan harga (17 item dalam borang)
@@ -31,7 +31,7 @@ Pembeli bayar fee gateway RM1.
 - **Meta Pixel:** SirDharma 2026 (255927347311677). BCL hantar PageView, ViewContent, InitiateCheckout dan Purchase. Halaman terima kasih hantar PageView sahaja (Purchase dibuang 14 Nov untuk elak kiraan berganda).
 - **Akaun iklan:** 1235454997962640 (akaun lama 1037619774227724 berstatus UNSETTLED, tidak digunakan).
 - **Page:** Sir Dharma Syamim (111701606844448).
-- **Sumber kebenaran jualan:** transaksi BCL. Meta Purchase nilai RM37 ialah anggaran sahaja.
+- **Sumber kebenaran jualan:** transaksi BCL. Purchase dalam Meta untuk bandingan tracking sahaja.
 
 ## Keputusan strategi (sesi grill, 14 Nov 2026)
 
