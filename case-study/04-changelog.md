@@ -4,6 +4,8 @@ Setiap perubahan pada funnel, iklan dan setting. Paling baru di atas.
 
 ## 14 Nov 2026
 
+- Konvensyen nama: kempen mesti ada tarikh mula; ad set mesti sebut setting. Kempen → "14Nov2026 | Ebook 2026 | Sales | Minggu 1". Ad set → "MY | 25-65 | Advantage+ Audience | Advantage+ Placement | Purchase (Pixel SD2026)".
+- Iklan C dan D lulus review dan ACTIVE.
 - Kempen "Ebook 2026 - Sales - Minggu 1" di-ON. Iklan C dan D di-ON. A dan B kekal PAUSED, menunggu Sir ON dalam Ads Manager.
 - Iklan D (poster foto, struktur inspirasi iklan pesaing) ditambah.
 - 4 iklan (A, B, C, D) dipasang dalam ad set Sir; Advantage+ creative enhancements OFF; placeholder "New Sales ad" di-PAUSE.

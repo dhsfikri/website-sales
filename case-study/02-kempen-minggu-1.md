@@ -4,7 +4,7 @@
 
 | Setting | Nilai |
 |---|---|
-| Nama | Ebook 2026 - Sales - Minggu 1 |
+| Nama | 14Nov2026 \| Ebook 2026 \| Sales \| Minggu 1 |
 | ID | 120252739207400048 |
 | Objektif | Sales (OUTCOME_SALES) |
 | Bajet | RM30 sehari, peringkat kempen (Advantage campaign budget) |
@@ -15,7 +15,8 @@
 
 | Setting | Nilai |
 |---|---|
-| Nama | New Sales ad set (dibuat oleh Sir dalam Ads Manager kerana keperluan verified advertiser Malaysia) |
+| Nama | MY \| 25-65 \| Advantage+ Audience \| Advantage+ Placement \| Purchase (Pixel SD2026) |
+| Nota | Dibuat oleh Sir dalam Ads Manager kerana keperluan verified advertiser Malaysia |
 | ID | 120252739281570048 |
 | Optimize | Purchase, pixel SirDharma 2026 |
 | Lokasi | Malaysia |
