@@ -12,3 +12,7 @@ Landing page statik untuk jual ebook closing WhatsApp (Fasa 1).
 - Gambar diambil dari media library BCL (platform-bcl.bsb-cdn.com), bukan dari folder `assets/`.
 - Tiada JavaScript; semua butang beli ke `#bayar` (borang bayaran BCL pada halaman yang sama).
 - Bila ubah `index.html`, kemas kini fail ini juga dan hantar semula ke BCL.
+
+## Form BCL khas Threads
+- `ebook-sirdharma-threads` (id 21780) — salinan `ebook-sirdharma` (id 21578), dibuat 15 Nov 2026 untuk kira jualan dari Threads.
+- Bila ubah harga, produk atau protected content kat form asal, ubah form ni juga. Protected content tak ikut masa duplicate; dah disambung manual.
