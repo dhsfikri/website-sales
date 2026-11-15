@@ -88,5 +88,9 @@ Musuh utama kita bukan pesaing, tapi PENANGGUHAN. (muka surat 67)
 
 1. ~~Sir bina ad set~~ ✅
 2. ~~Pasang iklan R1 dan R2~~ ✅
-3. ON form BCL "Preview Ebook 2026 (Retarget)" (ID 21730) dan coupon PREVIEW10 (ID 4343).
-4. Baru ON kempen.
+3. ~~ON form BCL dan coupon PREVIEW10~~ ✅ (disemak 15 Nov: form Enabled, coupon Active, 0 guna)
+4. Tunggu R1 & R2 lulus review, kemudian ON kempen Preview10 (120252750115110048).
+
+## Kempen kosong (tidak digunakan)
+
+120252751660560048 "…Retarget | Preview": Sir tambah ad set broad Advantage+ ("New Sales ad set", 120252752436510048) dengan iklan placeholder, dan ia jadi ACTIVE (RM0 dibelanja). Claude pause kempen pada 15 Nov. Cadangan: delete.

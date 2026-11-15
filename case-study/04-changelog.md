@@ -4,6 +4,7 @@ Setiap perubahan pada funnel, iklan dan setting. Paling baru di atas.
 
 ## 15 Nov 2026
 
+- Semakan: kempen kosong 120252751660560048 didapati ACTIVE dengan ad set broad + iklan placeholder (RM0 belanja). Di-pause. Form BCL preview dan coupon PREVIEW10 sudah ON. R1 & R2 PENDING_REVIEW.
 - Sir buat ad set retarget dalam kempen "…Retarget | Preview10" (120252750115110048). Claude betulkan audience (include pelawat 14 hari, exclude pembeli 180 hari, Advantage+ audience OFF), pasang iklan R1 & R2 (PAUSED), pause placeholder "New Sales ad". Kempen 120252751660560048 kosong, tidak digunakan.
 - Kempen retarget "15Nov2026 | Ebook 2026 | Retarget | Preview" (ID 120252751660560048) dicipta, RM5 sehari, PAUSED. Ad set ditolak API (perlu verified advertiser); perlu Sir bina dalam Ads Manager. Creative R1 (poster B) dan R2 (poster D) dicipta, link ke /form/preview-ebook-2026. Butiran: [05-kempen-retarget.md](05-kempen-retarget.md).
 
