@@ -2,6 +2,14 @@
 
 Setiap perubahan pada funnel, iklan dan setting. Paling baru di atas.
 
+## 15 Nov 2026
+
+- Kempen retarget dicipta (PAUSED): "15Nov2026 | Ebook 2026 | Retarget | Preview10" (ID 120252750115110048), Sales, RM5 sehari (CBO), lowest cost.
+- Audience baru: "14 Hari Pelawat Sales Page Ebook 2026" (120252750113240048, URL mengandungi ebook-sirdharma) dan "180 Hari Pembeli (Purchase SD2026)" (120252750113400048, untuk exclude).
+- Creative retarget R1 dicipta (3290555938000251): poster iklan B, link ke /form/preview-ebook-2026, CTA Shop Now, Advantage+ creative OFF.
+- Ad set retarget melalui API ditolak lagi ("Advertiser is missing"), walaupun akaun Sir dah verified. Sir perlu cipta ad set dalam Ads Manager.
+- Form retarget (21730) dan coupon PREVIEW10 (4343) di-ON.
+
 ## 14 Nov 2026
 
 - Disediakan untuk retarget (minggu 2): form BCL "Preview Ebook 2026 (Retarget)" (ID 21730, /form/preview-ebook-2026), 17 item sama seperti form utama (semua dengan Protected Content), status OFF. Coupon terpakai untuk jumlah troli, jadi semua ebook & bundle dapat 10%. Page fokus isi kandungan sebenar 105 m/s (dibaca terus dari PDF), 4 petikan sebenar, siapa sesuai/tak sesuai, FAQ. Coupon PREVIEW10 (10%, ID 4343; asalnya INTIP10, ditukar kerana "intip" janggal) dicipta dalam keadaan tidak aktif dan dihadkan pada form ini sahaja.

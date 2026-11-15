@@ -123,3 +123,39 @@ Ebook 2026 tunjuk cara tukar team "berharap" jadi team "mengira":
 | B · Formula | PAUSED (perlu Sir ON dalam Ads Manager) |
 | C · Berharap vs Mengira | ACTIVE, dalam review |
 | D · Foto | ACTIVE, dalam review |
+
+## Kempen Retarget (mula 15 Nov 2026)
+
+| Setting | Nilai |
+|---|---|
+| Kempen | 15Nov2026 \| Ebook 2026 \| Retarget \| Preview10 (120252750115110048) |
+| Bajet | RM5 sehari, peringkat kempen |
+| Audience masuk | 14 Hari Pelawat Sales Page (120252750113240048), 30 Hari Website (120245639394540048), IG Engaged (120245618614210048), Engaged With Page (120245618601130048) |
+| Audience keluar | 180 Hari Pembeli (120252750113400048) |
+| Advantage+ audience | OFF (retarget audience sahaja) |
+| Optimize | Purchase, pixel SirDharma 2026 |
+| Link | https://sweetcactusenterprise.bcl.my/form/preview-ebook-2026 |
+| Coupon | PREVIEW10 (10% jumlah troli) |
+
+### R1 · Preview10 · Formula
+- **Creative ID:** 3290555938000251 (poster iklan B)
+- **Headline:** Tengok isi dalam dulu. Kod PREVIEW10 = 10% off
+- **Primary text:**
+```
+Hari tu anda dah tengok Ebook 2026, tapi belum ambil. Tak apa, saya faham 🙏
+
+Ramai nak tengok dulu isi dalam sebelum bayar. Jadi saya buka preview penuh:
+
+📖 Apa ada dalam 105 muka surat, bab demi bab
+✍️ 4 petikan sebenar dari dalam ebook
+✅ Siapa sesuai, dan siapa TAK sesuai beli
+
+Formula 1-4-6-10 (RM1,000 = 110 leads), skrip WhatsApp 2026, checklist KMP, semua ada dalam tu.
+
+🎁 Guna kod PREVIEW10: diskaun 10% untuk semua ebook & bundle
+📩 Link ebook terus masuk emel lepas bayar
+
+👉 Tekan "Shop Now" untuk tengok preview.
+
+*Bahan latihan, bukan jaminan pendapatan.
+```
