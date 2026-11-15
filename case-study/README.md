@@ -15,6 +15,7 @@ Log lengkap perjalanan jualan ebook Sir Dharma, dari setup sampai RM10,000 perta
 | Tarikh | Jualan kumulatif (RM) | % sasaran | Belanja iklan kumulatif (RM) | Untung kasar (RM) |
 |---|---|---|---|---|
 | 14 Nov 2026 (hari 0) | 0 | 0% | 0 | 0 |
+| 15 Nov 2026 (hari 1) | 57 | 0.6% | 37.44 | 19.56 |
 
 > Jualan test oleh Sir sendiri (LINK-592587, RM10) tidak dikira.
 

@@ -9,6 +9,7 @@ Setiap perubahan pada funnel, iklan dan setting. Paling baru di atas.
 - Creative retarget R1 dicipta (3290555938000251): poster iklan B, link ke /form/preview-ebook-2026, CTA Shop Now, Advantage+ creative OFF.
 - Ad set retarget melalui API ditolak lagi ("Advertiser is missing"), walaupun akaun Sir dah verified. Sir perlu cipta ad set dalam Ads Manager.
 - Punca ralat API "Advertiser is missing": ad set yang target Malaysia perlu medan `regional_regulated_categories = MALAYSIA_UNIVERSAL` + `regional_regulation_identities` (universal_beneficiary, universal_payer). Medan ini tidak ambil default akaun, dan tool Meta Ads MCP belum sokong medan ini. Penyelesaian: Sir cipta ad set (pilih beneficiary/payer) dalam Ads Manager; Claude set audience dan pasang iklan melalui API.
+- Sir cipta ad set retarget dalam Ads Manager (120252751545220048): audience pelawat 14 hari sahaja, exclude pembeli 180 hari. Iklan R1 Formula Preview dan R2 Foto Sir Preview dipasang; kempen retarget ACTIVE.
 - Form retarget (21730) dan coupon PREVIEW10 (4343) di-ON.
 
 ## 14 Nov 2026
