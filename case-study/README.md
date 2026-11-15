@@ -26,5 +26,6 @@ Log lengkap perjalanan jualan ebook Sir Dharma, dari setup sampai RM10,000 perta
 | [02-kempen-minggu-1.md](02-kempen-minggu-1.md) | Setting kempen, ad set, dan setiap iklan (ayat penuh + poster) |
 | [03-result-harian.md](03-result-harian.md) | Nombor harian dari Meta dan BCL, dan tindakan yang diambil |
 | [04-changelog.md](04-changelog.md) | Setiap perubahan, bila dan kenapa |
+| [05-kempen-retarget.md](05-kempen-retarget.md) | Kempen retarget Preview Ebook: setting, iklan, langkah sebelum ON |
 
 Poster iklan: [`../ads/creative/`](../ads/creative/)
