@@ -4,16 +4,16 @@
 
 | Setting | Nilai |
 |---|---|
-| Nama | 15Nov2026 \| Ebook 2026 \| Retarget \| Preview |
-| ID | 120252751660560048 |
+| Nama | 15Nov2026 \| Ebook 2026 \| Retarget \| Preview10 |
+| ID | 120252750115110048 (dibuat Sir; kempen kosong 120252751660560048 yang Claude buat tidak digunakan) |
 | Objektif | Sales (OUTCOME_SALES) |
 | Bajet | RM5 sehari, peringkat kempen (Advantage campaign budget) |
 | Bid | Lowest cost, tiada had |
-| Status | PAUSED (dibina 15 Nov 2026) |
+| Status | PAUSED |
 
-## Ad set (perlu dibuat oleh Sir dalam Ads Manager)
+## Ad set
 
-API tolak (ralat "Advertiser is missing", sama seperti Minggu 1), walaupun cuba salin ad set Minggu 1. Setting yang dirancang:
+API tolak buat ad set (ralat "Advertiser is missing", sama seperti Minggu 1). Sir buat ad set dalam Ads Manager (ID 120252751545220048); Claude kemudian tukar nama dan audience melalui API (asalnya Advantage+ audience broad Malaysia, tiada include/exclude).
 
 | Setting | Nilai |
 |---|---|
@@ -26,7 +26,13 @@ API tolak (ralat "Advertiser is missing", sama seperti Minggu 1), walaupun cuba 
 | Placement | Advantage+ placements |
 | Ad transparency | Advertiser: identiti Sir yang dah verified |
 
-## Iklan (creative dah dicipta)
+## Iklan
+
+| Iklan | Ad ID | Status |
+|---|---|---|
+| R1 · Formula · Preview | 120252752442120048 | PAUSED, dalam review |
+| R2 · Foto Sir · Preview | 120252752442390048 | PAUSED, dalam review |
+| New Sales ad (placeholder) | 120252751545210048 | PAUSED, tidak digunakan |
 
 Semua: butang **Learn More** ke `https://sweetcactusenterprise.bcl.my/form/preview-ebook-2026`, Advantage+ creative enhancements OFF.
 
@@ -80,7 +86,7 @@ Musuh utama kita bukan pesaing, tapi PENANGGUHAN. (muka surat 67)
 
 ## Sebelum ON
 
-1. Sir bina ad set dalam Ads Manager (setting di atas), di bawah kempen 120252751660560048.
-2. Claude pasang iklan R1 dan R2 guna creative ID di atas.
+1. ~~Sir bina ad set~~ ✅
+2. ~~Pasang iklan R1 dan R2~~ ✅
 3. ON form BCL "Preview Ebook 2026 (Retarget)" (ID 21730) dan coupon PREVIEW10 (ID 4343).
 4. Baru ON kempen.
