@@ -179,3 +179,13 @@ A, C, D di-PAUSE. B kekal. Tiga angle baru, semua dari isi sebenar ebook:
 | G2 | BAJET ADS 2X. CLOSING +0%? | BAJET ADS 2X, CLOSING +0%? · JIMAT 44% |
 
 Semua poster ada pelekat merah "JIMAT 44%" (RM67 → RM37).
+
+### Versi 3 (CTA kuat) — yang sedang jalan
+
+| Iklan | Headline Meta | Butang | Penutup primary text |
+|---|---|---|---|
+| E3 | KLIK SEKARANG: 5 SKRIP JAWAB HARGA · -44% | Buy Now | 👉 KLIK "BELI SEKARANG" & guna skrip ni pada prospek seterusnya, hari ni juga. Jangan tunggu pesaing anda yang baca dulu. 😉 |
+| F3 | JANGAN TANGGUH. KLIK SEKARANG, JIMAT 44% | Buy Now | 👉 Jangan jadi macam prospek tu. KLIK "BELI SEKARANG", 5 minit lagi ebook dah ada dalam emel anda. Sementara pesaing masih "fikir dulu", team anda dah mula closing. 💪 |
+| G3 | KLIK SEKARANG SEBELUM PESAING DAPAT DULU | Buy Now | 👉 Harga ebook ni lebih murah dari bajet ads sehari. KLIK "BELI SEKARANG" sebelum pesaing anda yang dapat dulu. |
+
+Butang dalam poster: "KLIK SEKARANG · RM37 ~~RM67~~" + pelekat "JIMAT 44%".
