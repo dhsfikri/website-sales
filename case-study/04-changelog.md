@@ -2,6 +2,15 @@
 
 Setiap perubahan pada funnel, iklan dan setting. Paling baru di atas.
 
+## 16 Nov 2026
+
+- Iklan A, C, D di-PAUSE atas arahan Sir (B kekal; B ambil ~62% belanja).
+- 3 iklan baru dengan angle lain dipasang dalam ad set Minggu 1 (status PAUSED, menunggu kelulusan Sir untuk ON):
+  - E · Skrip "Nak harga je" (ad 120252755812850048, creative 1654105010094324)
+  - F · Penangguhan "Tanya husband dulu" (ad 120252755813510048, creative 2148865862416624)
+  - G · Owner "Iklan bukan tongkat sakti" (ad 120252755813580048, creative 1580980460497497)
+- Poster dibina dari `ads/creative/iklan-2.html` dan dimuat naik melalui URL raw GitHub (upload fail terus perlukan app Ads MCP).
+
 ## 15 Nov 2026
 
 - Kempen retarget dicipta (PAUSED): "15Nov2026 | Ebook 2026 | Retarget | Preview10" (ID 120252750115110048), Sales, RM5 sehari (CBO), lowest cost.

@@ -159,3 +159,13 @@ Formula 1-4-6-10 (RM1,000 = 110 leads), skrip WhatsApp 2026, checklist KMP, semu
 
 *Bahan latihan, bukan jaminan pendapatan.
 ```
+
+## Iklan gelombang 2 (16 Nov 2026)
+
+A, C, D di-PAUSE. B kekal. Tiga angle baru, semua dari isi sebenar ebook:
+
+| Iklan | Angle | Poster | Headline |
+|---|---|---|---|
+| E · Skrip | Prospek tanya "berapa harga?" (Bab 3, m/s 35) | [`iklan-e.png`](../ads/creative/iklan-e.png) | Prospek tanya harga? Jangan terus jawab. |
+| F · Penangguhan | "Nanti saya tanya husband dulu" / Fast Action Bonus (m/s 67) | [`iklan-f.png`](../ads/creative/iklan-f.png) | "Nanti saya tanya husband dulu ya" |
+| G · Owner | Iklan bukan tongkat sakti (Bab Bonus, m/s 87) | [`iklan-g.png`](../ads/creative/iklan-g.png) | Bajet ads naik, closing tetap sama? |
