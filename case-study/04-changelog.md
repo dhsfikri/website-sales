@@ -4,6 +4,7 @@ Setiap perubahan pada funnel, iklan dan setting. Paling baru di atas.
 
 ## 16 Nov 2026
 
+- Semakan tracking Purchase: pixel SD2026 TERIMA Purchase jualan 15 Nov dari sweetcactusenterprise.bcl.my (Events Manager: 1 Purchase pada 15 Nov waktu Pasifik). Halaman terima kasih (main) hanya PageView, tiada kiraan berganda. Masalahnya atribusi: Meta tidak padankan pembeli itu dengan klik/tontonan iklan dalam tetingkap 7 hari klik / 1 hari tonton, jadi iklan tunjuk 0 Purchase. Conversions API (CAPI) di form BCL masih OFF; perlu token dari Events Manager untuk hidupkan (hantar emel/telefon pembeli secara hash, padanan lebih tinggi).
 - Atas maklum balas Sir (CTA kurang kuat): versi 3 dengan CTA kuat. Butang poster "KLIK SEKARANG · RM37", butang iklan Buy Now (dulu Shop Now), headline jadi ayat CTA, dan hujung primary text ada ajakan + FOMO pesaing. Tiada voucher untuk trafik sejuk (PREVIEW10 kekal untuk retarget sahaja). E3/F3/G3 di-ON, E2/F2/G2 di-PAUSE (baru jalan beberapa jam).
   - E3 · "KLIK SEKARANG: 5 SKRIP JAWAB HARGA · -44%" (ad 120252758037000048, creative 2011686783278791)
   - F3 · "JANGAN TANGGUH. KLIK SEKARANG, JIMAT 44%" (ad 120252758037440048, creative 1762814918119898)
