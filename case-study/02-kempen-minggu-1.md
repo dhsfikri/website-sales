@@ -169,3 +169,13 @@ A, C, D di-PAUSE. B kekal. Tiga angle baru, semua dari isi sebenar ebook:
 | E · Skrip | Prospek tanya "berapa harga?" (Bab 3, m/s 35) | [`iklan-e.png`](../ads/creative/iklan-e.png) | Prospek tanya harga? Jangan terus jawab. |
 | F · Penangguhan | "Nanti saya tanya husband dulu" / Fast Action Bonus (m/s 67) | [`iklan-f.png`](../ads/creative/iklan-f.png) | "Nanti saya tanya husband dulu ya" |
 | G · Owner | Iklan bukan tongkat sakti (Bab Bonus, m/s 87) | [`iklan-g.png`](../ads/creative/iklan-g.png) | Bajet ads naik, closing tetap sama? |
+
+### Versi 2 (headline huruf besar + angka) — yang akan digunakan
+
+| Iklan | Hook poster | Headline Meta |
+|---|---|---|
+| E2 | PROSPEK TANYA "BERAPA HARGA?" JANGAN TERUS JAWAB. + "5 skrip letak harga" | 5 SKRIP JAWAB "BERAPA HARGA?" · JIMAT 44% |
+| F2 | 3 HARI BLUETICK? | 3 HARI BLUETICK? 1 TEKNIK BUAT PROSPEK LAJU BAYAR |
+| G2 | BAJET ADS 2X. CLOSING +0%? | BAJET ADS 2X, CLOSING +0%? · JIMAT 44% |
+
+Semua poster ada pelekat merah "JIMAT 44%" (RM67 → RM37).

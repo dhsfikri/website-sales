@@ -4,6 +4,11 @@ Setiap perubahan pada funnel, iklan dan setting. Paling baru di atas.
 
 ## 16 Nov 2026
 
+- Atas maklum balas Sir (headline kurang punch): poster E/F/G dibuat semula dengan headline HURUF BESAR + angka (5 skrip, 3 hari, 2X, +0%) dan pelekat "JIMAT 44%". Headline iklan Meta juga huruf besar dengan angka. Iklan baru (PAUSED, tunggu kelulusan Sir):
+  - E2 · "5 SKRIP JAWAB "BERAPA HARGA?" · JIMAT 44%" (ad 120252755840410048, creative 1126304950261190)
+  - F2 · "3 HARI BLUETICK? 1 TEKNIK BUAT PROSPEK LAJU BAYAR" (ad 120252755840740048, creative 4438525923125417)
+  - G2 · "BAJET ADS 2X, CLOSING +0%? · JIMAT 44%" (ad 120252755841810048, creative 1927007641602234)
+  - Iklan E/F/G versi pertama dinamakan "(LAMA, JANGAN ON)" dan kekal PAUSED (tidak pernah jalan).
 - Iklan A, C, D di-PAUSE atas arahan Sir (B kekal; B ambil ~62% belanja).
 - 3 iklan baru dengan angle lain dipasang dalam ad set Minggu 1 (status PAUSED, menunggu kelulusan Sir untuk ON):
   - E · Skrip "Nak harga je" (ad 120252755812850048, creative 1654105010094324)
