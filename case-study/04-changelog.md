@@ -2,6 +2,13 @@
 
 Setiap perubahan pada funnel, iklan dan setting. Paling baru di atas.
 
+## 16 Nov 2026
+
+- Video 2 (Drive: 08 Video Ads > C0009_draf_v1.mp4) disediakan untuk iklan retarget. End card 3.5 saat ditambah (harga RM69, Klik Learn More), video asal tidak diubah. Fail: `ads/video/video2-retarget-rm69.mp4`. Copy & setting: `ads/iklan-video2-retarget.md`.
+- Item baru dalam form retarget (ID 21730): "Learning Lab 1-3 + BONUS Ebook 2026", RM69 (nilai RM124), item ID 44015, diletak paling atas. Protected Content: LL Vol 1-3 + Ebook 2026.
+- Page retarget: jalur "Datang dari video Sir?" di atas sekali dan kad offer `#offer-video` ditambah dalam bahagian tawaran. Dihantar ke BCL.
+- Video 1 (draf-v1.mp4, konsultasi percuma) belum digunakan: perlukan kempen Click-to-WhatsApp berasingan.
+
 ## 14 Nov 2026
 
 - Disediakan untuk retarget (minggu 2): form BCL "Preview Ebook 2026 (Retarget)" (ID 21730, /form/preview-ebook-2026), 17 item sama seperti form utama (semua dengan Protected Content), status OFF. Coupon terpakai untuk jumlah troli, jadi semua ebook & bundle dapat 10%. Page fokus isi kandungan sebenar 105 m/s (dibaca terus dari PDF), 4 petikan sebenar, siapa sesuai/tak sesuai, FAQ. Coupon PREVIEW10 (10%, ID 4343; asalnya INTIP10, ditukar kerana "intip" janggal) dicipta dalam keadaan tidak aktif dan dihadkan pada form ini sahaja.
