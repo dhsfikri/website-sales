@@ -28,7 +28,7 @@ Pembeli bayar fee gateway RM1.
 
 ## Tracking
 
-- **Meta Pixel:** SirDharma 2026 (255927347311677). BCL hantar PageView, ViewContent, InitiateCheckout dan Purchase. Halaman terima kasih hantar PageView sahaja (Purchase dibuang 14 Nov untuk elak kiraan berganda).
+- **Meta Pixel:** SirDharma 2026 (255927347311677). BCL hantar PageView, ViewContent, InitiateCheckout dan Purchase. Conversions API (CAPI) ON di ketiga-tiga form BCL sejak 16 Nov. Halaman terima kasih hantar PageView sahaja (Purchase dibuang 14 Nov untuk elak kiraan berganda).
 - **Akaun iklan:** 1235454997962640 (akaun lama 1037619774227724 berstatus UNSETTLED, tidak digunakan).
 - **Page:** Sir Dharma Syamim (111701606844448).
 - **Sumber kebenaran jualan:** transaksi BCL. Purchase dalam Meta untuk bandingan tracking sahaja.
