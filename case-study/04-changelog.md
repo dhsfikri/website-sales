@@ -8,6 +8,7 @@ Setiap perubahan pada funnel, iklan dan setting. Paling baru di atas.
   - E2 · "5 SKRIP JAWAB "BERAPA HARGA?" · JIMAT 44%" (ad 120252755840410048, creative 1126304950261190)
   - F2 · "3 HARI BLUETICK? 1 TEKNIK BUAT PROSPEK LAJU BAYAR" (ad 120252755840740048, creative 4438525923125417)
   - G2 · "BAJET ADS 2X, CLOSING +0%? · JIMAT 44%" (ad 120252755841810048, creative 1927007641602234)
+  - E2, F2, G2 di-ON atas kelulusan Sir (16 Nov). Iklan aktif dalam kempen Minggu 1: B, E2, F2, G2.
   - Iklan E/F/G versi pertama dinamakan "(LAMA, JANGAN ON)" dan kekal PAUSED (tidak pernah jalan).
 - Iklan A, C, D di-PAUSE atas arahan Sir (B kekal; B ambil ~62% belanja).
 - 3 iklan baru dengan angle lain dipasang dalam ad set Minggu 1 (status PAUSED, menunggu kelulusan Sir untuk ON):
