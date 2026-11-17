@@ -2,6 +2,12 @@
 
 Setiap perubahan pada funnel, iklan dan setting. Paling baru di atas.
 
+## 17 Nov 2026
+
+- Plan baru carousel value untuk owner bisnes servis (lihat `05-plan-value-carousel.md`). 3 carousel × 5 slide siap dalam 3 tema warna: hijau (asal), terang/krim, hitam-kuning (`ads/creative/carousel/`, `carousel/terang/`, `carousel/hitam/`).
+- Kempen baru dicipta (PAUSED): "17Nov2026 | Ebook 2026 | Sales | Carousel Value Owner Servis" (120252778455590048), RM25 sehari CBO.
+- Ad set melalui API masih ditolak ("Advertiser is missing"). Tool duplicate ad set juga belum tersedia untuk akaun ini. Sir perlu cipta ad set dalam Ads Manager.
+
 ## 16 Nov 2026
 
 - Conversions API (CAPI) di-ON oleh Sir untuk form utama (21578) dan Threads (21780); Claude ON untuk form retarget (21730) dengan token yang sama. Ketiga-tiga form: pixel 255927347311677 + CAPI ON. Token disimpan dalam BCL sahaja, tidak direkod dalam repo. Event server belum masuk semasa semakan (perlu ada pelawat/pembeli baru dahulu).
