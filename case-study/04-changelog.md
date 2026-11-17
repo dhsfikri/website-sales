@@ -86,3 +86,4 @@ Setiap perubahan pada funnel, iklan dan setting. Paling baru di atas.
 - Versi 1 (block klik.vip, hijau/kuning) dan versi 2 (editorial, Custom HTML) dalam `bio/`. Ebook jadi tawaran utama; cadang form `sd-bio` + `klik.vip/ebookclosing-bio` untuk tracking bio.
 - Grill bio selesai: ebook jadi CTA utama (link ebookclosing-th, tiada form baru), pixel + event klik dalam bio, kad Murpati referral. Tunggu link T5, Framework, Murpati.
 - Bio live di klik.vip/sirdharma diuji (klik.vip dibenarkan dalam environment website-sales). Punca rosak: class card/btn bertembung Bootstrap klik.vip + margin .row. Semua class ditukar ke sd-*, tambah CSS paksa layout (bg krim, buang pink, lebar penuh).
+- Bio: kad Framework diganti dengan tawaran sesi percuma bersama team via WhatsApp (untuk owner yang dah beli tapi team belum konsisten). Semua link lengkap.

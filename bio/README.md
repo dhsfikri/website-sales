@@ -58,4 +58,4 @@ Bio guna form sendiri (`sd-bio`) supaya jualan dari bio nampak berasingan dalam 
 - Ebook Panduan Closing lama dibuang. Tiada countdown (tiada tarikh tamat sebenar).
 - Kad Blaster = Murpati (link referral), ayat "Platform yang Sir guna sendiri".
 - Header = headline sahaja. Ebook = mockup buku 3D. Font Poppins tebal.
-- Link T5 = group WhatsApp (chat.whatsapp.com/JnencebBW8EKSwoNQU7SNe), Murpati = murpati.com/r/REF_A869. Framework = kedai ebook yang sama (klik.vip/ebookclosing-th), sebut RM39 / Bundle RM99. Semua link lengkap.
+- Link T5 = group WhatsApp (chat.whatsapp.com/JnencebBW8EKSwoNQU7SNe), Murpati = murpati.com/r/REF_A869. Kad Framework diganti: "Team masih tak konsisten?" → WhatsApp Sir untuk sesi percuma bersama team (event BioKlik SesiTeam). Semua link lengkap.
