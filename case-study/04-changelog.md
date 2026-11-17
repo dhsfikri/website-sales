@@ -81,3 +81,6 @@ Setiap perubahan pada funnel, iklan dan setting. Paling baru di atas.
 
 - Sales page dipindahkan ke dalam BCL (Custom HTML), bonus Group WhatsApp Pembeli ditambah.
 - Borang BCL dicipta dengan 17 item; Meta Pixel diaktifkan pada borang.
+
+## 17 Nov: bio klik.vip/link/3944 direka semula
+- Versi 1 (block klik.vip, hijau/kuning) dan versi 2 (editorial, Custom HTML) dalam `bio/`. Ebook jadi tawaran utama; cadang form `sd-bio` + `klik.vip/ebookclosing-bio` untuk tracking bio.
