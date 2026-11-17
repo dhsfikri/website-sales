@@ -19,6 +19,11 @@ Setiap perubahan pada funnel, iklan dan setting. Paling baru di atas.
 - Exclusion "180 Hari Pembeli (Purchase SD2026)" ditambah pada ad set carousel (ad set di-ON semula selepas auto-pause). Ujian audience Advantage+ vs manual targeting (cadangan nota Zaeem) ditangguh ke minggu depan selepas kreatif menang dikenal pasti.
 - Ad set melalui API masih ditolak ("Advertiser is missing"). Tool duplicate ad set juga belum tersedia untuk akaun ini. Sir perlu cipta ad set dalam Ads Manager.
 
+- Form saluran organik dengan link pendek (salinan penuh: item, harga, pixel SD2026 + CAPI, redirect terima kasih, featured image):
+  - WhatsApp: /form/sd-wa (ID 22024, "Kedai Ebook Sir Dharma - WhatsApp", salinan form utama)
+  - Threads: /form/sd-th (ID 22025, "Kedai Ebook Sir Dharma - Threads", salinan form Threads; /form/ebook-sirdharma-threads kekal aktif)
+  - Jualan dikenal pasti ikut nama form dalam rekod transaksi BCL.
+
 ## 16 Nov 2026
 
 - Conversions API (CAPI) di-ON oleh Sir untuk form utama (21578) dan Threads (21780); Claude ON untuk form retarget (21730) dengan token yang sama. Ketiga-tiga form: pixel 255927347311677 + CAPI ON. Token disimpan dalam BCL sahaja, tidak direkod dalam repo. Event server belum masuk semasa semakan (perlu ada pelawat/pembeli baru dahulu).
