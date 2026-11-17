@@ -1,0 +1,7 @@
+{
+  "permissions": {
+    "allow": [
+      "mcp__Murpati_Blaster__send_message"
+    ]
+  }
+}
