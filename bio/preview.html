@@ -164,13 +164,10 @@ var io=new IntersectionObserver(function(es){es.forEach(function(e){if(e.isInter
 r.querySelectorAll('.sd-rev').forEach(function(el,i){el.style.transitionDelay=(i%2?.08:0)+'s';io.observe(el)});
 setTimeout(function(){r.querySelectorAll('.sd-rev').forEach(function(el){el.classList.add('sd-in')})},4000);})();
 </script>
-<!-- Meta Pixel: SirDharma 2026 -->
+<!-- Klik butang -> pixel SirDharma 2026 (PageView dah dihantar oleh setting pixel klik.vip) -->
 <script>
-!function(f,b,e,v,n,t,s){if(f.fbq)return;n=f.fbq=function(){n.callMethod?n.callMethod.apply(n,arguments):n.queue.push(arguments)};if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';n.queue=[];t=b.createElement(e);t.async=!0;t.src=v;s=b.getElementsByTagName(e)[0];s.parentNode.insertBefore(t,s)}(window,document,'script','https://connect.facebook.net/en_US/fbevents.js');
-fbq('init','255927347311677');fbq('track','PageView');
 document.addEventListener('click',function(e){var a=e.target.closest&&e.target.closest('.sd [data-ev]');if(!a||!window.fbq)return;var k=a.getAttribute('data-ev');
 if(k==='Ebook'){fbq('track','ViewContent',{content_name:'Ebook 2026 dari Bio',value:37,currency:'MYR'})}else{fbq('trackCustom','BioKlik',{butang:k})}});
 </script>
-<noscript><img height="1" width="1" style="display:none" src="https://www.facebook.com/tr?id=255927347311677&ev=PageView&noscript=1"></noscript>
 <!-- ===== TAMAT ===== -->
 </body></html>
