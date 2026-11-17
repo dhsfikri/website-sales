@@ -58,4 +58,4 @@ Bio guna form sendiri (`sd-bio`) supaya jualan dari bio nampak berasingan dalam 
 - Ebook Panduan Closing lama dibuang. Tiada countdown (tiada tarikh tamat sebenar).
 - Kad Blaster = Murpati (link referral), ayat "Platform yang Sir guna sendiri".
 - Header = headline sahaja. Ebook = mockup buku 3D. Font Poppins tebal.
-- **Masih tunggu link:** `GANTI_LINK_T5`, `GANTI_LINK_FRAMEWORK`, `GANTI_LINK_MURPATI`.
+- Link T5 = group WhatsApp (chat.whatsapp.com/JnencebBW8EKSwoNQU7SNe), Murpati = murpati.com/r/REF_A869. **Masih tunggu:** `GANTI_LINK_FRAMEWORK`.
