@@ -88,3 +88,4 @@ Setiap perubahan pada funnel, iklan dan setting. Paling baru di atas.
 - Bio live di klik.vip/sirdharma diuji (klik.vip dibenarkan dalam environment website-sales). Punca rosak: class card/btn bertembung Bootstrap klik.vip + margin .row. Semua class ditukar ke sd-*, tambah CSS paksa layout (bg krim, buang pink, lebar penuh).
 - Bio: kad Framework diganti dengan tawaran sesi percuma bersama team via WhatsApp (untuk owner yang dah beli tapi team belum konsisten). Semua link lengkap.
 - Bio live disemak: klik.vip potong Custom HTML sekitar 16,200 aksara, jadi skrip pixel klik terpotong (error JS). Tambah bio/build.py untuk padatkan kod (15,596 aksara), diuji tanpa error, pixel OK.
+- Bio live disemak (versi padat): sama 100% dengan kod, tiada error, semua gambar & animasi OK, klik Ebook = ViewContent RM37, butang lain = BioKlik. klik.vip sendiri dah load pixel 255927347311677, jadi PageView dibuang dari kod kita (elak kiraan berganda). Kod kini 15,164 aksara.
