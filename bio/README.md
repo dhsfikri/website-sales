@@ -59,3 +59,6 @@ Bio guna form sendiri (`sd-bio`) supaya jualan dari bio nampak berasingan dalam 
 - Kad Blaster = Murpati (link referral), ayat "Platform yang Sir guna sendiri".
 - Header = headline sahaja. Ebook = mockup buku 3D. Font Poppins tebal.
 - Link T5 = group WhatsApp (chat.whatsapp.com/JnencebBW8EKSwoNQU7SNe), Murpati = murpati.com/r/REF_A869. Kad Framework diganti: "Team masih tak konsisten?" → WhatsApp Sir untuk sesi percuma bersama team (event BioKlik SesiTeam). Semua link lengkap.
+
+### Had klik.vip
+Custom HTML dipotong sekitar 16,200 aksara. Selepas ubah `bio/bio-pro.html`, jalankan `python3 bio/build.py` untuk hasilkan `TAMPAL-custom-html.html` yang padat (amaran jika > 15,800).
