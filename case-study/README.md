@@ -29,5 +29,6 @@ Log lengkap perjalanan jualan ebook Sir Dharma, dari setup sampai RM10,000 perta
 | [04-changelog.md](04-changelog.md) | Setiap perubahan, bila dan kenapa |
 | [05-plan-value-carousel.md](05-plan-value-carousel.md) | Plan carousel value untuk owner bisnes servis (3 fasa, bajet, copy) |
 | [06-organik-whatsapp-threads.md](06-organik-whatsapp-threads.md) | Link organik WhatsApp & Threads, peraturan posting, skrip WhatsApp |
+| [07-katalog-whatsapp.md](07-katalog-whatsapp.md) | Plan katalog WhatsApp Business: 9 item, 4 koleksi, deskripsi, link |
 
 Poster iklan: [`../ads/creative/`](../ads/creative/)
