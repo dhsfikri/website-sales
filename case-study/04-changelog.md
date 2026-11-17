@@ -6,6 +6,15 @@ Setiap perubahan pada funnel, iklan dan setting. Paling baru di atas.
 
 - Plan baru carousel value untuk owner bisnes servis (lihat `05-plan-value-carousel.md`). 3 carousel × 5 slide siap dalam 3 tema warna: hijau (asal), terang/krim, hitam-kuning (`ads/creative/carousel/`, `carousel/terang/`, `carousel/hitam/`).
 - Kempen baru dicipta (PAUSED): "17Nov2026 | Ebook 2026 | Sales | Carousel Value Owner Servis" (120252778455590048), RM25 sehari CBO.
+- Sir cipta ad set carousel (120252778480440048). Claude kemaskan: cadangan umur 28–50, nama ikut konvensyen; placeholder "New Sales ad" dipause.
+- 5 iklan carousel dipasang (PAUSED, tunggu kelulusan Sir):
+  - CV1 · C1 Problem · Hijau (ad 120252778528080048, creative 1084916441240799)
+  - CV2 · C1 Problem · Terang (ad 120252778528530048, creative 1691837795905897)
+  - CV3 · C1 Problem · Hitam (ad 120252778529480048, creative 2410595589711211)
+  - CV4 · C2 Pain · Hijau (ad 120252778529820048, creative 1532602612028407)
+  - CV5 · C3 Pleasure · Hijau (ad 120252778530200048, creative 1183174600704330)
+  - Ujian warna: CV1 vs CV2 vs CV3 (angle sama). Ujian angle: CV1 vs CV4 vs CV5 (warna sama).
+- F3 dipause (1 klik sahaja).
 - Ad set melalui API masih ditolak ("Advertiser is missing"). Tool duplicate ad set juga belum tersedia untuk akaun ini. Sir perlu cipta ad set dalam Ads Manager.
 
 ## 16 Nov 2026
