@@ -2,6 +2,55 @@
 
 Tujuan: bila prospek tanya "ada apa?", Sir hantar katalog, bukan senarai panjang. Katalog bawa prospek ke **satu pilihan yang jelas** (Ebook RM37), kemudian naik ke bundle.
 
+## Versi 2 (17 Nov): servis + produk
+Sir mahu katalog tunjuk **servis dan produk sebenar**, bukan ebook sahaja. Servis diambil dari sales page (seksyen coaching): Deep Dive percuma di Zoom, Setup Team Sales, coaching bulanan di HQ klien, bengkel fizikal / sesi online.
+
+### Susunan & koleksi (10 item)
+| Koleksi | # | Item | Harga |
+|---|---|---|---|
+| 🤝 Servis Untuk Team Sales | 1 | Sesi Deep Dive (Zoom) | Percuma |
+| | 2 | Setup Team Sales | ❓ Sir sahkan |
+| | 3 | Coaching Bulanan Team Sales (di HQ anda) | ❓ Sir sahkan |
+| | 4 | In-House Training / Bengkel Closing | ❓ Sir sahkan |
+| ⭐ Ebook Mula Di Sini | 5 | Ebook 2026: Wassap Masih Relevan? | RM37 |
+| 💰 Bundle Jimat | 6 | Bundle Skrip Siap Guna (3 ebook) | RM99 |
+| | 7 | Bundle Asas Closing (Learning Lab 1–3) | RM69 |
+| 📘 Ikut Industri | 8 | Framework Ikut Industri (8 pilihan) | RM10 |
+| 🎁 Percuma | 9 | Kelas LIVE: 1 Hari 1 Skill Baru (T5) | Percuma |
+| | 10 | Murpati: WhatsApp Blaster & Chatbot | Percuma cuba (link referral) |
+
+Ebook satu-satu (Template 3.0, Handle Rejection, Follow Up) dibuang dari katalog: semuanya ada dalam Bundle RM99, jadi tak perlu bersaing.
+
+### Deskripsi servis (draf)
+
+**1. Sesi Deep Dive (Zoom) · Percuma · SD-DD**
+> Untuk founder yang dah ada team sales. 45–60 minit di Zoom bersama founder dan wakil team.
+> Sir semak proses jualan dan chat WhatsApp team, kemudian cadangkan langkah seterusnya: Setup Team Sales, coaching bulanan, atau cukup dengan ebook.
+> Slot terhad setiap bulan. Tekan "Mesej" dan tulis: DEEP DIVE.
+
+**2. Setup Team Sales · SD-SETUP**
+> Bina sistem jualan WhatsApp dari kosong: SOP layan leads, skrip ikut produk, sasaran harian (formula 1-4-6-10) dan cara pantau team.
+> Sesuai untuk bisnes servis yang baru ambil 1–5 staf sales.
+
+**3. Coaching Bulanan Team Sales · SD-COACH**
+> Sir masuk ke HQ anda setiap bulan: semak chat team, betulkan skrip, latih closing dan follow up.
+> Slot terhad (5 syarikat serentak). Sekarang bersama team travel umrah dan pembinaan.
+
+**4. In-House Training / Bengkel Closing · SD-TRAIN**
+> Latihan closing WhatsApp untuk team anda: fizikal di premis anda atau online.
+> Modul: greeting, fact finding, handle rejection, follow up dan closing.
+
+Item 5–9: deskripsi sama seperti versi 1 di bawah. Item 10: "Platform yang Sir guna sendiri untuk follow up automatik. Cuba melalui link ini." (https://murpati.com/r/REF_A869)
+
+### Perlu Sir sahkan
+- Harga servis 2, 3, 4 (atau tak papar harga).
+- Tempoh Deep Dive (45–60 minit?) dan format setiap servis.
+- Ada servis lain (contoh konsultasi 1-on-1 owner, program Influence Closing Learning)?
+
+---
+
+## Versi 1 (ebook sahaja)
+
 ## Prinsip
 - **Maksimum 9 item.** Lebih banyak pilihan, lebih lambat orang buat keputusan. Learning Lab Vol 1/2/3 tidak dijual satu-satu dalam katalog (masuk melalui bundle).
 - **Susunan = susunan jualan:** murah dan mudah dulu, kemudian bundle, kemudian percuma (untuk yang belum ready).
