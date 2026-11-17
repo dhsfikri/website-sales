@@ -49,3 +49,13 @@ Bio guna form sendiri (`sd-bio`) supaya jualan dari bio nampak berasingan dalam 
 - Susunan: foto hero → pill "+10,000 usahawan" → Join kelas percuma → nama besar → kad Ebook (hijau, utama) → Kelas LIVE → Framework → Blaster → Siapa Sir Dharma (8+ / 10K+ / 2019) → 2 testimoni → foto pentas + "Ada soalan?" WhatsApp → footer.
 - **Ganti dulu sebelum publish:** `GANTI_LINK_T5` (2 tempat), `GANTI_LINK_FRAMEWORK`, `GANTI_LINK_BLASTER`. Link ebook = `https://klik.vip/ebookclosing-bio` (buat short link ni, atau tukar ke `ebookclosing-th` sementara). WhatsApp = wa.me/60167677759 dengan mesej siap.
 - Dalam klik.vip: buang semua block lama, set background page krim #F4EDE1, dan tambah block **Socials** di bawah Custom HTML kalau nak ikon sosial.
+
+### Keputusan grill (17 Nov)
+- Matlamat utama bio = **jual Ebook RM37**. Butang bawah foto = "Dapatkan Ebook RM37 →". Kelas percuma jadi pilihan kedua.
+- Pelawat = owner bisnes servis yang baru ada team sales. Ayat kad ditulis untuk owner.
+- **Tiada form baru.** Link Ebook = `https://klik.vip/ebookclosing-th` (dikira bersama Threads). Jualan bio dibandingkan guna statistik klik klik.vip.
+- Pixel 255927347311677 dalam kod: PageView, ViewContent (RM37) bila klik Ebook, custom `BioKlik` untuk butang lain.
+- Ebook Panduan Closing lama dibuang. Tiada countdown (tiada tarikh tamat sebenar).
+- Kad Blaster = Murpati (link referral), ayat "Platform yang Sir guna sendiri".
+- Header = headline sahaja. Ebook = mockup buku 3D. Font Poppins tebal.
+- **Masih tunggu link:** `GANTI_LINK_T5`, `GANTI_LINK_FRAMEWORK`, `GANTI_LINK_MURPATI`.
