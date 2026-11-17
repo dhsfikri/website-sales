@@ -23,6 +23,7 @@ Setiap perubahan pada funnel, iklan dan setting. Paling baru di atas.
   - WhatsApp: /form/sd-wa (ID 22024, "Kedai Ebook Sir Dharma - WhatsApp", salinan form utama)
   - Threads: /form/sd-th (ID 22025, "Kedai Ebook Sir Dharma - Threads", salinan form Threads; /form/ebook-sirdharma-threads kekal aktif)
   - Jualan dikenal pasti ikut nama form dalam rekod transaksi BCL.
+  - Link pendek oleh Sir: https://klik.vip/ebookclosing-wa (→ /form/sd-wa) dan https://klik.vip/ebookclosing-th (→ /form/sd-th) untuk posting WhatsApp dan Threads.
 
 ## 16 Nov 2026
 
