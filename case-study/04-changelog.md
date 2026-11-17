@@ -16,6 +16,7 @@ Setiap perubahan pada funnel, iklan dan setting. Paling baru di atas.
   - Ujian warna: CV1 vs CV2 vs CV3 (angle sama). Ujian angle: CV1 vs CV4 vs CV5 (warna sama).
 - F3 dipause (1 klik sahaja).
 - Kempen carousel, ad set dan 5 iklan carousel di-ON atas kelulusan Sir. Perubahan bajet Minggu 1 (RM30 → RM12) ditolak oleh Sir, jadi Minggu 1 kekal RM30.
+- Exclusion "180 Hari Pembeli (Purchase SD2026)" ditambah pada ad set carousel (ad set di-ON semula selepas auto-pause). Ujian audience Advantage+ vs manual targeting (cadangan nota Zaeem) ditangguh ke minggu depan selepas kreatif menang dikenal pasti.
 - Ad set melalui API masih ditolak ("Advertiser is missing"). Tool duplicate ad set juga belum tersedia untuk akaun ini. Sir perlu cipta ad set dalam Ads Manager.
 
 ## 16 Nov 2026
