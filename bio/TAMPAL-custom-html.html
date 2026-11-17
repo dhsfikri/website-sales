@@ -4,147 +4,165 @@
 .sd{--cream:#f4ede1;--sand:#e6dac6;--green:#0b3b2c;--green2:#14533f;--gold:#c9a24a;--ink:#1d2a24;--soft:#3d4a43;font-family:Poppins,sans-serif;color:var(--ink);background:var(--cream);max-width:480px;margin:0 auto;overflow:hidden;border-radius:0}
 .sd *{box-sizing:border-box;margin:0;padding:0}
 .sd a{text-decoration:none;color:inherit}
-.sd .hero{position:relative}
-.sd .hero:after{content:"";position:absolute;left:0;right:0;bottom:0;height:120px;background:linear-gradient(180deg,rgba(244,237,225,0),var(--cream))}
-.sd .hero img{display:block;width:100%;height:460px;object-fit:cover;object-position:center 0%}
-.sd .stat{position:relative;z-index:2;margin:-46px auto 0;width:82%;background:var(--sand);border-radius:999px;padding:10px 22px 10px 12px;display:flex;align-items:center;gap:12px;box-shadow:0 10px 24px rgba(11,59,44,.18)}
-.sd .faces{display:flex}
-.sd .faces img{width:38px;height:38px;border-radius:50%;object-fit:cover;border:2px solid var(--sand);margin-left:-10px}
-.sd .faces img:first-child{margin-left:0}
-.sd .stat b{font-size:24px;font-weight:900;color:var(--green);display:block;line-height:1}
-.sd .stat span{font-size:12.5px;color:var(--soft);font-weight:600}
-.sd .pill{display:inline-block;background:var(--green);color:var(--cream);font-size:13px;font-weight:800;letter-spacing:.5px;text-transform:uppercase;padding:11px 24px;border-radius:999px;box-shadow:0 6px 14px rgba(11,59,44,.25);transition:transform .2s}
-.sd .pill:hover,.sd .pill:active{transform:scale(1.06)}
-.sd .center{text-align:center}
-.sd .name{text-align:center;padding:22px 16px 6px}
-.sd .name h1{font-size:44px;font-weight:900;color:var(--green);line-height:1;text-transform:uppercase;letter-spacing:-1px}
-.sd .name h1 i{font-style:normal;color:var(--gold)}
-.sd .name p{display:inline-block;font-size:12.5px;letter-spacing:1px;text-transform:uppercase;color:#fff;background:var(--green);font-weight:800;margin-top:10px;padding:6px 16px;border-radius:999px}
-.sd .cards{padding:18px 16px 6px;display:grid;gap:14px}
-.sd .card{display:flex;align-items:center;border-radius:30px;overflow:hidden;background:var(--sand);min-height:128px;padding:8px;box-shadow:0 8px 22px rgba(11,59,44,.10);transition:transform .25s cubic-bezier(.34,1.56,.64,1),box-shadow .25s}
-.sd .card:hover,.sd .card:active{transform:translateY(-4px) scale(1.02);box-shadow:0 16px 32px rgba(11,59,44,.20)}
-.sd .card .tx{flex:1;padding:16px 14px 14px 18px;display:flex;flex-direction:column;justify-content:center}
-.sd .card h3{font-size:17px;font-weight:900;color:var(--green);line-height:1.2}
-.sd .card p{font-size:13px;font-weight:600;color:var(--soft);line-height:1.45;margin:6px 0 10px}
-.sd .card .btn{align-self:flex-start;background:var(--green);color:var(--cream);font-size:11.5px;font-weight:800;letter-spacing:.5px;text-transform:uppercase;padding:7px 14px;border-radius:999px}
-.sd .card .ph{width:118px;height:130px;flex:none;background:var(--green2);display:flex;align-items:flex-end;justify-content:center;border-radius:24px;overflow:hidden}
-.sd .card .ph img{width:100%;height:100%;object-fit:cover}
-.sd .card.dark{background:var(--green)}
-.sd .card.dark h3{color:var(--cream)}
-.sd .card.dark p{color:#c2dccf}
-.sd .card.dark .btn{background:var(--gold);color:#1d1400}
-.sd .card .ph.book{background:linear-gradient(160deg,#e6dac6,#cbb894);padding:12px}
-.sd .card .ph.book img{width:78px;height:auto;border-radius:4px;box-shadow:0 8px 16px rgba(0,0,0,.3);align-self:center}
-.sd .tag{display:inline-block;font-size:10px;font-weight:800;color:#1d1400;background:var(--gold);padding:3px 8px;border-radius:6px;margin-bottom:6px;align-self:flex-start;letter-spacing:.5px}
-.sd .price{font-size:19px;font-weight:900;color:var(--cream);margin-bottom:10px}
-.sd .price s{opacity:.55;font-weight:500;margin-left:4px}
-.sd .about{background:var(--green);color:var(--cream);margin:18px 16px 0;border-radius:40px;padding:28px 22px;text-align:center}
-.sd .about h2{font-weight:900;font-size:26px}
-.sd .about h2 i{font-style:normal;color:var(--gold)}
-.sd .about p{font-size:14px;font-weight:500;line-height:1.6;color:#e6f1ea;margin-top:12px}
-.sd .about .nums{display:flex;justify-content:space-around;margin-top:18px;border-top:1px solid rgba(244,237,225,.18);padding-top:16px}
-.sd .about .nums b{display:block;font-size:24px;font-weight:900;color:var(--gold)}
-.sd .about .nums span{font-size:11px;font-weight:700;color:#c2dccf;letter-spacing:.5px}
-.sd .rv{padding:30px 16px 6px}
-.sd .rv h2{text-align:center;font-size:24px;font-weight:900;color:var(--green)}
-.sd .rv h2 i{font-style:normal;color:var(--gold)}
-.sd .rv .grid{display:grid;grid-template-columns:1fr 1fr;gap:10px;margin-top:16px}
-.sd .rv .r{background:var(--sand);border-radius:26px;padding:14px;box-shadow:0 6px 16px rgba(11,59,44,.08)}
-.sd .rv .who{display:flex;gap:8px;align-items:center}
-.sd .rv .av{width:30px;height:30px;border-radius:50%;background:var(--green);color:var(--gold);font-weight:800;font-size:11px;display:grid;place-items:center;flex:none}
-.sd .rv .who b{font-size:12px;font-weight:800;display:block;color:var(--green)}
-.sd .rv .who small{font-size:10px;color:var(--gold);letter-spacing:1px}
-.sd .rv .r p{font-size:12.5px;font-weight:600;line-height:1.5;color:var(--soft);margin-top:8px}
-.sd .end{position:relative;margin:26px 14px 0;background:var(--green);border-radius:40px 40px 30px 30px;overflow:hidden}
-.sd .end img{display:block;width:100%;height:400px;object-fit:cover;object-position:62% 30%;opacity:.92}
-.sd .end .box{position:absolute;left:50%;bottom:24px;transform:translateX(-50%);width:86%;background:var(--cream);border-radius:30px;padding:20px 18px;text-align:center;box-shadow:0 14px 30px rgba(0,0,0,.25)}
-.sd .end h2{font-size:26px;font-weight:900;color:var(--green)}
-.sd .end h2 i{font-style:normal;color:var(--gold)}
-.sd .end p{font-size:13.5px;font-weight:600;color:var(--soft);margin:6px 0 14px;line-height:1.45}
-.sd .wa{background:#1f9d55}
-.sd .foot{background:var(--cream);margin-top:6px;text-align:center;padding:14px;font-size:11.5px;font-weight:600;color:var(--soft);letter-spacing:.3px}
-.sd .foot b{color:var(--green)}
-.sd .top{background:var(--green);color:var(--cream);text-align:center;padding:22px 18px 20px;border-bottom:4px solid var(--gold)}
-.sd .top small{display:block;font-size:11px;letter-spacing:1.5px;color:var(--gold);font-weight:800;margin-bottom:6px}
-.sd .top h2{font-size:21px;font-weight:900;line-height:1.2;text-transform:uppercase}
-.sd .top h2 i{display:block;font-style:normal;color:var(--gold);font-size:16px;font-weight:800;text-transform:none;margin-top:5px}
-.sd .card.ebook{overflow:visible;margin-top:26px;padding-right:0}
-.sd .bk3d{width:132px;flex:none;align-self:stretch;position:relative;perspective:900px}
-.sd .bk{position:absolute;right:30px;top:-30px;width:104px;transform:rotateY(-24deg) rotateX(4deg);transform-style:preserve-3d;animation:sdfloat 3.5s ease-in-out infinite}
-.sd .bk img{display:block;width:104px;height:auto;border-radius:2px 6px 6px 2px;box-shadow:-2px 0 0 rgba(255,255,255,.25) inset,0 22px 30px rgba(0,0,0,.45);position:relative;z-index:2}
-.sd .bk:before{content:"";position:absolute;top:3px;bottom:3px;right:-12px;width:14px;background:repeating-linear-gradient(180deg,#fff 0 2px,#e9e2d4 2px 3px);transform:rotateY(70deg);transform-origin:left;border-radius:0 3px 3px 0}
-.sd .bk:after{content:"";position:absolute;left:6px;top:0;bottom:0;width:6px;background:linear-gradient(90deg,rgba(0,0,0,.25),rgba(255,255,255,.18),rgba(0,0,0,0));z-index:3}
+.sd .sd-hero{position:relative}
+.sd .sd-hero:after{content:"";position:absolute;left:0;right:0;bottom:0;height:120px;background:linear-gradient(180deg,rgba(244,237,225,0),var(--cream))}
+.sd .sd-hero img{display:block;width:100%;height:460px;object-fit:cover;object-position:center 0%}
+.sd .sd-stat{position:relative;z-index:2;margin:-46px auto 0;width:82%;background:var(--sand);border-radius:999px;padding:10px 22px 10px 12px;display:flex;align-items:center;gap:12px;box-shadow:0 10px 24px rgba(11,59,44,.18)}
+.sd .sd-faces{display:flex}
+.sd .sd-faces img{width:38px;height:38px;border-radius:50%;object-fit:cover;border:2px solid var(--sand);margin-left:-10px}
+.sd .sd-faces img:first-child{margin-left:0}
+.sd .sd-stat b{font-size:24px;font-weight:900;color:var(--green);display:block;line-height:1}
+.sd .sd-stat span{font-size:12.5px;color:var(--soft);font-weight:600}
+.sd .sd-pill{display:inline-block;background:var(--green);color:var(--cream);font-size:13px;font-weight:800;letter-spacing:.5px;text-transform:uppercase;padding:11px 24px;border-radius:999px;box-shadow:0 6px 14px rgba(11,59,44,.25);transition:transform .2s}
+.sd .sd-pill:hover,.sd .sd-pill:active{transform:scale(1.06)}
+.sd .sd-center{text-align:center}
+.sd .sd-name{text-align:center;padding:22px 16px 6px}
+.sd .sd-name h1{font-size:44px;font-weight:900;color:var(--green);line-height:1;text-transform:uppercase;letter-spacing:-1px}
+.sd .sd-name h1 i{font-style:normal;color:var(--gold)}
+.sd .sd-name p{display:inline-block;font-size:12.5px;letter-spacing:1px;text-transform:uppercase;color:#fff;background:var(--green);font-weight:800;margin-top:10px;padding:6px 16px;border-radius:999px}
+.sd .sd-cards{padding:18px 16px 6px;display:grid;gap:14px}
+.sd .sd-card{display:flex;align-items:center;border-radius:30px;overflow:hidden;background:var(--sand);min-height:128px;padding:8px;box-shadow:0 8px 22px rgba(11,59,44,.10);transition:transform .25s cubic-bezier(.34,1.56,.64,1),box-shadow .25s}
+.sd .sd-card:hover,.sd .sd-card:active{transform:translateY(-4px) scale(1.02);box-shadow:0 16px 32px rgba(11,59,44,.20)}
+.sd .sd-card .sd-tx{flex:1;padding:16px 14px 14px 18px;display:flex;flex-direction:column;justify-content:center}
+.sd .sd-card h3{font-size:17px;font-weight:900;color:var(--green);line-height:1.2}
+.sd .sd-card p{font-size:13px;font-weight:600;color:var(--soft);line-height:1.45;margin:6px 0 10px}
+.sd .sd-card .sd-btn{align-self:flex-start;background:var(--green);color:var(--cream);font-size:11.5px;font-weight:800;letter-spacing:.5px;text-transform:uppercase;padding:7px 14px;border-radius:999px}
+.sd .sd-card .sd-ph{width:118px;height:130px;flex:none;background:var(--green2);display:flex;align-items:flex-end;justify-content:center;border-radius:24px;overflow:hidden}
+.sd .sd-card .sd-ph img{width:100%;height:100%;object-fit:cover}
+.sd .sd-card.sd-dark{background:var(--green)}
+.sd .sd-card.sd-dark h3{color:var(--cream)}
+.sd .sd-card.sd-dark p{color:#c2dccf}
+.sd .sd-card.sd-dark .sd-btn{background:var(--gold);color:#1d1400}
+.sd .sd-card .sd-ph.sd-book{background:linear-gradient(160deg,#e6dac6,#cbb894);padding:12px}
+.sd .sd-card .sd-ph.sd-book img{width:78px;height:auto;border-radius:4px;box-shadow:0 8px 16px rgba(0,0,0,.3);align-self:center}
+.sd .sd-tag{display:inline-block;font-size:10px;font-weight:800;color:#1d1400;background:var(--gold);padding:3px 8px;border-radius:6px;margin-bottom:6px;align-self:flex-start;letter-spacing:.5px}
+.sd .sd-price{font-size:19px;font-weight:900;color:var(--cream);margin-bottom:10px}
+.sd .sd-price s{opacity:.55;font-weight:500;margin-left:4px}
+.sd .sd-about{background:var(--green);color:var(--cream);margin:18px 16px 0;border-radius:40px;padding:28px 22px;text-align:center}
+.sd .sd-about h2{font-weight:900;font-size:26px}
+.sd .sd-about h2 i{font-style:normal;color:var(--gold)}
+.sd .sd-about p{font-size:14px;font-weight:500;line-height:1.6;color:#e6f1ea;margin-top:12px}
+.sd .sd-about .sd-nums{display:flex;justify-content:space-around;margin-top:18px;border-top:1px solid rgba(244,237,225,.18);padding-top:16px}
+.sd .sd-about .sd-nums b{display:block;font-size:24px;font-weight:900;color:var(--gold)}
+.sd .sd-about .sd-nums span{font-size:11px;font-weight:700;color:#c2dccf;letter-spacing:.5px}
+.sd .sd-rv{padding:30px 16px 6px}
+.sd .sd-rv h2{text-align:center;font-size:24px;font-weight:900;color:var(--green)}
+.sd .sd-rv h2 i{font-style:normal;color:var(--gold)}
+.sd .sd-rv .sd-grid{display:grid;grid-template-columns:1fr 1fr;gap:10px;margin-top:16px}
+.sd .sd-rv .sd-r{background:var(--sand);border-radius:26px;padding:14px;box-shadow:0 6px 16px rgba(11,59,44,.08)}
+.sd .sd-rv .sd-who{display:flex;gap:8px;align-items:center}
+.sd .sd-rv .sd-av{width:30px;height:30px;border-radius:50%;background:var(--green);color:var(--gold);font-weight:800;font-size:11px;display:grid;place-items:center;flex:none}
+.sd .sd-rv .sd-who b{font-size:12px;font-weight:800;display:block;color:var(--green)}
+.sd .sd-rv .sd-who small{font-size:10px;color:var(--gold);letter-spacing:1px}
+.sd .sd-rv .sd-r p{font-size:12.5px;font-weight:600;line-height:1.5;color:var(--soft);margin-top:8px}
+.sd .sd-end{position:relative;margin:26px 14px 0;background:var(--green);border-radius:40px 40px 30px 30px;overflow:hidden}
+.sd .sd-end img{display:block;width:100%;height:400px;object-fit:cover;object-position:62% 30%;opacity:.92}
+.sd .sd-end .sd-box{position:absolute;left:50%;bottom:24px;transform:translateX(-50%);width:86%;background:var(--cream);border-radius:30px;padding:20px 18px;text-align:center;box-shadow:0 14px 30px rgba(0,0,0,.25)}
+.sd .sd-end h2{font-size:26px;font-weight:900;color:var(--green)}
+.sd .sd-end h2 i{font-style:normal;color:var(--gold)}
+.sd .sd-end p{font-size:13.5px;font-weight:600;color:var(--soft);margin:6px 0 14px;line-height:1.45}
+.sd .sd-wa{background:#1f9d55}
+.sd .sd-foot{background:var(--cream);margin-top:6px;text-align:center;padding:14px;font-size:11.5px;font-weight:600;color:var(--soft);letter-spacing:.3px}
+.sd .sd-foot b{color:var(--green)}
+.sd .sd-top{background:var(--green);color:var(--cream);text-align:center;padding:22px 52px 20px;border-bottom:4px solid var(--gold)}
+.sd .sd-top small{display:block;font-size:11px;letter-spacing:1.5px;color:var(--gold);font-weight:800;margin-bottom:6px}
+.sd .sd-top h2{font-size:clamp(17px,5vw,21px);font-weight:900;line-height:1.2;text-transform:uppercase}
+.sd .sd-top h2 i{display:block;font-style:normal;color:var(--gold);font-size:16px;font-weight:800;text-transform:none;margin-top:5px}
+.sd .sd-card.sd-ebook{overflow:visible;margin-top:26px;padding-right:0}
+.sd .sd-bk3d{width:132px;flex:none;align-self:stretch;position:relative;perspective:900px}
+.sd .sd-bk{position:absolute;right:30px;top:-30px;width:104px;transform:rotateY(-24deg) rotateX(4deg);transform-style:preserve-3d;animation:sdfloat 3.5s ease-in-out infinite}
+.sd .sd-bk img{display:block;width:104px;height:auto;border-radius:2px 6px 6px 2px;box-shadow:-2px 0 0 rgba(255,255,255,.25) inset,0 22px 30px rgba(0,0,0,.45);position:relative;z-index:2}
+.sd .sd-bk:before{content:"";position:absolute;top:3px;bottom:3px;right:-12px;width:14px;background:repeating-linear-gradient(180deg,#fff 0 2px,#e9e2d4 2px 3px);transform:rotateY(70deg);transform-origin:left;border-radius:0 3px 3px 0}
+.sd .sd-bk:after{content:"";position:absolute;left:6px;top:0;bottom:0;width:6px;background:linear-gradient(90deg,rgba(0,0,0,.25),rgba(255,255,255,.18),rgba(0,0,0,0));z-index:3}
 @keyframes sdfloat{0%,100%{transform:rotateY(-24deg) rotateX(4deg) translateY(0)}50%{transform:rotateY(-24deg) rotateX(4deg) translateY(-6px)}}
-.sd .pop{animation:sdpop .6s cubic-bezier(.34,1.56,.64,1) both}
+.sd .sd-pop{animation:sdpop .6s cubic-bezier(.34,1.56,.64,1) both}
 @keyframes sdpop{0%{opacity:0;transform:translateY(24px) scale(.88)}100%{opacity:1;transform:none}}
-.sd .pulse{animation:sdpop .6s cubic-bezier(.34,1.56,.64,1) both,sdpulse 2.2s ease-in-out 1.2s infinite}
+.sd .sd-pulse{animation:sdpop .6s cubic-bezier(.34,1.56,.64,1) both,sdpulse 2.2s ease-in-out 1.2s infinite}
 @keyframes sdpulse{0%,100%{transform:scale(1)}50%{transform:scale(1.06)}}
-.sd.js .rev{opacity:0;transform:translateY(28px) scale(.9);transition:opacity .55s ease,transform .6s cubic-bezier(.34,1.56,.64,1)}
-.sd.js .rev.in{opacity:1;transform:none}
-@media (prefers-reduced-motion:reduce){.sd .pop,.sd .pulse{animation:none}.sd.js .rev{opacity:1;transform:none}}
+.sd.sd-js .sd-rev{opacity:0;transform:translateY(28px) scale(.9);transition:opacity .55s ease,transform .6s cubic-bezier(.34,1.56,.64,1)}
+.sd.sd-js .sd-rev.sd-in{opacity:1;transform:none}
+@media (prefers-reduced-motion:reduce){.sd .sd-pop,.sd .sd-pulse{animation:none}.sd.sd-js .sd-rev{opacity:1;transform:none}}
+
+/* ---- paksa layout klik.vip ---- */
+body.link-body{background:#f4ede1!important;background-image:none!important}
+.link-body-backdrop,#branding{display:none!important}
+body.link-body>.container{max-width:480px!important;padding:0!important}
+body.link-body .link-content{padding:0!important;flex:0 0 100%!important;max-width:100%!important}
+body.link-body #links{margin:0!important}
+body.link-body #blocks_container{margin:0!important}
+body.link-body #blocks_container>[class*="col-"]{padding-left:0!important;padding-right:0!important}
+body.link-body{overflow-x:hidden}
+body.link-body>.container>.row{margin-left:0!important;margin-right:0!important}
+body.link-body .share-button-wrapper{top:10px!important;right:10px!important}
+body.link-body [data-biolink-block-type="custom_html"]{padding:0!important;margin:0!important}
+body.link-body [data-biolink-block-type="socials"] i{color:#0b3b2c!important}
+.sd{text-align:left;line-height:1.4}
+.sd h1,.sd h2,.sd h3,.sd p{margin:0}
+.sd a:hover{color:inherit;text-decoration:none}
+.sd .sd-btn,.sd .sd-pill{white-space:nowrap}
 </style>
 <div class="sd">
-  <div class="top pop"><h2>Ada lead tapi susah closed?</h2></div>
-  <div class="hero pop" style="animation-delay:.1s"><img src="https://raw.githubusercontent.com/dhsfikri/website-sales/d8474374b92ad81f5b9ecffa42b513c53975b298/assets/galeri/studio-tunjuk.jpg" alt="Sir Dharma"></div>
-  <div class="stat pop" style="animation-delay:.25s">
-    <div class="faces"><img src="https://raw.githubusercontent.com/dhsfikri/website-sales/d8474374b92ad81f5b9ecffa42b513c53975b298/assets/galeri/team-farmasi.jpg" alt=""><img src="https://raw.githubusercontent.com/dhsfikri/website-sales/d8474374b92ad81f5b9ecffa42b513c53975b298/assets/galeri/coaching-hq.jpg" alt=""><img src="https://raw.githubusercontent.com/dhsfikri/website-sales/d8474374b92ad81f5b9ecffa42b513c53975b298/assets/galeri/pentas-influence.jpg" alt=""></div>
+  <div class="sd-top sd-pop"><h2>Ada lead tapi susah closed?</h2></div>
+  <div class="sd-hero sd-pop" style="animation-delay:.1s"><img src="https://raw.githubusercontent.com/dhsfikri/website-sales/2e3e2b60f74a8634593417211e39f70827407c78/assets/galeri/studio-tunjuk.jpg" alt="Sir Dharma"></div>
+  <div class="sd-stat sd-pop" style="animation-delay:.25s">
+    <div class="sd-faces"><img src="https://raw.githubusercontent.com/dhsfikri/website-sales/2e3e2b60f74a8634593417211e39f70827407c78/assets/galeri/team-farmasi.jpg" alt=""><img src="https://raw.githubusercontent.com/dhsfikri/website-sales/2e3e2b60f74a8634593417211e39f70827407c78/assets/galeri/coaching-hq.jpg" alt=""><img src="https://raw.githubusercontent.com/dhsfikri/website-sales/2e3e2b60f74a8634593417211e39f70827407c78/assets/galeri/pentas-influence.jpg" alt=""></div>
     <div><b>+10,000</b><span>usahawan dah belajar closing</span></div>
   </div>
-  <div class="center" style="margin-top:14px"><a class="pill pulse" style="animation-delay:.4s,1.2s" href="https://klik.vip/ebookclosing-th" target="_top" data-ev="Ebook">Dapatkan Ebook RM37 →</a></div>
+  <div class="sd-center" style="margin-top:14px"><a class="sd-pill sd-pulse" style="animation-delay:.4s,1.2s" href="https://klik.vip/ebookclosing-th" target="_top" data-ev="Ebook">Dapatkan Ebook RM37 →</a></div>
 
-  <div class="name pop" style="animation-delay:.5s">
+  <div class="sd-name sd-pop" style="animation-delay:.5s">
     <h1>Sir <i>Dharma</i></h1>
     <p>Sales Closing Specialist</p>
   </div>
 
-  <div class="cards">
-    <a class="rev card dark ebook" href="https://klik.vip/ebookclosing-th" target="_top" data-ev="Ebook">
-      <div class="tx"><span class="tag">JIMAT 44%</span><h3>Ebook 2026: Wassap Masih Relevan?</h3><p>Skrip closing WhatsApp siap guna untuk team sales anda.</p><div class="price">RM37 <s>RM67</s></div><span class="btn">Dapatkan sekarang →</span></div>
-      <div class="bk3d"><div class="bk"><img src="https://raw.githubusercontent.com/dhsfikri/website-sales/d8474374b92ad81f5b9ecffa42b513c53975b298/assets/covers/ebook-2026.jpg" alt="Ebook 2026"></div></div>
+  <div class="sd-cards">
+    <a class="sd-rev sd-card sd-dark sd-ebook" href="https://klik.vip/ebookclosing-th" target="_top" data-ev="Ebook">
+      <div class="sd-tx"><span class="sd-tag">JIMAT 44%</span><h3>Ebook 2026: Wassap Masih Relevan?</h3><p>Skrip closing WhatsApp siap guna untuk team sales anda.</p><div class="sd-price">RM37 <s>RM67</s></div><span class="sd-btn">Dapatkan sekarang →</span></div>
+      <div class="sd-bk3d"><div class="sd-bk"><img src="https://raw.githubusercontent.com/dhsfikri/website-sales/2e3e2b60f74a8634593417211e39f70827407c78/assets/covers/ebook-2026.jpg" alt="Ebook 2026"></div></div>
     </a>
-    <a class="rev card" href="GANTI_LINK_T5" target="_top" data-ev="KelasT5">
-      <div class="tx"><h3>Kelas LIVE Percuma</h3><p>1 Hari 1 Skill Baru untuk owner &amp; team sales. Masuk T5 High Performer Circle.</p><span class="btn">Join percuma</span></div>
-      <div class="ph"><img src="https://raw.githubusercontent.com/dhsfikri/website-sales/d8474374b92ad81f5b9ecffa42b513c53975b298/assets/galeri/hero-whiteboard.jpg" alt=""></div>
+    <a class="sd-rev sd-card" href="GANTI_LINK_T5" target="_top" data-ev="KelasT5">
+      <div class="sd-tx"><h3>Kelas LIVE Percuma</h3><p>1 Hari 1 Skill Baru untuk owner &amp; team sales. Masuk T5 High Performer Circle.</p><span class="sd-btn">Join percuma</span></div>
+      <div class="sd-ph"><img src="https://raw.githubusercontent.com/dhsfikri/website-sales/2e3e2b60f74a8634593417211e39f70827407c78/assets/galeri/hero-whiteboard.jpg" alt=""></div>
     </a>
-    <a class="rev card" href="GANTI_LINK_FRAMEWORK" target="_top" data-ev="Framework">
-      <div class="tx"><h3>Framework Follow Up &amp; Handle Rejection</h3><p>Bagi team sales anda SOP bila prospek bluetick atau tolak.</p><span class="btn">Lihat</span></div>
-      <div class="ph book"><img src="https://raw.githubusercontent.com/dhsfikri/website-sales/d8474374b92ad81f5b9ecffa42b513c53975b298/assets/covers/handle-rejection-2025.jpg" alt=""></div>
+    <a class="sd-rev sd-card" href="GANTI_LINK_FRAMEWORK" target="_top" data-ev="Framework">
+      <div class="sd-tx"><h3>Framework Follow Up &amp; Handle Rejection</h3><p>Bagi team sales anda SOP bila prospek bluetick atau tolak.</p><span class="sd-btn">Lihat</span></div>
+      <div class="sd-ph sd-book"><img src="https://raw.githubusercontent.com/dhsfikri/website-sales/2e3e2b60f74a8634593417211e39f70827407c78/assets/covers/handle-rejection-2025.jpg" alt=""></div>
     </a>
-    <a class="rev card" href="GANTI_LINK_MURPATI" target="_top" data-ev="Murpati">
-      <div class="tx"><h3>WhatsApp Blaster &amp; Chatbot</h3><p>Platform yang Sir guna sendiri untuk follow up automatik: Murpati.</p><span class="btn">Cuba Murpati</span></div>
-      <div class="ph"><img src="https://raw.githubusercontent.com/dhsfikri/website-sales/d8474374b92ad81f5b9ecffa42b513c53975b298/assets/galeri/podcast-sir.jpg" alt=""></div>
+    <a class="sd-rev sd-card" href="GANTI_LINK_MURPATI" target="_top" data-ev="Murpati">
+      <div class="sd-tx"><h3>WhatsApp Blaster &amp; Chatbot</h3><p>Platform yang Sir guna sendiri untuk follow up automatik: Murpati.</p><span class="sd-btn">Cuba Murpati</span></div>
+      <div class="sd-ph"><img src="https://raw.githubusercontent.com/dhsfikri/website-sales/2e3e2b60f74a8634593417211e39f70827407c78/assets/galeri/podcast-sir.jpg" alt=""></div>
     </a>
   </div>
 
-  <div class="about rev">
+  <div class="sd-about sd-rev">
     <h2>Siapa <i>Sir Dharma</i></h2>
     <p>Lebih 8 tahun di lapangan jualan. Sejak 2019 dah turunkan ilmu closing kepada lebih 10,000 usahawan, dan bantu jenama seperti Zafesha Simply, MamaDil dan Young Living kukuhkan team sales mereka.</p>
-    <div class="nums"><div><b>8+</b><span>TAHUN SALES</span></div><div><b>10K+</b><span>USAHAWAN</span></div><div><b>2019</b><span>MULA MENGAJAR</span></div></div>
+    <div class="sd-nums"><div><b>8+</b><span>TAHUN SALES</span></div><div><b>10K+</b><span>USAHAWAN</span></div><div><b>2019</b><span>MULA MENGAJAR</span></div></div>
   </div>
 
-  <div class="rv">
+  <div class="sd-rv">
     <h2>Apa kata <i>mereka?</i></h2>
-    <div class="grid">
-      <div class="r rev"><div class="who"><span class="av">SA</span><div><b>Pn Siti Aisah</b><small>★★★★★</small></div></div><p>"Sesuai untuk syarikat yang ada team sales. Ada flow dan SOP bila kena reject dan bluetick."</p></div>
-      <div class="r rev"><div class="who"><span class="av">HH</span><div><b>Tn Haqimi Hassan</b><small>★★★★★</small></div></div><p>"7 tahun closing, memang terbukti method ini berkesan. Praktikal + simple. 10/10."</p></div>
+    <div class="sd-grid">
+      <div class="sd-r sd-rev"><div class="sd-who"><span class="sd-av">SA</span><div><b>Pn Siti Aisah</b><small>★★★★★</small></div></div><p>"Sesuai untuk syarikat yang ada team sales. Ada flow dan SOP bila kena reject dan bluetick."</p></div>
+      <div class="sd-r sd-rev"><div class="sd-who"><span class="sd-av">HH</span><div><b>Tn Haqimi Hassan</b><small>★★★★★</small></div></div><p>"7 tahun closing, memang terbukti method ini berkesan. Praktikal + simple. 10/10."</p></div>
     </div>
   </div>
 
-  <div class="end rev">
-    <img src="https://raw.githubusercontent.com/dhsfikri/website-sales/d8474374b92ad81f5b9ecffa42b513c53975b298/assets/galeri/pentas-influence.jpg" alt="">
-    <div class="box">
+  <div class="sd-end sd-rev">
+    <img src="https://raw.githubusercontent.com/dhsfikri/website-sales/2e3e2b60f74a8634593417211e39f70827407c78/assets/galeri/pentas-influence.jpg" alt="">
+    <div class="sd-box">
       <h2>Ada <i>soalan?</i></h2>
       <p>Nak team sales anda close lebih banyak? WhatsApp Sir terus, kita bincang.</p>
-      <a class="pill wa" data-ev="WhatsApp" href="https://wa.me/60167677759?text=Salam%20Sir%2C%20saya%20nak%20tanya%20pakej%20untuk%20team%20sales%20saya" target="_top">WhatsApp Sir</a>
+      <a class="sd-pill sd-wa" data-ev="WhatsApp" href="https://wa.me/60167677759?text=Salam%20Sir%2C%20saya%20nak%20tanya%20pakej%20untuk%20team%20sales%20saya" target="_top">WhatsApp Sir</a>
     </div>
   </div>
-  <div class="foot"><b>Sir Dharma</b> · Cikgu Sales Anda<br>© 2026 Hak cipta terpelihara</div>
+  <div class="sd-foot"><b>Sir Dharma</b> · Cikgu Sales Anda<br>© 2026 Hak cipta terpelihara</div>
 </div>
 <script>
-(function(){var r=document.querySelector('.sd');if(!r||!('IntersectionObserver' in window))return;r.classList.add('js');
-var io=new IntersectionObserver(function(es){es.forEach(function(e){if(e.isIntersecting){e.target.classList.add('in');io.unobserve(e.target)}})},{threshold:.15});
-r.querySelectorAll('.rev').forEach(function(el,i){el.style.transitionDelay=(i%2?.08:0)+'s';io.observe(el)});
-setTimeout(function(){r.querySelectorAll('.rev').forEach(function(el){el.classList.add('in')})},4000);})();
+(function(){var r=document.querySelector('.sd');if(!r||!('IntersectionObserver' in window))return;r.classList.add('sd-js');
+var io=new IntersectionObserver(function(es){es.forEach(function(e){if(e.isIntersecting){e.target.classList.add('sd-in');io.unobserve(e.target)}})},{threshold:.15});
+r.querySelectorAll('.sd-rev').forEach(function(el,i){el.style.transitionDelay=(i%2?.08:0)+'s';io.observe(el)});
+setTimeout(function(){r.querySelectorAll('.sd-rev').forEach(function(el){el.classList.add('sd-in')})},4000);})();
 </script>
 <!-- Meta Pixel: SirDharma 2026 -->
 <script>
