@@ -75,3 +75,9 @@ Kalau belum sesuai sekarang, takpe. Simpan dulu link ni 🙏
 - Featured image form: `ads/creative/og-preview.png` (1200×630).
 - Description: "Skrip WhatsApp & formula closing untuk team sales. Tukar leads jadi customer, dari greeting sampai close. Ebook 105 m/s, RM37. Terus masuk emel lepas bayar."
 - WhatsApp menyimpan preview lama; jika preview tidak berubah, tambah parameter kecil di hujung link (contoh `?v=2`).
+
+## Preview short link klik.vip (18 Nov)
+- Masalah: WhatsApp tunjuk banner iklan klik.vip, sebab klik.vip hantar page sendiri (og:title "ebookclosing-wa - Klik VIP") kepada crawler, bukan redirect terus ke BCL.
+- Cuba: isi Title / Meta description / Opengraph (`ads/creative/og-preview-klikvip.jpg`, 112KB) dalam bahagian Cloaking, toggle URL Cloaking kekal OFF. Uji dengan `?v=3`.
+- Jangan ON URL Cloaking: checkout BCL akan dibuka dalam iframe dan bayaran FPX boleh gagal.
+- Pelan B: hantar link BCL penuh dalam chat (`sweetcactusenterprise.bcl.my/form/sd-wa`), preview dari BCL.
