@@ -93,3 +93,5 @@ Setiap perubahan pada funnel, iklan dan setting. Paling baru di atas.
 ## 18 Nov 2026
 - Sales page (form 21578): hero baru. Headline P&L rugi ("Gaji RM3,600. Iklan RM3,000. Jualan RM4,500. Bulan ni anda rugi RM2,100."), foto kecil Sir + nama, 2 kad P&L (closing 3% rugi RM2,100 vs 6% untung RM2,400), nota "contoh kiraan". Foto besar kekal di bawah butang. Page lain (retarget, WA, Threads) tidak diubah.
 - Ukuran: nilai selepas 100 LP view atau 3 hari. Menang jika InitiateCheckout/LP view > 3% (asas ~1%: 2/199).
+- Page ujian **Panduan** diterbitkan: https://dhsfikri.github.io/website-sales/panduan.html (konsep "panduan dulu, jual kemudian" ala Reply.la: telefon chat demo, kalkulator P&L, 4 langkah tab, testimoni, harga 3 pilihan, penutup 2 pilihan). Butang beli → form 21578 dengan `?src=panduan`. Pixel: PageView, ViewContent (klik Ebook), PanduanKlik, KiraPL. Fail ditambah ke `main` dan `claude/focused-clarke-fnraay` dengan izin Sir.
+- Semakan: sales page BCL live masih headline lama (hero P&L belum ditampal).
