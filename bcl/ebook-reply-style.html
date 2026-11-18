@@ -1,0 +1,250 @@
+<!doctype html>
+<html lang="ms">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Ebook 2026 · Sir Dharma</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@500;600;700;800;900&display=swap">
+<style>
+:root{--bg:#fbf8f2;--cream:#f4ede1;--sand:#e9dfcd;--g:#0b3b2c;--g2:#14533f;--mint:#6ff0b0;--y:#ffd21f;--gold:#c9a24a;--ink:#0d1f17;--soft:#4c5a52;--red:#e0533d;--line:#e4dccd;--ok:#1fa463}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);font:500 16px/1.55 Poppins,system-ui,sans-serif;padding-bottom:84px}
+.sd img{display:block;max-width:100%}
+.sd a{text-decoration:none;color:inherit}
+.sd h1,.sd h2,.sd h3,.sd p{margin:0}
+.sd{background:radial-gradient(70% 30% at 90% 0%,#dcefe4 0%,transparent 70%),var(--bg);overflow:hidden}
+.w{max-width:560px;margin:0 auto;padding:0 18px}
+.sec{padding:52px 0}
+.grid-bg{background-image:linear-gradient(rgba(11,59,44,.05) 1px,transparent 1px),linear-gradient(90deg,rgba(11,59,44,.05) 1px,transparent 1px);background-size:36px 36px}
+.eb{display:inline-flex;align-items:center;gap:8px;font-size:11.5px;font-weight:800;letter-spacing:.13em;text-transform:uppercase;color:var(--g2);background:#e3efe8;padding:6px 12px;border-radius:999px}
+.c{text-align:center}
+.sd .h1{font-size:clamp(31px,8.6vw,44px);font-weight:900;line-height:1.08;letter-spacing:-.025em;margin:16px 0 16px}
+.sd .h2{font-size:clamp(25px,6.6vw,32px);font-weight:900;line-height:1.12;letter-spacing:-.02em;margin:12px 0 10px}
+.gr{color:var(--g2)}
+.lead{color:var(--soft);font-size:16px}
+.btn{display:flex;align-items:center;justify-content:space-between;gap:12px;background:var(--g);color:#fff!important;font-weight:800;font-size:16px;padding:15px 15px 15px 22px;border-radius:999px;box-shadow:0 12px 26px rgba(11,59,44,.28)}
+.btn i{font-style:normal;width:34px;height:34px;border-radius:50%;background:var(--y);color:var(--g);display:grid;place-items:center;font-weight:900}
+.btn b{color:var(--y)}
+.ghost{display:block;text-align:center;border:2px solid var(--g);color:var(--g)!important;font-weight:800;padding:13px;border-radius:999px;margin-top:10px}
+.fine{font-size:11.5px;color:#838d87;margin-top:10px}
+.top{position:sticky;top:0;z-index:20;background:rgba(251,248,242,.92);backdrop-filter:blur(10px);border-bottom:1px solid var(--line)}
+.top .w{display:flex;align-items:center;justify-content:space-between;height:60px}
+.logo{background:var(--g);border-radius:999px;padding:8px 14px}.logo img{height:24px;width:auto}
+.top .mini{background:var(--y);color:var(--g)!important;font-size:13px;font-weight:800;padding:9px 15px;border-radius:999px}
+.proof{display:flex;align-items:center;gap:10px;margin-top:18px;font-size:13px;color:var(--soft)}
+.proof b{color:var(--ink);display:block;font-size:14px}
+.star{width:38px;height:38px;border-radius:50%;background:var(--y);display:grid;place-items:center;font-size:18px;flex:none}
+/* stage */
+.stage{position:relative;height:600px;margin-top:30px}
+.phone{position:absolute;left:50%;top:0;transform:translateX(-50%);width:260px;height:540px;background:#111;border-radius:42px;padding:10px;box-shadow:0 30px 60px rgba(11,59,44,.3)}
+.scr{height:100%;border-radius:33px;overflow:hidden;background:#efe7dd;display:flex;flex-direction:column}
+.wa{background:#075e54;color:#fff;padding:34px 12px 10px;display:flex;align-items:center;gap:9px}
+.wa i{font-style:normal;width:32px;height:32px;border-radius:50%;background:#cfe9dc;color:#075e54;font-weight:800;display:grid;place-items:center;font-size:12px}
+.wa b{font-size:14px;display:block}.wa small{font-size:11px;opacity:.85}
+.chat{padding:10px 9px;display:flex;flex-direction:column;gap:7px}
+.m{max-width:86%;padding:7px 10px;border-radius:10px;font-size:12.5px;line-height:1.38;box-shadow:0 1px 1px rgba(0,0,0,.08)}
+.in{background:#fff;align-self:flex-start;border-top-left-radius:2px}.out{background:#d9fdd3;align-self:flex-end;border-top-right-radius:2px}
+.fl{position:absolute;background:rgba(255,255,255,.96);border:1px solid rgba(11,59,44,.08);border-radius:20px;box-shadow:0 18px 36px rgba(11,59,44,.16);padding:12px 14px;font-size:13px;z-index:2}
+.fl .t{font-weight:800;font-size:13.5px;margin-bottom:4px}
+.ck{display:flex;gap:8px;align-items:center;margin-top:5px;font-weight:600}
+.ck:before{content:"✓";width:20px;height:20px;border-radius:50%;background:var(--ok);color:#fff;font-size:11px;font-weight:900;display:grid;place-items:center;flex:none}
+.toast{display:flex;gap:10px;align-items:center}
+.toast .o{width:36px;height:36px;border-radius:50%;background:var(--ok);color:#fff;display:grid;place-items:center;font-weight:900;flex:none}
+.toast b{display:block;font-size:13.5px}.toast small{color:var(--soft);font-size:12px}
+/* cards */
+.card{background:#fff;border:1px solid var(--line);border-radius:22px;padding:18px}
+.vs{display:grid;gap:12px;margin-top:22px}
+.vs .card{display:flex;gap:14px;align-items:flex-start}
+.ic{width:42px;height:42px;border-radius:13px;display:grid;place-items:center;font-size:20px;flex:none;background:#ffe1dc}
+.vs small{font-size:11px;font-weight:800;letter-spacing:.12em;color:#9aa39e}
+.vs h3{font-size:17px;font-weight:800;margin:2px 0}
+.vs p{font-size:13.5px;color:var(--soft)}
+.now h3{text-decoration:line-through;text-decoration-color:var(--red)}
+.aft{background:var(--g)!important;border-color:var(--g)!important;color:#fff}.aft .ic{background:var(--mint)}.aft small{color:var(--mint)}.aft p{color:#cfe5da}
+.obj{display:grid;gap:10px;margin-top:20px}
+.obj .card{padding:0;overflow:hidden}
+.obj .q{padding:13px 16px;font-weight:800;font-size:14.5px}
+.obj .a{padding:10px 16px;background:#e3efe8;color:var(--g2);font-size:13.5px;font-weight:700}
+.chs{display:grid;gap:12px;margin-top:22px}
+.ch{display:grid;grid-template-columns:48px 1fr;gap:14px;align-items:start}
+.ch .n{width:48px;height:48px;border-radius:14px;background:var(--g);color:var(--y);font-weight:900;font-size:17px;display:grid;place-items:center}
+.ch.bonus .n{background:var(--y);color:var(--g)}
+.ch small{font-size:11px;font-weight:800;letter-spacing:.12em;color:var(--gold)}
+.ch h3{font-size:17px;font-weight:800;margin:2px 0 6px}
+.ch ul{margin:0;padding-left:18px;font-size:13.5px;color:var(--soft)}
+.ch li b{color:var(--ink)}
+.pages{display:grid;gap:12px;margin-top:22px}
+.pg{background:#fff;border-radius:8px 18px 18px 8px;box-shadow:inset 6px 0 0 rgba(0,0,0,.06),0 14px 30px rgba(11,59,44,.1);padding:18px}
+.pg small{font-size:10.5px;font-weight:800;letter-spacing:.12em;color:var(--g2)}
+.pg h3{font-size:16px;font-weight:800;margin:4px 0 6px}
+.pg p{font-size:14px;color:var(--soft)}
+.pg .hl{margin-top:10px;background:#ffe58a;color:var(--ink);font-weight:700;padding:8px 10px;border-radius:8px}
+.tst{display:grid;gap:12px;margin-top:22px}
+.cc{background:#efe7dd;border-radius:22px;padding:14px;display:grid;gap:6px}
+.cc .h{font-size:12px;font-weight:800;color:var(--soft)}
+.cc .m{max-width:92%}
+.tag{justify-self:start;background:var(--g);color:var(--mint);font-size:11.5px;font-weight:800;padding:5px 10px;border-radius:999px}
+.qt p{font-size:14px}.qt b{display:block;margin-top:8px;font-size:13px;color:var(--g2)}.qt .s{color:var(--gold);letter-spacing:2px;font-size:13px}
+.fit{display:grid;gap:12px;margin-top:20px}
+.fit .card ul{margin:8px 0 0;padding-left:18px;font-size:14px;color:var(--soft)}
+.fit h3{font-size:16px;font-weight:800}
+.yes{border:2px solid #9fe0bf!important;background:#f1faf5!important}
+.no{border:2px solid #f3c6bd!important;background:#fdf5f3!important}
+.price{position:relative;background:var(--g);color:#fff;border-radius:28px;padding:26px 20px 22px;margin-top:26px}
+.flag{position:absolute;top:-13px;left:20px;background:var(--y);color:var(--g);font-size:11.5px;font-weight:900;padding:5px 12px;border-radius:999px;letter-spacing:.06em}
+.prow{display:flex;gap:14px;align-items:center}
+.book{width:92px;flex:none;transform:rotate(-6deg);border-radius:4px;box-shadow:0 14px 22px rgba(0,0,0,.4)}
+.price h3{font-size:19px;font-weight:900;line-height:1.2}
+.amt{display:flex;align-items:baseline;gap:8px;margin:16px 0 2px}
+.amt s{color:#9fbfb1;font-size:18px}.amt b{font-size:46px;font-weight:900;color:var(--y);line-height:1}.amt span{font-size:13px;color:#cfe5da}
+.price ul{list-style:none;margin:14px 0 18px;padding:0;display:grid;gap:8px}
+.price li{font-size:14px;display:flex;gap:9px}.price li:before{content:"✓";color:var(--mint);font-weight:900}
+.price .btn{background:var(--y);color:var(--g)!important}.price .btn i{background:var(--g);color:var(--y)}
+.alt{display:grid;grid-template-columns:1fr 1fr;gap:10px;margin-top:14px}
+.alt .card{padding:14px}.alt small{font-size:10.5px;font-weight:800;letter-spacing:.1em;color:var(--gold)}.alt b{display:block;font-size:14px;margin:3px 0}.alt span{font-size:19px;font-weight:900;color:var(--g)}
+.alt .wide{grid-column:1/-1;display:flex;justify-content:space-between;align-items:center}
+.faq details{background:#fff;border:1px solid var(--line);border-radius:16px;padding:14px 16px;margin-top:10px}
+.faq summary{font-weight:800;font-size:14.5px;cursor:pointer;list-style:none;display:flex;justify-content:space-between;gap:10px}
+.faq summary::-webkit-details-marker{display:none}
+.faq summary:after{content:"+";color:var(--g2);font-size:20px;line-height:1}.faq details[open] summary:after{content:"−"}
+.faq p{font-size:14px;color:var(--soft);margin-top:8px}
+.close{background:var(--g);color:#fff;border-radius:32px 32px 0 0;padding:50px 0 34px}
+.close .gr{color:var(--y)}
+.op{border-radius:20px;padding:15px;margin-top:12px}
+.op small{font-size:11px;font-weight:800;letter-spacing:.12em}.op h3{font-size:17px;font-weight:900;margin:2px 0 4px}.op p{font-size:13.5px}
+.o1{background:rgba(255,255,255,.06);border:1px solid rgba(255,255,255,.14);color:#cfe5da}.o1 h3{color:#fff;text-decoration:line-through;text-decoration-color:#ff9c8c}
+.o2{background:#fff;color:var(--ink)}.o2 small{color:var(--g2)}
+.close .btn{background:var(--y);color:var(--g)!important;margin-top:20px}.close .btn i{background:var(--g);color:var(--y)}
+.foot{text-align:center;font-size:11.5px;color:#9fbfb1;margin-top:22px}
+.pay{background:var(--g);color:#fff;text-align:center;padding:4px 18px 34px}
+.pay h2{font-size:24px;font-weight:900}.pay p{font-size:14px;color:#cfe5da;margin-top:6px}
+.sticky{position:fixed;left:0;right:0;bottom:0;z-index:30;background:#fff;border-top:1px solid var(--line);padding:10px 16px calc(10px + env(safe-area-inset-bottom,0px));display:flex;justify-content:space-between;align-items:center;gap:12px}
+.sticky small{display:block;font-size:11.5px;color:var(--soft)}.sticky b{font-size:21px;font-weight:900;color:var(--g)}.sticky s{font-size:12px;color:#9aa39e;margin-left:4px}
+.sticky a{background:var(--y);color:var(--g)!important;font-weight:900;padding:12px 18px;border-radius:999px;font-size:14.5px;white-space:nowrap}
+@media (min-width:821px){.sticky{display:none}body{padding-bottom:0}}
+</style>
+</head>
+<body>
+<div class="sd">
+<header class="top"><div class="w"><span class="logo"><img src="https://platform-bcl.bsb-cdn.com/media/2026/11/inline-image-RdIhgfwh-6af6f418a2de2.png" alt="SirDharma" width="301" height="74"></span><a class="mini" href="#bayar">Dapatkan ebook</a></div></header>
+
+<section class="sec grid-bg" style="padding-top:28px"><div class="w">
+<span class="eb">📘 Ebook 2026 · untuk owner &amp; team sales</span>
+<h1 class="h1">Team masih tak closed di Wassap? <span class="gr">Skrip &amp; formula dah siap.</span></h1>
+<p class="lead">Leads masuk, iklan jalan, tapi team terus bagi harga, follow up sekali, lepas tu senyap. Ebook ni bagi team anda skrip WhatsApp dan sasaran harian, terus guna esok.</p>
+<div style="margin-top:22px"><a class="btn" href="#harga"><span>Dapatkan Ebook · <b>RM37</b></span><i>→</i></a><a class="ghost" href="#isi">Tengok isi ebook</a></div>
+<p class="fine">*Bahan latihan kemahiran sales. Hasil berbeza ikut usaha, produk dan offer. Bukan jaminan pendapatan.</p>
+<div class="proof"><span class="star">★</span><span><b>10,000+ usahawan dah belajar</b>closing WhatsApp bersama Sir Dharma sejak 2019</span></div>
+
+<div class="stage">
+<div class="phone"><div class="scr">
+<div class="wa"><i>NR</i><div><b>Puan Nora</b><small>dalam talian</small></div></div>
+<div class="chat">
+<div class="m in">Salam, pakej umrah Mac berapa?</div>
+<div class="m out">Wsalam Puan Nora 😊 Boleh saya tahu, siapa yang akan pergi?</div>
+<div class="m in">Saya dengan mak ayah</div>
+<div class="m out">Saya cadangkan Pakej B, hotel dekat Masjid &amp; ada kerusi roda.</div>
+<div class="m in">Okay, macam mana nak bayar deposit?</div>
+</div></div></div>
+<div class="fl" style="left:-4px;top:-30px;width:150px">🤔 "Team saya baru. Tak tahu nak balas apa."</div>
+<div class="fl" style="right:-4px;bottom:96px;width:150px"><div class="t">📘 Skrip Sir</div><div class="ck">Tanya dulu</div><div class="ck">Cadang 1 pakej</div><div class="ck">Terus ke bayar</div></div>
+<div class="fl toast" style="left:-4px;bottom:0;width:200px"><span class="o">✓</span><span><b>Prospek tanya cara bayar</b><small>Tanpa owner masuk campur</small></span></div>
+</div>
+</div></section>
+
+<section class="sec"><div class="w">
+<div class="c"><span class="eb">Kenapa team tak closing</span>
+<h2 class="h2">Bukan team anda malas. <span class="gr">Mereka tak ada skrip, dan tak ada nombor.</span></h2>
+<p class="lead">Lead tanya harga, team terus hantar senarai harga. Prospek bluetick. Dua kali follow up, lead dilupakan, dan duit iklan terbakar.</p></div>
+<div class="vs">
+<div class="card now"><span class="ic">😩</span><div><small>SEKARANG</small><h3>Anda yang closing sendiri</h3><p>Team layan lead, tapi bila prospek nak bayar, semua pandang anda.</p></div></div>
+<div class="card aft"><span class="ic">✅</span><div><small>LEPAS GUNA EBOOK</small><h3>Team closing, anda pantau angka</h3><p>Setiap staf tahu berapa lead perlu dilayan hari ni, dan ayat apa nak guna di setiap tahap.</p></div></div>
+</div>
+<p class="c" style="font-size:12px;font-weight:800;letter-spacing:.13em;color:#9aa39e;margin-top:26px">YANG SELALU BUAT OWNER TANGGUH</p>
+<div class="obj">
+<div class="card"><div class="q">🤔 "Team saya baru, belum ada pengalaman"</div><div class="a">→ Skrip siap guna. Staf baru boleh copy dan adjust hari yang sama.</div></div>
+<div class="card"><div class="q">🤔 "Bisnes saya lain, skrip umum tak jalan"</div><div class="a">→ Contoh skrip untuk produk &amp; servis: travel, hartanah, takaful, klinik, catering dan lain-lain.</div></div>
+<div class="card"><div class="q">🤔 "Saya tak ada masa nak train team"</div><div class="a">→ Bagi ebook kepada team. Setiap bab ada langkah yang terus boleh buat.</div></div>
+</div>
+</div></section>
+
+<section class="sec grid-bg" id="isi" style="background-color:var(--cream)"><div class="w">
+<div class="c"><span class="eb">Isi ebook · 105 muka surat</span>
+<h2 class="h2">4 bab + 1 bonus, <span class="gr">dari target sampai closing</span></h2></div>
+<div class="chs">
+<div class="card ch"><span class="n">01</span><div><small>M/S 5–15 · UNTUK FOUNDER</small><h3>Nak Target Berapa?</h3><ul><li><b>Formula 1-4-6-10:</b> RM1,000 sehari = 110 leads</li><li>Beza Lead, Prospek, Potential &amp; Customer</li><li>Kira ratio closing anda sendiri</li></ul></div></div>
+<div class="card ch"><span class="n">02</span><div><small>M/S 16–29 · UNTUK FOUNDER &amp; HR</small><h3>Perlu Team Yang Macam Mana?</h3><ul><li><b>Colored Brain:</b> susun team ikut warna otak</li><li>Team "Berharap" vs team "Mengira"</li><li>Chatbot vs staf, dan cara elak banned</li></ul></div></div>
+<div class="card ch"><span class="n">03</span><div><small>M/S 30–70 · UNTUK SALESPERSON</small><h3>Skrip Wassap 2026</h3><ul><li>Greeting 6 saat yang tak "invisible"</li><li>Fact finding &amp; bila prospek "nak harga je"</li><li><b>Seni letak harga</b> + Fast Action Bonus</li></ul></div></div>
+<div class="card ch"><span class="n">04</span><div><small>M/S 72–81 · UNTUK SEMUA</small><h3>Dah Buat Semua, Tak Beli Jugak?</h3><ul><li><b>Formula KMP:</b> Kenal, Mahu, Mampu</li><li>Checklist KMP yang terus boleh guna</li></ul></div></div>
+<div class="card ch bonus"><span class="n">★</span><div><small>M/S 83–98 · BAB BONUS</small><h3>Mula Dari Mana?</h3><ul><li>Test market sebelum bakar duit ads</li><li>The 10-Minute Rule</li></ul></div></div>
+</div>
+</div></section>
+
+<section class="sec"><div class="w">
+<div class="c"><span class="eb">Petikan sebenar</span>
+<h2 class="h2">Ni gaya penulisan <span class="gr">Sir dalam ebook</span></h2></div>
+<div class="pages">
+<div class="pg"><small>MUKA SURAT 35</small><h3>"Prospek nak harga je"</h3><p>Itu assumption kita, bukan kehendak dia. Dia tanya harga sebab dia tak tahu soalan apa lagi yang perlu ditanya.</p><p class="hl">Tugas kita adalah guide dia ke conversation yang lebih bermakna.</p></div>
+<div class="pg"><small>MUKA SURAT 67</small><h3>Fast Action Bonus</h3><p>"Okay sis, nanti saya tanya husband dulu ya." Atau lebih sakit lagi, sekadar bluetick?</p><p class="hl">Musuh utama kita bukannya pesaing, tapi PENANGGUHAN.</p></div>
+<div class="pg"><small>MUKA SURAT 21</small><h3>Team "Berharap" vs "Mengira"</h3><p>"Saya perlukan 10 leads untuk 1 closing." Tak closing, buka buku: dah cukup ke 10 leads tadi?</p><p class="hl">Business tak pernah menipu. Yang menipu adalah perasaan kita bila tak tengok data.</p></div>
+</div>
+</div></section>
+
+<section class="sec grid-bg" style="background-color:var(--cream)"><div class="w">
+<div class="c"><span class="eb">⭐ Apa kata mereka</span>
+<h2 class="h2">Bukan teori. <span class="gr">Ini mesej sebenar.</span></h2></div>
+<div class="tst">
+<div class="cc"><div class="h">Team Starfighter · WhatsApp</div><div class="m in">Salam Sir. Alhamdulillah. Good news today for us in Starfighter!!! We have closed today. 3 cases booked, worth RM800,000 🙏🙏🙏</div><div class="m out">Alhamdulillah. Ada dari sesi call kemaren tak?</div><div class="m in">2 dari call kelmarin</div><span class="tag">3 kes · RM800,000</span></div>
+<div class="card qt"><span class="s">★★★★★</span><p>"Sesuai untuk syarikat yang ada team sales. Mereka ada guideline untuk dirujuk. SirDharma sediakan sekali flow dan SOP, apa nak buat jika kena reject dan bluetick."</p><b>Pn Siti Aisah · Zafesha Simply</b></div>
+<div class="card qt"><span class="s">★★★★★</span><p>"7 tahun closing memang terbukti method ini berkesan. Overall 10/10. Praktikal + simple."</p><b>Tn Haqimi Hassan · The Captain</b></div>
+</div>
+<p class="fine c">Dipetik dari screenshot asal. Hasil berbeza ikut produk, offer dan usaha.</p>
+</div></section>
+
+<section class="sec"><div class="w">
+<h2 class="h2 c">Jujur: ebook ni untuk siapa?</h2>
+<div class="fit">
+<div class="card yes"><h3>✅ Sesuai kalau anda</h3><ul><li>Founder atau leader yang ada team closing di WhatsApp</li><li>Salesperson yang selalu kena bluetick atau "nak fikir dulu"</li><li>Jual servis atau produk yang perlukan kepercayaan</li></ul></div>
+<div class="card no"><h3>❌ Kurang sesuai kalau anda</h3><ul><li>Jual sepenuhnya di marketplace tanpa chat</li><li>Cari cara cepat kaya tanpa buat aktiviti harian</li></ul></div>
+</div>
+</div></section>
+
+<section class="sec grid-bg" id="harga" style="background-color:var(--cream)"><div class="w">
+<div class="c"><span class="eb">Pilih cara mula</span>
+<h2 class="h2">Mula hari ni, <span class="gr">RM37 je.</span></h2></div>
+<div class="price"><span class="flag">PALING RAMAI PILIH</span>
+<div class="prow"><img class="book" src="https://platform-bcl.bsb-cdn.com/media/2026/11/inline-image-3xqgrLOW-6af803515b657.jpg" alt="Ebook 2026" width="512" height="800"><div><h3>Ebook 2026: Wassap Masih Relevan?</h3><p style="font-size:13px;color:#cfe5da;margin-top:4px">PDF 105 muka surat · 4 bab + bonus</p></div></div>
+<div class="amt"><s>RM67</s><b>RM37</b><span>sekali bayar</span></div>
+<p style="font-size:13px;color:#cfe5da">Satu closing dah cukup tutup kos ni.</p>
+<ul><li>Formula 1-4-6-10 + kira ratio closing</li><li>Cara susun team kecil</li><li>Skrip Wassap 2026, greeting sampai closing</li><li>Checklist KMP</li><li>Bonus: Group WhatsApp Pembeli bersama Sir</li></ul>
+<a class="btn" href="#bayar">Dapatkan Ebook · RM37<i>→</i></a>
+<p class="fine" style="color:#9fbfb1">Bayar FPX · Link ebook terus ke emel lepas bayar</p>
+</div>
+<p class="c" style="font-size:12px;font-weight:800;letter-spacing:.13em;color:#9aa39e;margin-top:24px">PILIHAN LAIN DALAM BORANG</p>
+<div class="alt">
+<div class="card"><small>UNTUK TEAM</small><b>Bundle Skrip Siap Guna (3 ebook)</b><span>RM99</span></div>
+<div class="card"><small>UNTUK STAF BARU</small><b>Bundle Asas Closing (Learning Lab 1–3)</b><span>RM69</span></div>
+<div class="card wide"><div><small>IKUT INDUSTRI</small><b>Framework closing industri anda</b></div><span>RM10</span></div>
+</div>
+</div></section>
+
+<section class="sec faq"><div class="w">
+<h2 class="h2 c">Soalan biasa</h2>
+<details><summary>Saya salesperson, bukan founder. Masih berbaloi?</summary><p>Ya. Bab 03 (muka surat 30–70) khas untuk salesperson: skrip introduction, fact finding, letak harga dan close the deal.</p></details>
+<details><summary>Bisnes saya produk, bukan servis.</summary><p>Boleh guna. Ebook ada contoh presentation untuk produk dan servis. Struktur closing di WhatsApp sama: kenal prospek, faham masalah, baru bagi harga.</p></details>
+<details><summary>Bila saya dapat ebook?</summary><p>Sejurus selepas bayaran berjaya. Link ebook dihantar ke emel anda, dan anda dapat link Group WhatsApp Pembeli.</p></details>
+<details><summary>Ebook ni jamin jualan naik?</summary><p>Tidak. Ini bahan latihan kemahiran sales. Hasil bergantung pada usaha, produk, offer dan kualiti leads anda.</p></details>
+</div></section>
+
+<section class="close"><div class="w">
+<h2 class="h2 c">Lead tengah tanya sekarang. <span class="gr">Siapa yang jawab?</span></h2>
+<div class="op o1"><small>PILIHAN 1</small><h3>Biar team teka sendiri</h3><p>Terus bagi harga, follow up sekali, lepas tu lupa. Lead yang anda bayar beli dengan pesaing.</p></div>
+<div class="op o2"><small>PILIHAN 2</small><h3>Bagi team skrip hari ni</h3><p>Skrip WhatsApp dan nombor harian. Anda pantau, team closing.</p></div>
+<a class="btn" href="#bayar">Pilih Pilihan 2 · RM37<i>→</i></a>
+<p class="foot">Sir Dharma Sales System · Sweet Cactus Enterprise (002760123-T) · WhatsApp 016-767 7759</p>
+</div></section>
+<div id="bayar" class="pay"><h2>Borang bayaran ↓</h2><p>Tanda ebook pilihan anda, isi maklumat dan bayar. Link ebook terus ke emel anda.</p></div>
+</div>
+<div class="sticky"><div><small>Ebook 2026 · 105 muka surat</small><b>RM37</b><s>RM67</s></div><a href="#bayar">Beli sekarang</a></div>
+</body>
+</html>
