@@ -89,3 +89,7 @@ Setiap perubahan pada funnel, iklan dan setting. Paling baru di atas.
 - Bio: kad Framework diganti dengan tawaran sesi percuma bersama team via WhatsApp (untuk owner yang dah beli tapi team belum konsisten). Semua link lengkap.
 - Bio live disemak: klik.vip potong Custom HTML sekitar 16,200 aksara, jadi skrip pixel klik terpotong (error JS). Tambah bio/build.py untuk padatkan kod (15,596 aksara), diuji tanpa error, pixel OK.
 - Bio live disemak (versi padat): sama 100% dengan kod, tiada error, semua gambar & animasi OK, klik Ebook = ViewContent RM37, butang lain = BioKlik. klik.vip sendiri dah load pixel 255927347311677, jadi PageView dibuang dari kod kita (elak kiraan berganda). Kod kini 15,164 aksara.
+
+## 18 Nov 2026
+- Sales page (form 21578): hero baru. Headline P&L rugi ("Gaji RM3,600. Iklan RM3,000. Jualan RM4,500. Bulan ni anda rugi RM2,100."), foto kecil Sir + nama, 2 kad P&L (closing 3% rugi RM2,100 vs 6% untung RM2,400), nota "contoh kiraan". Foto besar kekal di bawah butang. Page lain (retarget, WA, Threads) tidak diubah.
+- Ukuran: nilai selepas 100 LP view atau 3 hari. Menang jika InitiateCheckout/LP view > 3% (asas ~1%: 2/199).
