@@ -13,7 +13,8 @@ Guna setting ini untuk **setiap** ad set baru, kecuali Sir arahkan lain.
 | "Allow limited spending to excluded placements" | Dalam screenshot Sir: ditanda. Perlu Sir sahkan sama ada nak kekal atau buang (bajet kecil) |
 | Exclude | Pembeli 180 hari (kecuali kempen yang memang sasar pembeli, contoh Deep Dive) |
 
-- Draf Deep Dive (19 Nov) dibiarkan seperti asal; Sir akan edit sendiri nanti. Setting ini untuk kempen akan datang.
+- **19 Nov: setting ini dipasang pada semua ad set aktif** (Minggu 1, Carousel, Retarget, Deep Dive) dan di-publish.
+- Nota API: `locales` [41, 1001] (Malay + English All); Meta simpan English All sebagai 6 + 24. Placement: `publisher_platforms` [facebook, instagram], `facebook_positions` [feed, story, facebook_reels], `instagram_positions` [stream, story, reels].
 
 ## Aliran kerja
 1. Claude cipta semua sebagai **draf**.
