@@ -81,3 +81,68 @@ Kalau belum sesuai sekarang, takpe. Simpan dulu link ni 🙏
 - Cuba: isi Title / Meta description / Opengraph (`ads/creative/og-preview-klikvip.jpg`, 112KB) dalam bahagian Cloaking, toggle URL Cloaking kekal OFF. Uji dengan `?v=3`.
 - Jangan ON URL Cloaking: checkout BCL akan dibuka dalam iframe dan bayaran FPX boleh gagal.
 - Pelan B: hantar link BCL penuh dalam chat (`sweetcactusenterprise.bcl.my/form/sd-wa`), preview dari BCL.
+
+## Follow up manual: isi borang tapi tak bayar (19 Nov)
+
+Guna untuk orang yang status BCL *cancelled* / *failed*. Hantar ikut jarak hari. Berhenti bila dia beli atau minta berhenti.
+
+**FU1 · Hari sama (dalam 1–2 jam)**
+```
+Salam [Nama] 😊 Saya Sir Dharma.
+
+Saya nampak tadi [Nama] ada cuba dapatkan Ebook 2026 tapi bayaran tak lengkap. Ada masalah masa bayar ke? Kadang-kadang FPX tersekat atau bank timeout.
+
+Kalau nak cuba semula, link yang sama:
+👉 https://klik.vip/ebookclosing-wa
+
+Ada soalan dulu, balas je ya 🙏
+```
+
+**FU2 · Esok (beri nilai dulu)**
+```
+Salam [Nama] 😊
+
+Saya kongsi satu tip dari ebook tu, boleh terus guna hari ni:
+
+💡 Bila prospek tanya "berapa harga?", jangan terus bagi harga. Tanya dulu: "Untuk diri sendiri atau untuk keluarga?"
+
+Prospek rasa dibantu, bukan dijual. Kadar balas naik.
+
+Banyak lagi skrip macam ni dalam Bab 3. Link masih sama:
+👉 https://klik.vip/ebookclosing-wa
+```
+
+**FU3 · Hari ke-3 (sudut team / bisnes)**
+```
+Salam [Nama] 😊
+
+Boleh saya tahu, ebook tu untuk [Nama] sendiri atau untuk team sales?
+
+Kalau untuk team, ramai owner ambil Bundle Skrip Siap Guna (RM99, 3 ebook). Staf terus copy skrip closing, handle rejection dan follow up.
+
+Kalau team dah ada skrip tapi tak konsisten, saya ada Sesi Deep Dive PERCUMA di Zoom. Saya semak sendiri chat team [Nama]. Nak saya simpan slot?
+```
+
+**FU4 · Hari ke-5 (lembut, tutup gelung)**
+```
+Salam [Nama] 😊
+
+Ini mesej terakhir saya pasal ebook ni, saya tak nak kacau 🙏
+
+Kalau masih berminat, harga RM37 (asal RM67) masih ada:
+👉 https://klik.vip/ebookclosing-wa
+
+Kalau belum masa sesuai, takpe. Simpan nombor saya. Bila team perlukan bantuan closing, terus WhatsApp ya.
+```
+
+**Variasi untuk bisnes (contoh klinik / syarikat), guna sebagai FU1**
+```
+Salam, saya Sir Dharma 😊
+
+Terima kasih sebab berminat dengan Ebook 2026. Saya nampak bayaran tadi tak lengkap.
+
+Boleh saya tahu, ebook ni untuk team front desk / sales di [nama bisnes]? Kalau ya, saya boleh cadangkan pakej yang paling sesuai ikut saiz team, atau set Sesi Deep Dive percuma untuk semak cara team layan pertanyaan di WhatsApp.
+
+Link ebook:
+👉 https://klik.vip/ebookclosing-wa
+```
