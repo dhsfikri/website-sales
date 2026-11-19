@@ -1,0 +1,92 @@
+<!doctype html><html lang="ms"><head><meta charset="utf-8">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+<style>
+:root{--g:#0b3b2c;--g2:#14533f;--mint:#6ff0b0;--y:#ffd21f;--gold:#c9a24a;--ink:#0d1f17;--soft:#4c5a52;--red:#e0533d;--ok:#1fa463}
+*{box-sizing:border-box;margin:0;padding:0}
+body{background:#888;font-family:Poppins,sans-serif;display:flex;flex-direction:column;gap:40px;padding:40px;align-items:center}
+.p{width:1080px;height:1350px;position:relative;overflow:hidden}
+/* D3 salonist */
+#d3{background:radial-gradient(60% 40% at 20% 30%,#dff0e6 0%,transparent 70%),linear-gradient(180deg,#f6f2ea,#ece4d6)}
+#d3 .logo{position:absolute;top:50px;left:50%;transform:translateX(-50%);background:var(--g);border-radius:999px;padding:14px 28px}
+#d3 .logo img{height:40px}
+.ph{position:absolute;left:70px;top:190px;width:430px;height:880px;background:#111;border-radius:64px;padding:16px;box-shadow:0 40px 80px rgba(11,59,44,.28)}
+.ph .s{height:100%;border-radius:50px;background:#fff;overflow:hidden;padding:70px 26px 0}
+.ph .top{display:flex;justify-content:space-between;align-items:center;font-size:18px;color:#555;font-weight:600}
+.ph .day{margin:18px auto 22px;width:max-content;border:2px solid #e6e1d6;border-radius:12px;padding:8px 18px;font-size:19px;font-weight:600}
+.slot{border-left:6px solid var(--g2);background:#eef7f1;border-radius:12px;padding:14px 16px;margin-bottom:14px;font-size:18px}
+.slot b{display:block;font-size:21px;color:var(--g)}.slot.y{border-color:var(--y);background:#fff8d9}
+.slot small{color:var(--soft)}
+.sir{position:absolute;left:150px;bottom:0;width:560px;filter:drop-shadow(0 30px 40px rgba(0,0,0,.25))}
+.card{position:absolute;background:#fff;border-radius:26px;box-shadow:0 20px 44px rgba(11,59,44,.18);padding:22px 26px}
+.stat .k{font-size:22px;font-weight:600;color:var(--soft)}.stat b{font-size:56px;font-weight:800;color:var(--g);line-height:1.1}
+.stat span{font-size:18px;background:#e3efe8;color:var(--g2);padding:4px 10px;border-radius:999px;font-weight:700;margin-left:8px}
+.list .r{display:flex;justify-content:space-between;align-items:center;gap:18px;padding:12px 14px;border-radius:14px;background:#f5f8f6;margin:8px 0;font-size:18px}
+.list .r b{display:block;font-size:20px}.list .r small{color:var(--soft)}
+.list .t{border:2px solid #d9d2c4;border-radius:10px;padding:4px 10px;font-weight:700;font-size:16px}
+#d3 h1{position:absolute;right:60px;top:270px;width:470px;font-size:66px;line-height:1.08;font-weight:500;letter-spacing:-.02em;color:var(--ink)}
+#d3 h1 b{font-weight:900;color:var(--g)}
+.pill{position:absolute;right:60px;top:610px;width:470px;border:2px solid #e8d79d;background:rgba(255,255,255,.85);border-radius:999px;padding:20px 28px;font-size:25px;font-weight:600;text-align:center}
+.pill b{color:var(--g)}
+.cta{position:absolute;right:60px;top:720px;width:470px;background:var(--g);color:#fff;border-radius:999px;padding:22px 26px;font-size:28px;font-weight:800;display:flex;justify-content:space-between;align-items:center;box-shadow:0 18px 36px rgba(11,59,44,.3)}
+.cta i{font-style:normal;width:46px;height:46px;border-radius:50%;background:var(--y);color:var(--g);display:grid;place-items:center}
+.cta b{color:var(--y)}
+/* D4 callerdesk */
+#d4{background:#0b3b2c}
+#d4 .band{position:absolute;left:0;right:0;top:640px;height:300px;background:#f6f2ea}
+#d4 .bucket{position:absolute;left:250px;top:-40px;width:440px;height:330px;background:linear-gradient(90deg,#c9a24a,#ffd21f 45%,#c9a24a);border-radius:30px 30px 70px 70px;transform:rotate(-28deg);box-shadow:0 30px 60px rgba(0,0,0,.35)}
+#d4 .bucket:before{content:"";position:absolute;right:-10px;top:-12px;bottom:-12px;width:70px;border-radius:50%;background:#2b1f00;opacity:.85}
+#d4 .bucket span{position:absolute;left:40px;top:110px;background:#fff;color:var(--g);font-weight:900;font-size:40px;padding:12px 22px;border-radius:8px;transform:rotate(2deg);letter-spacing:.02em}
+.lab{position:absolute;left:50%;transform:translateX(-50%);background:#fff;border-radius:10px;padding:14px 24px;font-size:28px;font-weight:700;color:var(--ink);box-shadow:0 10px 22px rgba(0,0,0,.25);white-space:nowrap;display:flex;gap:12px;align-items:center}
+.lab.bad{color:#b23a28}
+.paper{position:absolute;width:46px;height:30px;background:#fff;opacity:.9;border-radius:3px}
+#d4 .cap{position:absolute;left:70px;top:700px;width:940px;font-size:34px;line-height:1.35;color:var(--ink)}
+#d4 .cap b{font-weight:800}#d4 .cap em{font-style:normal;color:var(--g2);font-weight:800}
+#d4 .icons{position:absolute;left:70px;top:655px;font-size:40px;display:flex;gap:26px;color:var(--ink)}
+#d4 .liked{position:absolute;left:600px;top:870px;font-size:22px;color:var(--soft)}
+.box{position:absolute;left:560px;bottom:70px;width:440px;height:230px;background:#173f30;border:4px solid var(--y);border-radius:20px 20px 40px 40px;box-shadow:0 30px 60px rgba(0,0,0,.4)}
+.box .lb{position:absolute;left:50%;bottom:34px;transform:translateX(-50%);background:var(--y);color:var(--g);font-weight:900;font-size:36px;padding:10px 26px;border-radius:12px;white-space:nowrap}
+.good{background:#eaf7f0;color:var(--g)}
+#d4 .sir2{position:absolute;left:-20px;bottom:0;width:430px;filter:drop-shadow(0 30px 40px rgba(0,0,0,.4))}
+#d4 .logo{position:absolute;top:40px;left:40px;background:rgba(255,255,255,.08);border-radius:999px;padding:12px 22px}#d4 .logo img{height:34px}
+</style></head><body>
+
+<section class="p" id="d3">
+<span class="logo"><img src="../../assets/logo-sirdharma.png"></span>
+<div class="ph"><div class="s">
+<div class="top"><span>•••</span><span>9:41</span><span>⚙</span></div>
+<div class="day">‹ Khamis, Sesi Deep Dive ›</div>
+<div class="slot"><b>Owner Travel Umrah</b><small>Zoom · 3 staf sales</small></div>
+<div class="slot y"><b>Owner Hartanah</b><small>Zoom · 5 ejen</small></div>
+<div class="slot"><b>Owner Klinik</b><small>Zoom · 2 staf</small></div>
+<div class="slot y"><b>Slot anda?</b><small>Tekan WhatsApp</small></div>
+</div></div>
+<img class="sir" src="../../assets/galeri/sir-tunjuk-cut.png">
+<div class="card list" style="right:40px;top:930px;width:460px">
+<div class="r"><div><b>Chat team disemak</b><small>2–3 screenshot sebenar</small></div><span class="t">✓</span></div>
+<div class="r"><div><b>Lead bocor dikenal pasti</b><small>dari greeting ke bayar</small></div><span class="t">✓</span></div>
+<div class="r"><div><b>Pelan tindakan team</b><small>terus boleh guna</small></div><span class="t">✓</span></div>
+</div>
+<h1>Team Ada <b>Skrip.</b> Tapi Masih <b>Tak Konsisten?</b></h1>
+<div class="pill">Biar <b>Sir Dharma</b> semak dalam <b>Deep Dive</b>.</div>
+<div class="cta"><span>Book <b>Percuma</b> di WhatsApp</span><i>→</i></div>
+</section>
+
+<section class="p" id="d4">
+<span class="logo"><img src="../../assets/logo-sirdharma.png"></span>
+<div class="bucket"><span>CHAT TEAM</span></div>
+<div class="paper" style="left:520px;top:230px;transform:rotate(20deg)"></div><div class="paper" style="left:420px;top:300px;transform:rotate(-30deg)"></div><div class="paper" style="left:640px;top:330px;transform:rotate(40deg)"></div><div class="paper" style="left:380px;top:420px;transform:rotate(10deg)"></div><div class="paper" style="left:690px;top:470px;transform:rotate(-20deg)"></div>
+<div class="lab bad" style="top:240px">⚠️ Terus bagi harga</div>
+<div class="lab bad" style="top:320px;margin-left:30px">🔵 Bluetick 3 hari</div>
+<div class="lab bad" style="top:400px;margin-left:-20px">⏰ Follow up lupa</div>
+<div class="lab bad" style="top:480px;margin-left:20px">📉 Lead terbiar</div>
+<div class="lab bad" style="top:560px">❓ Tiada SOP</div>
+<div class="band"></div>
+<div class="icons">❤️ 💬 ✈️</div>
+<p class="cap"><b>sirdharma</b> Team anda layan ratusan chat setiap hari. <em>Deep Dive</em> susun semuanya jadi sistem yang team terus boleh ikut.</p>
+<p class="liked">Disukai oleh owner bisnes & team sales</p>
+<div class="lab good" style="top:975px;margin-left:240px;font-size:24px">✅ SOP layan lead</div>
+<div class="lab good" style="top:1035px;margin-left:240px;font-size:24px">✅ Skrip ikut tahap prospek</div>
+<div class="box"><span class="lb">DEEP DIVE · PERCUMA</span></div>
+<img class="sir2" src="../../assets/galeri/sir-tunjuk-cut.png">
+</section>
+</body></html>
