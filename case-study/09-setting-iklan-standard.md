@@ -13,6 +13,8 @@ Guna setting ini untuk **setiap** ad set baru, kecuali Sir arahkan lain.
 | "Allow limited spending to excluded placements" | Dalam screenshot Sir: ditanda. Perlu Sir sahkan sama ada nak kekal atau buang (bajet kecil) |
 | Exclude | Pembeli 180 hari (kecuali kempen yang memang sasar pembeli, contoh Deep Dive) |
 
+- Draf Deep Dive (19 Nov) dibiarkan seperti asal; Sir akan edit sendiri nanti. Setting ini untuk kempen akan datang.
+
 ## Aliran kerja
 1. Claude cipta semua sebagai **draf**.
 2. Jika kena sekatan, Claude ingatkan Sir; jika Sir lambat, Claude semak semula sendiri.
