@@ -32,5 +32,6 @@ Log lengkap perjalanan jualan ebook Sir Dharma, dari setup sampai RM10,000 perta
 | [07-katalog-whatsapp.md](07-katalog-whatsapp.md) | Plan katalog WhatsApp Business: 9 item, 4 koleksi, deskripsi, link |
 | [08-caption-katalog.md](08-caption-katalog.md) | Caption detail 10 item katalog WhatsApp + link |
 | [09-setting-iklan-standard.md](09-setting-iklan-standard.md) | Setting standard setiap ad set: bahasa, placement, advertiser, aliran draf |
+| [10-garis-panduan-poster.md](10-garis-panduan-poster.md) | Ciri wajib poster: premium, realistic, 4K, cinematic |
 
 Poster iklan: [`../ads/creative/`](../ads/creative/)
