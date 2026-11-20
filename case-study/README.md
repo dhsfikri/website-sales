@@ -35,3 +35,4 @@ Log lengkap perjalanan jualan ebook Sir Dharma, dari setup sampai RM10,000 perta
 | [10-garis-panduan-poster.md](10-garis-panduan-poster.md) | Ciri wajib poster: premium, realistic, 4K, cinematic |
 
 Poster iklan: [`../ads/creative/`](../ads/creative/)
+- `11-konsep-iklan-skrip-copy-paste.md`: konsep iklan "Skrip siap copy-paste" ke WhatsApp
