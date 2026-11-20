@@ -19,6 +19,15 @@ Log setiap perubahan dalam `case-study/04-changelog.md` dan result dalam `case-s
 4. **Jumlah bajet harian di bawah RM50** (sekarang RM45). Sir set account spending limit sendiri sebagai brek.
 5. Pause iklan yang lemah (belanja tanpa IC/purchase, atau 0 klik). Pause boleh terus (edit live).
 
+## Struktur funnel (sejak 20 Nov, RM45/hari)
+| Lapisan | Kempen | Audience | Bajet |
+|---|---|---|---|
+| TOP | 120252834701930048 Traffic LPV, video tips percuma → sales page | MY 25–55 A+A, exclude Pembeli 180H + Pelawat SP 14H | RM15 |
+| MIDDLE | 120252834702000048 Engagement → WhatsApp "SKRIP" | IG/Page Engaged + Website 30H, exclude Pembeli, Pelawat SP 14H, Mula Bayar 14H | RM15 |
+| BOTTOM | 120252750115110048 Sales Purchase (RP1, R1, H1, E3) | Pelawat SP 14H + Mula Bayar 14H (120252834701800048), exclude Pembeli | RM10 |
+| SELEPAS BELI | 120252809186400048 Deep Dive WhatsApp | Pembeli 180H | RM5 |
+Hartanah (H1) hanya di BOTTOM, bukan untuk orang sejuk (arahan Sir).
+
 ## Setting standard ad set
 - Lokasi Malaysia. Bahasa `locales` [41, 1001] (Malay + English All).
 - Placement sahaja: `publisher_platforms` [facebook, instagram], `facebook_positions` [feed, story, facebook_reels], `instagram_positions` [stream, story, reels].
