@@ -137,3 +137,4 @@ Setiap perubahan pada funnel, iklan dan setting. Paling baru di atas.
 - 20 Nov (20:28): Semakan status: **semua 9 iklan funnel ACTIVE** (lulus review Meta): TOP T1/T2/T3, MIDDLE M1/M2, BOTTOM RP1/R1/H1/E3. Tiada ralat. Iklan baru belum ada impression lagi (baru lulus).
 - 20 Nov: Sir: "Result kita pantau kalau dah 24jam". Semakan pertama funnel baru dianjak ke **21 Nov 8:30 malam** (24 jam selepas iklan lulus). Tiada perubahan iklan sebelum itu.
 - 20 Nov: Peraturan baru Sir: **setiap ad set = 3 video + 2 poster**. Direkod dalam skill dan `09-setting-iklan-standard.md`.
+- 20 Nov: Ayat WhatsApp engage semula + voucher (PREVIEW10, SD01) ditambah di `06-organik-whatsapp-threads.md`.

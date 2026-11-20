@@ -146,3 +146,48 @@ Boleh saya tahu, ebook ni untuk team front desk / sales di [nama bisnes]? Kalau 
 Link ebook:
 👉 https://klik.vip/ebookclosing-wa
 ```
+
+---
+
+## Engage semula + voucher (20 Nov)
+Link: https://sweetcactusenterprise.bcl.my/form/preview-ebook-2026 · Kod **PREVIEW10** (10%, RM37 → RM33.30, tiada tarikh luput). Pembeli lama: **SD01** (25%, untuk produk lain/bundle).
+
+### A. Prospek lama yang pernah tanya / senyap
+> Salam [Nama], Sir Dharma sini 😊
+>
+> Lama tak dengar khabar. Saya nak tanya ringkas: team atau diri sendiri masih ada prospek yang tanya harga, lepas tu senyap?
+>
+> Kalau ya, saya ada bagi *akses preview Ebook 2026: Wassap Masih Relevan?*. Boleh intip isi kandungan dan petikan sebenar dulu sebelum beli.
+>
+> Untuk yang pernah chat dengan saya, guna kod *PREVIEW10*, jimat 10% (RM37 jadi *RM33.30*).
+>
+> 👉 https://sweetcactusenterprise.bcl.my/form/preview-ebook-2026
+>
+> Kalau ada soalan, balas je chat ni ya.
+
+### B. Pernah cuba bayar tapi tak lepas / batal
+> Salam [Nama], Sir Dharma sini 😊
+>
+> Saya perasan hari tu [Nama] dah isi borang Ebook 2026 tapi pembayaran tak lepas. Kadang-kadang FPX buat hal.
+>
+> Sebagai terima kasih sebab dah cuba, saya bagi kod *PREVIEW10*, jimat 10%. Kalau nak cuba semula, guna link ni:
+>
+> 👉 https://sweetcactusenterprise.bcl.my/form/preview-ebook-2026
+>
+> Lepas bayar, ebook terus masuk emel. Kalau ada masalah bayar, bagitahu saya, saya bantu.
+
+### C. Ringkas (untuk status / broadcast)
+> 📘 *Ebook 2026: Wassap Masih Relevan?*
+> Skrip WhatsApp siap guna, dari salam sampai bayar. 105 muka surat.
+>
+> Kod *PREVIEW10* → RM33.30 (asal RM67)
+> 👉 https://sweetcactusenterprise.bcl.my/form/preview-ebook-2026
+
+### D. Pembeli lama (upsell)
+> Salam [Nama], terima kasih sebab dah ambil ebook Sir Dharma 🙏
+>
+> Macam mana, dah sempat guna skrip dengan prospek? Ada bahagian yang paling membantu?
+>
+> Untuk pembeli lama, saya bagi kod *SD01*, jimat 25% untuk *Bundle Skrip Siap Guna* atau framework industri.
+>
+> 👉 https://sweetcactusenterprise.bcl.my/form/ebook-sirdharma
