@@ -24,8 +24,8 @@ Log setiap perubahan dalam `case-study/04-changelog.md` dan result dalam `case-s
 |---|---|---|---|
 | TOP | 120252834701930048 Traffic LPV, video tips percuma → sales page | MY 25–55 A+A, exclude Pembeli 180H + Pelawat SP 14H | RM15 |
 | MIDDLE | 120252834702000048 Engagement → WhatsApp "SKRIP" | IG/Page Engaged + Website 30H, exclude Pembeli, Pelawat SP 14H, Mula Bayar 14H | RM15 |
-| BOTTOM | 120252750115110048 Sales Purchase (RP1, R1, H1, E3) | Pelawat SP 14H + Mula Bayar 14H (120252834701800048), exclude Pembeli | RM10 |
-| SELEPAS BELI | 120252809186400048 Deep Dive WhatsApp | Pembeli 180H | RM5 |
+| BOTTOM | 120252750115110048 Sales Purchase (RP1, R1, H1, E3) | Pelawat SP 14H + Mula Bayar 14H (120252834701800048), exclude Pembeli | RM15 |
+| (dipause 20 Nov) | Deep Dive 120252809186400048 | Pembeli 180H | - |
 Hartanah (H1) hanya di BOTTOM, bukan untuk orang sejuk (arahan Sir).
 
 ## Setting standard ad set
