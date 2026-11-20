@@ -138,3 +138,4 @@ Setiap perubahan pada funnel, iklan dan setting. Paling baru di atas.
 - 20 Nov: Sir: "Result kita pantau kalau dah 24jam". Semakan pertama funnel baru dianjak ke **21 Nov 8:30 malam** (24 jam selepas iklan lulus). Tiada perubahan iklan sebelum itu.
 - 20 Nov: Peraturan baru Sir: **setiap ad set = 3 video + 2 poster**. Direkod dalam skill dan `09-setting-iklan-standard.md`.
 - 20 Nov: Ayat WhatsApp engage semula + voucher (PREVIEW10, SD01) ditambah di `06-organik-whatsapp-threads.md`.
+- 21 Nov (pagi): Semak Murpati (014-771 1169): sejak iklan MIDDLE lulus, hanya **1 lead iklan sebenar** (Yusoff, dari M1, 1:08 pagi). Meta lapor 2 "conversation started". Nombor ini disambung melalui QR, jadi Murpati tidak rekod rujukan iklan (from_ad kosong). Untuk kira lead iklan: guna Murpati sebagai sumber sebenar, kenal pasti melalui mesej pertama (cadangan: tukar mesej isi automatik kepada "SKRIP").
