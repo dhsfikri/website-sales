@@ -36,3 +36,4 @@ Log lengkap perjalanan jualan ebook Sir Dharma, dari setup sampai RM10,000 perta
 
 Poster iklan: [`../ads/creative/`](../ads/creative/)
 - `11-konsep-iklan-skrip-copy-paste.md`: konsep iklan "Skrip siap copy-paste" ke WhatsApp
+- `12-struktur-funnel-iklan.md`: cadangan struktur funnel Top / Middle / Bottom / Selepas Beli (RM45)
