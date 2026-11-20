@@ -125,3 +125,4 @@ Setiap perubahan pada funnel, iklan dan setting. Paling baru di atas.
 - 20 Nov: Cadangan struktur funnel iklan (Top/Middle/Bottom/Selepas Beli) ditulis di `12-struktur-funnel-iklan.md`. Belum ada perubahan pada iklan.
 - 20 Nov: Sir: "Saya taknak hartanah di awal, itu perlu di retargetting." Plan funnel dikemas kini: H1 pindah dari Top ke Bottom.
 - 20 Nov: Sir tetapkan TOP = tips percuma, video pendek, gambar realistik sedia ada, ke sales page untuk data pixel (impression murah). Plan funnel dikemas kini (TOP = Traffic LPV); shot list 3 video di `13-video-tips-top.md`, tunggu kelulusan.
+- 20 Nov: 3 video motion graphic tips TOP (T1 harga, T2 bluetick, T3 owner 3 nombor), 15 saat, 9:16 + 4:5, muzik disintesis. Fail: `ads/video-tips/out/t{1,2,3}_{916,45}.mp4`, sumber `ads/video-tips/tips.html`. Sementara sebelum video Sir sendiri. Menunggu semakan Sir.
