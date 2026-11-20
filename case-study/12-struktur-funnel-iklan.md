@@ -16,19 +16,22 @@
 Setiap lapisan **exclude** lapisan di bawahnya supaya orang yang sama tak nampak iklan sejuk lagi bila dah panas. Pembeli 180 hari di-exclude dari Top, Middle dan Bottom.
 
 ## Kenapa Top guna Sales, bukan Traffic/Video
-Data kita: kempen Story Preview (Traffic) dapat ~250 pelawat murah tapi **0 orang mula bayar**. Iklan Sales sejuk (H1, E3, CV1) pula yang bawa IC dan jualan. Dengan bajet RM45, Top kekal Sales supaya duit sejuk pun cari pembeli.
+Data kita: kempen Story Preview (Traffic) dapat ~250 pelawat murah tapi **0 orang mula bayar**. Iklan Sales sejuk (E3, CV1; H1 dulu) pula yang bawa IC dan jualan. Dengan bajet RM45, Top kekal Sales supaya duit sejuk pun cari pembeli.
 
 ## Pemetaan iklan sedia ada
 
 | Lapisan | Iklan | Dari mana |
 |---|---|---|
-| TOP | **H1** Hartanah, **E3** Skrip harga | Ad set Minggu 1 (kekal, jaga data pembelajaran) |
+| TOP | **E3** Skrip harga | Ad set Minggu 1 (kekal, jaga data pembelajaran) |
 | TOP | **CV1** carousel | Duplicate masuk ad set Minggu 1; kempen Carousel di-pause |
 | MIDDLE | **R1** Formula preview (sementara) | Pindah ke Middle |
 | MIDDLE | 3 poster baru "Skrip copy-paste" (owner / team sales / ejen) | Perlu buat (`11-konsep-iklan-skrip-copy-paste.md`) |
 | BOTTOM | **RP1** Masih fikir? + PREVIEW10 | Kempen Retarget sedia ada, audience dikecilkan |
+| BOTTOM | **H1** Hartanah RM47 | Pindah dari Minggu 1 (arahan Sir 20 Nov: hartanah bukan untuk orang sejuk, hanya retarget) |
 | BOTTOM | 1 iklan baru: bukti / testimoni pembeli + "harga RM37 sebelum naik" | Perlu buat |
 | SELEPAS BELI | **D5**, **D6** Deep Dive | Kempen Deep Dive, audience ditukar ke pembeli sahaja |
+
+**Kemas kini 20 Nov (Sir):** H1 Hartanah tidak lagi di Top. Hartanah hanya untuk retarget (Bottom). Ditukar serentak bila struktur baru di-publish, supaya H1 tidak berhenti sebelum Bottom siap.
 
 ## Audience yang perlu dicipta
 1. **Mula bayar 14 hari** (pixel InitiateCheckout).
