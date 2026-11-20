@@ -7,7 +7,7 @@
 
 | Lapisan | Siapa | Tujuan | Kempen / objektif | Bajet |
 |---|---|---|---|---|
-| **TOP** (sejuk) | Orang yang belum kenal Sir | Cari pembeli baru | Sales (Purchase), Advantage+ Audience | **RM15** |
+| **TOP** (sejuk) | Orang yang belum kenal Sir | **Tips percuma**, bawa ke sales page untuk data pixel, impression murah | **Traffic (Landing Page Views)**, video tips pendek | **RM15** |
 | **MIDDLE** (suam) | Pernah engage IG/FB atau lawat website, tapi belum masuk sales page | Bina percaya, buka chat | Engagement → **WhatsApp** (konsep "Skrip copy-paste") | **RM15** |
 | **BOTTOM** (panas) | Lawat sales page 14 hari / mula bayar / chat WhatsApp | Tutup jualan | Sales (Purchase) + kupon PREVIEW10 | **RM10** |
 | **SELEPAS BELI** | Pembeli 180 hari | Upsell Deep Dive | Engagement → WhatsApp (kempen Deep Dive sedia ada) | **RM5** |
@@ -15,7 +15,10 @@
 
 Setiap lapisan **exclude** lapisan di bawahnya supaya orang yang sama tak nampak iklan sejuk lagi bila dah panas. Pembeli 180 hari di-exclude dari Top, Middle dan Bottom.
 
-## Kenapa Top guna Sales, bukan Traffic/Video
+## Keputusan Sir (20 Nov): TOP = tips percuma
+TOP bagi tips percuma dalam **video pendek** (gambar realistik sedia ada), butang ke sales page. Tujuan: impression murah + pelawat sales page untuk isi pixel dan kolam retarget (Pelawat Sales Page 14H → BOTTOM). TOP tidak dinilai pada jualan; ukur kos per LPV (sasaran bawah RM0.20) dan CPM. E3 dan CV1 tidak lagi di TOP (cadangan: pindah ke BOTTOM atau pause; tunggu Sir). Shot list: `13-video-tips-top.md`.
+
+## (Asal) Kenapa Top guna Sales, bukan Traffic/Video
 Data kita: kempen Story Preview (Traffic) dapat ~250 pelawat murah tapi **0 orang mula bayar**. Iklan Sales sejuk (E3, CV1; H1 dulu) pula yang bawa IC dan jualan. Dengan bajet RM45, Top kekal Sales supaya duit sejuk pun cari pembeli.
 
 ## Pemetaan iklan sedia ada
@@ -49,7 +52,7 @@ Semua guna setting standard (`09`): Malay + English, feed + story + reels sahaja
 ## Ukuran (semak setiap 3 hari)
 | Lapisan | Ukuran utama | Sasaran |
 |---|---|---|
-| TOP | Kos per mula bayar (IC) | bawah RM15 |
+| TOP | Kos per landing page view | bawah RM0.20 |
 | MIDDLE | Kos per chat WhatsApp | bawah RM3 |
 | BOTTOM | Kos per jualan | bawah RM37 (pulang modal ebook) |
 | SELEPAS BELI | Chat "DEEP DIVE" | 1 seminggu |
