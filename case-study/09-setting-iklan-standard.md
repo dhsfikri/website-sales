@@ -20,3 +20,7 @@ Guna setting ini untuk **setiap** ad set baru, kecuali Sir arahkan lain.
 1. Claude cipta semua sebagai **draf**.
 2. Jika kena sekatan, Claude ingatkan Sir; jika Sir lambat, Claude semak semula sendiri.
 3. Claude publish hanya bila Sir kata **"publish"**.
+
+## Kreatif setiap ad set (arahan Sir, 20 Nov)
+- Setiap ad set mesti ada **3 video + 2 poster**.
+- Status 20 Nov: TOP 3 video + 0 poster; MIDDLE 2 video + 0 poster; BOTTOM 0 video + 4 poster (RP1, R1, H1, E3).

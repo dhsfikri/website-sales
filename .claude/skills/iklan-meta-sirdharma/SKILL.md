@@ -28,6 +28,11 @@ Log setiap perubahan dalam `case-study/04-changelog.md` dan result dalam `case-s
 | (dipause 20 Nov) | Deep Dive 120252809186400048 | Pembeli 180H | - |
 Hartanah (H1) hanya di BOTTOM, bukan untuk orang sejuk (arahan Sir).
 
+## Kreatif setiap ad set (arahan Sir 20 Nov)
+- Setiap ad set: **3 video + 2 poster** (5 iklan).
+- Video: 15 saat, 9:16 (story/reels) + 4:5 (feed) melalui placement customization; template `ads/video-tips/tips.html`.
+- Poster: ikut `case-study/10-garis-panduan-poster.md` (premium, realistic, 4K, cinematic) dan semak image_hash.
+
 ## Setting standard ad set
 - Lokasi Malaysia. Bahasa `locales` [41, 1001] (Malay + English All).
 - Placement sahaja: `publisher_platforms` [facebook, instagram], `facebook_positions` [feed, story, facebook_reels], `instagram_positions` [stream, story, reels].
