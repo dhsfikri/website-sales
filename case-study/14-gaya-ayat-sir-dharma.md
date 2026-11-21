@@ -26,3 +26,22 @@ Rujukan: ayat Sir sendiri untuk auto-reply iklan SKRIP.
 - Soalan bernombor (1️⃣ 2️⃣) dalam satu mesej.
 - "Terima kasih kerana menghubungi kami" dan ayat korporat.
 - Terus bagi link/harga sebelum faham keperluan.
+
+## Belajar dari chat sebenar (21 Nov, prospek iklan: takaful, LG, Yusoff, Dandarawi)
+**Pembuka Sir (konsisten):**
+> Alhamdulillah, boleh tahu skrg fokus produk apa ya..
+>
+> Iklan semua okay kan, maksud saya lead semua okay..
+
+**Corak:**
+1. **"Okay faham.."** sebagai pengakuan setiap kali prospek jawab, kemudian terus soalan seterusnya.
+2. **Soalan diagnosis pendek:** "Selalu nya sangkut mana?", "lead selalu sangkut kat mana".
+3. **Mesej sangat pendek, banyak chat berturut-turut** (1 baris setiap chat), macam bercakap.
+4. **Mod coach dulu, jual kemudian.** Sir bagi nasihat praktikal percuma (contoh: buat proposal general dulu, kalau reply baru custom; ayat dulu, kalau bluetick baru tambah voice note, lepas tu CTA minta dengar voice). Prospek rasa dapat nilai sebelum ditawar apa-apa.
+5. **Langkah demi langkah ("dulu… kalau… baru… lepas tu…").** Bagi mini-framework yang senang ikut.
+6. **"kan" untuk dapat persetujuan:** "kene approach balik dan follow up la kan".
+7. **Ejaan santai:** skrg, kene, yg, Dan. Tiada ayat formal.
+8. **Emoji minimum**, guna untuk nudge sahaja (☺️ bila prospek senyap).
+9. **Harga/link belum keluar** selagi prospek masih bercerita. Peluang tawar = bila prospek tanya "macam mana nak buat?" / "ayat nak cakap apa?".
+
+**Titik peralihan ke jualan:** bila prospek minta ayat/template ("CTA tu nak cakap ape..."), bagi 1 contoh percuma, kemudian sambung: "Ayat macam ni ada banyak dalam [ebook/framework]".

@@ -34,6 +34,51 @@ Link penuh: https://sweetcactusenterprise.bcl.my/form/preview-ebook-2026 · http
 
 ---
 
+## Versi 2b · Ayat sedia hantar (tanpa nama, 21 Nov)
+
+**General**
+> Okay faham.. ramai yang sangkut tempat sama.
+>
+> Prospek tanya harga, lepas tu senyap. Bukan sebab tak terer, selalunya sebab takde ayat yang betul untuk setiap situasi.
+>
+> Sebab tu saya cadang *Ebook 2026: Wassap Masih Relevan?*
+
+> Skrip siap guna, dari salam sampai bayar. Bila prospek tanya harga, kata "nanti saya fikir", atau bluetick.. semua dah ada ayatnya. Copy, paste, hantar.
+>
+> Harga *RM37* (asal RM67). Guna kod *PREVIEW10*, jimat lagi 10% → *RM33.30*.
+>
+> 👉 https://sweetcactusenterprise.bcl.my/form/preview-ebook-2026
+>
+> Setiap hari tunggu, ada prospek yang hilang sebab tak tahu nak balas apa. Lepas bayar, terus masuk emel, boleh guna hari ni juga.
+
+**Ejen hartanah**
+> Okay faham.. untuk hartanah, masalah biasa: prospek tanya harga unit, lepas tu "nanti bincang dengan isteri dulu".. dan senyap.
+>
+> Untuk ejen, saya cadang *Pakej Hartanah*: Ebook 2026 + Framework Closing Hartanah.
+
+> Skrip dia tanya dulu siapa nak duduk dan bajet sebenar, baru bagi harga. Lepas tu terus ajak viewing bersama pasangan.
+>
+> Harga pakej *RM47* (asal RM77). Masa isi borang, tanda *Ebook 2026* dan *Framework Closing Hartanah*.
+>
+> 👉 https://sweetcactusenterprise.bcl.my/form/ebook-sirdharma
+>
+> Lagi cepat guna, lagi kurang prospek yang hilang. Lepas bayar, terus masuk emel.
+
+**Owner ada team**
+> Okay faham.. untuk owner, biasanya isu bukan team tak terer. Cuma setiap staf balas prospek ikut cara sendiri, jadi closing naik turun.
+>
+> Saya cadang *Ebook 2026: Wassap Masih Relevan?*
+
+> Bagi team guna skrip yang sama, dari salam sampai bayar. Ada sekali Formula 1-4-6-10 untuk susun team dan semak nombor setiap petang.
+>
+> Harga *RM37* (asal RM67). Guna kod *PREVIEW10*, jimat lagi 10% → *RM33.30*.
+>
+> 👉 https://sweetcactusenterprise.bcl.my/form/preview-ebook-2026
+>
+> Satu ebook boleh terus kongsi skrip dengan team. Lepas bayar, terus masuk emel.
+
+---
+
 ## Versi 1 (lama)
 
 Guna selepas prospek jawab "fokus closing apa" (auto-reply SKRIP). Ikut `14-gaya-ayat-sir-dharma.md`: pendek, pecah chat, satu soalan, diagnosis dulu, harga kemudian.
