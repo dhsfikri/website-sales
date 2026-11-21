@@ -6,6 +6,7 @@ description: Peraturan dan resipi untuk cipta, edit, publish dan report iklan Me
 # Iklan Meta Sir Dharma
 
 Bahasa: Melayu Malaysia santai, panggil "Sir". Jika arahan tak jelas, tanya dulu.
+Ayat WhatsApp/auto-reply: ikut `case-study/14-gaya-ayat-sir-dharma.md` (headline dulu, pendek, satu soalan, diagnosis bukan pitch).
 Log setiap perubahan dalam `case-study/04-changelog.md` dan result dalam `case-study/03-result-harian.md`.
 
 ## Akaun
