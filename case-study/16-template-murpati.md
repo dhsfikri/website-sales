@@ -2,7 +2,7 @@
 
 Untuk Murpati > Templates. Taip `/shortcut` dalam inbox untuk guna. Gaya ikut `14-gaya-ayat-sir-dharma.md`. Tanpa nama (nama WhatsApp prospek selalu pelik).
 
-Status: **belum masuk Murpati**. Sambungan Murpati kekurangan kebenaran `savedreplies:write`; Sir perlu sambung semula Murpati (Settings > Connectors > Murpati > Allow), kemudian Claude boleh masukkan semua sekali gus. Atau Sir salin manual.
+Status: **dah masuk Murpati (21 Nov 6:33 petang)**. Semua 6 template live dalam Templates.
 
 ---
 
@@ -81,4 +81,4 @@ Boleh tahu skrg fokus closing produk apa ya? Saya boleh suggest skrip yang palin
 ```
 
 ---
-**Nota:** template sedia ada "Receive Payment" masih ada `[link group pembeli]`. Ganti dengan link group pembeli sebenar.
+**Nota:** template "Receive Payment" dah dibetulkan: [link group pembeli] diganti dengan link group sebenar (21 Nov).
