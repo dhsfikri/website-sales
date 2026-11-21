@@ -144,3 +144,4 @@ Setiap perubahan pada funnel, iklan dan setting. Paling baru di atas.
 - 21 Nov: Auto-reply SKRIP ditukar kepada ayat Sir sendiri (chat 1: headline + soalan fokus closing; chat 2: iklan cukup & konsisten, isu lead bukan tak terer). Masih OFF. Gaya ayat Sir direkod di `14-gaya-ayat-sir-dharma.md`.
 - 21 Nov: Skrip rekomen + harga (5 jenis prospek, jadual harga, bantahan) ditulis di `15-skrip-rekomen-harga.md`, ikut gaya ayat Sir.
 - 21 Nov: Skrip rekomen v2 (Sir: tak perlu tanya, terus rekomen + link + urgency). Akses Google Drive ke fail ebook disahkan (PDF Ebook 2026 boleh dibaca).
+- 21 Nov: Auto-reply "Iklan SKRIP (3/3) - rekomen + link" ditulis (tunggu 22 saat): rekomen general Ebook 2026 + RM37/PREVIEW10 + link preview + urgency jujur (kos menunggu, tiada tarikh palsu). Masih OFF. Peraturan Murpati: 4/5.
