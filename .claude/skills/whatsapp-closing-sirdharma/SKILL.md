@@ -58,6 +58,7 @@ Padanan cadangan: team sales/jual sendiri → Ebook; owner ada team → Ebook (F
 - Lead iklan datang dengan ayat lalai Meta ("Hello! Can I get more info on this?" / "Helo! Boleh saya dapatkan maklumat lanjut tentang ini?"). QR tidak rekod rujukan iklan; kira lead iklan ikut mesej pertama.
 - **Auto-reply** (keyword, semua OFF sehingga Sir hidupkan): SKRIP 1/3 headline + soalan (5s, `af84c350…`), 2/3 iklan/lead (12s, `7cc60f11…`), 3/3 rekomen + link (22s, `3afa7bf6…`), Link PREVIEW10 (`339fa3e5…`). Had 5 peraturan.
 - **Templates** (taip `/` dalam inbox): /harga, /kupon, /link, /detail, /kenapa, /terima, + "Receive Payment" (untuk trigger bayar berjaya).
+- **Media Gallery** (24 fail, 21 Nov): 01 Mockup 3D, 02 Cover Ebook 2026, Testimoni 01–05, Auto TY bayar, Auto FU tak bayar, Poster Pakej Hartanah RM47, Poster Masih Fikir, Produk (Bundle Skrip RM99, Bundle Asas RM69, Template 3.0, Handle Rejection, Follow Up, Learning Lab 1–3), Framework (Hartanah, Coway, Travel, Recruitment, Turun Berat). Tiada cover lagi: Framework Takaful, Produk Kesihatan, Gadget. Guna `list_media` untuk link; lampirkan pada auto-reply melalui `media_urls`.
 - **Trigger webhook**: Payment Receive + Follow Up Tak Bayar, dipasang pada form BCL 21578, 22024, 22025, 21730 (URL hanya dalam BCL, jangan simpan dalam repo).
 - Auto Reply = jalan bila prospek mesej. Trigger = jalan bila sistem luar (BCL) hantar event.
 
