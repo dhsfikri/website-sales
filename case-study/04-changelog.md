@@ -146,3 +146,4 @@ Setiap perubahan pada funnel, iklan dan setting. Paling baru di atas.
 - 21 Nov: Skrip rekomen v2 (Sir: tak perlu tanya, terus rekomen + link + urgency). Akses Google Drive ke fail ebook disahkan (PDF Ebook 2026 boleh dibaca).
 - 21 Nov: Auto-reply "Iklan SKRIP (3/3) - rekomen + link" ditulis (tunggu 22 saat): rekomen general Ebook 2026 + RM37/PREVIEW10 + link preview + urgency jujur (kos menunggu, tiada tarikh palsu). Masih OFF. Peraturan Murpati: 4/5.
 - 21 Nov (petang): Belajar gaya chat Sir dari Murpati (4 lead iklan WhatsApp setakat 6 petang: Yusoff, Dandarawi, Shafiq/LG, Dila/takaful). Corak direkod di `14-gaya-ayat-sir-dharma.md`. Ayat rekomen versi 2b (general/hartanah/owner) disimpan di `15`.
+- 21 Nov: 6 template Murpati ditulis (`16-template-murpati.md`). Gagal masuk ke Murpati: sambungan kekurangan kebenaran savedreplies:write; Sir perlu sambung semula Murpati. Template "Receive Payment" sedia ada masih ada [link group pembeli].

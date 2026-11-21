@@ -40,3 +40,4 @@ Poster iklan: [`../ads/creative/`](../ads/creative/)
 - `13-video-tips-top.md`: shot list 3 video tips percuma (TOP funnel)
 - `14-gaya-ayat-sir-dharma.md`: gaya ayat WhatsApp Sir (rujukan untuk semua ayat)
 - `15-skrip-rekomen-harga.md`: skrip WhatsApp rekomen + harga + bantahan
+- `16-template-murpati.md`: 6 template Saved Replies Murpati (/harga /kupon /link /detail /kenapa /terima)
