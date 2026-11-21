@@ -1,5 +1,41 @@
 # 15 · Skrip rekomen + harga (WhatsApp, gaya Sir)
 
+> **Versi 2 (21 Nov, arahan Sir): tak perlu tanya "nak link?". Terus rekomen + link + urgency.** Versi lama di bawah sebagai rujukan.
+
+## Versi 2 · Rekomen terus + link + urgency (2 chat)
+
+**Chat 1 · Cermin + rekomen**
+> Okay faham.. jual [produk] guna WhatsApp, dan selalu sangkut bila [masalah dia].
+>
+> Bukan sebab tak terer, selalunya sebab takde ayat yang sama untuk setiap situasi.
+>
+> Untuk [Nama], saya cadang *[produk dicadang]*. [1 ayat kenapa sesuai].
+
+**Chat 2 · Harga + link + urgency**
+> Harga sekarang *RM[harga]* (asal RM[asal]).
+>
+> Guna kod *[KOD]*, jimat lagi 10%. Kod ni sampai *[hari] ni 11:59 malam* je.
+>
+> 👉 [link]
+>
+> Lepas bayar, terus masuk emel. Boleh guna skrip dengan prospek malam ni juga.
+
+| Jenis prospek | Produk dicadang | 1 ayat kenapa | Harga / asal | Link |
+|---|---|---|---|---|
+| Team sales / jual sendiri | Ebook 2026: Wassap Masih Relevan? | Skrip siap bila prospek tanya harga, "nanti saya fikir" dan bluetick | RM37 / RM67 | preview-ebook-2026 |
+| Owner ada team | Ebook 2026 | Formula 1-4-6-10 untuk susun team dan semak nombor setiap petang | RM37 / RM67 | preview-ebook-2026 |
+| Ejen hartanah | Pakej Hartanah (Ebook + Framework Hartanah) | Tanya dulu siapa nak duduk dan bajet, baru harga, terus ajak viewing | RM47 / RM77 | ebook-sirdharma |
+| Industri lain | Ebook 2026 + Framework Closing [industri] | Ebook bagi asas, framework bagi ayat khas produk dia | RM47 / RM77 | ebook-sirdharma |
+| Nak lengkap / dah beli ebook | Bundle Skrip Siap Guna (3 ebook) | Template Closing 3.0, Handle Rejection, Follow Up | RM99 / RM127 | ebook-sirdharma |
+
+Link penuh: https://sweetcactusenterprise.bcl.my/form/preview-ebook-2026 · https://sweetcactusenterprise.bcl.my/form/ebook-sirdharma
+
+**Urgency mesti benar:** tarikh dalam ayat mesti sama dengan tarikh luput kod di BCL. Jangan tulis tarikh yang tak wujud.
+
+---
+
+## Versi 1 (lama)
+
 Guna selepas prospek jawab "fokus closing apa" (auto-reply SKRIP). Ikut `14-gaya-ayat-sir-dharma.md`: pendek, pecah chat, satu soalan, diagnosis dulu, harga kemudian.
 
 Aliran: **Cermin → Rekomen → Harga → Tanya nak link → Link**

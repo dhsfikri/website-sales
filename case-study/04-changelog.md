@@ -143,3 +143,4 @@ Setiap perubahan pada funnel, iklan dan setting. Paling baru di atas.
 - 21 Nov: Atas permintaan Sir, auto-reply SKRIP dipecah 2 chat: (1/2) headline (tunggu 5 saat), (2/2) salam + skrip + soalan (tunggu 12 saat), trigger sama. Kedua-dua masih OFF. Jumlah peraturan: 3/5.
 - 21 Nov: Auto-reply SKRIP ditukar kepada ayat Sir sendiri (chat 1: headline + soalan fokus closing; chat 2: iklan cukup & konsisten, isu lead bukan tak terer). Masih OFF. Gaya ayat Sir direkod di `14-gaya-ayat-sir-dharma.md`.
 - 21 Nov: Skrip rekomen + harga (5 jenis prospek, jadual harga, bantahan) ditulis di `15-skrip-rekomen-harga.md`, ikut gaya ayat Sir.
+- 21 Nov: Skrip rekomen v2 (Sir: tak perlu tanya, terus rekomen + link + urgency). Akses Google Drive ke fail ebook disahkan (PDF Ebook 2026 boleh dibaca).
