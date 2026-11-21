@@ -1,5 +1,41 @@
 # 15 · Skrip rekomen + harga (WhatsApp, gaya Sir)
 
+## Versi 3 · Ikut flow Ebook 2026 + gaya human Sir (21 Nov, guna yang ni)
+Flow: Fact finding → Coach (1 nasihat percuma) → Presentation (What/Why/Who) → Harga (anchor + jimat) → Rekomen + link → Close (assumptive). Pecah chat pendek.
+
+**Fact finding (lepas pembuka)**
+> Okay faham..
+> Team ada berapa orang sekarang?
+
+> Okay.. selalu sangkut kat mana, masa prospek tanya harga ke lepas dah bagi harga?
+
+**Coach dulu (contoh: prospek ghosting lepas bagi harga)**
+> Okay faham, ni memang paling biasa..
+> Lepas bagi harga, jangan tunggu je.
+> Esoknya hantar 1 ayat ringan dulu, kalau masih senyap baru hantar voice note pendek.
+> Lepas tu letak CTA minta dia dengar voice tu ☺️
+
+**Presentation (What → Why → Who)**
+> Ayat-ayat follow up macam ni saya dah susun dalam Ebook 2026: Wassap Masih Relevan?
+> Skrip siap dari salam sampai bayar.. termasuk bila prospek tanya harga, "nanti saya fikir", dan bluetick.
+
+> Sebab lead yang kita bayar mahal kat iklan tu, rugi kalau hilang sebab tak tahu nak balas apa kan..
+
+> Dah ramai owner dan team sales guna, terus copy paste dalam chat.
+
+**Harga (anchor + jimat)**
+> Harga asal RM67..
+> Sekarang RM37 je. Guna kod PREVIEW10 jadi RM33.30, jimat RM33.70.
+
+**Rekomen + link + close (jangan tanya "nak ke tak")**
+> Untuk situasi team [Nama/awak], saya cadang ambil Ebook 2026 ni dulu.
+> 👉 https://sweetcactusenterprise.bcl.my/form/preview-ebook-2026
+> Lepas bayar terus masuk emel.. boleh terus guna dengan lead yang ghosting tu malam ni ☺️
+
+Tukar produk ikut jadual di bawah (hartanah → Pakej Hartanah RM47; takaful/industri lain → Ebook + Framework RM47).
+
+---
+
 > **Versi 2 (21 Nov, arahan Sir): tak perlu tanya "nak link?". Terus rekomen + link + urgency.** Versi lama di bawah sebagai rujukan.
 
 ## Versi 2 · Rekomen terus + link + urgency (2 chat)
