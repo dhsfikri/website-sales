@@ -25,7 +25,20 @@ Jual Ebook 2026 "Wassap Masih Relevan?" (RM37, asal RM67) + framework/bundle. Sa
 | BOTTOM | 120252750115110048 Retarget Sales: RP1, R1, H1, E3 | RM15 | Lemah (CPM tinggi, 0 IC) |
 | Dipause | Minggu 1, Carousel, Deep Dive, Story Preview | | |
 
-**BCL**: form 21578 ebook-sirdharma, 21730 preview-ebook-2026, 22024 sd-wa, 22025 sd-th. Webhook Murpati (TY + follow up tak bayar) pada semua form. Kupon PREVIEW10 (10%), SD01 (25%).
+**BCL (sweetcactusenterprise.bcl.my)**
+| Form | Slug | Kegunaan (remarks dalam transaksi) |
+|---|---|---|
+| 21578 | ebook-sirdharma | Iklan/sales page ("Toolkit Team Sales"), semua 17 produk |
+| 21730 | preview-ebook-2026 | Retarget + kupon ("Preview Ebook 2026 (Retarget)") |
+| 22024 | sd-wa | WhatsApp ("Kedai Ebook Sir Dharma - WhatsApp") |
+| 22025 | sd-th | Threads |
+- Sales page live: `bcl/ebook-reply-style.html` (21578, 22025, 22024); retarget: `bcl/retarget-bcl.html` (21730). Kemas kini guna `update_form_content`.
+- Pixel 255927347311677 + CAPI aktif pada form (jangan salin token). Selepas bayar → `terima-kasih.html`.
+- Webhook Murpati (TY bayar + follow up tak bayar) pada keempat-empat form; URL hanya dalam BCL.
+- Kupon: PREVIEW10 (10%, tiada luput), SD01 (25%, pembeli lama).
+- Produk & harga penuh: skill `whatsapp-closing-sirdharma` bahagian 4.
+- Kira jualan: `list_transactions` status success; buang transaksi test Sir (nama/emel Dharma).
+- 79 pembeli berjaya (CSV untuk audience Meta tidak disimpan dalam repo).
 
 **Murpati (014-771 1169)**: auto-reply SKRIP 1/3–3/3 ON (Sir), Link PREVIEW10. 7 template (/harga /kupon /link /detail /kenapa /terima + Receive Payment). 24 gambar dalam Media Gallery.
 
