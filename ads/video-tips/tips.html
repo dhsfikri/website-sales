@@ -7,6 +7,7 @@ html,body{background:#000}
 #s{width:1080px;height:1920px;position:relative;overflow:hidden;background:#07291f;color:#fff;font-family:Poppins,sans-serif}
 #s.f45{height:1350px;--k:.74}
 #bg{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;transform-origin:50% 45%}
+#prog{position:absolute;top:0;left:0;right:0;height:8px;background:var(--y);transform-origin:left center;z-index:30}
 .shade{position:absolute;inset:0;background:linear-gradient(180deg,rgba(4,26,19,.55) 0%,rgba(4,26,19,.05) 28%,rgba(4,26,19,.35) 50%,rgba(4,26,19,.92) 74%,#04201a 100%)}
 .vig{position:absolute;inset:0;box-shadow:inset 0 0 260px rgba(0,0,0,.65)}
 .dark{position:absolute;inset:0;background:#04201a;opacity:0}
@@ -57,6 +58,7 @@ html,body{background:#000}
 .fine{position:absolute;bottom:calc(60px*var(--k));left:0;right:0;font-size:calc(22px*var(--k));color:#9fbcb0;text-align:center}
 </style></head><body>
 <div id="s">
+  <div id="prog"></div>
   <img id="bg">
   <div class="shade"></div><div class="vig"></div><div class="dark" id="dark"></div>
   <img class="logo" src="../../assets/logo-sirdharma.png">
@@ -163,38 +165,49 @@ const cl=(x,a=0,b=1)=>Math.min(b,Math.max(a,x));
 const pr=(t,a,b)=>cl((t-a)/(b-a));
 const eo=x=>1-Math.pow(1-x,3);
 const back=x=>{const c=1.6;return 1+(c+1)*Math.pow(x-1,3)+c*Math.pow(x-1,2)};
+window.DUR=12;
+const shake=(t,t0,amp)=>{const d=t-t0;if(d<0||d>0.35)return 0;return amp*Math.exp(-d*14)*Math.sin(d*70);};
 window.seek=function(t){
-  // background dolly (log-space zoom)
-  const p=cl(t/13);const sc=1.04*Math.pow(1.16/1.04,p);
-  const bg=document.getElementById('bg');bg.style.transform='scale('+sc+')';
-  const blur=4*eo(pr(t,3.6,4.4));bg.style.filter='blur('+blur+'px) brightness('+(1-0.35*eo(pr(t,3.6,4.4)))+')';
-  document.getElementById('dark').style.opacity=0.35*eo(pr(t,3.6,4.4));
-  // hook lines
+  // progress bar
+  document.getElementById('prog').style.transform='scaleX('+cl(t/12)+')';
+  // background: punch-in then fast push
+  const punch=1+0.22*(1-eo(pr(t,0,0.4)));
+  const sc=punch*1.05*Math.pow(1.3/1.05,cl(t/9.6));
+  const bg=document.getElementById('bg');
+  const sx=shake(t,0.35,10)+shake(t,0.55,8)+shake(t,0.75,6);
+  bg.style.transform='translate('+sx+'px,'+(sx*0.5)+'px) scale('+sc+')';
+  const bl=eo(pr(t,2.3,2.7));
+  bg.style.filter='blur('+(5*bl)+'px) brightness('+(1-0.4*bl)+')';
+  document.getElementById('dark').style.opacity=0.35*bl;
+  // hook lines: slam in
   const hl=[...hook.children];
-  hl.forEach((e,i)=>{const a=pr(t,0.15+i*0.32,0.65+i*0.32);const out=eo(pr(t,3.5,4.0));
-    e.style.opacity=a*(1-out);e.style.transform='translateY('+((1-eo(a))*70-out*80)+'px)';});
-  // mid
-  const box=mid.firstElementChild;const a=pr(t,4.0,4.6);const o=pr(t,12.4,12.9);
-  box.style.opacity=a;box.style.transform='translateY('+((1-eo(a))*240)+'px) scale('+(0.94+0.06*eo(a))+')';
-  items.forEach(it=>{
-    if(it.typ){const v=t>=it.typ[0]&&t<it.typ[1];it.el.style.display=v?'flex':'none';
-      [...it.el.children].forEach((d,j)=>{d.style.transform='translateY('+(-8*Math.max(0,Math.sin((t*7-j*0.9))))+'px)'});return;}
-    const k=pr(t,it.t,it.t+0.35);
-    if(it.typBefore){}
-    it.el.style.display=t>=it.t-0.001?'' :'none';
-    if(it.card){it.el.style.display='';it.el.style.opacity=k;it.el.style.transform='translateX('+((1-eo(k))*-160)+'px)';}
-    else if(it.bub){it.el.style.transform='scale('+(0.6+0.4*back(k))+')';it.el.style.opacity=cl(k*2);}
+  hl.forEach((e,i)=>{const t0=0.2+i*0.2;const a=pr(t,t0,t0+0.22);const out=eo(pr(t,2.3,2.55));
+    const s=1+0.45*(1-back(a));
+    e.style.opacity=cl(a*3)*(1-out);
+    e.style.transform='translateY('+(-out*160)+'px) scale('+s+') rotate('+((1-eo(a))*-4)+'deg)';
+    e.style.transformOrigin='left center';});
+  // mid (time remapped: 1.6x faster)
+  const tm=t<2.6?0:4.0+(t-2.6)*1.6;
+  const box=mid.firstElementChild;const a=pr(t,2.4,2.7);const o=eo(pr(t,9.3,9.6));
+  box.style.opacity=a;box.style.transform='translateY('+((1-eo(a))*420-o*60)+'px) scale('+(0.9+0.1*back(a))+')';
+  items.forEach((it,idx)=>{
+    if(it.typ){const v=tm>=it.typ[0]&&tm<it.typ[1];it.el.style.display=v?'flex':'none';
+      [...it.el.children].forEach((d,j)=>{d.style.transform='translateY('+(-8*Math.max(0,Math.sin((t*11-j*0.9))))+'px)'});return;}
+    const k=pr(tm,it.t,it.t+0.3);
+    it.el.style.display=tm>=it.t-0.001?'':'none';
+    if(it.card){it.el.style.display='';const dir=idx%2?1:-1;it.el.style.opacity=cl(k*2);it.el.style.transform='translateX('+((1-back(k))*260*dir)+'px) scale('+(0.92+0.08*back(k))+')';}
+    else if(it.bub){it.el.style.transform='scale('+(0.5+0.5*back(k))+')';it.el.style.opacity=cl(k*3);}
     else{it.el.style.opacity=k}
   });
-  // tip
-  const tp=document.getElementById('tip');const ta=pr(t,10.0,10.5);
-  tp.style.opacity=ta;tp.style.transform='translateY('+((1-back(ta))*200)+'px)';
-  // end card: wipe up as a whip
-  const e=document.getElementById('end');const ea=eo(pr(t,12.9,13.45));
+  // tip: slam
+  const tp=document.getElementById('tip');const ta=pr(t,7.0,7.3);
+  tp.style.opacity=cl(ta*3);tp.style.transform='translateY('+((1-eo(ta))*120)+'px) scale('+(1+0.25*(1-back(ta)))+') rotate('+((1-eo(ta))*2)+'deg)';
+  // end card: whip
+  const e=document.getElementById('end');const ea=eo(pr(t,9.5,9.8));
   e.style.transform='translateY('+((1-ea)*100)+'%)';
-  const cv=e.querySelector('.cv');const ca=pr(t,13.2,13.9);cv.style.transform='perspective(1400px) rotateY('+(-16+6*Math.sin(t*0.8))+'deg) rotateX(4deg) translateY('+((1-eo(ca))*60)+'px) scale('+(0.9+0.1*eo(ca))+')';
-  const cta=e.querySelector('.cta');const pa=pr(t,13.8,14.2);cta.style.transform='scale('+(0.8+0.2*back(pa)+0.03*Math.sin(t*9)*(t>14.2?1:0))+')';cta.style.opacity=pa;
-  [...document.querySelectorAll('.chat .cb .bb, .chat .cb .day, .chat .cb .seen')];
+  const cv=e.querySelector('.cv');const ca=pr(t,9.7,10.1);cv.style.transform='perspective(1400px) rotateY('+(-16+6*Math.sin(t*1.4))+'deg) rotateX(4deg) translateY('+((1-eo(ca))*80)+'px) scale('+(0.8+0.2*back(ca))+')';
+  const pr2=e.querySelector('.price');const pa2=pr(t,10.0,10.25);pr2.style.opacity=cl(pa2*3);pr2.style.transform='scale('+(1+0.35*(1-back(pa2)))+')';
+  const cta=e.querySelector('.cta');const pa=pr(t,10.3,10.6);cta.style.transform='scale('+(0.7+0.3*back(pa)+0.04*Math.sin(t*10)*(t>10.6?1:0))+')';cta.style.opacity=pa;
 };
 window.ready=Promise.all([document.fonts.ready,...[...document.images].map(i=>i.complete?1:new Promise(r=>{i.onload=r;i.onerror=r}))]);
 seek(0);
