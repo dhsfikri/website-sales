@@ -151,3 +151,4 @@ Setiap perubahan pada funnel, iklan dan setting. Paling baru di atas.
 - 21 Nov: Skill baru `.claude/skills/whatsapp-closing-sirdharma/` (flow ebook Bab 3 dengan rujukan muka surat, gaya human Sir, produk/harga/kupon, setup Murpati). Ebook 2026 dibaca dari Google Drive; isi ebook tidak disalin ke repo (repo awam), hanya rujukan muka surat. Skrip rekomen versi 3 (ikut flow ebook + human) di `15`.
 - 21 Nov: 24 gambar dimuat naik ke Media Gallery Murpati (mockup, cover, 5 testimoni, gambar auto TY/FU, 2 poster, 8 cover produk, 5 cover framework). Tiada cover: Framework Takaful, Produk Kesihatan, Gadget.
 - 23 Nov: Fail `HANDOFF-COWORK.md` dibuat untuk pindah kerja ke Cowork (ringkasan keadaan, peraturan, tindakan tertangguh, cara report jimat token).
+- 23 Nov (16:00): Report harian 22 Nov ditambah dalam `03-result-harian.md` (sesi Cowork). Tiada perubahan iklan/BCL/Murpati.
