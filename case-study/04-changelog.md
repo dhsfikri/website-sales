@@ -153,3 +153,4 @@ Setiap perubahan pada funnel, iklan dan setting. Paling baru di atas.
 - 23 Nov: Fail `HANDOFF-COWORK.md` dibuat untuk pindah kerja ke Cowork (ringkasan keadaan, peraturan, tindakan tertangguh, cara report jimat token).
 - 23 Nov (16:00): Report harian 22 Nov ditambah dalam `03-result-harian.md` (sesi Cowork). Tiada perubahan iklan/BCL/Murpati.
 - 25 Nov: Audience baru **"Video Tips 50% 30H"** (120252891870510048), ENGAGEMENT dari Page: orang yang tengok video Page sekurang-kurangnya 50% dalam 30 hari. Anggaran ~1,000 orang, sedang diisi (status 441). Percubaan audience ThruPlay ikut ID video tertentu gagal (ralat 2654). Belum dipasang pada mana-mana ad set.
+- 25 Nov: Audience **"Video ThruPlay 30H"** (120252891886570048) dibuat dari Page (event thruplay_watched, 30 hari), sedang diisi. WhatsApp dah okay (Sir). Brief kreatif struktur baru: 4 video + 4 poster baru.
