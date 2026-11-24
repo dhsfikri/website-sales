@@ -101,7 +101,39 @@ const V={
           {t:5.9,n:'2',b:'Dibalas bawah 5 minit',s:'Contoh: 22 daripada 40'},
           {t:7.2,n:'3',b:'Jadi bayar',s:'Contoh: 4 closing'}],
     tip:'Nombor yang jatuh tunjuk di mana team perlu dibantu.',
-    end:'<em>Formula 1-4-6-10</em>'}
+    end:'<em>Formula 1-4-6-10</em>'},
+ 4:{img:'pentas-influence.jpg',pos:'50% 40%',pill:'TIPS PERCUMA #4',
+    hook:['Lepas bagi harga,','<span class=y>terus diam?</span>'],hook2:'Jangan jadi penunggu setia.',
+    chat:{name:'Prospek',sub:'online',msgs:[
+      {t:4.7,c:'out',x:'Harga pakej ni RM470 (asal RM600), jimat RM130.',h:'2:10',tk:1},
+      {t:5.6,typing:[5.0,5.6],c:'out',x:'Nak saya hantar link bayar terus, atau nak saya lock slot ni untuk Jumaat?',h:'2:10',tk:1,at:5.6},
+      {t:8.2,typing:[7.3,8.2],c:'in',x:'Hantar link terus la.',h:'2:13'}]},
+    tip:'Bagi dua pilihan yang dua-dua menuju bayar. Jangan tanya "berminat tak?"',
+    end:'<em>Teknik closing</em> lengkap'},
+ 5:{img:'podcast-sir.jpg',pos:'50% 30%',pill:'TIPS PERCUMA #5',
+    hook:['Follow up tu','<span class=y>memaksa ke?</span>'],hook2:'Bergantung cara anda tegur.',
+    chat:{name:'Prospek',sub:'terakhir dilihat semalam',msgs:[
+      {t:4.6,day:'CARA SALAH'},
+      {t:4.7,c:'out old',x:'Hi, macam mana? Bila nak bayar?',h:'9:00',tk:1},
+      {t:5.9,day:'CARA BETUL'},
+      {t:6.0,c:'out',x:'Hai kak, saya terjumpa tips ni pagi tadi, terus teringat kat akak. Mungkin membantu untuk team akak.',h:'9:05',tk:1},
+      {t:8.4,typing:[7.5,8.4],c:'in',x:'Eh terima kasih, saya baru nak tanya pasal pakej tu..',h:'9:20'}]},
+    tip:'Follow up dengan nilai, bukan dengan soalan "bila nak bayar?".',
+    end:'<em>Ayat follow up</em> siap guna'},
+ 6:{img:'hero-whiteboard.jpg',pos:'27% 30%',pill:'TIPS PERCUMA #6',
+    hook:['Prospek','<span class=y>tak reply?</span>'],hook2:'Bukan maksudnya dia tolak.',
+    nums:[{t:4.6,n:'1',b:'Dia tengah sibuk',s:'Dah baca, cuma belum sempat balas'},
+          {t:5.9,n:'2',b:'Dia nak fikir dulu',s:'Belum cukup yakin untuk bayar'},
+          {t:7.2,n:'3',b:'Dia terlupa',s:'Chat tenggelam bawah chat lain'}],
+    tip:'Bluetick bukan reject. Tegur semula dengan cara yang tak nampak terdesak.',
+    end:'<em>Ayat bluetick</em> siap guna'},
+ 7:{img:'team-farmasi.jpg',pos:'50% 50%',pill:'TIPS PERCUMA #7',
+    hook:['Bila patut','<span class=y>follow up?</span>'],hook2:'Lambat sehari, prospek dah sejuk.',
+    nums:[{t:4.6,n:'1',b:'Dalam 24 jam',s:'Masa minat prospek paling tinggi'},
+          {t:5.9,n:'2',b:'Bawa nilai baru',s:'Tips, testimoni atau info, bukan "bila nak bayar?"'},
+          {t:7.2,n:'3',b:'Jarakkan, jangan berhenti',s:'Jangan berhenti selepas sekali tegur'}],
+    tip:'24 jam pertama paling panas. Lepas tu jarakkan, setiap kali bawa nilai baru.',
+    end:'<em>Teknik follow up</em> & ayat bluetick'}
 };
 const q=new URLSearchParams(location.search);const cfg=V[q.get('v')||1];
 const S=document.getElementById('s');if(q.get('f')==='45')S.classList.add('f45');
