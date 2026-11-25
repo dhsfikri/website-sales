@@ -1,0 +1,134 @@
+<!doctype html>
+<html lang="ms"><head><meta charset="utf-8"><title>Retarget v2 posters</title>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500;600;700;800;900&display=swap" rel="stylesheet">
+<style>
+:root{--g:#0b3b2c;--g2:#14533f;--mint:#6ff0b0;--y:#ffd21f;--gold:#c9a24a;--cream:#f4ede1;--ink:#0d1f17;--soft:#4c5a52;--red:#e0533d}
+*{box-sizing:border-box;margin:0;padding:0}
+body{background:#888;font-family:Poppins,sans-serif;display:flex;flex-direction:column;gap:40px;padding:40px;align-items:center}
+.p{width:1080px;height:1350px;position:relative;overflow:hidden;background:radial-gradient(70% 45% at 85% 12%,#d9efe2 0%,transparent 70%),radial-gradient(60% 40% at 10% 85%,#efe3c8 0%,transparent 70%),linear-gradient(180deg,#fbf8f2,#f1ebdf);color:var(--ink)}
+.p:after{content:"";position:absolute;inset:0;background-image:linear-gradient(rgba(11,59,44,.045) 1px,transparent 1px),linear-gradient(90deg,rgba(11,59,44,.045) 1px,transparent 1px);background-size:54px 54px;pointer-events:none}
+.brand{position:absolute;top:56px;left:0;right:0;display:flex;justify-content:center;align-items:center;gap:22px;z-index:2}
+.logo{background:var(--g);border-radius:999px;padding:14px 26px}.logo img{height:40px}
+.badge{display:flex;align-items:center;gap:10px;font-weight:800;font-size:22px;color:var(--g)}
+.badge i{font-style:normal;width:38px;height:38px;border-radius:50%;background:var(--y);display:grid;place-items:center;font-size:20px}
+.badge small{display:block;font-size:15px;font-weight:600;color:var(--soft);line-height:1}
+h1{position:absolute;top:150px;left:50px;right:50px;text-align:center;font-weight:900;font-size:68px;line-height:1.04;letter-spacing:-.025em;z-index:2}
+h1 .hl{color:var(--g2)}
+.sub{position:absolute;top:322px;left:80px;right:80px;text-align:center;font-size:27px;font-weight:600;color:var(--soft);z-index:2}
+.cta{position:absolute;bottom:70px;left:50%;transform:translateX(-50%);background:var(--g);color:#fff;font-weight:800;font-size:32px;padding:22px 48px;border-radius:999px;display:flex;align-items:center;gap:16px;box-shadow:0 18px 36px rgba(11,59,44,.35);z-index:3;white-space:nowrap}
+.cta b{color:var(--y)}
+.cta span{width:42px;height:42px;border-radius:50%;background:var(--y);color:var(--g);display:grid;place-items:center;font-size:26px}
+.stage{position:absolute;top:410px;left:0;right:0;height:760px;z-index:1}
+.glass{background:rgba(255,255,255,.92);border:1px solid rgba(11,59,44,.08);border-radius:28px;box-shadow:0 24px 50px rgba(11,59,44,.16)}
+.float{position:absolute;padding:20px 24px;font-size:22px;z-index:2}
+.float .t{font-weight:800;font-size:23px;margin-bottom:8px}
+.chk{display:flex;align-items:center;gap:12px;margin-top:8px;font-size:21px;font-weight:600}
+.chk:before{content:"✓";width:30px;height:30px;border-radius:50%;background:#1fa463;color:#fff;font-weight:900;display:grid;place-items:center;font-size:17px;flex:none}
+.toast{display:flex;align-items:center;gap:16px}
+.toast .ok{width:54px;height:54px;border-radius:50%;background:#1fa463;color:#fff;display:grid;place-items:center;font-size:30px;font-weight:900;flex:none}
+.toast b{display:block;font-size:23px}.toast small{font-size:19px;color:var(--soft)}
+.bub{display:flex;gap:14px;align-items:flex-start}
+.bub .av{width:52px;height:52px;border-radius:50%;background:#dfe8e3;display:grid;place-items:center;font-size:26px;flex:none}
+.bub p{font-size:21px;line-height:1.35}
+.arrow{position:absolute;font-size:52px;color:var(--g2);z-index:2;font-weight:900}
+/* phone */
+.phone{position:absolute;left:50%;top:10px;transform:translateX(-50%);width:400px;height:720px;background:#111;border-radius:56px;padding:14px;box-shadow:0 40px 70px rgba(11,59,44,.3)}
+.scr{width:100%;height:100%;border-radius:44px;overflow:hidden;background:#efe7dd;display:flex;flex-direction:column}
+.wa{background:#075e54;color:#fff;padding:46px 18px 14px;display:flex;align-items:center;gap:12px}
+.wa i{font-style:normal;width:42px;height:42px;border-radius:50%;background:#cfe9dc;color:#075e54;font-weight:800;display:grid;place-items:center;font-size:17px}
+.wa b{font-size:19px;display:block}.wa small{font-size:14px;opacity:.85}
+.chat{padding:14px 12px;display:flex;flex-direction:column;gap:9px}
+.m{max-width:86%;padding:10px 13px;border-radius:13px;font-size:17px;line-height:1.35;box-shadow:0 1px 1px rgba(0,0,0,.08)}
+.in{background:#fff;align-self:flex-start;border-top-left-radius:3px}.out{background:#d9fdd3;align-self:flex-end;border-top-right-radius:3px}
+.chips{display:flex;flex-wrap:wrap;gap:8px;padding:12px}
+.chip{background:#fff;border:2px solid #e3dccf;border-radius:999px;padding:8px 14px;font-size:16px;font-weight:700}
+.chip.on{background:var(--g);border-color:var(--g);color:#fff}
+/* P&L dashboard */
+.dash{position:absolute;left:50%;top:20px;transform:translateX(-50%);width:640px;padding:30px}
+.dash .hd{display:flex;justify-content:space-between;align-items:center;margin-bottom:20px}
+.dash .hd b{font-size:28px;font-weight:900}.dash .hd span{font-size:17px;background:var(--cream);padding:6px 14px;border-radius:999px;font-weight:700;color:var(--soft)}
+.cols{display:grid;grid-template-columns:1fr 1fr;gap:16px}
+.col{border-radius:22px;padding:20px;background:#faf6ee;border:2px solid #eee4d3}
+.col.good{background:#eaf7f0;border-color:#9fe0bf}
+.col small{font-size:16px;font-weight:800;letter-spacing:.12em;color:var(--soft)}
+.row{display:flex;justify-content:space-between;font-size:19px;padding:9px 0;border-bottom:1.5px dashed #e2d8c6}
+.tot{display:flex;justify-content:space-between;align-items:baseline;padding-top:12px;font-weight:900}
+.tot b{font-size:36px}.neg{color:var(--red)}.pos{color:#1a8a55}
+.bar{height:120px;display:flex;align-items:flex-end;gap:14px;margin-top:22px;padding:0 6px}
+.bar div{flex:1;border-radius:12px 12px 0 0;position:relative}
+.bar em{position:absolute;top:-30px;left:0;right:0;text-align:center;font-style:normal;font-size:16px;font-weight:800}
+/* book fan */
+.fan{position:absolute;left:50%;top:40px;transform:translateX(-50%);width:600px;height:640px}
+.pg{position:absolute;width:300px;height:420px;background:#fff;border-radius:10px;box-shadow:0 20px 40px rgba(0,0,0,.18);padding:26px;font-size:16px;color:#333;line-height:1.45}
+.pg h4{font-size:20px;font-weight:900;color:var(--g);margin-bottom:10px}
+.pg .ln{height:10px;background:#ece6da;border-radius:6px;margin:10px 0}
+.cover{position:absolute;width:290px;border-radius:8px;box-shadow:0 30px 50px rgba(0,0,0,.35)}
+.coupon{display:flex;align-items:center;gap:16px;border:3px dashed var(--g2);background:#fff;border-radius:22px;padding:16px 22px}
+.coupon b{font-size:34px;font-weight:900;letter-spacing:.06em;color:var(--g)}
+.coupon small{display:block;font-size:17px;color:var(--soft);font-weight:600}
+.coupon .pc{background:var(--y);border-radius:16px;padding:10px 14px;font-weight:900;font-size:30px;color:var(--g)}
+#r3 h1{font-size:58px}#r3 .sub{top:300px}
+.fine{position:absolute;bottom:26px;left:0;right:0;text-align:center;font-size:15px;color:#8a938d;z-index:3}
+</style></head><body>
+
+<!-- R3: Industri -->
+<section class="p" id="r3">
+<div class="brand"><span class="logo"><img src="../../assets/logo-sirdharma.png" alt=""></span><span class="badge"><i>★</i><span>10,000+ usahawan<small>dilatih sejak 2019</small></span></span></div>
+<h1>Tak Payah Ajar Team Satu-Satu.<br><span class="hl">Skrip Ikut Industri Dah Siap.</span></h1>
+<p class="sub">Pilih industri anda, team terus copy ayat yang buat prospek bayar.</p>
+<div class="stage">
+<div class="phone"><div class="scr">
+<div class="wa"><i>NR</i><div><b>Puan Nora</b><small>dalam talian</small></div></div>
+<div class="chips"><span class="chip">🏠 Hartanah</span><span class="chip on">✈️ Travel</span><span class="chip">🛡️ Takaful</span><span class="chip">👥 Recruit</span></div>
+<div class="chat">
+<div class="m in">Salam, pakej umrah Mac berapa?</div>
+<div class="m out">Wsalam Puan Nora 😊 Boleh saya tahu, siapa yang akan pergi?</div>
+<div class="m in">Saya dengan mak ayah</div>
+<div class="m out">Saya cadangkan Pakej B, hotel dekat Masjid & ada kerusi roda.</div>
+<div class="m in">Okay, macam mana nak bayar deposit?</div>
+</div></div></div>
+<div class="glass float bub" style="left:40px;top:40px;width:300px"><span class="av">🤔</span><p>"Team saya baru. Tak tahu nak balas apa."</p></div>
+<div class="arrow" style="left:150px;top:180px">↘</div>
+<div class="glass float" style="right:34px;top:150px;width:330px"><div class="t">📘 Skrip Sir Dharma</div><div class="chk">Tanya dulu, harga kemudian</div><div class="chk">Cadang 1 pakej sahaja</div><div class="chk">Terus ke cara bayar</div></div>
+<div class="glass float toast" style="left:30px;bottom:40px;width:330px"><span class="ok">✓</span><span><b>Prospek tanya cara bayar</b><small>Closing, tanpa owner masuk campur</small></span></div>
+</div>
+<div class="cta">Dapatkan Pakej Industri · <b>RM47</b><span>→</span></div>
+</section>
+
+<!-- R4: P&L -->
+<section class="p" id="r4">
+<div class="brand"><span class="logo"><img src="../../assets/logo-sirdharma.png" alt=""></span><span class="badge"><i>★</i><span>10,000+ usahawan<small>dilatih sejak 2019</small></span></span></div>
+<h1>Leads Sama. Kos Sama.<br><span class="hl">Beza 3% Closing = RM4,500.</span></h1>
+<p class="sub">Bukan tambah iklan. Bukan tambah staf. Team cuma perlu skrip yang betul.</p>
+<div class="stage">
+<div class="glass dash"><div class="hd"><b>P&L Sebulan</b><span>300 leads · pakej RM500</span></div>
+<div class="cols">
+<div class="col"><small>CLOSING 3%</small><div class="row"><span>Kos</span><b>RM6,600</b></div><div class="row"><span>9 jualan</span><b>RM4,500</b></div><div class="tot"><span>P&L</span><b class="neg">−RM2,100</b></div></div>
+<div class="col good"><small>CLOSING 6%</small><div class="row"><span>Kos</span><b>RM6,600</b></div><div class="row"><span>18 jualan</span><b>RM9,000</b></div><div class="tot"><span>P&L</span><b class="pos">+RM2,400</b></div></div>
+</div>
+<div class="bar"><div style="height:45%;background:#f3c6bd"><em class="neg">−2.1K</em></div><div style="height:100%;background:#6fd6a3"><em class="pos">+2.4K</em></div></div>
+</div>
+<div class="glass float bub" style="left:34px;top:520px;width:330px"><span class="av">😩</span><p>"Gaji jalan, iklan jalan, tapi jualan tak gerak."</p></div>
+<div class="glass float toast" style="right:34px;top:560px;width:360px"><span class="ok">↑</span><span><b>Closing 3% → 6%</b><small>Leads & kos sama</small></span></div>
+</div>
+<div class="cta">Dapatkan Ebook 2026 · <b>RM37</b><span>→</span></div>
+<p class="fine">*Contoh kiraan. Angka sebenar ikut bisnes anda.</p>
+</section>
+
+<!-- R5: Preview + kupon -->
+<section class="p" id="r5">
+<div class="brand"><span class="logo"><img src="../../assets/logo-sirdharma.png" alt=""></span><span class="badge"><i>★</i><span>10,000+ usahawan<small>dilatih sejak 2019</small></span></span></div>
+<h1>Masih Fikir-Fikir?<br><span class="hl">Intip Isi Ebook Dulu.</span></h1>
+<p class="sub">105 muka surat. Tengok sendiri sebelum keluar RM37.</p>
+<div class="stage">
+<div class="fan">
+<div class="pg" style="left:10px;top:70px;transform:rotate(-10deg)"><h4>Formula 1-4-6-10</h4>Target RM1,000 sehari, pakej RM200:<div class="ln"></div><b>5</b> customer → <b>20</b> potential → <b>33</b> prospek → <b>110</b> leads<div class="ln"></div><div class="ln" style="width:70%"></div><div class="ln"></div></div>
+<div class="pg" style="right:10px;top:70px;transform:rotate(9deg)"><h4>Muka surat 35</h4>"Dia tanya harga sebab dia tak tahu soalan apa lagi yang perlu ditanya."<div class="ln"></div><div class="ln" style="width:80%"></div><div class="ln"></div><div class="ln" style="width:60%"></div></div>
+<img class="cover" src="../../assets/covers/ebook-2026.jpg" style="left:155px;top:20px" alt="">
+</div>
+<div class="glass float coupon" style="left:50%;transform:translateX(-50%);bottom:40px;width:620px"><span class="pc">10%</span><span><small>Kod khas untuk anda</small><b>PREVIEW10</b></span><span style="margin-left:auto;font-size:18px;font-weight:700;color:var(--soft)">semua ebook<br>& bundle</span></div>
+<div class="glass float bub" style="left:26px;top:30px;width:270px"><span class="av">👀</span><p>"Isi dia betul-betul praktikal ke?"</p></div>
+</div>
+<div class="cta">Intip & Guna Kod <b>PREVIEW10</b><span>→</span></div>
+</section>
+</body></html>

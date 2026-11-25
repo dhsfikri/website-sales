@@ -28,7 +28,7 @@ Pembeli bayar fee gateway RM1.
 
 ## Tracking
 
-- **Meta Pixel:** SirDharma 2026 (255927347311677). BCL hantar PageView, ViewContent, InitiateCheckout dan Purchase. Halaman terima kasih hantar PageView sahaja (Purchase dibuang 14 Nov untuk elak kiraan berganda).
+- **Meta Pixel:** SirDharma 2026 (255927347311677). BCL hantar PageView, ViewContent, InitiateCheckout dan Purchase. Conversions API (CAPI) ON di ketiga-tiga form BCL sejak 16 Nov. Halaman terima kasih hantar PageView sahaja (Purchase dibuang 14 Nov untuk elak kiraan berganda).
 - **Akaun iklan:** 1235454997962640 (akaun lama 1037619774227724 berstatus UNSETTLED, tidak digunakan).
 - **Page:** Sir Dharma Syamim (111701606844448).
 - **Sumber kebenaran jualan:** transaksi BCL. Purchase dalam Meta untuk bandingan tracking sahaja.
@@ -53,3 +53,15 @@ Pembeli bayar fee gateway RM1.
 - Protected Content belum diuji dengan pembelian sebenar.
 - Instagram belum dipautkan ke akaun iklan, jadi iklan keluar atas nama Page FB.
 - Pembayaran FPX sahaja.
+
+
+## Link ikut saluran
+
+| Saluran | Link untuk dikongsi | Form BCL |
+|---|---|---|
+| Iklan Meta | https://sweetcactusenterprise.bcl.my/form/ebook-sirdharma | Kedai Ebook Sir Dharma - Toolkit Team Sales (21578) |
+| WhatsApp | https://klik.vip/ebookclosing-wa | Kedai Ebook Sir Dharma - WhatsApp (22024, /form/sd-wa) |
+| Threads | https://klik.vip/ebookclosing-th | Kedai Ebook Sir Dharma - Threads (22025, /form/sd-th) |
+| Retarget | https://sweetcactusenterprise.bcl.my/form/preview-ebook-2026 | Preview Ebook 2026 (Retarget) (21730) |
+
+Semua form: pixel SirDharma 2026 (255927347311677) + CAPI ON.

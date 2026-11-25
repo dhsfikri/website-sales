@@ -93,6 +93,19 @@ body::before{content:"";position:fixed;inset:0 0 auto;height:env(safe-area-inset
 .hero{background:radial-gradient(120% 70% at 80% 0%,#145a43 0%,var(--deep) 60%);padding-block:40px 0;overflow:hidden}
 .hero .col{display:flex;flex-direction:column;gap:18px}
 .hero .pill{align-self:flex-start}
+.byline{display:flex;align-items:center;gap:10px;margin-top:-4px}
+.byline img{width:44px;height:44px;border-radius:50%;object-fit:cover;border:2px solid var(--brand)}
+.byline span{display:flex;flex-direction:column;font-size:.8rem;color:var(--muted);line-height:1.25}
+.byline b{color:var(--ink);font-size:.92rem}
+.pl2{display:grid;grid-template-columns:1fr 1fr;gap:10px}
+.pl{background:#06261b;border:1px solid var(--line);border-radius:14px;padding:12px}
+.pl.good{border-color:var(--brand)}
+.pl .t{font-size:.7rem;letter-spacing:.12em;text-transform:uppercase;color:var(--muted);margin-bottom:6px}
+.pl .r{display:flex;justify-content:space-between;padding:4px 0;border-bottom:1px dashed var(--line);font-size:.82rem}
+.pl .tot{display:flex;justify-content:space-between;padding-top:7px;font-weight:800;font-size:1rem}
+.pl b{font-variant-numeric:tabular-nums}
+.pl .neg{color:var(--no)}.pl .pos{color:var(--brand)}
+.pl-note{font-size:.72rem;color:var(--muted);margin-top:-8px}
 .hero h1{font-size:var(--fs-h1)}
 .hero .sub{font-size:1.0625rem;color:var(--muted)}
 .hero .sub strong{color:var(--ink)}
@@ -293,9 +306,15 @@ footer.site img{width:120px;height:auto}
 <main>
 <section class="hero">
 <div class="col">
-<span class="pill"><svg><use href="#i-book"/></svg>Ebook terbaru 2026</span>
-<h1>Leads dah masuk. Kenapa team sales <span class="mark">masih tak closing</span> dalam WhatsApp?</h1>
-<p class="sub">Dalam <strong>2026: Wassap Masih Relevan?</strong>, Sir Dharma tunjuk cara kira target jadi jumlah leads, cara pilih team yang betul, dan <strong>skrip WhatsApp 2026</strong> yang buat prospek balas, walaupun team anda kecil.</p>
+<span class="pill"><svg><use href="#i-money"/></svg>Untuk owner yang ada team sales</span>
+<h1>Gaji RM3,600. Iklan RM3,000. Jualan RM4,500. <span class="mark">Bulan ni anda rugi RM2,100.</span></h1>
+<div class="byline"><img src="https://platform-bcl.bsb-cdn.com/media/2026/11/inline-image-bDTHA6z4-6afd17664450d.jpg" alt="Sir Dharma" width="44" height="44"><span><b>Sir Dharma</b>Sales Closing Specialist</span></div>
+<div class="pl2">
+<div class="pl"><div class="t">Closing 3%</div><div class="r"><span>Kos</span><b>RM6,600</b></div><div class="r"><span>9 jualan</span><b class="pos">RM4,500</b></div><div class="tot"><span>P&amp;L</span><b class="neg">−RM2,100</b></div></div>
+<div class="pl good"><div class="t">Closing 6%</div><div class="r"><span>Kos</span><b>RM6,600</b></div><div class="r"><span>18 jualan</span><b class="pos">RM9,000</b></div><div class="tot"><span>P&amp;L</span><b class="pos">+RM2,400</b></div></div>
+</div>
+<p class="pl-note">*Contoh kiraan: 2 staf (gaji RM3,600), iklan RM3,000 untuk 300 leads, pakej RM500. Angka sebenar ikut bisnes anda.</p>
+<p class="sub">Leads cukup. Yang bocor ialah closing: team cuma close <strong>3 daripada 100 leads</strong>. Ebook <strong>2026: Wassap Masih Relevan?</strong> bagi skrip WhatsApp dan sasaran harian supaya nombor yang sama bertukar jadi untung.</p>
 <a class="btn-buy" href="#bayar"><span>Dapatkan Ebook 2026</span><span class="arr"><svg><use href="#i-arrow"/></svg></span></a>
 <div class="ticks"><span>Terus boleh baca hari ini</span><span>Skrip siap copy &amp; adjust</span><span>Untuk founder &amp; team sales</span></div>
 <p class="fine">*Ebook ini bahan latihan kemahiran sales. Hasil berbeza ikut usaha, produk dan offer. Bukan jaminan pendapatan.</p>

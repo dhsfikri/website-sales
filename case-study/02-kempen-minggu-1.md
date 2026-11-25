@@ -123,3 +123,69 @@ Ebook 2026 tunjuk cara tukar team "berharap" jadi team "mengira":
 | B · Formula | PAUSED (perlu Sir ON dalam Ads Manager) |
 | C · Berharap vs Mengira | ACTIVE, dalam review |
 | D · Foto | ACTIVE, dalam review |
+
+## Kempen Retarget (mula 15 Nov 2026)
+
+| Setting | Nilai |
+|---|---|
+| Kempen | 15Nov2026 \| Ebook 2026 \| Retarget \| Preview10 (120252750115110048) |
+| Bajet | RM5 sehari, peringkat kempen |
+| Audience masuk | 14 Hari Pelawat Sales Page (120252750113240048), 30 Hari Website (120245639394540048), IG Engaged (120245618614210048), Engaged With Page (120245618601130048) |
+| Audience keluar | 180 Hari Pembeli (120252750113400048) |
+| Advantage+ audience | OFF (retarget audience sahaja) |
+| Optimize | Purchase, pixel SirDharma 2026 |
+| Link | https://sweetcactusenterprise.bcl.my/form/preview-ebook-2026 |
+| Coupon | PREVIEW10 (10% jumlah troli) |
+
+### R1 · Preview10 · Formula
+- **Creative ID:** 3290555938000251 (poster iklan B)
+- **Headline:** Tengok isi dalam dulu. Kod PREVIEW10 = 10% off
+- **Primary text:**
+```
+Hari tu anda dah tengok Ebook 2026, tapi belum ambil. Tak apa, saya faham 🙏
+
+Ramai nak tengok dulu isi dalam sebelum bayar. Jadi saya buka preview penuh:
+
+📖 Apa ada dalam 105 muka surat, bab demi bab
+✍️ 4 petikan sebenar dari dalam ebook
+✅ Siapa sesuai, dan siapa TAK sesuai beli
+
+Formula 1-4-6-10 (RM1,000 = 110 leads), skrip WhatsApp 2026, checklist KMP, semua ada dalam tu.
+
+🎁 Guna kod PREVIEW10: diskaun 10% untuk semua ebook & bundle
+📩 Link ebook terus masuk emel lepas bayar
+
+👉 Tekan "Shop Now" untuk tengok preview.
+
+*Bahan latihan, bukan jaminan pendapatan.
+```
+
+## Iklan gelombang 2 (16 Nov 2026)
+
+A, C, D di-PAUSE. B kekal. Tiga angle baru, semua dari isi sebenar ebook:
+
+| Iklan | Angle | Poster | Headline |
+|---|---|---|---|
+| E · Skrip | Prospek tanya "berapa harga?" (Bab 3, m/s 35) | [`iklan-e.png`](../ads/creative/iklan-e.png) | Prospek tanya harga? Jangan terus jawab. |
+| F · Penangguhan | "Nanti saya tanya husband dulu" / Fast Action Bonus (m/s 67) | [`iklan-f.png`](../ads/creative/iklan-f.png) | "Nanti saya tanya husband dulu ya" |
+| G · Owner | Iklan bukan tongkat sakti (Bab Bonus, m/s 87) | [`iklan-g.png`](../ads/creative/iklan-g.png) | Bajet ads naik, closing tetap sama? |
+
+### Versi 2 (headline huruf besar + angka) — yang akan digunakan
+
+| Iklan | Hook poster | Headline Meta |
+|---|---|---|
+| E2 | PROSPEK TANYA "BERAPA HARGA?" JANGAN TERUS JAWAB. + "5 skrip letak harga" | 5 SKRIP JAWAB "BERAPA HARGA?" · JIMAT 44% |
+| F2 | 3 HARI BLUETICK? | 3 HARI BLUETICK? 1 TEKNIK BUAT PROSPEK LAJU BAYAR |
+| G2 | BAJET ADS 2X. CLOSING +0%? | BAJET ADS 2X, CLOSING +0%? · JIMAT 44% |
+
+Semua poster ada pelekat merah "JIMAT 44%" (RM67 → RM37).
+
+### Versi 3 (CTA kuat) — yang sedang jalan
+
+| Iklan | Headline Meta | Butang | Penutup primary text |
+|---|---|---|---|
+| E3 | KLIK SEKARANG: 5 SKRIP JAWAB HARGA · -44% | Buy Now | 👉 KLIK "BELI SEKARANG" & guna skrip ni pada prospek seterusnya, hari ni juga. Jangan tunggu pesaing anda yang baca dulu. 😉 |
+| F3 | JANGAN TANGGUH. KLIK SEKARANG, JIMAT 44% | Buy Now | 👉 Jangan jadi macam prospek tu. KLIK "BELI SEKARANG", 5 minit lagi ebook dah ada dalam emel anda. Sementara pesaing masih "fikir dulu", team anda dah mula closing. 💪 |
+| G3 | KLIK SEKARANG SEBELUM PESAING DAPAT DULU | Buy Now | 👉 Harga ebook ni lebih murah dari bajet ads sehari. KLIK "BELI SEKARANG" sebelum pesaing anda yang dapat dulu. |
+
+Butang dalam poster: "KLIK SEKARANG · RM37 ~~RM67~~" + pelekat "JIMAT 44%".

@@ -1,0 +1,58 @@
+<!doctype html><html lang="ms"><head><meta charset="utf-8">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500;600;700;800;900&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+:root{--g:#0b3b2c;--y:#ffd21f}
+*{box-sizing:border-box;margin:0;padding:0}
+body{background:#888;font-family:Poppins,sans-serif;display:flex;flex-direction:column;gap:40px;padding:40px;align-items:center}
+.p{width:1080px;height:1350px;position:relative;overflow:hidden;background:#07291f;color:#fff}
+.bg{position:absolute;inset:0;width:100%;height:100%;object-fit:cover}
+.shade{position:absolute;inset:0}
+.logo{position:absolute;top:44px;left:50px;z-index:5}.logo img{height:46px}
+.tag{position:absolute;top:46px;right:50px;z-index:5;background:rgba(255,255,255,.14);backdrop-filter:blur(8px);border:1px solid rgba(255,255,255,.25);padding:10px 20px;border-radius:999px;font-weight:700;font-size:20px;letter-spacing:.06em}
+h1{position:absolute;left:60px;right:60px;font-weight:900;font-size:76px;line-height:1.04;letter-spacing:-.02em;z-index:5}
+h1 em{font-style:normal;color:var(--y)}
+.sub{position:absolute;left:60px;right:60px;font-size:28px;font-weight:500;color:#e2efe8;z-index:5;line-height:1.4}
+.cta{position:absolute;left:60px;z-index:5;background:var(--y);color:#1d1400;font-weight:800;font-size:32px;padding:22px 34px;border-radius:16px;display:flex;align-items:center;gap:16px;box-shadow:0 18px 40px rgba(0,0,0,.35)}
+.cta svg{width:38px;height:38px}
+.fine{position:absolute;left:60px;z-index:5;font-size:18px;color:#c2dccf}
+/* iOS notification */
+.ntf{position:absolute;z-index:6;width:560px;background:rgba(245,245,247,.92);backdrop-filter:blur(20px);color:#111;border-radius:30px;padding:20px 22px;font-family:Inter,sans-serif;box-shadow:0 20px 50px rgba(0,0,0,.35);display:flex;gap:16px}
+.ntf .ic{width:56px;height:56px;border-radius:14px;background:#25d366;display:grid;place-items:center;flex:none}
+.ntf .ic svg{width:34px;height:34px;fill:#fff}
+.ntf .h{display:flex;justify-content:space-between;font-size:19px;color:#555}
+.ntf .h b{color:#111;font-weight:700}
+.ntf p{font-size:22px;margin-top:4px;line-height:1.35}
+/* r2 */
+.sir{position:absolute;right:-30px;bottom:0;width:640px;z-index:4;filter:drop-shadow(-20px 20px 40px rgba(0,0,0,.45))}
+.cklist{position:absolute;left:60px;z-index:5;display:grid;gap:14px}
+.cklist div{display:flex;gap:14px;align-items:center;font-size:27px;font-weight:600}
+.cklist div:before{content:"";width:30px;height:30px;border-radius:50%;background:var(--y) url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Cpath d='M5 12.5l4.5 4.5L19 7.5' fill='none' stroke='%231d1400' stroke-width='3' stroke-linecap='round'/%3E%3C/svg%3E") center/20px no-repeat;flex:none}
+</style></head><body>
+<!-- R1: foto konsultasi full -->
+<section class="p" id="d5">
+<img class="bg" src="../../assets/galeri/konsultasi.jpg" style="object-position:58% center;height:820px">
+<div class="shade" style="background:linear-gradient(180deg,rgba(7,41,31,.55) 0%,rgba(7,41,31,0) 22%,rgba(7,41,31,0) 40%,#07291f 62%)"></div>
+<span class="logo"><img src="../../assets/logo-sirdharma.png"></span>
+<span class="tag">SESI DEEP DIVE · PERCUMA</span>
+<div class="ntf" style="left:60px;top:150px"><span class="ic"><svg viewBox="0 0 24 24"><path d="M12 2a10 10 0 0 0-8.6 15.1L2 22l5-1.3A10 10 0 1 0 12 2Z"/></svg></span><div style="flex:1"><div class="h"><b>Prospek · Lead iklan</b><span>2 hari lalu</span></div><p>Berapa harga pakej? Nanti saya fikir dulu ya.</p></div></div>
+<div class="ntf" style="left:110px;top:300px;opacity:.95"><span class="ic"><svg viewBox="0 0 24 24"><path d="M12 2a10 10 0 0 0-8.6 15.1L2 22l5-1.3A10 10 0 1 0 12 2Z"/></svg></span><div style="flex:1"><div class="h"><b>Staf Sales (Aina)</b><span>semalam</span></div><p>Boss, prospek tu bluetick lagi. Nak follow up macam mana?</p></div></div>
+<h1 style="top:730px;font-size:66px">Dah Beli Ebook.<br><em>Team Masih Tak Konsisten?</em></h1>
+<p class="sub" style="top:900px">Duduk bersama Sir Dharma di Zoom. Kita semak chat sebenar team anda, cari di mana lead bocor, dan bina pelan tindakan.</p>
+<div class="cta" style="top:1110px"><svg viewBox="0 0 24 24" fill="#1d1400"><path d="M12 2a10 10 0 0 0-8.6 15.1L2 22l5-1.3A10 10 0 1 0 12 2Z"/></svg>WhatsApp "DEEP DIVE"</div>
+<p class="fine" style="top:1250px">Untuk owner bisnes yang ada team sales · Slot terhad setiap bulan</p>
+</section>
+
+<!-- R2: Sir cutout atas foto coaching -->
+<section class="p" id="d6">
+<img class="bg" src="../../assets/galeri/coaching-hq.jpg" style="filter:blur(3px) brightness(.55);transform:scale(1.05)">
+<div class="shade" style="background:linear-gradient(90deg,#07291f 0%,rgba(7,41,31,.85) 45%,rgba(7,41,31,.2) 100%)"></div>
+<span class="logo"><img src="../../assets/logo-sirdharma.png"></span>
+<img class="sir" src="../../assets/galeri/sir-tunjuk-cut.png">
+<h1 style="top:170px;right:400px;font-size:62px">Ebook Bagi Skrip.<br><em>Deep Dive Bagi Sistem.</em></h1>
+<p class="sub" style="top:470px;right:440px">Team dah ada guideline, tapi tiada siapa yang pantau? Sir semak sendiri bersama anda.</p>
+<div class="cklist" style="top:640px"><div>Semak chat sebenar team</div><div>Cari di mana lead bocor</div><div>Pelan tindakan untuk team</div></div>
+<div class="ntf" style="left:60px;top:880px;width:520px"><span class="ic"><svg viewBox="0 0 24 24"><path d="M12 2a10 10 0 0 0-8.6 15.1L2 22l5-1.3A10 10 0 1 0 12 2Z"/></svg></span><div style="flex:1"><div class="h"><b>Sir Dharma</b><span>sekarang</span></div><p>Slot Deep Dive Khamis 9 malam ada lagi. Nak saya simpan untuk team anda?</p></div></div>
+<div class="cta" style="top:1110px">Book Deep Dive Percuma →</div>
+<p class="fine" style="top:1250px">Zoom · Untuk owner yang ada team sales · Slot terhad</p>
+</section>
+</body></html>
