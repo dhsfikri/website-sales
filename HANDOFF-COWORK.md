@@ -1,4 +1,4 @@
-# Handoff ke Cowork · Ebook Sir Dharma (23 Nov 2026)
+# Handoff ke Cowork · Ebook Sir Dharma (dikemas kini 25 Nov 2026)
 
 Baca fail ini dulu. Semua butiran ada dalam fail yang dirujuk; jangan baca semua sekali gus (jimat token).
 
@@ -17,13 +17,14 @@ Jual Ebook 2026 "Wassap Masih Relevan?" (RM37, asal RM67) + framework/bundle. Sa
 - `.claude/skills/whatsapp-closing-sirdharma/SKILL.md`: flow ebook (rujukan muka surat), gaya chat Sir, produk/harga/kupon, setup Murpati.
 
 ## Keadaan sekarang
-**Meta (akaun 1235454997962640)**
-| Lapisan | Kempen | Bajet | Status |
-|---|---|---|---|
-| TOP | 120252834701930048 Traffic LPV, video tips T1/T2/T3 | RM15 | Jalan baik (~RM0.24/LPV; T3 & T2 menang) |
-| MIDDLE | 120252834702000048 WhatsApp "SKRIP", M1/M2 | RM15 | M1 bawa lead & 1 jualan; M2 hampir tiada delivery |
-| BOTTOM | 120252750115110048 Retarget Sales: RP1, R1, H1, E3 | RM15 | Lemah (CPM tinggi, 0 IC) |
-| Dipause | Minggu 1, Carousel, Deep Dive, Story Preview | | |
+**Meta (akaun 1235454997962640)**: struktur baru publish 25 Nov, RM45/hari. Senarai penuh iklan + ayat + link video: `case-study/17-iklan-live.md`.
+| Lapisan | Kempen | Bajet |
+|---|---|---|
+| TOP | 120252834701930048 Traffic LPV, video V2 T2/T3/T7 | RM10 |
+| MIDDLE | 120252892405900048 Sales Website (Purchase), video T4/T6/T5 | RM25 |
+| BOTTOM | 120252834702000048 WhatsApp SKRIP, video T1/T4 (PREVIEW10) | RM10 |
+| Dipause | Retarget Sales 120252750115110048, TOP lama T1–T3, M1/M2, Deep Dive, Minggu 1, Carousel, Story Preview | |
+Pantau CTR (arahan Sir): sasaran ≥1% TOP/MIDDLE, ≥1.5% BOTTOM.
 
 **BCL (sweetcactusenterprise.bcl.my)**
 | Form | Slug | Kegunaan (remarks dalam transaksi) |
@@ -43,9 +44,9 @@ Jual Ebook 2026 "Wassap Masih Relevan?" (RM37, asal RM67) + framework/bundle. Sa
 **Murpati (014-771 1169)**: auto-reply SKRIP 1/3–3/3 ON (Sir), Link PREVIEW10. 7 template (/harga /kupon /link /detail /kenapa /terima + Receive Payment). 24 gambar dalam Media Gallery.
 
 ## Tindakan tertangguh (tunggu Sir)
-1. Bajet: BOTTOM RM15 → RM10, MIDDLE RM15 → RM20; pause M2. (Sir belum kata OK.)
-2. Kreatif baru ikut 3 video + 2 poster: TOP perlu 2 poster; MIDDLE 1 video + 2 poster; BOTTOM 3 video.
-3. Tukar mesej isi automatik iklan WhatsApp kepada "SKRIP".
+1. (Selesai 25 Nov) Struktur bajet baru TOP 10 / MIDDLE 25 / BOTTOM 10.
+2. Kreatif ikut 3 video + 2 poster: semua ad set perlu 2 poster; BOTTOM perlu 1 video lagi.
+3. Semak mesej isi automatik iklan WhatsApp = "SKRIP".
 4. Audience senarai pembeli: Sir perlu masukkan akaun iklan ke Business portfolio, kemudian upload CSV (fail di luar repo).
 5. Cover framework belum ada: Takaful, Produk Kesihatan, Gadget.
 6. Buang nama prospek lama dari `case-study/03`, `04`, `14` (repo awam).

@@ -20,18 +20,25 @@ Log setiap perubahan dalam `case-study/04-changelog.md` dan result dalam `case-s
 4. **Jumlah bajet harian di bawah RM50** (sekarang RM45). Sir set account spending limit sendiri sebagai brek.
 5. Pause iklan yang lemah (belanja tanpa IC/purchase, atau 0 klik). Pause boleh terus (edit live).
 
-## Struktur funnel (sejak 20 Nov, RM45/hari)
+## Struktur funnel (sejak 25 Nov, RM45/hari) · senarai iklan penuh: `case-study/17-iklan-live.md`
 | Lapisan | Kempen | Audience | Bajet |
 |---|---|---|---|
-| TOP | 120252834701930048 Traffic LPV, video tips percuma → sales page | MY 25–55 A+A, exclude Pembeli 180H + Pelawat SP 14H | RM15 |
-| MIDDLE | 120252834702000048 Engagement → WhatsApp "SKRIP" | IG/Page Engaged + Website 30H, exclude Pembeli, Pelawat SP 14H, Mula Bayar 14H | RM15 |
-| BOTTOM | 120252750115110048 Sales Purchase (RP1, R1, H1, E3) | Pelawat SP 14H + Mula Bayar 14H (120252834701800048), exclude Pembeli | RM15 |
+| TOP | 120252834701930048 Traffic LPV, video tips V2 (T2, T3, T7) → sales page ebook-sirdharma | MY 25–55 A+A, exclude Pembeli 180H + Pelawat SP 14H | RM10 |
+| MIDDLE | 120252892405900048 Sales Website (Purchase), ad set 120252892406320048, video T4, T6, T5 | Video 50% 30H + ThruPlay 30H + IG/Page Engaged + Website 30H; exclude Pembeli, Pelawat SP 14H, Mula Bayar 14H | RM25 |
+| BOTTOM | 120252834702000048 WhatsApp "SKRIP", ad set 120252834708350048, video T1, T4 (PREVIEW10) | Pelawat SP 14H + Mula Bayar 14H + ThruPlay 30H; exclude Pembeli | RM10 |
+| (dipause 25 Nov) | Retarget Sales 120252750115110048 (RP1, R1, H1, E3), iklan TOP lama T1–T3, M1/M2 | | |
 | (dipause 20 Nov) | Deep Dive 120252809186400048 | Pembeli 180H | - |
-Hartanah (H1) hanya di BOTTOM, bukan untuk orang sejuk (arahan Sir).
+Hartanah (H1) hanya untuk retarget, bukan orang sejuk (arahan Sir). Voucher PREVIEW10 hanya di BOTTOM / follow up WhatsApp.
+Audience video: Video Tips 50% 30H 120252891870510048, Video ThruPlay 30H 120252891886570048 (sumber Page; audience ikut ID video gagal, ralat 2654).
+
+## Pantau (arahan Sir 25 Nov): jaga CTR
+- Semak **CTR (link)** setiap iklan selepas 24–48 jam. Sasaran: ≥1% (TOP/MIDDLE), ≥1.5% (BOTTOM retarget).
+- CTR bawah sasaran dengan >1,000 impression: cadang pause / tukar hook (3 saat pertama video). Jangan ubah dalam 48 jam pertama kecuali CTR <0.5%.
+- Video PAC: guna `placement_customizations` (9:16 story/reels + 4:5 fallback). Video WhatsApp: `video_data` + `image_hash` thumbnail + CTA WHATSAPP_MESSAGE.
 
 ## Kreatif setiap ad set (arahan Sir 20 Nov)
 - Setiap ad set: **3 video + 2 poster** (5 iklan).
-- Video: 15 saat, 9:16 (story/reels) + 4:5 (feed) melalui placement customization; template `ads/video-tips/tips.html`.
+- Video: 12 saat (laju, beat 128 BPM + SFX), 9:16 (story/reels) + 4:5 (feed) melalui placement customization; template `ads/video-tips/tips.html`.
 - Poster: ikut `case-study/10-garis-panduan-poster.md` (premium, realistic, 4K, cinematic) dan semak image_hash.
 
 ## Setting standard ad set
