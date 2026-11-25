@@ -13,10 +13,11 @@ html,body{background:#000}
 .dark{position:absolute;inset:0;background:#04201a;opacity:0}
 .logo{position:absolute;top:calc(70px*var(--k));left:64px;height:calc(54px*var(--k));z-index:9}
 .pill{position:absolute;top:calc(72px*var(--k));right:64px;z-index:9;background:var(--y);color:#1d1400;font-weight:800;font-size:calc(26px*var(--k));letter-spacing:.06em;padding:calc(12px*var(--k)) calc(24px*var(--k));border-radius:999px}
-.hook{position:absolute;left:64px;right:64px;bottom:calc(330px*var(--k));z-index:8}
-.hook div{font-weight:900;font-size:calc(104px*var(--k));line-height:1.02;letter-spacing:-.025em;text-shadow:0 6px 30px rgba(0,0,0,.45)}
+.hook{position:absolute;left:56px;right:56px;top:calc(170px*var(--k));bottom:calc(90px*var(--k));z-index:8;display:flex;flex-direction:column;justify-content:center}
+.hook div{font-weight:900;font-size:200px;line-height:.98;letter-spacing:-.03em;text-shadow:0 8px 40px rgba(0,0,0,.55);width:max-content;white-space:nowrap}
 .hook .y{color:var(--y)}
-.hook div.sm{font-size:calc(64px*var(--k));font-weight:800;margin-top:calc(26px*var(--k));line-height:1.12}
+.hook div.sm{font-size:calc(78px*var(--k));font-weight:800;margin-top:calc(36px*var(--k));line-height:1.12;width:auto;white-space:normal}
+.hookbg{position:absolute;inset:0;background:linear-gradient(180deg,rgba(4,26,19,.35) 0%,rgba(4,26,19,.62) 35%,rgba(4,26,19,.78) 100%);z-index:7}
 /* chat */
 .chat{position:absolute;left:60px;right:60px;top:calc(250px*var(--k));z-index:8;border-radius:44px;overflow:hidden;background:#efeae2;box-shadow:0 40px 90px rgba(0,0,0,.55);font-family:Inter,sans-serif;color:#111}
 .ch{background:#f6f6f6;display:flex;align-items:center;gap:20px;padding:calc(26px*var(--k)) 30px;border-bottom:1px solid #ddd}
@@ -63,7 +64,7 @@ html,body{background:#000}
   <div class="shade"></div><div class="vig"></div><div class="dark" id="dark"></div>
   <img class="logo" src="../../assets/logo-sirdharma.png">
   <div class="pill" id="pill"></div>
-  <div class="hook" id="hook"></div>
+  <div class="hookbg" id="hookbg"></div><div class="hook" id="hook"></div>
   <div id="mid"></div>
   <div class="tip" id="tip"><small>TIPS</small><p id="tipt"></p></div>
   <div class="end" id="end">
@@ -143,6 +144,25 @@ document.getElementById('bg').src='../../assets/galeri/'+cfg.img;document.getEle
 document.getElementById('pill').textContent=cfg.pill;
 const hook=document.getElementById('hook');
 hook.innerHTML=cfg.hook.map(h=>'<div>'+h+'</div>').join('')+'<div class=sm>'+cfg.hook2+'</div>';
+// tajuk besar penuh skrin: satu saiz font, baris paling panjang = lebar penuh, had tinggi ~62% skrin
+window.fitHook=function(){
+  // tajuk besar penuh skrin: cuba semua cara pecah baris, pilih yang paling penuh & paling sekata
+  const sm=hook.querySelector('.sm');const words=[];
+  cfg.hook.forEach(h=>{const d=document.createElement('div');d.innerHTML=h;
+    d.childNodes.forEach(n=>{const y=n.nodeType===1;(n.textContent.trim().split(/\s+/)).filter(Boolean).forEach(w=>words.push({w,y}));});});
+  const W=hook.clientWidth,H=S.clientHeight,MAX=H*(S.classList.contains('f45')?0.58:0.6),CAP=H*0.2;
+  const html=ln=>{let o='',cy=null;ln.forEach((x,i)=>{if(x.y!==cy){if(cy)o+='</span>';if(x.y)o+='<span class=y>';cy=x.y;}o+=(i?' ':'')+x.w;});return o+(cy?'</span>':'');};
+  const probe=document.createElement('div');probe.style.fontSize='200px';hook.insertBefore(probe,sm);
+  const wid=ln=>{probe.innerHTML=html(ln);return probe.scrollWidth;};
+  const n=words.length;let best=null;
+  for(let m=0;m<(1<<(n-1));m++){const lines=[[]];words.forEach((x,i)=>{if(i&&(m>>(i-1))&1)lines.push([]);lines[lines.length-1].push(x);});
+    if(lines.length>5)continue;
+    let fs=lines.map(l=>Math.min(200*W/wid(l),CAP));const tot=fs.reduce((x,y)=>x+y*0.98,0);const k=Math.min(1,MAX/tot);fs=fs.map(f=>f*k);
+    const fill=fs.reduce((x,y)=>x+y*0.98,0),mn=Math.min(...fs),mx=Math.max(...fs);
+    const score=fill+0.8*mn-0.25*(mx-mn)-40*lines.length;
+    if(!best||score>best.score)best={score,lines,fs};}
+  probe.remove();[...hook.children].filter(e=>e!==sm).forEach(e=>e.remove());
+  best.lines.forEach((l,i)=>{const d=document.createElement('div');d.innerHTML=html(l);d.style.fontSize=best.fs[i].toFixed(1)+'px';hook.insertBefore(d,sm);});};
 document.getElementById('tipt').textContent=cfg.tip;document.getElementById('endh').innerHTML=cfg.end;
 const mid=document.getElementById('mid');const items=[];
 if(cfg.chat){
@@ -181,6 +201,7 @@ window.seek=function(t){
   bg.style.filter='blur('+(5*bl)+'px) brightness('+(1-0.4*bl)+')';
   document.getElementById('dark').style.opacity=0.35*bl;
   // hook lines: penuh dari frame 0 (thumbnail = hook), pulse ikut SFX slam 0.2/0.4/0.6s
+  document.getElementById('hookbg').style.opacity=1-eo(pr(t,2.3,2.55));
   const hl=[...hook.children];
   hl.forEach((e,i)=>{const t0=0.2+i*0.2;const d=t-t0;const out=eo(pr(t,2.3,2.55));
     const pulse=d>=0&&d<0.35?0.09*Math.exp(-d*12)*Math.sin(d*Math.PI/0.35*1):0;
@@ -210,6 +231,6 @@ window.seek=function(t){
   const pr2=e.querySelector('.price');const pa2=pr(t,10.0,10.25);pr2.style.opacity=cl(pa2*3);pr2.style.transform='scale('+(1+0.35*(1-back(pa2)))+')';
   const cta=e.querySelector('.cta');const pa=pr(t,10.3,10.6);cta.style.transform='scale('+(0.7+0.3*back(pa)+0.04*Math.sin(t*10)*(t>10.6?1:0))+')';cta.style.opacity=pa;
 };
-window.ready=Promise.all([document.fonts.ready,...[...document.images].map(i=>i.complete?1:new Promise(r=>{i.onload=r;i.onerror=r}))]);
+window.ready=Promise.all([document.fonts.ready,...[...document.images].map(i=>i.complete?1:new Promise(r=>{i.onload=r;i.onerror=r}))]).then(()=>{fitHook();seek(0);});
 seek(0);
 </script></body></html>
