@@ -164,3 +164,4 @@ Setiap perubahan pada funnel, iklan dan setting. Paling baru di atas.
   - Bila publish: pause iklan TOP lama T1/T2/T3 dan kempen Retarget Sales 120252750115110048. Jumlah bajet jadi RM45/hari.
 - 25 Nov: **Sir: "Okay publish".** Struktur baru live: TOP RM10 (T2/T3/T7 V2), MIDDLE Sales Website RM25 (T4/T6/T5), BOTTOM WhatsApp RM10 (T1/T4 V2). Dipause: iklan TOP lama T1/T2/T3, kempen Retarget Sales 120252750115110048. Jumlah RM45/hari. 8 iklan baru dalam review Meta (IN_PROCESS). Pantau 48 jam.
 - 25 Nov: Senarai iklan live penuh (ayat, headline, link video Drive, ID) di `17-iklan-live.md`. Skill iklan dikemas kini: struktur funnel baru + peraturan pantau CTR (arahan Sir). HANDOFF-COWORK dikemas kini.
+- 25 Nov: `CLAUDE.md` dibuat (dibaca automatik setiap sesi): keadaan semasa, peraturan Sir, peta fail ikut tugas, tip jimat token.
