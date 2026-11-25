@@ -4,6 +4,8 @@ Jumlah bajet: **RM45/hari** (TOP RM10 + MIDDLE RM25 + BOTTOM RM10). Semua video 
 Folder video final (Drive): https://drive.google.com/drive/folders/1MGKX2D3n1tf9hkOT1_QpfsV0OfsR40wC
 Ads Manager: https://www.facebook.com/adsmanager/manage/ads?act=1235454997962640
 
+**Draf 25 Nov (belum publish):** 8 iklan di bawah ada draf creative baru: video "Hook0" (hook nampak dari frame 0) + thumbnail `ads/video-tips/out/thumb_t*`. Link Drive di bawah masih versi lama.
+
 Pantau: **CTR (link)** setiap iklan selepas 24–48 jam (sasaran ≥1% TOP/MIDDLE, ≥1.5% BOTTOM).
 
 ---

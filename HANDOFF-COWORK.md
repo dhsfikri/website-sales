@@ -47,6 +47,7 @@ Pantau CTR (arahan Sir): sasaran ≥1% TOP/MIDDLE, ≥1.5% BOTTOM.
 1. (Selesai 25 Nov) Struktur bajet baru TOP 10 / MIDDLE 25 / BOTTOM 10.
 2. Kreatif ikut 3 video + 2 poster: semua ad set perlu 2 poster; BOTTOM perlu 1 video lagi.
 3. Semak mesej isi automatik iklan WhatsApp = "SKRIP".
+4. (25 Nov) Draf creative baru 8 iklan live (video hook dari frame 0 + thumbnail betul) tunggu Sir kata "publish". Publish: `ads_activate_entity` pada 8 ad ID dalam `case-study/17-iklan-live.md`, kemudian baca live dan sahkan hash thumbnail.
 4. Audience senarai pembeli: Sir perlu masukkan akaun iklan ke Business portfolio, kemudian upload CSV (fail di luar repo).
 5. Cover framework belum ada: Takaful, Produk Kesihatan, Gadget.
 6. Buang nama prospek lama dari `case-study/03`, `04`, `14` (repo awam).
