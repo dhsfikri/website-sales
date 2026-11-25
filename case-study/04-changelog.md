@@ -27,6 +27,10 @@ Setiap perubahan pada funnel, iklan dan setting. Paling baru di atas.
 
 ## 16 Nov 2026
 
+- Video 2 (Drive: 08 Video Ads > C0009_draf_v1.mp4) disediakan untuk iklan retarget. End card 3.5 saat ditambah (harga RM69, Klik Learn More), video asal tidak diubah. Fail: `ads/video/video2-retarget-rm69.mp4`. Copy & setting: `ads/iklan-video2-retarget.md`.
+- Item baru dalam form retarget (ID 21730): "Learning Lab 1-3 + BONUS Ebook 2026", RM69 (nilai RM124), item ID 44015, diletak paling atas. Protected Content: LL Vol 1-3 + Ebook 2026.
+- Page retarget: jalur "Datang dari video Sir?" di atas sekali dan kad offer `#offer-video` ditambah dalam bahagian tawaran. Dihantar ke BCL.
+- Video 1 (draf-v1.mp4, konsultasi percuma) belum digunakan: perlukan kempen Click-to-WhatsApp berasingan.
 - Conversions API (CAPI) di-ON oleh Sir untuk form utama (21578) dan Threads (21780); Claude ON untuk form retarget (21730) dengan token yang sama. Ketiga-tiga form: pixel 255927347311677 + CAPI ON. Token disimpan dalam BCL sahaja, tidak direkod dalam repo. Event server belum masuk semasa semakan (perlu ada pelawat/pembeli baru dahulu).
 - Semakan tracking Purchase: pixel SD2026 TERIMA Purchase jualan 15 Nov dari sweetcactusenterprise.bcl.my (Events Manager: 1 Purchase pada 15 Nov waktu Pasifik). Halaman terima kasih (main) hanya PageView, tiada kiraan berganda. Masalahnya atribusi: Meta tidak padankan pembeli itu dengan klik/tontonan iklan dalam tetingkap 7 hari klik / 1 hari tonton, jadi iklan tunjuk 0 Purchase. Conversions API (CAPI) di form BCL masih OFF; perlu token dari Events Manager untuk hidupkan (hantar emel/telefon pembeli secara hash, padanan lebih tinggi).
 - Atas maklum balas Sir (CTA kurang kuat): versi 3 dengan CTA kuat. Butang poster "KLIK SEKARANG · RM37", butang iklan Buy Now (dulu Shop Now), headline jadi ayat CTA, dan hujung primary text ada ajakan + FOMO pesaing. Tiada voucher untuk trafik sejuk (PREVIEW10 kekal untuk retarget sahaja). E3/F3/G3 di-ON, E2/F2/G2 di-PAUSE (baru jalan beberapa jam).
