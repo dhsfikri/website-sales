@@ -27,6 +27,7 @@ Log lengkap perjalanan jualan ebook Sir Dharma, dari setup sampai RM10,000 perta
 | [02-kempen-minggu-1.md](02-kempen-minggu-1.md) | Setting kempen, ad set, dan setiap iklan (ayat penuh + poster) |
 | [03-result-harian.md](03-result-harian.md) | Nombor harian dari Meta dan BCL, dan tindakan yang diambil |
 | [04-changelog.md](04-changelog.md) | Setiap perubahan, bila dan kenapa |
+| [05-kempen-retarget.md](05-kempen-retarget.md) | Kempen retarget Preview Ebook: setting, iklan, langkah sebelum ON |
 | [05-plan-value-carousel.md](05-plan-value-carousel.md) | Plan carousel value untuk owner bisnes servis (3 fasa, bajet, copy) |
 | [06-organik-whatsapp-threads.md](06-organik-whatsapp-threads.md) | Link organik WhatsApp & Threads, peraturan posting, skrip WhatsApp |
 | [07-katalog-whatsapp.md](07-katalog-whatsapp.md) | Plan katalog WhatsApp Business: 9 item, 4 koleksi, deskripsi, link |

@@ -48,6 +48,7 @@ Setiap perubahan pada funnel, iklan dan setting. Paling baru di atas.
 
 ## 15 Nov 2026
 
+- Semakan: kempen kosong 120252751660560048 didapati ACTIVE dengan ad set broad + iklan placeholder (RM0 belanja). Di-pause. Butiran: [05-kempen-retarget.md](05-kempen-retarget.md).
 - Kempen retarget dicipta (PAUSED): "15Nov2026 | Ebook 2026 | Retarget | Preview10" (ID 120252750115110048), Sales, RM5 sehari (CBO), lowest cost.
 - Audience baru: "14 Hari Pelawat Sales Page Ebook 2026" (120252750113240048, URL mengandungi ebook-sirdharma) dan "180 Hari Pembeli (Purchase SD2026)" (120252750113400048, untuk exclude).
 - Creative retarget R1 dicipta (3290555938000251): poster iklan B, link ke /form/preview-ebook-2026, CTA Shop Now, Advantage+ creative OFF.
