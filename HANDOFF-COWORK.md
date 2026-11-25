@@ -47,7 +47,7 @@ Pantau CTR (arahan Sir): sasaran ≥1% TOP/MIDDLE, ≥1.5% BOTTOM.
 1. (Selesai 25 Nov) Struktur bajet baru TOP 10 / MIDDLE 25 / BOTTOM 10.
 2. Kreatif ikut 3 video + 2 poster: semua ad set perlu 2 poster; BOTTOM perlu 1 video lagi.
 3. Semak mesej isi automatik iklan WhatsApp = "SKRIP".
-4. (25 Nov, DIPUBLISH) Creative BigHook 8 iklan: sahkan 6 iklan TOP/MID dah tukar creative (async).
+4. (Selesai 25 Nov) Creative BigHook 8 iklan dipublish dan disahkan. Pantau CTR selepas 48 jam.
 5. (Arahan Sir 25 Nov, untuk 26 Nov) Iklan **video**: placement **Story sahaja** (FB story + IG story; Sir sahkan bukan Reels, bukan Feed). Buat sebagai DRAF edit ad set (`facebook_positions` ["story"], `instagram_positions` ["story"]), bajet kekal, publish hanya bila Sir kata "publish". Video guna versi 9:16.
 4. Audience senarai pembeli: Sir perlu masukkan akaun iklan ke Business portfolio, kemudian upload CSV (fail di luar repo).
 5. Cover framework belum ada: Takaful, Produk Kesihatan, Gadget.
