@@ -26,7 +26,7 @@ Jual Ebook 2026 "Wassap Masih Relevan?" (RM37, asal RM67) + framework/bundle. Sa
 | Iklan Meta (cipta, edit, report) | `.claude/skills/iklan-meta-sirdharma/SKILL.md` |
 | Ayat WhatsApp, auto-reply, closing | `.claude/skills/whatsapp-closing-sirdharma/SKILL.md` |
 | Video motion | `ads/video-tips/tips.html` + `ads/video-tips/tools/` |
-| Poster | `case-study/10-garis-panduan-poster.md` |
+| Poster | `case-study/10-garis-panduan-poster.md` · halaman ebook untuk visual: `case-study/18-peta-halaman-ebook.md` |
 | Sales page BCL | `bcl/` |
 | Tindakan tertangguh | `HANDOFF-COWORK.md` bahagian "Tindakan tertangguh" |
 
