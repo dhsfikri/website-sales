@@ -1,6 +1,6 @@
 const {chromium}=require('playwright');const path=require('path');
 (async()=>{const b=await chromium.launch();const p=await b.newPage({viewport:{width:1080,height:1920}});const out={};
-for(const v of [1,2,3,4,5,6,7]){await p.goto('file://'+path.resolve('ads/video-tips/tips.html')+'?v='+v+'&f=916');
+for(const v of (process.argv[2]?process.argv[2].split(',').map(Number):[1,2,3,4,5,6,7,8])){await p.goto('file://'+path.resolve('ads/video-tips/tips.html')+'?v='+v+'&f=916');
  out[v]=await p.evaluate(()=>{const cfg=V[new URLSearchParams(location.search).get('v')];const ev=[];
   const n=hook.children.length;for(let i=0;i<n;i++)ev.push(['slam',0.2+i*0.2]);
   ev.push(['punch',0.0]);ev.push(['whoosh',2.3]);

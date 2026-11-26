@@ -65,13 +65,13 @@ html,body{background:#000}
   <div class="pill" id="pill"></div>
   <div class="hook" id="hook"></div>
   <div id="mid"></div>
-  <div class="tip" id="tip"><small>TIPS</small><p id="tipt"></p></div>
+  <div class="tip" id="tip"><small id="tipl">TIPS</small><p id="tipt"></p></div>
   <div class="end" id="end">
     <img class="cv" src="../../assets/covers/ebook-2026.jpg">
     <h2 id="endh"></h2>
-    <p>dalam Ebook 2026: Wassap Masih Relevan?</p>
-    <div class="price"><b>RM37</b><s>RM67</s></div>
-    <div class="cta">Tekan Learn More <svg viewBox="0 0 24 24"><path d="M5 12h13M13 6l6 6-6 6" fill="none" stroke="#1d1400" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"/></svg></div>
+    <p id="endp">dalam Ebook 2026: Wassap Masih Relevan?</p>
+    <div class="price" id="price"><b>RM37</b><s>RM67</s></div>
+    <div class="cta"><span id="ctat">Tekan Learn More</span> <svg viewBox="0 0 24 24"><path d="M5 12h13M13 6l6 6-6 6" fill="none" stroke="#1d1400" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"/></svg></div>
     <div class="fine">Bahan latihan, bukan jaminan pendapatan.</div>
   </div>
 </div>
@@ -135,7 +135,17 @@ const V={
           {t:5.9,n:'2',b:'Bawa nilai baru',s:'Tips, testimoni atau info, bukan "bila nak bayar?"'},
           {t:7.2,n:'3',b:'Jarakkan, jangan berhenti',s:'Jangan berhenti selepas sekali tegur'}],
     tip:'24 jam pertama paling panas. Lepas tu jarakkan, setiap kali bawa nilai baru.',
-    end:'<em>Teknik follow up</em> & ayat bluetick'}
+    end:'<em>Teknik follow up</em> & ayat bluetick'},
+ 8:{img:'studio-tunjuk.jpg',pos:'50% 28%',pill:'EBOOK TERBARU 2026',
+    hook:['Assalamualaikum,','Saya <span class=y>Sir Dharma.</span>'],hook2:'Ada sesuatu nak kongsi.',
+    chat:{name:'Sir Dharma',sub:'online',av:'SD',msgs:[
+      {t:4.6,c:'in',x:'Assalamualaikum ☺️ Ni ebook terbaru saya, <b>Wassap Masih Relevan? 2026</b>',h:'9:41'},
+      {t:5.7,c:'in',x:'Skrip WhatsApp dari salam sampai bayar. Termasuk bila prospek tanya harga & bluetick.',h:'9:41'},
+      {t:7.0,typing:[6.3,7.0],c:'in',x:'Guna kod <b>PREVIEW10</b> ya, jadi <b>RM33.30</b> je.',h:'9:42'},
+      {t:8.6,typing:[7.6,8.6],c:'out',x:'Okay Sir, saya ambil sekarang 👍',h:'9:43',tk:1}]},
+    tipLabel:'KOD KUPON',tip:'PREVIEW10 · Ebook 2026 jadi RM33.30 (asal RM67)',
+    end:'Ebook terbaru <em>Sir Dharma</em>',endp:'Guna kod PREVIEW10 masa bayar',
+    price:'<b>RM33.30</b><s>RM67</s>',cta:'Tekan Shop Now'}
 };
 const q=new URLSearchParams(location.search);const cfg=V[q.get('v')||1];
 const S=document.getElementById('s');if(q.get('f')==='45')S.classList.add('f45');
@@ -143,10 +153,10 @@ document.getElementById('bg').src='../../assets/galeri/'+cfg.img;document.getEle
 document.getElementById('pill').textContent=cfg.pill;
 const hook=document.getElementById('hook');
 hook.innerHTML=cfg.hook.map(h=>'<div>'+h+'</div>').join('')+'<div class=sm>'+cfg.hook2+'</div>';
-document.getElementById('tipt').textContent=cfg.tip;document.getElementById('endh').innerHTML=cfg.end;
+document.getElementById('tipt').textContent=cfg.tip;if(cfg.tipLabel)document.getElementById('tipl').textContent=cfg.tipLabel;if(cfg.endp)document.getElementById('endp').textContent=cfg.endp;if(cfg.price)document.getElementById('price').innerHTML=cfg.price;if(cfg.cta)document.getElementById('ctat').textContent=cfg.cta;document.getElementById('endh').innerHTML=cfg.end;
 const mid=document.getElementById('mid');const items=[];
 if(cfg.chat){
-  mid.innerHTML='<div class=chat id=chat><div class=ch><div class=av>P</div><div><b>'+cfg.chat.name+'</b><span>'+cfg.chat.sub+'</span></div></div><div class=cb id=cb></div></div>';
+  mid.innerHTML='<div class=chat id=chat><div class=ch><div class=av>'+(cfg.chat.av||'P')+'</div><div><b>'+cfg.chat.name+'</b><span>'+cfg.chat.sub+'</span></div></div><div class=cb id=cb></div></div>';
   const cb=document.getElementById('cb');
   cfg.chat.msgs.forEach(m=>{
     if(m.typing){const d=document.createElement('div');d.className='typing';d.innerHTML='<span></span><span></span><span></span>';
