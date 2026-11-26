@@ -167,3 +167,4 @@ Setiap perubahan pada funnel, iklan dan setting. Paling baru di atas.
 - 25 Nov: `CLAUDE.md` dibuat (dibaca automatik setiap sesi): keadaan semasa, peraturan Sir, peta fail ikut tugas, tip jimat token.
 - 26 Nov: Sir beri export Murpati (2,029 nombor, group Database Kelas SD) untuk custom audience. Fail bersih dibuat di luar repo (bukan pembeli 1,971 · dah beli 58). Cipta customer list audience gagal lagi: ralat 1870050, akaun iklan belum masuk Business portfolio. Tunggu Sir.
 - 26 Nov: Sir masukkan akaun iklan ke Business portfolio dan accept terma Custom Audience. 2 customer list audience dicipta (kosong, tunggu Sir upload CSV): Murpati Bukan Pembeli 120252910518420048 · Murpati Dah Beli Ebook 120252910518500048.
+- 26 Nov: Audience ketiga dicipta (kosong, tunggu upload): Kenalan HP Sir · Bukan Pembeli 120252910552100048 (6,073 nombor kenalan telefon Sir, tolak pembeli). Senarai pembeli digabung dari 2 export = 65 nombor. Fail di luar repo.
