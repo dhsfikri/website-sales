@@ -1,6 +1,6 @@
 # 18 · Peta halaman Ebook 2026 untuk visual iklan (26 Nov)
 
-Sumber: zip 105 halaman PNG dari Sir (512×800 setiap halaman). **Isi ebook TIDAK disimpan dalam repo awam**: fail asal ada pada Sir. Jangan commit halaman penuh. Untuk iklan, guna halaman sebagai "intip isi" (kecil, dalam mockup telefon/tablet, sebahagian dikabur).
+Sumber: zip 105 halaman PNG dari Sir (512×800 setiap halaman). **Google Drive folder "Ebook 2026 - Halaman PNG (untuk visual iklan, PRIVATE)" id `1Xi744F2ltVCDWPJF4NF7lg-ThLTxjOHT`**: 6 zip ikut julat halaman (001-014, 015-025, 026-059, 060-081, 082-099, 100-105); muat turun dengan Google Drive `download_file_content`. **Isi ebook TIDAK disimpan dalam repo awam**: fail asal ada pada Sir. Jangan commit halaman penuh. Untuk iklan, guna halaman sebagai "intip isi" (kecil, dalam mockup telefon/tablet, sebahagian dikabur).
 
 Resolusi 512×800 rendah: jangan besarkan penuh skrin 4K; paling besar ~40% lebar poster.
 

@@ -173,3 +173,4 @@ Setiap perubahan pada funnel, iklan dan setting. Paling baru di atas.
 - 26 Nov: Video K1 dimuat naik ke Meta (9:16 1864018681383433, 4:5 1169333562255243) dan Drive folder Video Final. Draf iklan 'MID K1 Video' 120252911090300048 (PAC) ditambah dalam ad set 120252910616860048. Belum publish, tunggu poster Gemini.
 - 26 Nov: Sir: 'jalan video jer'. Publish ad set Kenalan HP + Group Kelas SD (120252910616860048) dengan iklan K1 Video sahaja (120252911090300048, dalam review). Poster K1 kekal draf. Bajet tidak berubah (kongsi CBO MIDDLE RM25, jumlah RM45/hari).
 - 26 Nov: Sir beri zip 105 halaman Ebook 2026 (PNG 512×800) untuk visual. Disimpan di luar repo (scratchpad, sementara). Peta halaman untuk poster/video: `case-study/18-peta-halaman-ebook.md`.
+- 26 Nov: Halaman ebook disimpan ke Google Drive folder 'Ebook 2026 - Halaman PNG (untuk visual iklan, PRIVATE)' (6 zip ikut julat halaman).
