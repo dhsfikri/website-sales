@@ -6,20 +6,23 @@ Status: **dah masuk Murpati (21 Nov 6:33 petang)**. Semua 6 template live dalam 
 
 ---
 
-### /harga · Harga ebook & pakej (sales)
+### /harga · Harga 3 pakej (sales) · dikemas kini 27 Nov
 ```
 Okay, ni harga dia ya..
 
-📘 *Ebook 2026: Wassap Masih Relevan?*
+⭐ *Pakej Semua Ebook (15 ebook)*
+RM99 (asal RM361), jimat RM262
+Semua skrip closing, Learning Lab 1-3 & 8 framework industri
+
+🧰 *Pakej Toolkit*
+RM67 (asal RM225)
+Ebook 2026 + Follow Up + Handle Rejection + 8 framework industri
+
+📘 *Pakej Asas: Ebook 2026 Wassap Masih Relevan?*
 RM37 (asal RM67)
+Nak tambah framework industri (hartanah, takaful, Coway, travel dll), RM10 je satu
 
-🏠 Ebook + 1 Framework industri (hartanah, takaful, Coway, travel dll)
-RM47 (asal RM77)
-
-📚 Bundle Skrip Siap Guna (3 ebook)
-RM99 (asal RM127)
-
-Kalau baru nak mula, ambil Ebook 2026 dulu.. paling lengkap untuk closing WhatsApp.
+Kalau nak terus lengkap, saya cadang Pakej Semua Ebook.. beza RM62 je dari Ebook, tapi dapat semua ☺️
 ```
 
 ### /kupon · Kod kupon PREVIEW10 (sales)
