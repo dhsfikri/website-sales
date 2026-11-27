@@ -14,6 +14,7 @@ Jual Ebook 2026 "Wassap Masih Relevan?" (RM37, asal RM67) + framework/bundle. Sa
 ## Keadaan semasa (kemas kini setiap kali struktur berubah)
 - Meta akaun 1235454997962640 · Page 111701606844448 · IG 17841410538491353 · Pixel 255927347311677
 - Struktur live 25 Nov (RM45/hari): TOP 120252834701930048 (RM10) · MIDDLE 120252892405900048 (RM25) · BOTTOM WhatsApp 120252834702000048 (RM10)
+- TOP sejak 27 Nov: lookalike 1% sahaja (Kelas SD, Kenalan HP, Website 30H), umur 25-55, A+A off (Sir tak mahu broad).
 - MIDDLE juga ada ad set retarget kenalan (Kenalan HP + Group Kelas SD, exclude pembeli) dengan video K1 kenalkan diri + PREVIEW10.
 - Senarai iklan, ayat & link video: `case-study/17-iklan-live.md`
 - Pantau CTR: sasaran ≥1% TOP/MIDDLE, ≥1.5% BOTTOM.

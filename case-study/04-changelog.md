@@ -182,3 +182,4 @@ Setiap perubahan pada funnel, iklan dan setting. Paling baru di atas.
 - 27 Nov: Template Murpati /harga dikemas kini ke 3 pakej (RM99/RM67/RM37 + framework RM10), cadang Pakej Semua Ebook.
 - 27 Nov: Template Murpati /kupon (harga selepas kupon untuk 3 pakej) dan /link (satu link sd-wa + cara pilih pakej) dikemas kini.
 - 27 Nov: Sir mahu TOP guna lookalike, bukan broad. 3 lookalike 1% MY dicipta: Group Kelas SD 120252928147610048 · Kenalan HP Sir 120252928147680048 · Pelawat Website 30H 120252928148030048 (LAL website lama Mei 120245639490710048 tak aktif). DRAF (belum publish): ad set TOP 120252834707930048 audience = 3 LAL, umur 25-55, A+A OFF (permintaan Sir), exclude Pembeli 180H, Pelawat SP 14H, Murpati Dah Beli, Kelas SD, Kenalan HP. Bajet kekal RM10.
+- 27 Nov: **Publish** TOP lookalike (Sir: 'terus buat sekarang'). Disahkan live: 3 LAL 1%, 25-55, A+A off, 5 exclusion. Status IN_PROCESS (Meta proses lookalike + semakan).

@@ -23,7 +23,7 @@ Log setiap perubahan dalam `case-study/04-changelog.md` dan result dalam `case-s
 ## Struktur funnel (sejak 25 Nov, RM45/hari) · senarai iklan penuh: `case-study/17-iklan-live.md`
 | Lapisan | Kempen | Audience | Bajet |
 |---|---|---|---|
-| TOP | 120252834701930048 Traffic LPV, video tips V2 (T2, T3, T7) → sales page ebook-sirdharma | MY 25–55 A+A, exclude Pembeli 180H + Pelawat SP 14H | RM10 |
+| TOP | 120252834701930048 Traffic LPV, video tips V2 (T2, T3, T7) → sales page ebook-sirdharma | **Lookalike 1% sahaja** (sejak 27 Nov, Sir tak mahu broad): LAL Kelas SD 120252928147610048, LAL Kenalan HP 120252928147680048, LAL Website 30H 120252928148030048; 25–55, A+A off; exclude Pembeli 180H, Pelawat SP 14H, Murpati Dah Beli, Kelas SD, Kenalan HP | RM10 |
 | MIDDLE | 120252892405900048 Sales Website (Purchase), ad set 120252892406320048, video T4, T6, T5 | Video 50% 30H + ThruPlay 30H + IG/Page Engaged + Website 30H; exclude Pembeli, Pelawat SP 14H, Mula Bayar 14H | RM25 |
 | BOTTOM | 120252834702000048 WhatsApp "SKRIP", ad set 120252834708350048, video T1, T4 (PREVIEW10) | Pelawat SP 14H + Mula Bayar 14H + ThruPlay 30H; exclude Pembeli | RM10 |
 | (dipause 25 Nov) | Retarget Sales 120252750115110048 (RP1, R1, H1, E3), iklan TOP lama T1–T3, M1/M2 | | |
