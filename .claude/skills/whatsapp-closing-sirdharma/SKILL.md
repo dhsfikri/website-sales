@@ -46,8 +46,8 @@ Prinsip: WhatsApp = kepercayaan, "slow is smooth, smooth is fast". Chatbot/auto-
 | Pakej Asas | Ebook 2026: Wassap Masih Relevan? (+ framework industri pilihan RM10 satu) | RM37 | RM67 |
 | Pakej Toolkit | Ebook 2026 + Follow Up + Handle Rejection + 8 Framework industri | RM67 | RM225 |
 | Pakej Semua Ebook ⭐ | 15 ebook: Ebook 2026, Template 3.0, Handle Rejection, Follow Up, Learning Lab 1–3, 8 Framework | RM99 | RM361 |
-Link: https://sweetcactusenterprise.bcl.my/form/ebook-sirdharma (pilih SATU pakej). Produk lama (Bundle RM99/RM69, ebook satu-satu) disembunyikan.
-Form preview-ebook-2026 (retarget/kupon) masih guna senarai lama sehingga dikemas kini.
+Struktur sama di SEMUA 4 form: ebook-sirdharma (iklan), preview-ebook-2026 (retarget), sd-wa (WhatsApp), sd-th (Threads). Pilih SATU pakej. Produk lama disembunyikan. Kupon PREVIEW10 (10% jumlah) aktif di semua form, termasuk pakej RM99 (jadi RM89.10).
+Sales page: form utama/sd-wa/sd-th = `bcl/ebook-reply-style.html`; preview = `bcl/preview-ebook-2026.html`.
 **BCL wajib:** produk baru mesti `enable_quantity: true` (+ `purchase_limit: 1`). Kalau false, BCL paparkan Qty 1 tetap dan produk auto masuk bayaran. Susun produk: hantar SEMUA item dalam satu `update_form_items` ikut urutan dikehendaki. Lepas ubah, semak borang live di telefon.
 Kupon: **PREVIEW10** (10%, tiada luput, Ebook jadi RM33.30). **SD01** (25%, pembeli lama, belum diuji di form ebook-sirdharma).
 Group pembeli: https://chat.whatsapp.com/JnencebBW8EKSwoNQU7SNe
