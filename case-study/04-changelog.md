@@ -5,9 +5,10 @@ Setiap perubahan pada funnel, iklan dan setting. Paling baru di atas.
 ## 27 Nov 2026
 
 - BOTTOM digabung ke MIDDLE (lihat `ads/skrip-iklan-v3-bundle.md`). Kempen "25Nov2026 | BOTTOM | Retarget Video + Pelawat | WhatsApp" di-PAUSE.
-- Ad set baru dalam MIDDLE: "MIDDLE · Retarget Pelawat SP 14H + Mula Bayar 14H · Exclude Pembeli · Purchase" (ID 120252938858730048), ke form retarget. Dibina dalam draf, dipublish PAUSED. Aktifkan ditolak oleh semakan kebenaran sesi; masih PAUSED, menunggu Sir ON.
-- 7 iklan V3 (copy 3 pakej RM37/RM67/RM99, CTA Get Offer) dibina dalam draf, dipublish PAUSED, kemudian ON: T5, T6, T1, K1, R-T4, R-T1. T4 V3 masih PAUSED (aktifkan ditolak). R-T4 dan R-T1 tak jalan selagi ad set retarget PAUSED.
-- Iklan V2 (T4, T6, T5, K1 lama) masih ACTIVE sementara V3 direview. Bajet MIDDLE belum diubah (RM25).
+- Ad set baru dalam MIDDLE: "MIDDLE · Retarget Pelawat SP 14H + Mula Bayar 14H · Exclude Pembeli · Purchase" (ID 120252938858730048), ke form retarget. Dibina dalam draf, dipublish PAUSED, kemudian ON (atas arahan Sir).
+- 7 iklan V3 (copy 3 pakej RM37/RM67/RM99, CTA Get Offer) dibina dalam draf, dipublish PAUSED, kemudian ON. 6 lulus review segera; T4 V3 masih dalam review semasa log ditulis.
+- Iklan V2 T6, T5 dan K1 lama di-PAUSE (diganti V3). V2 T4 dibiar ACTIVE sehingga T4 V3 lulus review.
+- Bajet MIDDLE dinaikkan RM25 → RM35 sehari (RM25 MIDDLE + RM10 bekas BOTTOM). Jumlah belanja harian akaun kekal RM45.
 - Satu draf lama "MID K1 · Kenalkan Diri Sir + PREVIEW10" dalam Ads Manager tidak disentuh.
 
 ## 14 Nov 2026
