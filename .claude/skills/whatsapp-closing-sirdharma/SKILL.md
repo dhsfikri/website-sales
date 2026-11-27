@@ -40,19 +40,18 @@ Prinsip: WhatsApp = kepercayaan, "slow is smooth, smooth is fast". Chatbot/auto-
 - Urgency mesti benar. Tiada tarikh/stok palsu. Guna "kos menunggu" (prospek hilang setiap hari) jika tiada tarikh sebenar.
 - Jangan janji hasil jualan. Ebook = bahan latihan.
 
-## 4. Produk, harga, link
-| Produk | Harga | Asal | Link |
+## 4. Produk, harga, link (struktur 3 pakej sejak 27 Nov, form ebook-sirdharma)
+| Pakej | Isi | Harga | Asal |
 |---|---|---|---|
-| Ebook 2026: Wassap Masih Relevan? | RM37 | RM67 | https://sweetcactusenterprise.bcl.my/form/preview-ebook-2026 |
-| Ebook + 1 Framework industri (pakej hartanah dll) | RM47 | RM77 | https://sweetcactusenterprise.bcl.my/form/ebook-sirdharma |
-| Bundle Skrip Siap Guna (3 ebook) | RM99 | RM127 | ebook-sirdharma |
-| Bundle Asas Closing (Learning Lab 1–3) | RM69 | RM87 | ebook-sirdharma |
-| Template Skrip Closing 3.0 | RM49 | | ebook-sirdharma |
-| Framework industri (satu) | RM10 | | ebook-sirdharma |
+| Pakej Asas | Ebook 2026: Wassap Masih Relevan? (+ framework industri pilihan RM10 satu) | RM37 | RM67 |
+| Pakej Toolkit | Ebook 2026 + Follow Up + Handle Rejection + 8 Framework industri | RM67 | RM225 |
+| Pakej Semua Ebook ⭐ | 15 ebook: Ebook 2026, Template 3.0, Handle Rejection, Follow Up, Learning Lab 1–3, 8 Framework | RM99 | RM361 |
+Link: https://sweetcactusenterprise.bcl.my/form/ebook-sirdharma (pilih SATU pakej). Produk lama (Bundle RM99/RM69, ebook satu-satu) disembunyikan.
+Form preview-ebook-2026 (retarget/kupon) masih guna senarai lama sehingga dikemas kini.
 Kupon: **PREVIEW10** (10%, tiada luput, Ebook jadi RM33.30). **SD01** (25%, pembeli lama, belum diuji di form ebook-sirdharma).
 Group pembeli: https://chat.whatsapp.com/JnencebBW8EKSwoNQU7SNe
 
-Padanan cadangan: team sales/jual sendiri → Ebook; owner ada team → Ebook (Formula 1-4-6-10); ejen hartanah → Pakej Hartanah; industri lain → Ebook + Framework industri; serius/dah beli → Bundle.
+Padanan cadangan: baru mula → Pakej Asas (+ framework industri dia RM10); team sales/owner yang nak lengkap → Pakej Semua Ebook RM99 (tunjuk jimat RM262); dah beli ebook → upsell Pakej Semua Ebook dengan SD01.
 
 ## 5. Murpati (nombor 014-771 1169, "SD - Red Magic", session `sess_d95657ab7dfc88c5939d6eecb7fe0f60`, sambungan QR)
 - Lead iklan datang dengan ayat lalai Meta ("Hello! Can I get more info on this?" / "Helo! Boleh saya dapatkan maklumat lanjut tentang ini?"). QR tidak rekod rujukan iklan; kira lead iklan ikut mesej pertama.
