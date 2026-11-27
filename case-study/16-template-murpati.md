@@ -25,28 +25,29 @@ Nak tambah framework industri (hartanah, takaful, Coway, travel dll), RM10 je sa
 Kalau nak terus lengkap, saya cadang Pakej Semua Ebook.. beza RM62 je dari Ebook, tapi dapat semua ☺️
 ```
 
-### /kupon · Kod kupon PREVIEW10 (sales)
+### /kupon · Kod kupon PREVIEW10 (sales) · dikemas kini 27 Nov
 ```
 Sambil tu, guna kod ni masa bayar 👇
 
 *PREVIEW10*
 
-Jimat lagi 10%. Ebook 2026 jadi *RM33.30* je.
+Jimat lagi 10% untuk semua pakej:
+⭐ Pakej Semua Ebook jadi *RM89.10*
+🧰 Pakej Toolkit jadi *RM60.30*
+📘 Ebook 2026 jadi *RM33.30*
 
 Masukkan kod dalam ruang kupon sebelum tekan bayar ya..
 ```
 
-### /link · Link website ebook (sales)
+### /link · Link borang WhatsApp sd-wa (sales) · dikemas kini 27 Nov
 ```
 Ni link dia 👇
 
-📘 Ebook 2026 (boleh intip isi dulu):
-https://sweetcactusenterprise.bcl.my/form/preview-ebook-2026
+https://sweetcactusenterprise.bcl.my/form/sd-wa
 
-📚 Semua ebook, pakej & framework industri:
-https://sweetcactusenterprise.bcl.my/form/ebook-sirdharma
+Tekan *Beli Sekarang*, pilih SATU pakej (tekan +), masukkan kod *PREVIEW10* dan bayar.
 
-Lepas bayar, terus masuk emel. Boleh guna hari ni juga.
+Lepas bayar, terus masuk emel. Boleh guna hari ni juga ☺️
 ```
 
 ### /detail · Detail Ebook 2026 (sales)

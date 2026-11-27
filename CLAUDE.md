@@ -17,7 +17,7 @@ Jual Ebook 2026 "Wassap Masih Relevan?" (RM37, asal RM67) + framework/bundle. Sa
 - MIDDLE juga ada ad set retarget kenalan (Kenalan HP + Group Kelas SD, exclude pembeli) dengan video K1 kenalkan diri + PREVIEW10.
 - Senarai iklan, ayat & link video: `case-study/17-iklan-live.md`
 - Pantau CTR: sasaran ≥1% TOP/MIDDLE, ≥1.5% BOTTOM.
-- BCL forms: 21578 ebook-sirdharma · 21730 preview-ebook-2026 · 22024 sd-wa · 22025 sd-th · Kupon PREVIEW10 (10%), SD01 (25%)
+- BCL forms: 21578 ebook-sirdharma (iklan) · 21730 preview-ebook-2026 (retarget) · 22024 sd-wa (WhatsApp, link /link) · 22025 sd-th (Threads). Semua: 3 pakej RM99/RM67/RM37 + framework RM10, kupon PREVIEW10 (10% jumlah). SD01 (25%) pembeli lama.
 - Murpati 014-771 1169: auto-reply SKRIP 1/3–3/3 ON, template /harga /kupon /link /detail /kenapa /terima
 
 ## Fail mana untuk tugas apa (baca yang perlu sahaja)
