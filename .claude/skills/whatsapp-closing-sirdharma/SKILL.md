@@ -48,6 +48,7 @@ Prinsip: WhatsApp = kepercayaan, "slow is smooth, smooth is fast". Chatbot/auto-
 | Pakej Semua Ebook ⭐ | 15 ebook: Ebook 2026, Template 3.0, Handle Rejection, Follow Up, Learning Lab 1–3, 8 Framework | RM99 | RM361 |
 Link: https://sweetcactusenterprise.bcl.my/form/ebook-sirdharma (pilih SATU pakej). Produk lama (Bundle RM99/RM69, ebook satu-satu) disembunyikan.
 Form preview-ebook-2026 (retarget/kupon) masih guna senarai lama sehingga dikemas kini.
+**BCL wajib:** produk baru mesti `enable_quantity: true` (+ `purchase_limit: 1`). Kalau false, BCL paparkan Qty 1 tetap dan produk auto masuk bayaran. Susun produk: hantar SEMUA item dalam satu `update_form_items` ikut urutan dikehendaki. Lepas ubah, semak borang live di telefon.
 Kupon: **PREVIEW10** (10%, tiada luput, Ebook jadi RM33.30). **SD01** (25%, pembeli lama, belum diuji di form ebook-sirdharma).
 Group pembeli: https://chat.whatsapp.com/JnencebBW8EKSwoNQU7SNe
 
