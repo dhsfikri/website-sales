@@ -166,4 +166,4 @@
 | Semak hari ke-4 | Hook rate (3s view ÷ impression) > 25%, CTR > 1%, kos setiap Purchase < RM30 |
 
 **Pilihan: ad set Click-to-WhatsApp (RM20 sehari)**
-Iklan bawa prospek terus ke WhatsApp 016-767 7759. Sir closing sendiri, kemudian hantar link BCL. Lepas seminggu, banding kos per pembelian dengan iklan sales page.
+Iklan bawa prospek terus ke WhatsApp 014-771 1169. Sir closing sendiri, kemudian hantar link BCL. Lepas seminggu, banding kos per pembelian dengan iklan sales page.

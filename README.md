@@ -5,7 +5,7 @@ Landing page statik untuk jual ebook closing WhatsApp (Fasa 1).
 - `index.html` — satu fail, tiada build step. Sesuai untuk Cloudflare Pages / GitHub Pages.
 - Semua butang beli → form BCL `https://sweetcactusenterprise.bcl.my/form/ebook-sirdharma`
 - Meta Pixel: SirDharma 2026 (`255927347311677`) — PageView, ViewContent, InitiateCheckout, Contact
-- Butang WhatsApp → 016-767 7759
+- Butang WhatsApp → 014-771 1169
 
 ## Versi BCL (hos utama)
 - `bcl/sales-page-bcl.html` — versi yang dimasukkan ke form BCL `ebook-sirdharma` (jenis Custom HTML).

@@ -2,6 +2,14 @@
 
 Setiap perubahan pada funnel, iklan dan setting. Paling baru di atas.
 
+## 28 Nov 2026
+
+- Nombor WhatsApp ditukar dari 016-767 7759 ke 014-771 1169 (wa.me/60147711169).
+  - BCL form utama `ebook-sirdharma` (ID 21578): 2 link wa.me (butang "Ada soalan? WhatsApp Sir" dan butang terapung "Tanya Sir") + teks footer.
+  - BCL form retarget `preview-ebook-2026` (ID 21730): teks footer.
+  - Kedua-dua HTML diambil dari page live (kerana live sudah lebih baru dari repo: pakej RM67/RM99), hanya nombor ditukar, dan disahkan live = fail repo byte-by-byte selepas dihantar.
+  - Repo: `bcl/sales-page-bcl.html` dan `bcl/retarget-bcl.html` kini diselaraskan dengan versi live. `index.html`, `panduan.html`, `terima-kasih.html`, `README.md`, `ads/skrip-iklan-minggu-1.md` turut ditukar.
+
 ## 27 Nov 2026
 
 - BOTTOM digabung ke MIDDLE (lihat `ads/skrip-iklan-v3-bundle.md`). Kempen "25Nov2026 | BOTTOM | Retarget Video + Pelawat | WhatsApp" di-PAUSE.
