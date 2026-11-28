@@ -10,6 +10,8 @@ Setiap perubahan pada funnel, iklan dan setting. Paling baru di atas.
   - Kedua-dua HTML diambil dari page live (kerana live sudah lebih baru dari repo: pakej RM67/RM99), hanya nombor ditukar, dan disahkan live = fail repo byte-by-byte selepas dihantar.
   - Repo: `bcl/sales-page-bcl.html` dan `bcl/retarget-bcl.html` kini diselaraskan dengan versi live. `index.html`, `panduan.html`, `terima-kasih.html`, `README.md`, `ads/skrip-iklan-minggu-1.md` turut ditukar.
 
+- Bajet hujung minggu (28–29 Nov sahaja, atas arahan Sir): MIDDLE RM35 → RM12.40 (minimum CBO 3 ad set ialah RM12.33), TOP RM10 → RM4.20 (minimum akaun RM4.11). Potongan tepat 70% tak dibenarkan kerana bawah minimum. Dijadualkan pulih semula Isnin 30 Nov, 7:13 pagi (MIDDLE RM35, TOP RM10). Nota: dalam data 14–27 Nov, hujung minggu ROAS 1.02 vs hari biasa 0.62.
+
 ## 27 Nov 2026
 
 - BOTTOM digabung ke MIDDLE (lihat `ads/skrip-iklan-v3-bundle.md`). Kempen "25Nov2026 | BOTTOM | Retarget Video + Pelawat | WhatsApp" di-PAUSE.
